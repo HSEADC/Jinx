@@ -7,6 +7,6 @@ export default class ComponentExample extends Component {
   }
 
   render() {
-    return <div className="ComponentExample">This is a React component</div>
+    return <div className="ComponentExample">Ето что-то из реакта</div>
   }
 }
