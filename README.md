@@ -11,4 +11,4 @@ yarn
 yarn start
 ```
 
-kek_lol
+kek_lol_nastya
