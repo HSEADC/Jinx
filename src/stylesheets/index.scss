@@ -3,9 +3,148 @@ body.index {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-y: 1920px;
 
   & > div,
   & > a {
     margin: 10px 0;
   }
+}
+.text1 {
+  font-family: 'PT Root UI';
+  font-size: 103px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 31.5px;
+}
+.text2 {
+  line-height: 1.2;
+  position: absolute;
+  font-size: 19px;
+  margin-top: 222px;
+  margin-left: 218px;
+}
+
+.line {
+  position: absolute;
+  margin-top: 62px;
+  width: 3000px;
+}
+
+.line2 {
+  border-left: 2px solid black;
+    height: 1080px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+.comeback {
+  line-height: 1.2;
+  position: absolute;
+  font-size: 19px;
+  margin-top: 800px;
+  margin-left: 218px;
+  text-decoration: none;
+}
+
+.site-bar {
+  position: absolute;
+  margin-top: 17.25px;
+}
+.sb1 {
+  font-family: 'PT Root UI';
+  font-size: 24px;
+  position: absolute;
+  margin-left: 33px;
+}
+.sb2 {
+  font-family: 'PT Root UI';
+  font-size: 24px;
+  position: absolute;
+  margin-left: 161.28px;
+}
+.sb3 {
+  font-family: 'PT Root UI';
+  font-size: 24px;
+  position: absolute;
+  margin-left: 283.94px;
+}
+.sb4 {
+  font-family: 'PT Root UI';
+  font-size: 24px;
+  position: absolute;
+  margin-left: 461.36px;
+}
+.sb5 {
+  font-family: 'PT Root UI';
+  font-size: 24px;
+  position: absolute;
+  margin-left: 781px;
+}
+.sb6 {
+  font-family: 'PT Root UI';
+  font-size: 24px;
+  position: absolute;
+  margin-left: 1035px;
+  decoration: none;
+  color: black;
+}
+a {
+  text-decoration:none;
+}
+.sb7 {
+  font-family: 'PT Root UI';
+  font-size: 24px;
+  position: absolute;
+  margin-left: 1820px;
+}
+.line3{
+  position: absolute;
+  margin-top: 34px;
+  width: 1920px;
+}
+
+.line4 {
+  border-left: 2px solid black;
+    height: 1080px;
+    position: absolute;
+    left: 960px;
+    top: -202px;
+}
+.t1 {
+  font-family: 'PT Root UI';
+  font-size: 73px;
+  position: absolute;
+  margin-left: 1002px;
+  margin-top: 101.25px;
+}
+.t2 {
+  width: 561px;
+  margin-top: 216px;
+  margin-left: 1146px;
+  line-height: 1.2;
+  font-family: 'PT Root UI';
+  font-size: 19px;
+}
+.line5 {
+  border-left: 2px solid black;
+    height: 1341px;
+    position: absolute;
+    transform: rotate(-130.91deg);
+    margin-top: -951px;
+    margin-left: 453px;
+}
+.line6 {
+  border-left: 2px solid black;
+    height: 1341px;
+    position: absolute;
+    transform: rotate(130.91deg);
+    margin-top: -994px;
+    margin-left: 453px;
+}
+.line7{
+  position: absolute;
+  margin-top: 107px;
+  width: 1920px;
 }
