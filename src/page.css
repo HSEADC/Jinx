@@ -3,3 +3,7 @@
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/basics.scss';
 @import 'stylesheets/page.scss';
+@import 'stylesheets/about_project.scss';
+@import 'stylesheets/articles.scss';
+@import 'stylesheets/fear.scss';
+@import 'stylesheets/video.scss';
