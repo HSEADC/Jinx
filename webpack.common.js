@@ -94,29 +94,29 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles.html',
-      filename: './articles.html',
+      template: './src/Articles.html',
+      filename: './Articles.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/video.html',
-      filename: './video.html',
+      template: './src/Video.html',
+      filename: './Video.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/fear.html',
-      filename: './fear.html',
+      template: './src/Fear.html',
+      filename: './Fear.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/about_project.html',
-      filename: './about_project.html',
+      template: './src/About_project.html',
+      filename: './About_project.html',
       chunks: ['index']
     }),
 
@@ -124,72 +124,72 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/analysis_script.html',
-      filename: './articles/analysis_script.html',
+      template: './src/Articles/Analysis_script.html',
+      filename: './Articles/Analysis_script.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/indie_projects.html',
-      filename: './articles/indie_projects.html',
+      template: './src/Articles/Indie_projects.html',
+      filename: './Articles/Indie_projects.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/mechanics.html',
-      filename: './articles/mechanics.html',
+      template: './src/Articles/Mechanics.html',
+      filename: './Articles/Mechanics.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/monsters.html',
-      filename: './articles/monsters.html',
+      template: './src/Articles/Monsters.html',
+      filename: './Articles/Monsters.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/realfear.html',
-      filename: './articles/realfear.html',
+      template: './src/Articles/RealFear.html',
+      filename: './Articles/RealFear.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/top.html',
-      filename: './articles/top.html',
+      template: './src/Articles/Top.html',
+      filename: './Articles/Top.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/redaction.html',
-      filename: './articles/redaction.html',
+      template: './src/Articles/Redaction.html',
+      filename: './Articles/Redaction.html',
       chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/video/conferences.html',
-      filename: './video/conferences.html',
+      template: './src/Video/Conferences.html',
+      filename: './Video/Conferences.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/video/review.html',
-      filename: './video/review.html',
+      template: './src/Video/Review.html',
+      filename: './Video/Review.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/video/trailer.html',
-      filename: './video/trailer.html',
+      template: './src/Video/Trailer.html',
+      filename: './Video/Trailer.html',
       chunks: ['index']
     }),
 
@@ -197,136 +197,136 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/analysis_script/script1.html',
-      filename: './articles/analysis_script/script1.html',
+      template: './src/Articles/Analysis_script/Script1.html',
+      filename: './Articles/Analysis_script/Script1.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/analysis_script/script2.html',
-      filename: './articles/analysis_script/script2.html',
-      chunks: ['index']
-    }),
-
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/articles/indie_projects/script3.html',
-      filename: './articles/indie_projects/script3.html',
+      template: './src/Articles/Analysis_script/Script2.html',
+      filename: './Articles/Analysis_script/Script2.html',
       chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/indie_projects/script4.html',
-      filename: './articles/indie_projects/script4.html',
+      template: './src/Articles/Indie_projects/Script3.html',
+      filename: './Articles/Indie_projects/Script3.html',
       chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/mechanics/script5.html',
-      filename: './articles/mechanics/script5.html',
-      chunks: ['index']
-    }),
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/articles/mechanics/script6.html',
-      filename: './articles/mechanics/script6.html',
+      template: './src/Articles/Indie_projects/Script4.html',
+      filename: './Articles/Indie_projects/Script4.html',
       chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/monsters/script7.html',
-      filename: './articles/monsters/script7.html',
+      template: './src/Articles/Mechanics/Script5.html',
+      filename: './Articles/Mechanics/Script5.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/monsters/script8.html',
-      filename: './articles/monsters/script8.html',
-      chunks: ['index']
-    }),
-
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/articles/realfear/script9.html',
-      filename: './articles/realfear/script9.html',
-      chunks: ['index']
-    }),
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/articles/realfear/script10.html',
-      filename: './articles/realfear/script10.html',
+      template: './src/Articles/Mechanics/Script6.html',
+      filename: './Articles/Mechanics/Script6.html',
       chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/redaction/script11.html',
-      filename: './articles/redaction/script11.html',
+      template: './src/Articles/Monsters/Script7.html',
+      filename: './Articles/Monsters/Script7.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/redaction/script12.html',
-      filename: './articles/redaction/script12.html',
-      chunks: ['index']
-    }),
-
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/articles/top/script13.html',
-      filename: './articles/top/script13.html',
-      chunks: ['index']
-    }),
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/articles/top/script14.html',
-      filename: './articles/top/script14.html',
+      template: './src/Articles/Monsters/Script8.html',
+      filename: './Articles/Monsters/Script8.html',
       chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/video/conferences/script15.html',
-      filename: './video/conferences/script15.html',
+      template: './src/Articles/RealFear/Script9.html',
+      filename: './Articles/RealFear/Script9.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/Articles/RealFear/Script10.html',
+      filename: './Articles/RealFear/Script10.html',
       chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/video/conferences/script16.html',
-      filename: './video/conferences/script16.html',
+      template: './src/Articles/Redaction/Script11.html',
+      filename: './Articles/Redaction/Script11.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/video/review/script17.html',
-      filename: './video/review/script17.html',
+      template: './src/Articles/Redaction/Script12.html',
+      filename: './Articles/Redaction/Script12.html',
+      chunks: ['index']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/Articles/Top/Script13.html',
+      filename: './Articles/Top/Script13.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/video/review/script18.html',
-      filename: './video/review/script18.html',
+      template: './src/Articles/Top/Script14.html',
+      filename: './Articles/Top/Script14.html',
+      chunks: ['index']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/Video/Conferences/Script15.html',
+      filename: './Video/Conferences/Script15.html',
+      chunks: ['index']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/Video/Conferences/Script16.html',
+      filename: './Video/Conferences/Script16.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/Video/Review/Script17.html',
+      filename: './Video/Review/Script17.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/Video/Review/Script18.html',
+      filename: './Video/Review/Script18.html',
       chunks: ['index']
     }),
 
