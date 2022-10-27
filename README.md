@@ -10,3 +10,4 @@ cd B21DZ08-Project-2
 yarn
 yarn start
 ```
+Проверка 14:40
