@@ -1,14 +1,36 @@
 body.index {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow-y: 1920px;
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+  //align-items: center;
 
-  & > div,
-  & > a {
-    margin: 10px 0;
-  }
+  overflow: hidden;
+
+
+  //& > div,
+  //& > a {
+    //margin: 10px 0;
+  //}
+}
+.uga1 {
+  width: 960px;
+  height: 931px;
+}
+.p1 {
+  z-index: 99;
+  position: absolute;
+  margin-left: 953px;
+  margin-top: 70px;
+}
+.grid {
+  width: 1920px;
+  height: 1080px;
+  opacity: 50%;
+
+}
+.p2 {
+  z-index: -1;
+  position: absolute;
 }
 .text1 {
   font-family: 'PT Root UI';
@@ -16,6 +38,39 @@ body.index {
   position: absolute;
   margin-top: 70px;
   margin-left: 31.5px;
+}
+
+.site-bar-main-menu {
+  position: absolute;
+  margin-left: 22px;
+  font-family: 'CoFoSans-Regular';
+  font-weight: 200;
+  font-size: 60px;
+}
+
+.sbm1 {
+  margin-top: 77.6px;
+  position: absolute;
+  margin-left: 22px;
+  font-family: 'CoFoSans-Regular';
+  font-weight: 200;
+  font-size: 60px;
+}
+.sbm2 {
+  margin-top: 149.6px;
+  position: absolute;
+  margin-left: 22px;
+  font-family: 'CoFoSans-Regular';
+  font-weight: 200;
+  font-size: 60px;
+}
+.sbm4 {
+  margin-top: 223px;
+  position: absolute;
+  margin-left: 22px;
+  font-family: 'CoFoSans-Regular';
+  font-weight: 200;
+  font-size: 60px;
 }
 
 
