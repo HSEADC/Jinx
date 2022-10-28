@@ -3,13 +3,11 @@ body.index {
   //flex-direction: column;
   //justify-content: center;
   //align-items: center;
-overflow-x: hidden;
-
-
+  overflow-x: hidden;
 
   //& > div,
   //& > a {
-    //margin: 10px 0;
+  //margin: 10px 0;
   //}
 }
 .uga1 {
@@ -19,14 +17,13 @@ overflow-x: hidden;
 .p1 {
   z-index: 98;
   position: absolute;
-  margin-left: 946px;
+  margin-left: 960px;
   margin-top: 79px;
 }
 .grid {
   width: 1920px;
   height: 1080px;
   opacity: 50%;
-
 }
 .p2 {
   z-index: -1;
@@ -34,7 +31,7 @@ overflow-x: hidden;
 }
 .site-bar-main-menu {
   position: absolute;
-  font-family: 'CoFoSans-Regular';
+  font-family: 'CoFoSans-Regular', sans-serif;
   font-weight: 200;
   font-size: 60px;
 }
@@ -44,7 +41,7 @@ overflow-x: hidden;
   margin-top: 90.23px;
   position: absolute;
   margin-left: 22px;
-  font-family: 'CoFoSans-Regular';
+  font-family: 'CoFoSans-Regular', sans-serif;
   font-weight: 200;
   font-size: 50px;
 }
@@ -52,7 +49,7 @@ overflow-x: hidden;
   margin-top: 163.07px;
   position: absolute;
   margin-left: 22px;
-  font-family: 'CoFoSans-Regular';
+  font-family: 'CoFoSans-Regular', sans-serif;
   font-weight: 200;
   font-size: 50px;
 }
@@ -60,7 +57,7 @@ overflow-x: hidden;
   margin-top: 236px;
   position: absolute;
   margin-left: 22px;
-  font-family: 'CoFoSans-Regular';
+  font-family: 'CoFoSans-Regular', sans-serif;
   font-weight: 200;
   font-size: 50px;
 }
@@ -68,12 +65,13 @@ overflow-x: hidden;
   margin-top: 308.75px;
   position: absolute;
   margin-left: 29.52px;
-  font-family: 'CoFoSans-Regular';
+  font-family: 'CoFoSans-Regular', sans-serif;
   font-weight: 200;
   font-size: 24px;
 }
 a.text {
-
+  font-weight: 200;
+  font-family: 'CoFoSans-Regular', sans-serif;
   text-decoration: none;
   color: black;
   width: 944px;
@@ -91,7 +89,7 @@ label.main_post {
 }
 #email {
   font-weight: 200;
-  font-family: "CoFoSans-Regular";
+  font-family: 'CoFoSans-Regular', sans-serif;
   font-size: 50px;
   color: black;
   height: 76px;
@@ -104,48 +102,50 @@ label.main_post {
 input::placeholder {
   color: black;
 }
-:active, :hover, :focus {
-    outline: 0;
-    outline-offset: 0;
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
 }
 button {
   cursor: pointer;
   background-color: white;
-	color: white;
+  color: white;
   border: none;
   position: absolute;
   padding-top: 867.46px;
-  padding-left: 40px;
+  padding-left: 48px;
 }
 .linem1 {
   z-index: 99;
   position: absolute;
   margin-top: 142.64px;
-  width: 945px;
+  width: 958px;
 }
 .linem2 {
   z-index: 99;
   position: absolute;
   margin-top: 215.48px;
-  width: 945px;
+  width: 958px;
 }
 .linem3 {
   z-index: 99;
   position: absolute;
   margin-top: 288.32px;
-  width: 945px;
+  width: 958px;
 }
 .linem4 {
   z-index: 99;
   position: absolute;
   margin-top: 848px;
-  width: 945px;
+  width: 958px;
 }
 .linem5 {
   z-index: 99;
   position: absolute;
   margin-top: 920.17px;
-  width: 945px;
+  width: 958px;
 }
 .line_min_1 {
   z-index: 99;
@@ -193,7 +193,7 @@ button {
 .p5 {
   z-index: 98;
   position: absolute;
-  margin-left: 855.29px;
+  margin-left: 862.29px;
   margin-top: 930.3px;
 }
 .pp6 {
