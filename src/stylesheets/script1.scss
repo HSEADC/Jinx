@@ -67,26 +67,28 @@
     top: -202px;
 }
 .t1 {
-  font-family: 'PT Root UI';
+  font-family: 'CoFoSans-Regular';
+  font-weight: 200;
   font-size: 73px;
   position: absolute;
   margin-left: 1002px;
   margin-top: 101.25px;
 }
 .t2 {
-  width: 561px;
+  max-width: 561px;
   margin-top: 216px;
   margin-left: 1146px;
   line-height: 1.2;
   font-family: 'PT Root UI';
   font-size: 19px;
+  position: absolute;
 }
 .line5 {
   border-left: 2px solid black;
     height: 1341px;
     position: absolute;
     transform: rotate(-130.91deg);
-    margin-top: -951px;
+    margin-top: 951px;
     margin-left: 453px;
 }
 .line6 {
@@ -94,11 +96,17 @@
     height: 1341px;
     position: absolute;
     transform: rotate(130.91deg);
-    margin-top: -994px;
+    margin-top: 994px;
     margin-left: 453px;
 }
 .line7{
   position: absolute;
   margin-top: 107px;
   width: 1920px;
+}
+.ps1 {
+  z-index: 98;
+  position: absolute;
+  margin-left: -14px;
+  margin-top: 79px;
 }
