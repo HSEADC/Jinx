@@ -1,6 +1,6 @@
-* {
-  box-sizing: border-box;
-}
+//* {
+//  box-sizing: border-box;
+//}
 
 html,
 body {
@@ -15,11 +15,11 @@ body {
 .images {
   display: flex;
 
-  * {
-    width: 100%;
-    height: 100%;
-    margin: 0 0px;
-  }
+  //* {
+    //width: 100%;
+    //height: 100%;
+    //margin: 0 0px;
+  //}
 
   .image {
     &#bgJPG {

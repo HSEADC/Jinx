@@ -333,15 +333,15 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/video/trailer/script19.html',
-      filename: './video/trailer/script19.html',
+      template: './src/Video/Trailer/Script19.html',
+      filename: './Video/Trailer/Script19.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/video/trailer/script20.html',
-      filename: './video/trailer/script20.html',
+      template: './src/Video/Trailer/Script20.html',
+      filename: './video/Trailer/Script20.html',
       chunks: ['index']
     }),
     // Internal pages

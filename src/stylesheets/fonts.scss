@@ -29,3 +29,11 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'CoFoSans-Regular';
+  src: url('fonts/CoFoSans-Regular.woff2') format('woff2'),
+    url('fonts/CoFoSans-Regular.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}

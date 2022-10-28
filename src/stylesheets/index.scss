@@ -1,144 +1,219 @@
 body.index {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow-y: 1920px;
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+  //align-items: center;
+overflow-x: hidden;
 
-  & > div,
-  & > a {
-    margin: 10px 0;
-  }
+
+
+  //& > div,
+  //& > a {
+    //margin: 10px 0;
+  //}
 }
-.text1 {
-  font-family: 'PT Root UI';
-  font-size: 103px;
+.uga1 {
+  width: 959px;
+  height: 921.77px;
+}
+.p1 {
+  z-index: 98;
   position: absolute;
-  margin-top: 70px;
-  margin-left: 31.5px;
+  margin-left: 946px;
+  margin-top: 79px;
 }
+.grid {
+  width: 1920px;
+  height: 1080px;
+  opacity: 50%;
 
-
-.line {
+}
+.p2 {
+  z-index: -1;
   position: absolute;
-  margin-top: 62px;
-  width: 3000px;
 }
-
-.line2 {
-  border-left: 2px solid black;
-    height: 1080px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
-}
-.comeback {
-  line-height: 1.2;
+.site-bar-main-menu {
   position: absolute;
-  font-size: 19px;
-  margin-top: 800px;
-  margin-left: 218px;
+  font-family: 'CoFoSans-Regular';
+  font-weight: 200;
+  font-size: 60px;
+}
+.sbm1 {
+  width: 0px;
+  color: black;
+  margin-top: 90.23px;
+  position: absolute;
+  margin-left: 22px;
+  font-family: 'CoFoSans-Regular';
+  font-weight: 200;
+  font-size: 50px;
+}
+.sbm2 {
+  margin-top: 163.07px;
+  position: absolute;
+  margin-left: 22px;
+  font-family: 'CoFoSans-Regular';
+  font-weight: 200;
+  font-size: 50px;
+}
+.sbm4 {
+  margin-top: 236px;
+  position: absolute;
+  margin-left: 22px;
+  font-family: 'CoFoSans-Regular';
+  font-weight: 200;
+  font-size: 50px;
+}
+.sbm5 {
+  margin-top: 308.75px;
+  position: absolute;
+  margin-left: 29.52px;
+  font-family: 'CoFoSans-Regular';
+  font-weight: 200;
+  font-size: 24px;
+}
+a.text {
+
   text-decoration: none;
+  color: black;
+  width: 944px;
+  height: 74px;
+  background-color: white;
 }
-
-.site-bar {
-  position: absolute;
-  margin-top: 17.25px;
+a.text:hover {
+  color: white;
 }
-.sb1 {
-  font-family: 'PT Root UI';
-  font-size: 24px;
-  position: absolute;
-  margin-left: 33px;
+a.text:hover {
+  background-color: black;
 }
-.sb2 {
-  font-family: 'PT Root UI';
-  font-size: 24px;
-  position: absolute;
-  margin-left: 161.28px;
+label.main_post {
+  margin-left: 0px;
 }
-.sb3 {
-  font-family: 'PT Root UI';
-  font-size: 24px;
-  position: absolute;
-  margin-left: 283.94px;
+#email {
+  font-weight: 200;
+  font-family: "CoFoSans-Regular";
+  font-size: 50px;
+  color: black;
+  height: 76px;
+  width: 810px;
+  border: none;
+  margin: 278px 0px 0px 0px;
+  padding-left: 22px;
+  padding-top: 576px;
 }
-.sb4 {
-  font-family: 'PT Root UI';
-  font-size: 24px;
-  position: absolute;
-  margin-left: 461.36px;
-}
-.sb5 {
-  font-family: 'PT Root UI';
-  font-size: 24px;
-  position: absolute;
-  margin-left: 781px;
-}
-.sb6 {
-  font-family: 'PT Root UI';
-  font-size: 24px;
-  position: absolute;
-  margin-left: 1035px;
-  decoration: none;
+input::placeholder {
   color: black;
 }
-a {
-  text-decoration:none;
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
 }
-.sb7 {
-  font-family: 'PT Root UI';
-  font-size: 24px;
+button {
+  cursor: pointer;
+  background-color: white;
+	color: white;
+  border: none;
   position: absolute;
-  margin-left: 1820px;
+  padding-top: 867.46px;
+  padding-left: 40px;
 }
-.line3{
+.linem1 {
+  z-index: 99;
   position: absolute;
-  margin-top: 34px;
-  width: 1920px;
+  margin-top: 142.64px;
+  width: 945px;
 }
-
-.line4 {
-  border-left: 2px solid black;
-    height: 1080px;
-    position: absolute;
-    left: 960px;
-    top: -202px;
-}
-.t1 {
-  font-family: 'PT Root UI';
-  font-size: 73px;
+.linem2 {
+  z-index: 99;
   position: absolute;
-  margin-left: 1002px;
-  margin-top: 101.25px;
+  margin-top: 215.48px;
+  width: 945px;
 }
-.t2 {
-  width: 561px;
-  margin-top: 216px;
-  margin-left: 1146px;
-  line-height: 1.2;
-  font-family: 'PT Root UI';
-  font-size: 19px;
-}
-.line5 {
-  border-left: 2px solid black;
-    height: 1341px;
-    position: absolute;
-    transform: rotate(-130.91deg);
-    margin-top: -951px;
-    margin-left: 453px;
-}
-.line6 {
-  border-left: 2px solid black;
-    height: 1341px;
-    position: absolute;
-    transform: rotate(130.91deg);
-    margin-top: -994px;
-    margin-left: 453px;
-}
-.line7{
+.linem3 {
+  z-index: 99;
   position: absolute;
-  margin-top: 107px;
-  width: 1920px;
+  margin-top: 288.32px;
+  width: 945px;
+}
+.linem4 {
+  z-index: 99;
+  position: absolute;
+  margin-top: 848px;
+  width: 945px;
+}
+.linem5 {
+  z-index: 99;
+  position: absolute;
+  margin-top: 920.17px;
+  width: 945px;
+}
+.line_min_1 {
+  z-index: 99;
+  border-left: 3px solid black;
+  height: 145px;
+  position: absolute;
+  margin-left: 853.28px;
+  margin-top: 857px;
+  top: 0;
+}
+.line_min_2 {
+  z-index: 99;
+  border-left: 3px solid black;
+  height: 72.72px;
+  position: absolute;
+  margin-left: 761.32px;
+  margin-top: 929.34px;
+  top: 0;
+}
+.line_min_3 {
+  z-index: 99;
+  border-left: 3px solid black;
+  height: 72.72px;
+  position: absolute;
+  margin-left: 88px;
+  margin-top: 928.02px;
+  top: 0;
+}
+.pp4 {
+  cursor: pointer;
+  width: 88px;
+  height: 70px;
+}
+.p4 {
+  z-index: 98;
+  position: absolute;
+  margin-left: 766.13px;
+  margin-top: 930.33px;
+}
+.pp5 {
+  cursor: pointer;
+  width: 86px;
+  height: 70px;
+}
+.p5 {
+  z-index: 98;
+  position: absolute;
+  margin-left: 855.29px;
+  margin-top: 930.3px;
+}
+.pp6 {
+  cursor: pointer;
+  width: 87.99px;
+  height: 71.44px;
+}
+.p6 {
+  z-index: 98;
+  position: absolute;
+  margin-left: 1px;
+  margin-top: 930.3px;
+}
+.pp7 {
+  width: 70px;
+  height: 33px;
+}
+.p7 {
+  z-index: 98;
+  position: absolute;
+  margin-left: 1800px;
+  margin-top: 19.9px;
 }
