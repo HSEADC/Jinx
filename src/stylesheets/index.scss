@@ -95,9 +95,8 @@ label.main_post {
   height: 76px;
   width: 810px;
   border: none;
-  margin: 278px 0px 0px 0px;
+  margin: -13px 0px 0px 0px;
   padding-left: 22px;
-  padding-top: 576px;
 }
 input::placeholder {
   color: black;
@@ -114,7 +113,7 @@ button {
   color: white;
   border: none;
   position: absolute;
-  padding-top: 867.46px;
+  padding-top: 0px;
   padding-left: 48px;
 }
 .linem1 {
@@ -216,4 +215,8 @@ button {
   position: absolute;
   margin-left: 1800px;
   margin-top: 19.9px;
+}
+.emailtop {
+  position: absolute;
+  margin-top: 867px;
 }
