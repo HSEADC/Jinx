@@ -11,4 +11,4 @@ yarn
 yarn start
 ```
 
-Проверка веток_ноябрь
+Ветка gh-pages
