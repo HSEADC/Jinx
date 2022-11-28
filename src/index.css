@@ -2,6 +2,7 @@
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/basics.scss';
+
 @import 'stylesheets/index.scss';
 @import 'stylesheets/about_project.scss';
 @import 'stylesheets/articles.scss';
@@ -14,3 +15,4 @@
 @import 'stylesheets/top.scss';
 @import 'stylesheets/redaction.scss';
 @import 'stylesheets/review.scss';
+@import 'stylesheets/tizer.scss';

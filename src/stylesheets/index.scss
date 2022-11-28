@@ -69,6 +69,14 @@ body.index {
   font-weight: 200;
   font-size: 24px;
 }
+.sbmtizer {
+  margin-top: 308.75px;
+  position: absolute;
+  margin-left: 26px;
+  font-family: 'CoFoSans-Regular', sans-serif;
+  font-weight: 200;
+  font-size: 50px;
+}
 a.text {
   font-weight: 200;
   font-family: 'CoFoSans-Regular', sans-serif;
@@ -98,9 +106,9 @@ label.main_post {
   margin: -13px 0px 0px 0px;
   padding-left: 22px;
 }
-input::placeholder {
+/*input::placeholder {
   color: black;
-}
+}*/
 :active,
 :hover,
 :focus {
@@ -132,6 +140,12 @@ button {
   z-index: 99;
   position: absolute;
   margin-top: 288.32px;
+  width: 960px;
+}
+.linemtizer {
+  z-index: 99;
+  position: absolute;
+  margin-top: 360px;
   width: 960px;
 }
 .linem4 {
