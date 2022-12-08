@@ -44,3 +44,24 @@
   font-weight: 300;
   font-style: normal;
 }
+@font-face {
+  font-family: 'LenoraPremium-Regular';
+  src: url('fonts/LenoraPremium-Regular.woff') format('woff'),
+    url('fonts/LenoraPremium-Regular.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AnonymousPro-Regular';
+  src: url('fonts/AnonymousPro-Regular.woff') format('woff'),
+    url('fonts/AnonymousPro-Regular.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LenoraPremium-Medium';
+  src: url('fonts/LenoraPremium-Medium.woff') format('woff'),
+    url('fonts/LenoraPremium-Regular.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
