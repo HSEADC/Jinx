@@ -1,0 +1,251 @@
+body.tizer {
+  background-color: black;
+  overflow-x: hidden;
+}
+.section1 {
+  /*background: url(images/picter1_tizer.png);*/
+  height: 100%; /**/
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo_min {
+  font-family: 'AnonymousPro-Regular', sans-serif;
+  font-weight: 200;
+  font-size: 48px;
+  margin-top: -38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo_big {
+  display: flex;
+  font-family: 'LenoraPremium-Medium', sans-serif;
+  font-weight: 300;
+  font-size: 309px;
+  display: flex;
+  flex-direction: column;
+}
+.img_tizer1 {
+  position: absolute;
+  display: flex;
+}
+.img_tizer1 img{
+  width: 100%;
+  height: 100%;
+}
+.section2 {
+  margin-top: -150px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.box_text1 {
+  font-family: 'AnonymousPro-Regular', sans-serif;
+  font-weight: 200;
+  font-size: 53px;
+  display: flex;
+  margin-left: 80px;
+  flex-direction: column;
+  width: 1040px;
+}
+.box_text2 {
+  display: flex;
+  flex-direction: column;
+}
+.img_tizer2 img{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.section3 {
+  margin-top: 0px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-family: 'LenoraPremium-Regular', sans-serif;
+  font-weight: 200;
+  font-size: 138px;
+}
+p {
+  margin-top: 110px;
+  font-family: 'AnonymousPro-Regular', sans-serif;
+  font-weight: 200;
+  font-size: 53px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+button.buttonfirst {
+  cursor: pointer;
+  margin-top: 90px;
+  color: white;
+  font-size: 52px;
+  font-family: 'AnonymousPro-Regular', sans-serif;
+  font-weight: 200;
+  margin-left: 190px;
+  width: 372px;
+  height: 85px;
+  border: 3px solid #FFFFFF;
+  background-color: black;
+}
+button.buttonfirst:hover {
+  background-color: white;
+  color: black;
+}
+button.buttonsecond {
+  cursor: pointer;
+  margin-top: 90px;
+  color: white;
+  font-size: 52px;
+  font-family: 'AnonymousPro-Regular', sans-serif;
+  font-weight: 200;
+  margin-left: 105px;
+  width: 372px;
+  height: 85px;
+  border: 3px solid #FFFFFF;
+  background-color: black;
+}
+button.buttonsecond:hover {
+  background-color: white;
+  color: black;
+}
+.img_tizer3 {
+  margin-left: 80px;
+}
+.img_tizer3 img{
+  height: 100%;
+  width: 100%;
+}
+.button_tizer1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.section4 {
+  margin-top: -320px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.img_tizer4 img{
+  height: 100%;
+  width: 100%;
+}
+
+p.letter {
+  letter-spacing: -2.6px;
+}
+.section5 {
+  margin-top: -130px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.img_tizer5 img{
+  width: 100%;
+  height: 100%;
+}
+.img_tizer5 {
+  margin-left: 80px;
+}
+.base_final {
+  width: 1040px;
+}
+.section6 {
+  margin-top: 0px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box_text2 {
+  display: flex;
+  flex-direction: column;
+}
+#email_tizer {
+  font-weight: 200;
+  font-family: 'AnonymousPro-Regular', sans-serif;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+  height: 76px;
+  width: 1221px;
+  margin: -5px 0px 0px 0px;
+  padding-left: 22px;
+}
+input::placeholder {
+  color: #1B1B1B;
+}
+button.tizer {
+  cursor: pointer;
+  background-color: black;
+  color: black;
+  border: none;
+  position: absolute;
+  padding-top: 16px;
+  margin-left: -88px;
+}
+.box_text3 {
+  flex-direction: column;
+  margin-top: 204px;
+}
+.base_t4 {
+  font-family: 'AnonymousPro-Regular', sans-serif;
+  font-weight: 200;
+  font-size: 53px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 22px;
+}
+button.buttonthird {
+  margin-left: 122px;
+  align-items: center;
+  border: 3px black;
+  cursor: pointer;
+  margin-top: 90px;
+  color: white;
+  font-size: 32px;
+  font-family: 'AnonymousPro-Regular', sans-serif;
+  font-weight: 200;
+  background-color: black;
+  decoration: none;
+}
+.base_t5 {
+  font-family: 'AnonymousPro-Regular', sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+button.buttonthird:hover {
+  text-decoration: underline white;
+}

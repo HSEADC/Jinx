@@ -11,4 +11,11 @@ yarn
 yarn start
 ```
 
+<<<<<<< HEAD
 Ветка main
+=======
+Ветка gh-pages
+
+
+Проверка 29/11 15:22
+>>>>>>> gh-pages
