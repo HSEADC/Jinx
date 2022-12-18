@@ -12,6 +12,7 @@ yarn start
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ветка main
 =======
 Ветка gh-pages
@@ -20,3 +21,6 @@ yarn start
 Проверка 29/11 15:22
 Проверка 18.12 4:13
 >>>>>>> gh-pages
+=======
+Ветка workflow
+>>>>>>> workflow
