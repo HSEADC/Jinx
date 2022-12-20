@@ -9,6 +9,7 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
+    htmlcss: './src/htmlcss.js',
     page: './src/page.jsx'
   },
   output: {
@@ -74,13 +75,18 @@ module.exports = {
       filename: '[name].css',
       chunkFilename: '[id].css'
     }),
-    // Landing page Index
+    // Index
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
       chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/htmlcss.html',
+      filename: './htmlcss.html',
+      chunks: ['htmlcss']
     }),
     new HtmlWebpackPlugin({
       hash: true,
@@ -117,6 +123,13 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/About_project.html',
       filename: './About_project.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tizer.html',
+      filename: './tizer.html',
       chunks: ['index']
     }),
 
