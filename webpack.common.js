@@ -210,6 +210,14 @@ module.exports = {
       chunks: ['index']
     }),
 
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tizer.html',
+      filename: './tizer.html',
+      chunks: ['index']
+    }),
+
     // Internal pages
     // new HtmlWebpackPlugin({
     //  hash: true,
