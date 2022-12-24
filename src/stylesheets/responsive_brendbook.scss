@@ -1,0 +1,1166 @@
+@media only screen and (min-width: 1729px) and (max-width: 1920px) {
+  body.brendbookgrid {
+    background-color: black;
+
+    .brendgrid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); /*fr или fractional unit это часть свободного пространства, соответственно 1fr равен одной части от всего оставшегося свободно пространства, т.е это заданное значение ширины.*/
+      grid-column-gap: 60px;
+      grid-row-gap: 12px; /*отступы между row рядами*/
+      width: 1660px;
+      margin: 0 auto 60px; /*это Gutter*/
+
+      .menu_bar_brendbook{
+        position: fixed;
+        grid-column: 1 / 1;
+        margin-top: 3vw;
+      }
+      .page_logo_1 {
+        height: 680px;
+        grid-column: 2 / 4;
+        margin-top: 17vw;
+      }
+      .main_menu_brendbook {
+        margin-top: 13vw;
+
+      }
+
+      .style_gide {
+        font-family: 'PT Mono', sans-serif;
+        color: #4CFF53;
+      }
+      .menu_block_main {
+        cursor: pointer;
+        margin-top: 1vw;
+        font-size: 18px;
+        line-height: 20px;
+        flex-direction: column;
+        font-family: 'PT Mono', sans-serif;
+        color: white;
+      }
+      a.link_brendbook:hover {
+        color: #4CFF53;
+      }
+
+      .article_brendbook {
+        grid-row: 2 / 2;
+        grid-column: 2 / 2;
+      }
+
+      .text_twice_brendbook {
+        grid-row: 3 / 3;
+        grid-column: 2 / 4;
+      }
+
+      .page_logo_2 {
+        height: 300px;
+        grid-column: 2 / 4;
+        margin-top: 8vw;
+        grid-row: 2 / 2;
+      }
+
+      .article_brendbook2 {
+        grid-row: 2 / 2;
+        grid-column: 2 / 2;
+      }
+
+      .text_twice_brendbook2 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 4;
+      }
+
+      .page_little_parts_one {
+        grid-row: 4 / 4;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+
+      .page_little_parts_two {
+        grid-row: 4 / 4;
+        grid-column: 3 / 3;
+        margin-top: 3vw;
+      }
+
+      .page_little_parts_free {
+        grid-row: 4 / 4;
+        grid-column: 4 / 4;
+        margin-top: 3vw;
+      }
+
+      .text_twice_brendbook3 {
+        grid-row: 5 / 5;
+        grid-column: 2 / 4;
+      }
+      .mini_logo_brend {
+        grid-row: 6 / 6;
+        grid-column: 2 / 2;
+        margin-top: 4vw;
+      }
+      .big_logo_brend {
+        grid-row: 6 / 6;
+        grid-column: 3 / 5;
+        margin-top: 2vw;
+      }
+
+      .text_twice_brendbook4 {
+        grid-row: 7 / 7;
+        grid-column: 2 / 4;
+      }
+
+      .example_mokap {
+        grid-row: 8 / 8;
+        grid-column: 2 / 5;
+        margin-top: 2vw;
+      }
+
+      .text_twice_brendbook5 {
+        grid-row: 9 / 9;
+        grid-column: 2 / 4;
+      }
+
+      .picter_under_words {
+        grid-row: 10 / 10;
+        grid-column: 2 / 5;
+        margin-top: 4vw;
+      }
+
+      .article_brendbook_mini {
+        grid-row: 1 / 1;
+        grid-column: 2 / 2;
+      }
+
+      .long_logo {
+        grid-row: 2 / 2;
+        grid-column: 2 / 2;
+        margin-top: 4vw;
+      }
+      .rotation_log {
+        grid-row: 2 / 2;
+        grid-column: 3 / 3;
+        margin-top: 4vw;
+      }
+      .color_logo {
+        grid-row: 2 / 2;
+        grid-column: 4 / 4;
+        margin-top: 4vw;
+      }
+
+      .text_twice_brendbook6 {
+        grid-row: 9 / 9;
+        grid-column: 2 / 2;
+        margin-top: -5vw;
+      }
+      .text_twice_brendbook7 {
+        grid-row: 9 / 9;
+        grid-column: 3 / 3;
+        margin-top: -5vw;
+      }
+      .text_twice_brendbook8 {
+        grid-row: 9 / 9;
+        grid-column: 4 / 4;
+        margin-top: -5vw;
+      }
+
+      .article_brendbook3 {
+        grid-row: 1 / 1;
+        grid-column: 2 / 2;
+      }
+      .white_cub {
+        grid-row: 2 / 2;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+      .black_cub {
+        grid-row: 2 / 2;
+        grid-column: 3 / 3;
+        margin-top: 3vw;
+      }
+      .green_cub {
+        grid-row: 2 / 2;
+        grid-column: 4 / 4;
+        margin-top: 3vw;
+      }
+      .text_twice_brendbook9 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 2;
+        margin-top: -4vw;
+      }
+      .text_twice_brendbook10 {
+        grid-row: 3 / 3;
+        grid-column: 3 / 3;
+        margin-top: -4vw;
+      }
+      .text_twice_brendbook11 {
+        grid-row: 3 / 3;
+        grid-column: 4 / 4;
+        margin-top: -4vw;
+      }
+
+      .text_twice_brendbook12 {
+        grid-row: 4 / 4;
+        grid-column: 2 / 4;
+      }
+
+      .text_twice_brendbook13 {
+        grid-row: 5 / 5;
+        grid-column: 2 / 4;
+      }
+      .article_brendbook_mini_two {
+        grid-row: 6 / 6;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+      .color_line {
+        grid-row: 7 / 7;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .article_brendbook4 {
+        grid-row: 1 / 1;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook14 {
+        grid-row: 2 / 2;
+        grid-column: 2 / 4;
+      }
+
+      .text_twice_brendbook15 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 4;
+      }
+
+      .Lenora {
+        grid-row: 4 / 4;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+      .PT_Mono {
+        grid-row: 4 / 4;
+        grid-column: 3 / 3;
+        margin-top: 3vw;
+      }
+      .Jinx {
+        grid-row: 4 / 4;
+        grid-column: 4 / 4;
+        margin-top: 3vw;
+      }
+      .Lenora_two {
+        grid-row: 5 / 5;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+      .PT_Mono_two {
+        grid-row: 5 / 5;
+        grid-column: 3 / 3;
+        margin-top: 3vw;
+      }
+      .Jinx_two {
+        grid-row: 5 / 5;
+        grid-column: 4 / 4;
+        margin-top: 3vw;
+      }
+      .article_brendbook_mini_free {
+        grid-row: 6 / 6;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+      .font_style_one {
+        grid-row: 7 / 7;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+      .font_style_two {
+        grid-row: 7 / 7;
+        grid-column: 3 / 3;
+        margin-top: 5vw;
+      }
+      .font_style_free {
+        grid-row: 7 / 7;
+        grid-column: 4 / 4;
+        margin-top: 4vw;
+      }
+      .text_twice_brendbook16 {
+        grid-row: 8 / 8;
+        grid-column: 2 / 2;
+        margin-top: -2vw;
+      }
+      .text_twice_brendbook17 {
+        grid-row: 8 / 8;
+        grid-column: 3 / 3;
+        margin-top: -2vw;
+      }
+      .text_twice_brendbook18 {
+        grid-row: 8 / 8;
+        grid-column: 4 / 4;
+        margin-top: -2vw;
+      }
+      .article_brendbook5 {
+        grid-row: 1 / 1;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook19 {
+        grid-row: 2 / 2;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook20 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 4;
+      }
+
+      .setka_brend_one {
+        grid-row: 4 / 4;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+      .setka_brend_two {
+        grid-row: 5 / 5;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+      .setka_brend_free {
+        grid-row: 6 / 6;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+
+      .text_twice_brendbook21 {
+        grid-row: 7 / 7;
+        grid-column: 2 / 4;
+      }
+      .setka_brend_four {
+        grid-row: 8 / 8;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+
+      .setka_brend_five {
+        grid-row: 9 / 9;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+
+      .text_twice_brendbook23 {
+        grid-row: 10 / 10;
+        grid-column: 2 / 4;
+
+      }
+      .main_chb {
+        grid-row: 11 / 11;
+        grid-column: 2 / 4;
+      }
+
+      .text_twice_brendbook24 {
+        grid-row: 12 / 12;
+        grid-column: 2 / 4;
+
+      }
+      .allgreen_brendbook {
+        grid-row: 13 / 13;
+        grid-column: 2 / 4;
+
+      }
+      .allblack_brendbook {
+        grid-row: 14 / 14;
+        grid-column: 2 / 4;
+        margin-top: 2vw;
+      }
+      .text_twice_brendbook25 {
+        grid-row: 15 / 15;
+        grid-column: 2 / 4;
+      }
+      .schem_green {
+        grid-row: 16 / 16;
+        grid-column: 2 / 4;
+        margin-top: 2vw;
+      }
+      .article_brendbook6 {
+        grid-row: 1 / 1;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook26 {
+        grid-row: 2 / 2;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook27 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook28 {
+        grid-row: 4 / 4;
+        grid-column: 2 / 4;
+      }
+      .you_all_hear {
+        grid-row: 5 / 5;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+      .article_brendbook7 {
+        grid-row: 1 / 1;
+        grid-column: 2 / 4;
+      }
+      .fin_mokap_1 {
+        grid-row: 2 / 2;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .fin_mokap_2 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .fin_mokap_3 {
+        grid-row: 4 / 4;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .fin_mokap_4 {
+        grid-row: 5 / 5;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .fin_mokap_5 {
+        grid-row: 6 / 6;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .fin_mokap_6 {
+        grid-row: 7 / 7;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .final_logo {
+        grid-row: 8 / 8;
+        grid-column: 3 / 3;
+        margin: 0 auto;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+      }
+
+      
+    }
+  }
+
+  .style_gide {
+    font-family: 'PT Mono', sans-serif;
+    color: #4CFF53;
+  }
+  .menu_block_main {
+    margin-top: 1vw;
+    font-size: 18px;
+    line-height: 20px;
+    flex-direction: column;
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+  }
+  .about_brend {
+    color: white;
+  }
+
+  /* для зеленых глифов ы*/
+  .green_glif {
+    display: inline;
+    color: #4CFF53;
+  }
+
+  .article_brendbook {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook2 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook3 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook4 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook5 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook6 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook7 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+
+  p.text_normal_brendbook {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  p.text_normal_brendbook_green {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4CFF53;
+  }
+
+  .article_brendbook_mini {
+    font-family: 'PT Mono', sans-serif;
+    font-size: 31.12px;
+    line-height: 35px;
+    color: #4CFF53;
+  }
+  .article_brendbook_mini_two {
+    font-family: 'PT Mono', sans-serif;
+    font-size: 31.12px;
+    line-height: 35px;
+    color: #4CFF53;
+  }
+  .article_brendbook_mini_free {
+    font-family: 'PT Mono', sans-serif;
+    font-size: 31.12px;
+    line-height: 35px;
+    color: #4CFF53;
+  }
+  .Lenora {
+    font-family: 'PT Mono';
+    font-size: 45px;
+    line-height: 51px;
+    color: #FFFFFF;
+  }
+  .Lenora_two {
+    font-family: 'Lenora LC-Trial';
+    font-size: 216px;
+    line-height: 254px;
+    color: #FFFFFF;
+  }
+  .PT_Mono {
+    font-family: 'PT Mono';
+    font-size: 45px;
+    line-height: 51px;
+    color: #FFFFFF;
+  }
+  .PT_Mono_two {
+    font-family: 'PT Mono';
+    font-size: 208px;
+    line-height: 233px;
+    color: #FFFFFF;
+
+  }
+  .Jinx {
+    font-family: 'PT Mono';
+    font-size: 45px;
+    line-height: 51px;
+    color: #FFFFFF;
+  }
+  .Jinx_two {
+    font-family: 'JinxFont-Regular';
+    font-size: 184.156px;
+    line-height: 201px;
+    color: #FFFFFF;
+  }
+  .text_twice_brendbook23 {
+    font-family: 'PT Mono';
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1728px) {
+  body.brendbookgrid {
+    background-color: black;
+
+    .brendgrid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); /*fr или fractional unit это часть свободного пространства, соответственно 1fr равен одной части от всего оставшегося свободно пространства, т.е это заданное значение ширины.*/
+      grid-column-gap: 60px;
+      grid-row-gap: 12px; /*отступы между row рядами*/
+      width: 1328px;
+      margin: 0 auto 60px; /*это Gutter*/
+
+
+      .menu_bar_brendbook{
+        position: fixed;
+        grid-column: 1 / 1;
+        margin-top: 3vw;
+      }
+      .page_logo_1 {
+        height: 680px;
+        grid-column: 2 / 4;
+        margin-top: 17vw;
+      }
+      .main_menu_brendbook {
+        margin-top: 13vw;
+
+      }
+
+      .style_gide {
+        font-family: 'PT Mono', sans-serif;
+        color: #4CFF53;
+      }
+      .menu_block_main {
+        cursor: pointer;
+        margin-top: 1vw;
+        font-size: 18px;
+        line-height: 20px;
+        flex-direction: column;
+        font-family: 'PT Mono', sans-serif;
+        color: white;
+      }
+      a.link_brendbook:hover {
+        color: #4CFF53;
+      }
+
+      .article_brendbook {
+        grid-row: 2 / 2;
+        grid-column: 2 / 2;
+      }
+
+      .text_twice_brendbook {
+        grid-row: 3 / 3;
+        grid-column: 2 / 4;
+      }
+
+      .page_logo_2 {
+        height: 300px;
+        grid-column: 2 / 4;
+        margin-top: 8vw;
+        grid-row: 2 / 2;
+      }
+
+      .article_brendbook2 {
+        grid-row: 2 / 2;
+        grid-column: 2 / 2;
+      }
+
+      .text_twice_brendbook2 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 4;
+      }
+
+      .page_little_parts_one {
+        grid-row: 4 / 4;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+
+      .page_little_parts_two {
+        grid-row: 4 / 4;
+        grid-column: 3 / 3;
+        margin-top: 3vw;
+      }
+
+      .page_little_parts_free {
+        grid-row: 4 / 4;
+        grid-column: 4 / 4;
+        margin-top: 3vw;
+      }
+
+      .text_twice_brendbook3 {
+        grid-row: 5 / 5;
+        grid-column: 2 / 4;
+      }
+      .mini_logo_brend {
+        grid-row: 6 / 6;
+        grid-column: 2 / 2;
+        margin-top: 4vw;
+      }
+      .big_logo_brend {
+        grid-row: 6 / 6;
+        grid-column: 3 / 5;
+        margin-top: 2vw;
+      }
+
+      .text_twice_brendbook4 {
+        grid-row: 7 / 7;
+        grid-column: 2 / 4;
+      }
+
+      .example_mokap {
+        grid-row: 8 / 8;
+        grid-column: 2 / 5;
+        margin-top: 2vw;
+      }
+
+      .text_twice_brendbook5 {
+        grid-row: 9 / 9;
+        grid-column: 2 / 4;
+      }
+
+      .picter_under_words {
+        grid-row: 10 / 10;
+        grid-column: 2 / 5;
+        margin-top: 4vw;
+      }
+
+      .article_brendbook_mini {
+        grid-row: 1 / 1;
+        grid-column: 2 / 2;
+      }
+
+      .long_logo {
+        grid-row: 2 / 2;
+        grid-column: 2 / 2;
+        margin-top: 4vw;
+      }
+      .rotation_log {
+        grid-row: 2 / 2;
+        grid-column: 3 / 3;
+        margin-top: 4vw;
+      }
+      .color_logo {
+        grid-row: 2 / 2;
+        grid-column: 4 / 4;
+        margin-top: 4vw;
+      }
+
+      .text_twice_brendbook6 {
+        grid-row: 9 / 9;
+        grid-column: 2 / 2;
+        margin-top: -5vw;
+      }
+      .text_twice_brendbook7 {
+        grid-row: 9 / 9;
+        grid-column: 3 / 3;
+        margin-top: -5vw;
+      }
+      .text_twice_brendbook8 {
+        grid-row: 9 / 9;
+        grid-column: 4 / 4;
+        margin-top: -5vw;
+      }
+
+      .article_brendbook3 {
+        grid-row: 1 / 1;
+        grid-column: 2 / 2;
+      }
+      .white_cub {
+        grid-row: 2 / 2;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+      .black_cub {
+        grid-row: 2 / 2;
+        grid-column: 3 / 3;
+        margin-top: 3vw;
+      }
+      .green_cub {
+        grid-row: 2 / 2;
+        grid-column: 4 / 4;
+        margin-top: 3vw;
+      }
+      .text_twice_brendbook9 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 2;
+        margin-top: -4vw;
+      }
+      .text_twice_brendbook10 {
+        grid-row: 3 / 3;
+        grid-column: 3 / 3;
+        margin-top: -4vw;
+      }
+      .text_twice_brendbook11 {
+        grid-row: 3 / 3;
+        grid-column: 4 / 4;
+        margin-top: -4vw;
+      }
+
+      .text_twice_brendbook12 {
+        grid-row: 4 / 4;
+        grid-column: 2 / 4;
+      }
+
+      .text_twice_brendbook13 {
+        grid-row: 5 / 5;
+        grid-column: 2 / 4;
+      }
+      .article_brendbook_mini_two {
+        grid-row: 6 / 6;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+      .color_line {
+        grid-row: 7 / 7;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .article_brendbook4 {
+        grid-row: 1 / 1;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook14 {
+        grid-row: 2 / 2;
+        grid-column: 2 / 4;
+      }
+
+      .text_twice_brendbook15 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 4;
+      }
+
+      .Lenora {
+        grid-row: 4 / 4;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+      .PT_Mono {
+        grid-row: 4 / 4;
+        grid-column: 3 / 3;
+        margin-top: 3vw;
+      }
+      .Jinx {
+        grid-row: 4 / 4;
+        grid-column: 4 / 4;
+        margin-top: 3vw;
+      }
+      .Lenora_two {
+        grid-row: 5 / 5;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+      .PT_Mono_two {
+        grid-row: 5 / 5;
+        grid-column: 3 / 3;
+        margin-top: 3vw;
+      }
+      .Jinx_two {
+        grid-row: 5 / 5;
+        grid-column: 4 / 4;
+        margin-top: 3vw;
+      }
+      .article_brendbook_mini_free {
+        grid-row: 6 / 6;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+      .font_style_one {
+        grid-row: 7 / 7;
+        grid-column: 2 / 2;
+        margin-top: 3vw;
+      }
+      .font_style_two {
+        grid-row: 7 / 7;
+        grid-column: 3 / 3;
+        margin-top: 5vw;
+      }
+      .font_style_free {
+        grid-row: 7 / 7;
+        grid-column: 4 / 4;
+        margin-top: 4vw;
+      }
+      .text_twice_brendbook16 {
+        grid-row: 8 / 8;
+        grid-column: 2 / 2;
+        margin-top: -2vw;
+      }
+      .text_twice_brendbook17 {
+        grid-row: 8 / 8;
+        grid-column: 3 / 3;
+        margin-top: -2vw;
+      }
+      .text_twice_brendbook18 {
+        grid-row: 8 / 8;
+        grid-column: 4 / 4;
+        margin-top: -2vw;
+      }
+      .article_brendbook5 {
+        grid-row: 1 / 1;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook19 {
+        grid-row: 2 / 2;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook20 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 4;
+      }
+
+      .setka_brend_one {
+        grid-row: 4 / 4;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+      .setka_brend_two {
+        grid-row: 5 / 5;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+      .setka_brend_free {
+        grid-row: 6 / 6;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+
+      .text_twice_brendbook21 {
+        grid-row: 7 / 7;
+        grid-column: 2 / 4;
+      }
+      .setka_brend_four {
+        grid-row: 8 / 8;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+
+      .setka_brend_five {
+        grid-row: 9 / 9;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+
+      .text_twice_brendbook23 {
+        grid-row: 10 / 10;
+        grid-column: 2 / 4;
+
+      }
+      .main_chb {
+        grid-row: 11 / 11;
+        grid-column: 2 / 4;
+      }
+
+      .text_twice_brendbook24 {
+        grid-row: 12 / 12;
+        grid-column: 2 / 4;
+
+      }
+      .allgreen_brendbook {
+        grid-row: 13 / 13;
+        grid-column: 2 / 4;
+
+      }
+      .allblack_brendbook {
+        grid-row: 14 / 14;
+        grid-column: 2 / 4;
+        margin-top: 2vw;
+      }
+      .text_twice_brendbook25 {
+        grid-row: 15 / 15;
+        grid-column: 2 / 4;
+      }
+      .schem_green {
+        grid-row: 16 / 16;
+        grid-column: 2 / 4;
+        margin-top: 2vw;
+      }
+      .article_brendbook6 {
+        grid-row: 1 / 1;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook26 {
+        grid-row: 2 / 2;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook27 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 4;
+      }
+      .text_twice_brendbook28 {
+        grid-row: 4 / 4;
+        grid-column: 2 / 4;
+      }
+      .you_all_hear {
+        grid-row: 5 / 5;
+        grid-column: 2 / 4;
+        margin-top: 3vw;
+      }
+      .article_brendbook7 {
+        grid-row: 1 / 1;
+        grid-column: 2 / 4;
+      }
+      .fin_mokap_1 {
+        grid-row: 2 / 2;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .fin_mokap_2 {
+        grid-row: 3 / 3;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .fin_mokap_3 {
+        grid-row: 4 / 4;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .fin_mokap_4 {
+        grid-row: 5 / 5;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .fin_mokap_5 {
+        grid-row: 6 / 6;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .fin_mokap_6 {
+        grid-row: 7 / 7;
+        grid-column: 2 / 5;
+        margin-top: 3vw;
+      }
+      .final_logo {
+        grid-row: 8 / 8;
+        grid-column: 3 / 3;
+        margin: 0 auto;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+      }
+    }
+  }
+
+  .style_gide {
+    font-family: 'PT Mono', sans-serif;
+    color: #4CFF53;
+  }
+  .menu_block_main {
+    margin-top: 1vw;
+    font-size: 18px;
+    line-height: 20px;
+    flex-direction: column;
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+  }
+  .about_brend {
+    color: white;
+  }
+
+  /* для зеленых глифов ы*/
+  .green_glif {
+    display: inline;
+    color: #4CFF53;
+  }
+
+  .article_brendbook {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook2 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook3 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook4 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook5 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook6 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+  .article_brendbook7 {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 49px;
+    line-height: 55px;
+  }
+
+
+  p.text_normal_brendbook {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  p.text_normal_brendbook_green {
+    font-family: 'PT Mono', sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4CFF53;
+  }
+
+  .article_brendbook_mini {
+    font-family: 'PT Mono', sans-serif;
+    font-size: 31.12px;
+    line-height: 35px;
+    color: #4CFF53;
+  }
+  .article_brendbook_mini_two {
+    font-family: 'PT Mono', sans-serif;
+    font-size: 31.12px;
+    line-height: 35px;
+    color: #4CFF53;
+  }
+  .article_brendbook_mini_free {
+    font-family: 'PT Mono', sans-serif;
+    font-size: 31.12px;
+    line-height: 35px;
+    color: #4CFF53;
+  }
+  .Lenora {
+    font-family: 'PT Mono';
+    font-size: 45px;
+    line-height: 51px;
+    color: #FFFFFF;
+  }
+  .Lenora_two {
+    font-family: 'Lenora LC-Trial';
+    font-size: 216px;
+    line-height: 254px;
+    color: #FFFFFF;
+  }
+  .PT_Mono {
+    font-family: 'PT Mono';
+    font-size: 45px;
+    line-height: 51px;
+    color: #FFFFFF;
+  }
+  .PT_Mono_two {
+    font-family: 'PT Mono';
+    font-size: 208px;
+    line-height: 233px;
+    color: #FFFFFF;
+
+  }
+  .Jinx {
+    font-family: 'PT Mono';
+    font-size: 45px;
+    line-height: 51px;
+    color: #FFFFFF;
+  }
+  .Jinx_two {
+    font-family: 'JinxFont-Regular';
+    font-size: 184.156px;
+    line-height: 201px;
+    color: #FFFFFF;
+  }
+  .text_twice_brendbook23 {
+    font-family: 'PT Mono';
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+  }
+}

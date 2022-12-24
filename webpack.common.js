@@ -15,6 +15,8 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
+    path: path.resolve(__dirname, 'docs'),
+    /*clean: true*/
     path: path.resolve(__dirname, 'docs')
     // clean: true
   },
@@ -85,6 +87,20 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/modulargrid.html',
+      filename: './modulargrid.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/brendbook.html',
+      filename: './brendbook.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
@@ -215,6 +231,14 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/tizer.html',
       filename: './tizer.html',
+      chunks: ['index']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main_page.html',
+      filename: './main_page.html',
       chunks: ['index']
     }),
 
