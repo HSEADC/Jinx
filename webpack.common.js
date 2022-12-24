@@ -15,13 +15,10 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-<<<<<<< HEAD
     path: path.resolve(__dirname, 'docs'),
     /*clean: true*/
-=======
     path: path.resolve(__dirname, 'docs')
     // clean: true
->>>>>>> workflow
   },
   module: {
     rules: [

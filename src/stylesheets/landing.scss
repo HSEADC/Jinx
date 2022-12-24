@@ -22,57 +22,22 @@ body.landing {
     flex-direction: column;
     align-items: center;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> workflow
   .logo_big_landing {
     position: relative;
     display: flex;
   }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> workflow
   .down_arrow_blur {
     position: fixed;
     z-index: 99;
     margin-top: 93vh;
     margin-left: 91.7%;
   }
-<<<<<<< HEAD
-  .burgermenu {
-    z-index: 99;
-    position: fixed;
-    margin-top: 48px;
-    margin-left: 130px;
-  }
-  .landing_section2 {
-    z-index: 2;
-    height: 100%;
-    width: 100%;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 143px;
-}
-
-  .white_bg {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    width: 1920px;
-    height: 1080px;
-=======
   .landing_section2 {
     height: 1080px;
     z-index: 2;
     background-color: white;
     color: white;
     display: flex;
->>>>>>> workflow
 }
   .rounded_block {
     margin-top: 1px;
@@ -84,17 +49,6 @@ body.landing {
     height: 1078px;
     border-radius: 58px;
   }
-<<<<<<< HEAD
-
-  .sec02_img01 {
-    margin-left: 1px;
-    margin-top: 147px;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-  }
-
-=======
   .sec02_img01_wrapper {
     position: absolute;
     display: flex;
@@ -106,17 +60,12 @@ body.landing {
     margin-top: 147px;
     mix-blend-mode: screen;
   }
->>>>>>> workflow
   .table_landing_container {
     position: absolute;
     display: flex;
     justify-content: center;
     width: 100%;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> workflow
   .table_landing {
     margin-top: 419px;
     display: flex;
@@ -127,10 +76,6 @@ body.landing {
     width: 678px;
     height: 173px;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> workflow
   .table_landing_type {
     font-family: 'PT Mono', sans-serif;
     font-weight: 200;
@@ -142,10 +87,6 @@ body.landing {
     height: 173px;
     border: solid rgba(76,255,83);
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> workflow
   .table_landing_type_title {
     font-family: 'PT Mono', sans-serif;
     position: absolute;
@@ -163,13 +104,8 @@ body.landing {
   }
   .landing_section3 {
     z-index: 2;
-<<<<<<< HEAD
-    height: 100%;
-    color: white;
-=======
     color: white;
     padding-bottom: 317px;
->>>>>>> workflow
   }
   .landing_title01 {
     display: flex;
@@ -183,10 +119,6 @@ body.landing {
     width: 616.49;
     height: 124.9;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> workflow
   .landing_pictures_section3 {
     position: relative;
     display: flex;
@@ -228,104 +160,62 @@ body.landing {
   }
   .landing_box_title_01 {
     position: absolute;
-<<<<<<< HEAD
-    margin-top: 30px;
-=======
     margin-top: 40px;
->>>>>>> workflow
     margin-left: 168px;
     font-family: 'PT Mono', sans-serif;
     color: rgba(76,255,83);
     font-weight: 200;
-<<<<<<< HEAD
-=======
     line-height: 25px;
->>>>>>> workflow
     font-size: 22.49px;
   }
   .landing_box_title_02 {
     position: absolute;
-<<<<<<< HEAD
-    margin-top: 30px;
-=======
     margin-top: 40px;
->>>>>>> workflow
     margin-left: 719px;
     font-family: 'PT Mono', sans-serif;
     color: rgba(76,255,83);
     font-weight: 200;
-<<<<<<< HEAD
-=======
     line-height: 25px;
->>>>>>> workflow
     font-size: 22.49px;
   }
   .landing_box_title_03 {
     position: absolute;
-<<<<<<< HEAD
-    margin-top: 30px;
-=======
     margin-top: 40px;
->>>>>>> workflow
     margin-left: 1270px;
     font-family: 'PT Mono', sans-serif;
     color: rgba(76,255,83);
     font-weight: 200;
-<<<<<<< HEAD
-=======
     line-height: 25px;
->>>>>>> workflow
     font-size: 22.49px;
   }
   .landing_box_text_01 {
     position: absolute;
     width: 550px;
-<<<<<<< HEAD
-    margin-top: 86px;
-    margin-left: 168px;
-    font-family: 'PT Mono', sans-serif;
-    font-weight: 200;
-=======
     margin-top: 92px;
     margin-left: 168px;
     font-family: 'PT Mono', sans-serif;
     font-weight: 200;
     line-height: 20px;
->>>>>>> workflow
     font-size: 18px;
   }
   .landing_box_text_02 {
     position: absolute;
     width: 550px;
-<<<<<<< HEAD
-    margin-top: 86px;
-    margin-left: 719px;
-    font-family: 'PT Mono', sans-serif;
-    font-weight: 200;
-=======
     margin-top: 92px;
     margin-left: 719px;
     font-family: 'PT Mono', sans-serif;
     font-weight: 200;
     line-height: 20px;
->>>>>>> workflow
     font-size: 18px;
   }
   .landing_box_text_03 {
     position: absolute;
     width: 550px;
-<<<<<<< HEAD
-    margin-top: 86px;
-    margin-left: 1270px;
-    font-family: 'PT Mono', sans-serif;
-    font-weight: 200;
-=======
     margin-top: 92px;
     margin-left: 1270px;
     font-family: 'PT Mono', sans-serif;
     font-weight: 200;
     line-height: 20px;
->>>>>>> workflow
     font-size: 18px;
   }
   .landing_section4 {
@@ -334,19 +224,11 @@ body.landing {
     color: white;
     display: flex;
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> workflow
   .landing_section4_pic {
     mix-blend-mode: multiply;
     margin-left: auto;
     margin-right: 0;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> workflow
 .landing_section4_title_container {
   position: absolute;
   display: flex;
@@ -354,15 +236,6 @@ body.landing {
   margin-top: 371px;
   width: 100%;
 }
-<<<<<<< HEAD
-
-  .landing_section4_title {
-  }
-
-  .landing_section4_text_up {
-    margin-top: 272px;
-    margin-left: 390px;
-=======
   .landing_section4_title {
   }
   .landing_section4_text_container {
@@ -376,32 +249,18 @@ body.landing {
   .landing_section4_text_up {
     margin-top: -95px;
     margin-right: 1020px;
->>>>>>> workflow
     font-family: 'PT Mono', sans-serif;
     font-weight: 200;
     font-size: 22.74px;
     color: black;
-<<<<<<< HEAD
-    position: absolute;
-  }
-
-  .landing_section4_text_down {
-    margin-top: 745px;
-    margin-left: 1440px;
-=======
   }
   .landing_section4_text_down {
     margin-top: 375px;
     margin-left: 1010px;
->>>>>>> workflow
     font-family: 'PT Mono', sans-serif;
     font-weight: 200;
     font-size: 22.74px;
     color: black;
-<<<<<<< HEAD
-    position: absolute;
-  }
-=======
   }
   .landing_section5 {
     z-index: 2;
@@ -700,4 +559,3 @@ body.landing {
           color: black;
           margin-right: 0.5vw;
         }
->>>>>>> workflow

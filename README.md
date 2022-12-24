@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # Jinx (B21DZ08-Project-2)
-=======
 # Static Site Boilerplate
 
 ## How to start
@@ -15,5 +13,3 @@ yarn start
 ```
 
 Ветка workflow
->>>>>>> gh-pages
->>>>>>> workflow
