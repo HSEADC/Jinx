@@ -234,6 +234,14 @@ module.exports = {
       chunks: ['index']
     }),
 
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main_page.html',
+      filename: './main_page.html',
+      chunks: ['index']
+    }),
+
     // Internal pages
     // new HtmlWebpackPlugin({
     //  hash: true,
