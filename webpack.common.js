@@ -15,7 +15,7 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'docs'),
-    clean: true
+    /*clean: true*/
   },
   module: {
     rules: [
@@ -81,6 +81,20 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/modulargrid.html',
+      filename: './modulargrid.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/brendbook.html',
+      filename: './brendbook.html',
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
