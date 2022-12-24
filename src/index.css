@@ -2,7 +2,6 @@
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/basics.scss';
-
 @import 'stylesheets/index.scss';
 @import 'stylesheets/about_project.scss';
 @import 'stylesheets/articles.scss';
@@ -19,6 +18,6 @@
 @import 'stylesheets/responsive.scss';
 
 /*@import 'stylesheets/modulargrid.scss';*/
-
+@import 'stylesheets/landing.scss';
 @import 'stylesheets/brendbook_style.scss';
 @import 'stylesheets/responsive_brendbook.scss';
