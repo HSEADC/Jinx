@@ -1,10 +1,24 @@
+.W_Screen {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 1920px;
+  height: 922px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
 .W_MenuBarMainRoundedBorder {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 24px 35px;
   gap: 303px;
+  padding-right: 35px;
 
   position: relative;
   width: 958px;
@@ -15,17 +29,21 @@
   .C_MenuBarNavigation {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
+    align-items: center;
+    padding: 0px 0px 0px 35px;
     gap: 45px;
 
-    position: relative;
-    width: 390px;
-    height: 22px;
+    width: 512px;
+    height: 70px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 }
 
 .W_MenuBarBreadcrumbsRoundedBorder{
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -34,9 +52,105 @@
   gap: 10px;
 
   position: relative;
-  width: 958px;
+  width: 959px;
   height: 70px;
 
   background: #000000;
   border-radius: 12px;
+}
+
+.W_MonsterPic {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  position: relative;
+  width: 480px;
+  height: 782px;
+
+  background: #FFFFFF;
+}
+
+.W_CardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: 395px;
+  height: 102px;
+  left: 20px;
+  top: 142px;
+
+}
+
+.W_MonsterCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px 0px 1px 1px;
+
+  position: relative;
+  width: 479.5px;
+  height: 142px;
+
+  background: #FFFFFF;
+}
+
+.W_Article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 81px;
+  gap: 30px;
+
+  width: 777px;
+  height: 729px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+}
+
+.C_MonsterStatus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: relative;
+  width: 614px;
+  height: 134px;
+}
+
+.W_MonsterStatus {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  position: relative;
+  width: 614px;
+  height: 55px;
+}
+
+.W_MonsterStatusContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: relative;
+  width: 265px;
+  height: 37px;
+
 }

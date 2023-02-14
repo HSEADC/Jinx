@@ -24,3 +24,38 @@
 
   background: #FFFFFF;
 }
+.M_Card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px;
+  gap: 10px;
+
+  overflow: hidden;
+  width: 479.5px;
+  height: 138px;
+  left: 20px;
+  top: 180px;
+
+  background: #000000;
+  border-radius: 12px;
+}
+
+.M_MonsterStatusFrame {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 9px 13px;
+  gap: 10px;
+
+  position: relative;
+  width: 291px;
+  height: 55px;
+
+  border: 1px solid #4CFF53;
+}
