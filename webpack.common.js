@@ -11,6 +11,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
     htmlcss: './src/htmlcss.js',
+    dictionary: './src/dictionary.js',
     page: './src/page.jsx'
   },
   output: {
@@ -145,6 +146,15 @@ module.exports = {
       filename: './About_project.html',
       chunks: ['index']
     }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/dictionary.html',
+      filename: './dictionary.html',
+      chunks: ['dictionary']
+    }),
+
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',

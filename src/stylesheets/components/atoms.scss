@@ -1,0 +1,212 @@
+// .A_MenuBarButton {
+//   padding: 0;
+//   border: none;
+//   background: none;
+//   font-family: 'PT Mono', sans-serif;
+//   font-size: 20px;
+//   line-height: 22px;
+//   text-transform: uppercase;
+//   color: #4CFF53;
+// }
+
+.A_MenuBarButton {
+  background: none;
+  font-family: 'PT Mono', sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  height: 70px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.A_MenuBarNavigation {
+  font-family: 'PT Mono', sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  height: 70px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+
+  color: #4CFF53;
+}
+
+.A_MenuBarButton:hover {
+  background: none;
+  font-family: 'PT Mono', sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #4CFF53;
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 4px #4CFF53) drop-shadow(0px 0px 28px #4CFF53);
+}
+
+.A_MenuBarLogo {
+  width: 85.54px;
+  height: 34px;
+  background-image: url('./images/components/A_MenuBarLogo.svg')
+}
+
+.A_MonsterPic {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: relative;
+  width: 479.5px;
+  height: 782px;
+
+  border-width: 0px 0px 0px 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-radius: 12px;
+}
+
+.A_CardTitle {
+  font-family: 'PT Mono';
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+
+  color: #4CFF53;
+}
+
+.A_CardText {
+  width: 478px;
+  height: 40px;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+.A_ButtonInfo {
+  font-family: 'PT Mono';
+  font-size: 14px;
+  line-height: 16px;
+
+  text-align: center;
+
+  color: #4CFF53;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5px 6px;
+  gap: 10px;
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 39px;
+  top: 111px;
+
+  border: 1px solid #4CFF53;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.A_ArticleTitle {
+  overflow: hidden;
+  font-family: 'JinxFont';
+  font-style: sans-serif;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: -0.05em;
+
+  color: #FFFFFF;
+}
+
+.A_ArticleDottedLine {
+  width: 612px;
+  height: 0px;
+
+  border: 1px dashed #4CFF53;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.A_MonsterStatusSecondaryText {
+  overflow: hidden;
+  font-family: 'PT Mono';
+  font-size: 13px;
+  line-height: 13px;
+  color: #4CFF53;
+  text-transform: uppercase;
+}
+
+.A_MonsterStatusPrimaryText {
+  overflow: hidden;
+  font-family: 'PT Mono';
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  color: #4CFF53;
+}
+
+.A_ArticleText {
+  width: 612.57px;
+  height: 500px;
+
+  font-family: 'PT Root UI';
+  font-size: 19px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 615px;
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
