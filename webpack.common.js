@@ -10,11 +10,12 @@ module.exports = {
   entry: {
     index: './src/index.js',
     htmlcss: './src/htmlcss.js',
+    dictionary: './src/dictionary.js',
     page: './src/page.jsx'
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, 'docs')
     /*clean: true*/
   },
   module: {
@@ -108,6 +109,27 @@ module.exports = {
       template: './src/about.html',
       filename: './about.html',
       chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/dictionary.html',
+      filename: './dictionary.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/topgame.html',
+      filename: './topgame.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/mechanicsplay.html',
+      filename: './mechanicsplay.html',
+      chunks: ['dictionary']
     }),
 
     // Articles

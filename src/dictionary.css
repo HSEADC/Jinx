@@ -1,0 +1,17 @@
+@import 'stylesheets/reset.scss';
+@import 'stylesheets/vars.scss';
+@import 'stylesheets/fonts.scss';
+@import 'stylesheets/dictionary.scss';
+
+@import 'stylesheets/components/atoms.scss';
+@import 'stylesheets/components/molecules.scss';
+@import 'stylesheets/components/organizm.scss';
+@import 'stylesheets/components/quark.scss';
+@import 'stylesheets/components/superorganizm.scss';
+
+/* Адаптивы компонентов */
+@import 'stylesheets/res_compon/res_atoms.scss';
+@import 'stylesheets/res_compon/res_molecules.scss';
+@import 'stylesheets/res_compon/res_organizm.scss';
+@import 'stylesheets/res_compon/res_quark.scss';
+@import 'stylesheets/res_compon/res_superorganizm.scss';

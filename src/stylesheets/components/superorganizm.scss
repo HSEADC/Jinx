@@ -1,0 +1,135 @@
+/*Учусь работать с компонентами*/
+
+.S_IndiegameArticle {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // padding: 2vw 8vw 0px;
+
+  width: 100%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px 0px 0px;
+
+  position: relative;
+}
+
+.W_ArticlestyleTitle {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 13px;
+
+  width: 1164px;
+  height: 130.02px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.W_ArticlestyleTitleMobile {
+  display: none;
+  // margin: 0 auto;
+
+  // /* Inside auto layout */
+
+  // flex: none;
+  // order: 0;
+  // align-self: stretch;
+  // flex-grow: 0;
+
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // padding: 0px 89px;
+  // gap: 20px;
+
+  // width: 768px;
+  // height: 207px;
+}
+
+.W_ArticlestyleArtcilebody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: 514px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.W_TopgameLinkMobile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 240px;
+
+  width: 590px;
+  height: 39px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*Разбор механик*/
+
+.W_AnalysismechanicsParagraphs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: 472px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.C_ArticlestyleFullparagraphs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+
+  width: 509px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

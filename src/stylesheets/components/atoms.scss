@@ -1,0 +1,402 @@
+/*Учусь работать с компонентами*/
+
+/*Инди проекты*/
+
+.A_TopgameLink {
+  width: 139px;
+  height: 36px;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.A_TopgameLinkMobile {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 152px;
+  height: 39px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.A_TopgameHeading {
+  margin: 0 auto;
+
+  font-family: 'Jinx Font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  /* or 125% */
+
+  text-align: center;
+  letter-spacing: -0.08em;
+
+  color: var(--white);
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 938px;
+  height: 90px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.A_TopgameHeadingMobile {
+  margin: 0 auto;
+
+  font-family: 'Jinx Font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  /* or 121% */
+
+  text-align: center;
+  letter-spacing: -0.08em;
+
+  color: var(--white);
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 590px;
+  height: 116px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.A_TopgameDate {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: right;
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 87px;
+  height: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.A_TopgameDateMobile {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: right;
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 198px;
+  height: 26px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.A_TopgamePicture {
+  background-image: url('./images/A_TopgamePicture_1440.png');
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 514px;
+  height: 520px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.A_TopgameVideo {
+  background-image: url('./images/A_TopgamePicture_1440.png');
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 514px;
+  height: 520px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  position: absolute;
+  z-index: -1;
+}
+
+.A_TopgameImagecaption {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 514px;
+  height: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+}
+
+.A_ArticlestyleText {
+  width: 484px;
+
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* or 120% */
+
+  color: var(--white);
+
+  /* Inside auto layout */
+
+  flex: none;
+  // order: 0;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 55px 30px 0px 0px;
+
+  width: 514px;
+}
+
+.A_ArticlestyleTextСontinuation {
+  width: 484px;
+
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* or 120% */
+
+  color: var(--white);
+
+  /* Inside auto layout */
+
+  flex: none;
+  // order: 0;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 30px 0px 0px;
+
+  width: 514px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.A_ArticlestyleTextParagraphs {
+  width: 440px;
+
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* or 120% */
+
+  color: var(--white);
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 30px 0px 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+/*Топы игр*/
+
+.A_TopgameNumbertext {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+
+  text-transform: uppercase;
+
+  color: var(--acid-orange);
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 472px;
+  height: 25px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+/*Разбор механик*/
+
+.A_AnalysismechanicsElement {
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height, or 120% */
+
+  color: var(--acid-orange);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 7px;
+  height: 18px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.A_AnalysismechanicsPoints {
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height, or 120% */
+
+  color: var(--acid-orange);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 12px;
+  height: 18px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

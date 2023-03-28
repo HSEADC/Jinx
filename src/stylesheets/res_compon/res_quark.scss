@@ -1,0 +1,320 @@
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+  .Q_TopgameLine {
+    background-image: url('./images/Q_TopgameLine_2560.svg');
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 2070px;
+    height: 36px;
+  }
+  .Q_TopgameNumber {
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 45px;
+    height: 34px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 1710px) and (max-width: 1920px) {
+  .Q_TopgameLine {
+    background-image: url('./images/Q_TopgameLine_1920.svg');
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1550px;
+    height: 27px;
+  }
+  .Q_TopgameNumber {
+    font-size: 19px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 35px;
+    height: 25px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1709px) {
+  .Q_TopgameLine {
+    background-image: url('./images/Q_TopgameLine_1440.svg');
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1164px;
+    height: 27px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .Q_TopgameNumber {
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 27px;
+    height: 25px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .Q_TopgameLine {
+    background-image: url('./images/Q_TopgameLine_1366.svg');
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1106px;
+    height: 19px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .Q_TopgameNumber {
+    font-size: 15px;
+    line-height: 17px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 27px;
+    height: 17px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-device-width: 1210px) and (max-device-width: 1024px) {
+  .Q_TopgameLine {
+    background-image: url('./images/Q_TopgameLine_1024.svg');
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 828px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .Q_TopgameNumber {
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 22px;
+    height: 13px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-device-width: 415px) and (max-device-width: 1209px) {
+  .Q_TopgameLine {
+    display: none;
+  }
+
+  .Q_TopgameLineMobile {
+    background-image: url('./images/Q_TopgameLine_768.svg');
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 591px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    margin: 0 auto;
+  }
+  .Q_TopgameNumber {
+    font-size: 17px;
+    line-height: 19px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 31px;
+    height: 19px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+  .Q_TopgameLine {
+    display: none;
+  }
+
+  .Q_TopgameLineMobile {
+    background-image: url('./images/Q_TopgameLine_414.svg');
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px;
+
+    width: 358px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    margin: 0 auto;
+  }
+  .Q_TopgameNumber {
+    font-size: 15px;
+    line-height: 13px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 27px;
+    height: 13px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  .Q_TopgameLine {
+    display: none;
+  }
+
+  .Q_TopgameLineMobile {
+    background-image: url('./images/Q_TopgameLine_360.svg');
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px;
+
+    width: 257px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    margin: 0 auto;
+  }
+  .Q_TopgameNumber {
+    font-size: 13px;
+    line-height: 10px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 24px;
+    height: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
