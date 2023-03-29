@@ -29,8 +29,7 @@
   order: 0;
   flex-grow: 0;
 
-
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -53,8 +52,7 @@
   order: 0;
   flex-grow: 0;
 
-
-  color: #4CFF53;
+  color: #4cff53;
 }
 
 .A_MenuBarButton:hover {
@@ -63,15 +61,15 @@
   font-size: 20px;
   line-height: 22px;
   text-transform: uppercase;
-  color: #4CFF53;
+  color: #4cff53;
   cursor: pointer;
-  filter: drop-shadow(0px 0px 4px #4CFF53) drop-shadow(0px 0px 28px #4CFF53);
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
 }
 
 .A_MenuBarLogo {
   width: 85.54px;
   height: 34px;
-  background-image: url('./images/components/A_MenuBarLogo.svg')
+  background-image: url('./images/components/A_MenuBarLogo.svg');
 }
 
 .A_MonsterPic {
@@ -87,7 +85,7 @@
 
   border-width: 0px 0px 0px 1px;
   border-style: solid;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
   border-radius: 12px;
 }
 
@@ -97,7 +95,7 @@
   line-height: 40px;
   text-transform: uppercase;
 
-  color: #4CFF53;
+  color: #4cff53;
 }
 
 .A_CardText {
@@ -110,7 +108,7 @@
   font-size: 18px;
   line-height: 20px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .A_ButtonInfo {
@@ -120,7 +118,7 @@
 
   text-align: center;
 
-  color: #4CFF53;
+  color: #4cff53;
 
   display: flex;
   flex-direction: column;
@@ -135,7 +133,7 @@
   left: 39px;
   top: 111px;
 
-  border: 1px solid #4CFF53;
+  border: 1px solid #4cff53;
 
   flex: none;
   order: 2;
@@ -153,14 +151,14 @@
   text-align: center;
   letter-spacing: -0.05em;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .A_ArticleDottedLine {
   width: 612px;
   height: 0px;
-  
-  border: 1px dashed #4CFF53;
+
+  border: 1px dashed #4cff53;
 
   flex: none;
   order: 0;
@@ -173,7 +171,7 @@
   font-family: 'PT Mono';
   font-size: 13px;
   line-height: 13px;
-  color: #4CFF53;
+  color: #4cff53;
   text-transform: uppercase;
 }
 
@@ -184,7 +182,7 @@
   line-height: 30px;
   text-transform: uppercase;
 
-  color: #4CFF53;
+  color: #4cff53;
 }
 
 .A_ArticleText {
@@ -195,7 +193,7 @@
   font-size: 19px;
   line-height: 28px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
   display: flex;
   flex-direction: column;
