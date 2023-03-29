@@ -139,13 +139,6 @@ module.exports = {
       filename: './Fear.html',
       chunks: ['index']
     }),
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/About_project.html',
-      filename: './About_project.html',
-      chunks: ['index']
-    }),
 
     new HtmlWebpackPlugin({
       hash: true,
