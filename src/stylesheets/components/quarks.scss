@@ -1,0 +1,80 @@
+/* Меню */
+
+.Q_GrungeTexture {
+  position: absolute;
+  mix-blend-mode: normal;
+  background-image: url('images/components/quarks/Q_GrungeTexture.png');
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  z-index: -99;
+}
+.Q_Burger {
+  width: 21px;
+  height: 16px;
+  background-image: url('images/components/quarks/Burger.svg');
+  display: none;
+}
+
+/* Смотреть видео */
+.Q_TopgameLineunder {
+  background-image: url('images/Q_TopgameLineUnder_1440.svg');
+  background-size: cover;
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 630px;
+  height: 27px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.Q_TopgameLine {
+  background-image: url('images/Q_TopgameLine_1440.svg');
+  background-size: cover;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 1164px;
+  height: 27px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.Q_TopgameLineMobile {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  width: 590px;
+  height: 15px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

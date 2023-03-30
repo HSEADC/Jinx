@@ -1,0 +1,77 @@
+/* Смотреть видео */
+.O_Video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 11px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+  margin: 0 auto;
+}
+.O_VideoDiscription {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 630px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+/* Инди игры */
+.O_Indiegame {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 18px;
+  gap: 8vw;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Разбор монстров */
+
+.O_MonsterCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: relative;
+  width: 479.5px;
+  height: 924px;
+}
+
+.O_Article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 91px 0px;
+  gap: 24px;
+
+  position: relative;
+  width: 958.5px;
+  height: 922px;
+
+  background: #000000;
+  border-radius: 12px;
+}

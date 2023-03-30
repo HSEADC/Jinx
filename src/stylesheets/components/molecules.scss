@@ -1,49 +1,62 @@
-/*Учусь работать с компонентами*/
-
-.M_TopgameWholeheading {
+/* Меню */
+.M_MenuBarMain {
+  overflow-y: hidden;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1px;
 
-  width: 1164px;
-  height: 90px;
+  width: 50%;
+  height: 72px;
 
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+  background: var(--white);
 }
 
-.M_TopgameWholeheadingMobile {
-  /* Inside auto layout */
+.M_MenuBarBreadcrumbs {
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px 1px 1px 0px;
 
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+  width: 50%;
+  height: 72px;
+
+  background: var(--white);
+}
+
+/* Страшно реально */
+.M_ScaryreallyUnderpicture {
+  /* Auto layout */
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   padding: 0px;
-  gap: 10px;
 
-  width: 590px;
-  height: 172px;
+  width: 530px;
+  height: 28px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-.M_TopgameVisual {
+/* Разбор механик */
+.M_AnalysismechanicsTextpart {
+  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
+  gap: 20px;
 
-  width: 514px;
-  height: 520px;
+  width: 472px;
+  height: 100%;
 
   /* Inside auto layout */
 
@@ -53,7 +66,21 @@
   flex-grow: 0;
 }
 
+/* Топы игры */
 .M_TopgamePosition {
+  /* Text */
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+
+  text-transform: uppercase;
+
+  color: var(--acid_orange);
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -71,14 +98,18 @@
   flex-grow: 0;
 }
 
-.M_AnalysismechanicsTextpart {
+/* Инди игры */
+.M_TopgameWholeheading {
+  /* Auto layout */
+
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   padding: 0px;
-  gap: 20px;
 
-  width: 472px;
+  width: 1164px;
+  height: 90px;
 
   /* Inside auto layout */
 
@@ -86,4 +117,105 @@
   order: 0;
   align-self: stretch;
   flex-grow: 0;
+}
+.M_TopgameWholeheadingMobile {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 89px;
+  gap: 20px;
+
+  width: 768px;
+  height: 207px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.M_TopgameVisual {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 514px;
+  height: 520px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Разбор монстров */
+
+.M_MenuBarMain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1px;
+  gap: 10px;
+
+  position: relative;
+  width: 960px;
+  height: 72px;
+
+  background: #ffffff;
+}
+
+.M_MenuBarBreadcrumbs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px 1px 1px 0px;
+
+  position: relative;
+  width: 960px;
+  height: 72px;
+
+  background: #ffffff;
+}
+.M_Card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px;
+  gap: 10px;
+
+  overflow: hidden;
+  width: 479.5px;
+  height: 138px;
+  left: 20px;
+  top: 180px;
+
+  background: #000000;
+  border-radius: 12px;
+}
+
+.M_MonsterStatusFrame {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 9px 13px;
+  gap: 10px;
+
+  position: relative;
+  width: 291px;
+  height: 55px;
+
+  border: 1px solid #4cff53;
 }

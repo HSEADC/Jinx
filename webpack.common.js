@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const webpack = require('webpack')
 const path = require('path')
@@ -15,8 +16,10 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'docs')
+    path: path.resolve(__dirname, 'docs'),
     /*clean: true*/
+    path: path.resolve(__dirname, 'docs')
+    // clean: true
   },
   module: {
     rules: [
@@ -76,6 +79,9 @@ module.exports = {
       filename: '[name].css',
       chunkFilename: '[id].css'
     }),
+    new CopyPlugin({
+      patterns: [{ from: 'src/share', to: 'share' }]
+    }),
     // Index
     new HtmlWebpackPlugin({
       hash: true,
@@ -110,27 +116,6 @@ module.exports = {
       filename: './about.html',
       chunks: ['index']
     }),
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/dictionary.html',
-      filename: './dictionary.html',
-      chunks: ['dictionary']
-    }),
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/topgame.html',
-      filename: './topgame.html',
-      chunks: ['dictionary']
-    }),
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/mechanicsplay.html',
-      filename: './mechanicsplay.html',
-      chunks: ['dictionary']
-    }),
 
     // Articles
     new HtmlWebpackPlugin({
@@ -161,6 +146,50 @@ module.exports = {
       filename: './About_project.html',
       chunks: ['index']
     }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/dictionary.html',
+      filename: './dictionary.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/indi_game.html',
+      filename: './indi_game.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/top_game.html',
+      filename: './top_game.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/mechanics.html',
+      filename: './mechanics.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/real_scare.html',
+      filename: './real_scare.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/see_video.html',
+      filename: './see_video.html',
+      chunks: ['dictionary']
+    }),
+
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -239,6 +268,22 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/Video/Trailer.html',
       filename: './Video/Trailer.html',
+      chunks: ['index']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tizer.html',
+      filename: './tizer.html',
+      chunks: ['index']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main_page.html',
+      filename: './main_page.html',
       chunks: ['index']
     }),
 

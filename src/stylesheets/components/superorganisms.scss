@@ -1,0 +1,85 @@
+/* Меню */
+.S_MenuBar {
+  /* Auto layout */
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 100vw;
+  height: 72px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 99;
+}
+
+/* Инди игры */
+.S_IndiegameArticle {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px 0px 0px;
+
+  position: relative;
+
+  margin: 0 auto;
+}
+
+/* Разбор монстров */
+
+.S_MenuBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: relative;
+  width: 1920px;
+  height: 72px;
+}
+
+.S_MonsterCards {
+  overflow-y: hidden;
+  overflow-x: visible;
+  // display: flex;
+  // flex-direction: row;
+  // align-items: flex-start;
+  // padding: 0px;
+  // isolation: isolate;
+  //
+  // position: relative;
+  // width: 959px;
+  // height: 922px;
+
+  display: grid;
+  grid-auto-flow: column;
+  // flex-direction: row;
+  // align-items: flex-start;
+  padding: 0px;
+
+  width: 960px;
+  height: 922px;
+  left: 0px;
+  top: 72px;
+}
+.S_Article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 1px 1px;
+
+  position: relative;
+  width: 960.5px;
+  height: 922px;
+
+  background: #ffffff;
+}

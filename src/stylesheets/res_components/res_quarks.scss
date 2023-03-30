@@ -1,0 +1,896 @@
+@media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture2560.png');
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_2560.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1122px;
+    height: 36px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_2560.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 2070px;
+    height: 36px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    display: none;
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px;
+
+    // width: 590px;
+    // height: 15px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture.png');
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_1920.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 838px;
+    height: 27px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_1920.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1550px;
+    height: 27px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    display: none;
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px;
+
+    // width: 590px;
+    // height: 15px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture1440.png');
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_1440.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 630px;
+    height: 27px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_1440.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1164px;
+    height: 27px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    display: none;
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px;
+
+    // width: 590px;
+    // height: 15px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture1366.png');
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_1366.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 600px;
+    height: 19px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_1366.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1106px;
+    height: 19px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    display: none;
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px;
+
+    // width: 590px;
+    // height: 15px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture1024.png');
+  }
+  .Q_Burger {
+    display: flex;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_1024.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 446px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_1024.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 826px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    display: none;
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px;
+
+    // width: 590px;
+    // height: 15px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture1024.png');
+  }
+  .Q_Burger {
+    display: flex;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_1024.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 446px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_1024.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 826px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    display: none;
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px;
+
+    // width: 590px;
+    // height: 15px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+}
+@media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture768.png');
+  }
+  .Q_Burger {
+    display: flex;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_768.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 538px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    display: none;
+    // background-image: url(images/Q_TopgameLine_768.svg);
+    // background-size: cover;
+
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px;
+
+    // width: 590px;
+    // height: 15px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    background-image: url('images/Q_TopgameLine_768.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 590px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture768.png');
+  }
+  .Q_Burger {
+    display: flex;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_768.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 538px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    display: none;
+    // background-image: url(images/Q_TopgameLine_768.svg);
+    // background-size: cover;
+
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px;
+
+    // width: 590px;
+    // height: 15px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    background-image: url('images/Q_TopgameLine_768.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 590px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture414.png');
+  }
+  .Q_Burger {
+    display: flex;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_414.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 357px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    display: none;
+    // background-image: url(images/Q_TopgameLine_414.svg);
+    // background-size: cover;
+
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px 29px;
+
+    // width: 414px;
+    // height: 8px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    margin: 0 auto;
+    background-image: url('images/Q_TopgameLine_414.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px;
+
+    width: 356px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 414px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture414.png');
+  }
+  .Q_Burger {
+    display: flex;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_414.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 357px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    display: none;
+    // background-image: url(images/Q_TopgameLine_414.svg);
+    // background-size: cover;
+
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px 29px;
+
+    // width: 414px;
+    // height: 8px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    margin: 0 auto;
+    background-image: url('images/Q_TopgameLine_414.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px;
+
+    width: 356px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture360.png');
+  }
+  .Q_Burger {
+    display: flex;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_360.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 326px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    display: none;
+    // background-image: url(images/Q_TopgameLine_360.svg);
+    // background-size: cover;
+
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: flex-start;
+    // padding: 0px 29px;
+
+    // width: 315px;
+    // height: 8px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    margin: 0 auto;
+    background-image: url('images/Q_TopgameLine_360.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px;
+
+    width: 257px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture360.png');
+  }
+  .Q_Burger {
+    display: flex;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_360.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 326px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    display: none;
+    // background-image: url(images/Q_TopgameLine_360.svg);
+    // background-size: cover;
+
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: flex-start;
+    // padding: 0px 29px;
+
+    // width: 315px;
+    // height: 8px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+  .Q_TopgameLineMobile {
+    margin: 0 auto;
+    background-image: url('images/Q_TopgameLine_360.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px;
+
+    width: 257px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.W_MenuBarMainRoundedBorder {
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 70px;
+
+  background: #000000;
+  border-radius: 12px;
+}
+.W_MenuBarBreadcrumbsRoundedBorder {
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 21px 18px 39px;
+  gap: 10px;
+
+  width: 100%;
+  height: 70px;
+
+  background: #000000;
+  border-radius: 12px;
+}
