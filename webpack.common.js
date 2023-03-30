@@ -154,6 +154,7 @@ module.exports = {
       filename: './dictionary.html',
       chunks: ['dictionary']
     }),
+<<<<<<< HEAD
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -189,6 +190,8 @@ module.exports = {
       filename: './see_video.html',
       chunks: ['dictionary']
     }),
+=======
+>>>>>>> a24a91de18e0100fe77fd71f1c8c212c6bc2a019
 
     new HtmlWebpackPlugin({
       hash: true,
