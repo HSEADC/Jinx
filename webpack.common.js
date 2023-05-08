@@ -139,12 +139,54 @@ module.exports = {
       filename: './Fear.html',
       chunks: ['index']
     }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/About_project.html',
+      filename: './About_project.html',
+      chunks: ['index']
+    }),
 
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/dictionary.html',
       filename: './dictionary.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/indi_game.html',
+      filename: './indi_game.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/top_game.html',
+      filename: './top_game.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/mechanics.html',
+      filename: './mechanics.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/real_scare.html',
+      filename: './real_scare.html',
+      chunks: ['dictionary']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/see_video.html',
+      filename: './see_video.html',
       chunks: ['dictionary']
     }),
 
