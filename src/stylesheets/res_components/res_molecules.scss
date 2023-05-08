@@ -1,0 +1,199 @@
+@media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  .M_MenuBarMain {
+    height: 96px;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    height: 96px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 609px;
+    height: 560px;
+
+    border-radius: 16px;
+  }
+}
+@media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  .M_MenuBarMain {
+    height: 72px;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    height: 72px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 456px;
+    height: 429px;
+
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  .M_MenuBarMain {
+    height: 64px;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    height: 64px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 343px;
+    height: 322px;
+
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .M_MenuBarMain {
+    height: 54px;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    height: 54px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 325px;
+    height: 307px;
+
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .M_MenuBarMain {
+    display: none;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    padding: 1px 1px 1px 1px;
+    width: 100%;
+    height: 54px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 243px;
+    height: 228px;
+
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .M_MenuBarMain {
+    display: none;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    padding: 1px 1px 1px 1px;
+    width: 100%;
+    height: 54px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 243px;
+    height: 228px;
+
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  .M_MenuBarMain {
+    display: none;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    padding: 1px 1px 1px 1px;
+    width: 100%;
+    height: 54px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 199px;
+    height: 187px;
+
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+  .M_MenuBarMain {
+    display: none;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    padding: 1px 1px 1px 1px;
+    width: 100%;
+    height: 54px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 199px;
+    height: 187px;
+
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 414px) {
+  .M_MenuBarMain {
+    display: none;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    padding: 1px 1px 1px 1px;
+    width: 100%;
+    height: 54px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 344px;
+    height: 325px;
+
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+  .M_MenuBarMain {
+    display: none;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    padding: 1px 1px 1px 1px;
+    width: 100%;
+    height: 54px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 344px;
+    height: 325px;
+
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .M_MenuBarMain {
+    display: none;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    padding: 1px 1px 1px 1px;
+    width: 100%;
+    height: 46px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 299px;
+    height: 270px;
+
+    border-radius: 8px;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  .M_MenuBarMain {
+    display: none;
+  }
+
+  .M_MenuBarBreadcrumbs {
+    padding: 1px 1px 1px 1px;
+    width: 100%;
+    height: 46px;
+  }
+  .M_VideoBrowserSmallCard {
+    width: 299px;
+    height: 270px;
+
+    border-radius: 8px;
+  }
+}

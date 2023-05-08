@@ -1,0 +1,26 @@
+.C_MenuBarNavigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 35px;
+
+  gap: 45px;
+  height: 70px;
+}
+.C_VideoBrowserSmallCards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 75px;
+
+  width: 1518px;
+  height: 429px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}

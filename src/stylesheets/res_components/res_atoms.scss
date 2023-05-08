@@ -1,0 +1,690 @@
+@media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  .A_MenuBarButton {
+    font-size: 28px;
+    width: 170px;
+    line-height: 22px;
+
+    &.Navigation {
+      width: 238px;
+    }
+
+    &.Article {
+      width: 101px;
+    }
+
+    &.Video {
+      width: 84px;
+    }
+
+    &.Rating {
+      width: 236px;
+    }
+    &.About {
+      width: 198px;
+    }
+  }
+  .A_MenuBarLogo {
+    width: 113px;
+    height: 45px;
+    background-image: url('images/components/atoms/A_MenuBarLogo2560.svg');
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 16px;
+    height: 18px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 19px 25px;
+
+    width: 609px;
+    height: 193px;
+
+    border-radius: 16px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 102px;
+    height: 19px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 12px;
+    height: 15px;
+  }
+}
+@media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  .A_MenuBarButton {
+    font-size: 20px;
+    width: 170px;
+    line-height: 22px;
+
+    &.Navigation {
+      width: 170px;
+    }
+
+    &.Article {
+      width: 72px;
+    }
+
+    &.Video {
+      width: 60px;
+    }
+
+    &.Rating {
+      width: 170px;
+    }
+    &.About {
+      width: 152px;
+    }
+  }
+  .A_MenuBarLogo {
+    width: 85px;
+    height: 34px;
+    background-image: url('images/components/atoms/A_MenuBarLogo.svg');
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 13px;
+    height: 14px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 19px 25px;
+
+    width: 456px;
+    height: 154px;
+
+    border-radius: 12px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 78px;
+    height: 14px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 9px;
+    height: 13px;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  .A_MenuBarButton {
+    font-size: 18px;
+    width: 152px;
+    line-height: 20px;
+
+    &.Navigation {
+      width: 153px;
+    }
+
+    &.Article {
+      width: 65px;
+    }
+
+    &.Video {
+      width: 54px;
+    }
+
+    &.Rating {
+      width: 152px;
+    }
+    &.About {
+      width: 124px;
+    }
+  }
+  .A_MenuBarLogo {
+    width: 64px;
+    height: 26px;
+    background-image: url('images/components/atoms/A_MenuBarLogo1440.svg');
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 10px;
+    height: 10px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 14px 19px;
+
+    width: 343px;
+    height: 116px;
+
+    border-radius: 10px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 60px;
+    height: 11px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 7px;
+    height: 9px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .A_MenuBarButton {
+    font-size: 15px;
+    width: 126px;
+    line-height: 17px;
+
+    &.Navigation {
+      width: 128px;
+    }
+
+    &.Article {
+      width: 54px;
+    }
+
+    &.Video {
+      width: 45px;
+    }
+
+    &.Rating {
+      width: 126px;
+    }
+    &.About {
+      width: 107px;
+    }
+  }
+  .A_MenuBarLogo {
+    width: 54px;
+    height: 22px;
+    background-image: url('images/components/atoms/A_MenuBarLogo1366.svg');
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 9px;
+    height: 10px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 14px 18px;
+
+    width: 325px;
+    height: 112px;
+
+    border-radius: 10px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 54px;
+    height: 10px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 6px;
+    height: 8px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .A_MenuBarButton {
+    display: none;
+    font-size: 12px;
+    width: 170px;
+    line-height: 9px;
+
+    &.Navigation {
+      width: 155px;
+      display: flex;
+      order: 3;
+      justify-content: flex-end;
+    }
+
+    &.Article {
+      width: 101px;
+    }
+
+    &.Video {
+      width: 84px;
+    }
+
+    &.Rating {
+      width: 236px;
+    }
+    &.About {
+      width: 198px;
+    }
+  }
+
+  .A_MenuBarLogo {
+    order: 2;
+    width: 54px;
+    height: 22px;
+    background-image: url('images/components/atoms/A_MenuBarLogo1366.svg');
+  }
+
+  .A_BurgerButton {
+    order: 1;
+    display: flex;
+    width: 155px;
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 8px;
+    height: 8px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 10px 13px;
+
+    width: 243px;
+    height: 82px;
+
+    border-radius: 10px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 42px;
+    height: 8px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 5px;
+    height: 7px;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .A_MenuBarButton {
+    display: none;
+    font-size: 12px;
+    width: 170px;
+    line-height: 9px;
+
+    &.Navigation {
+      width: 155px;
+      display: flex;
+      order: 3;
+      justify-content: flex-end;
+    }
+
+    &.Article {
+      width: 101px;
+    }
+
+    &.Video {
+      width: 84px;
+    }
+
+    &.Rating {
+      width: 236px;
+    }
+    &.About {
+      width: 198px;
+    }
+  }
+
+  .A_MenuBarLogo {
+    order: 2;
+    width: 54px;
+    height: 22px;
+    background-image: url('images/components/atoms/A_MenuBarLogo1366.svg');
+  }
+
+  .A_BurgerButton {
+    order: 1;
+    display: flex;
+    width: 155px;
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 8px;
+    height: 8px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 10px 13px;
+
+    width: 243px;
+    height: 82px;
+
+    border-radius: 10px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 42px;
+    height: 8px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 5px;
+    height: 7px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  .A_MenuBarButton {
+    font-size: 15px;
+    line-height: 17px;
+    display: none;
+
+    &.Navigation {
+      width: 155px;
+      display: flex;
+      order: 3;
+      justify-content: flex-end;
+    }
+
+    &.Article {
+      width: 101px;
+    }
+
+    &.Video {
+      width: 84px;
+    }
+
+    &.Rating {
+      width: 236px;
+    }
+    &.About {
+      width: 198px;
+    }
+  }
+  .A_MenuBarLogo {
+    order: 2;
+    width: 54px;
+    height: 22px;
+    background-image: url('images/components/atoms/A_MenuBarLogo1366.svg');
+  }
+  .A_BurgerButton {
+    order: 1;
+    display: flex;
+    width: 155px;
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 8px;
+    height: 8px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 8px 11px;
+
+    width: 199px;
+    height: 67px;
+
+    border-radius: 10px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 36px;
+    height: 7px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 4px;
+    height: 5px;
+  }
+}
+@media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+  .A_MenuBarButton {
+    font-size: 15px;
+    line-height: 17px;
+    display: none;
+
+    &.Navigation {
+      width: 155px;
+      display: flex;
+      order: 3;
+      justify-content: flex-end;
+    }
+
+    &.Article {
+      width: 101px;
+    }
+
+    &.Video {
+      width: 84px;
+    }
+
+    &.Rating {
+      width: 236px;
+    }
+    &.About {
+      width: 198px;
+    }
+  }
+  .A_MenuBarLogo {
+    order: 2;
+    width: 54px;
+    height: 22px;
+    background-image: url('images/components/atoms/A_MenuBarLogo1366.svg');
+  }
+  .A_BurgerButton {
+    order: 1;
+    display: flex;
+    width: 155px;
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 8px;
+    height: 8px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 8px 11px;
+
+    width: 199px;
+    height: 67px;
+
+    border-radius: 10px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 36px;
+    height: 7px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 4px;
+    height: 5px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 414px) {
+  .A_MenuBarButton {
+    font-size: 12px;
+    line-height: 9px;
+    display: none;
+
+    &.Navigation {
+      display: flex;
+      order: 1;
+      width: 124px;
+    }
+
+    &.Article {
+      width: 101px;
+    }
+
+    &.Video {
+      width: 84px;
+    }
+
+    &.Rating {
+      width: 236px;
+    }
+    &.About {
+      width: 198px;
+    }
+  }
+  .A_MenuBarLogo {
+    order: 2;
+    width: 41px;
+    height: 17px;
+    background-image: url('images/components/atoms/A_MenuBarLogo414.svg');
+  }
+  .A_BurgerButton {
+    order: 3;
+    display: flex;
+    width: 129px;
+    justify-content: flex-end;
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 8px;
+    height: 8px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 14px 18px;
+
+    width: 344px;
+    height: 112px;
+
+    border-radius: 10px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 54px;
+    height: 10px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 7px;
+    height: 8px;
+  }
+}
+@media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+  .A_MenuBarButton {
+    font-size: 12px;
+    line-height: 9px;
+    display: none;
+
+    &.Navigation {
+      display: flex;
+      order: 1;
+      width: 124px;
+    }
+
+    &.Article {
+      width: 101px;
+    }
+
+    &.Video {
+      width: 84px;
+    }
+
+    &.Rating {
+      width: 236px;
+    }
+    &.About {
+      width: 198px;
+    }
+  }
+  .A_MenuBarLogo {
+    order: 2;
+    width: 41px;
+    height: 17px;
+    background-image: url('images/components/atoms/A_MenuBarLogo414.svg');
+  }
+  .A_BurgerButton {
+    order: 3;
+    display: flex;
+    width: 129px;
+    justify-content: flex-end;
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 8px;
+    height: 8px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 14px 18px;
+
+    width: 344px;
+    height: 112px;
+
+    border-radius: 10px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 54px;
+    height: 10px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 7px;
+    height: 8px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .A_MenuBarButton {
+    font-size: 9px;
+    line-height: 9px;
+    display: none;
+
+    &.Navigation {
+      display: flex;
+      order: 2;
+      width: 129px;
+    }
+
+    &.Article {
+      width: 101px;
+    }
+
+    &.Video {
+      width: 84px;
+    }
+
+    &.Rating {
+      width: 236px;
+    }
+    &.About {
+      width: 198px;
+    }
+  }
+  .A_MenuBarLogo {
+    order: 2;
+    width: 41px;
+    height: 17px;
+    background-image: url('images/components/atoms/A_MenuBarLogo414.svg');
+  }
+  .A_BurgerButton {
+    order: 3;
+    display: flex;
+    width: 129px;
+    justify-content: flex-end;
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 6px;
+    height: 7px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 12px 16px;
+
+    width: 299px;
+    height: 96px;
+
+    border-radius: 8px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 48px;
+    height: 9px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 6px;
+    height: 7px;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  .A_MenuBarButton {
+    font-size: 9px;
+    line-height: 9px;
+    display: none;
+
+    &.Navigation {
+      display: flex;
+      order: 2;
+      width: 129px;
+    }
+
+    &.Article {
+      width: 101px;
+    }
+
+    &.Video {
+      width: 84px;
+    }
+
+    &.Rating {
+      width: 236px;
+    }
+    &.About {
+      width: 198px;
+    }
+  }
+  .A_MenuBarLogo {
+    order: 2;
+    width: 41px;
+    height: 17px;
+    background-image: url('images/components/atoms/A_MenuBarLogo414.svg');
+  }
+  .A_BurgerButton {
+    order: 3;
+    display: flex;
+    width: 129px;
+    justify-content: flex-end;
+  }
+  .A_VideoBrowserBannerContentPlayButton {
+    width: 6px;
+    height: 7px;
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 12px 16px;
+
+    width: 299px;
+    height: 96px;
+
+    border-radius: 8px;
+  }
+  .A_VideoBrowserSmallCardContentType {
+    width: 48px;
+    height: 9px;
+  }
+  .A_VideoBrowserSmallCardContentPlay {
+    width: 6px;
+    height: 7px;
+  }
+}

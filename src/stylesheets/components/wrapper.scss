@@ -1,0 +1,104 @@
+.W_MenuBarMainRoundedBorder {
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 70px;
+
+  background: #000000;
+  border-radius: 12px;
+}
+.W_MenuBarBreadcrumbsRoundedBorder {
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 21px 18px 39px;
+  gap: 10px;
+
+  width: 100%;
+  height: 70px;
+
+  background: #000000;
+  border-radius: 12px;
+}
+.W_VideoBrowserBannerContentType {
+  overflow-y: hidden;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+
+  width: 145px;
+  height: 19px;
+}
+.W_VideoBrowserBannerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 54px;
+
+  width: 1488px;
+  height: 504px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  z-index: 1;
+}
+.W_VideoBrowserCards {
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 75px;
+  gap: 70px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.W_VideoBrowserSmallCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 406px;
+  height: 119px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.W_VideoBrowserSmallCardContentType {
+  /* Auto layout */
+  overflow-y: hidden;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 3px;
+
+  width: 406px;
+  height: 14px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
