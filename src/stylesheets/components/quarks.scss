@@ -1,4 +1,4 @@
-/* Меню */
+/* Меню-бар */
 
 .Q_GrungeTexture {
   position: absolute;
@@ -77,4 +77,403 @@
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+}
+
+/* Лендинг */
+.Q_LandingSection01Logo {
+  filter: drop-shadow(0px 0px 10px #ffffff)
+    drop-shadow(0px 0px 50px rgba(255, 255, 255, 0.4))
+    drop-shadow(0px 0px 165px rgba(255, 255, 255, 0.5));
+  width: 713px;
+  height: 283px;
+  background-image: url('images/components/quarks/1920x1080/Q_LandingSection01Logo.svg');
+}
+
+.Q_LandingSection01SubTitle {
+  overflow: visible;
+
+  width: 360px;
+  height: 27px;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--acid-green);
+
+  text-shadow: 0px 0px 4px var(--acid-green), 0px 0px 28px var(--acid-green);
+}
+
+.Q_LandingSection01DownArrow {
+  position: absolute;
+  overflow: visible;
+  width: 34px;
+  height: 19px;
+  top: 846px;
+  left: calc(50vw - 34px / 2);
+
+  background-image: url('images/components/quarks/1920x1080/Q_LandingSection01DownArrow.svg');
+  filter: drop-shadow(0px 0px 4px var(--acid-green))
+    drop-shadow(0px 0px 28px var(--acid-green));
+}
+
+.Q_LandingInsertTitleBracketL {
+  background-image: url('images/components/quarks/1920x1080/Q_LandingInsertTitleBracketL.svg');
+  width: 11px;
+  height: 28px;
+}
+
+.Q_LandingInsertTitleBracketR {
+  background-image: url('images/components/quarks/1920x1080/Q_LandingInsertTitleBracketR.svg');
+  width: 11px;
+  height: 28px;
+}
+
+.Q_LandingInsertTitleText {
+  display: flex;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: var(--acid-green);
+}
+
+.Q_LandingSection02PictureLeft {
+  mix-blend-mode: lighten;
+  background-image: url('images/components/quarks/1920x1080/Q_LandingSection02PictureLeft.png');
+  position: absolute;
+  width: 668px;
+  height: 1073px;
+  left: 0px;
+  top: 944px;
+}
+
+.Q_LandingSection02PictureRight {
+  background-image: url('images/components/quarks/1920x1080/Q_LandingSection02PictureRight.png');
+  position: absolute;
+  width: 888px;
+  height: 1073px;
+  right: 0px;
+  top: 944px;
+}
+
+.Q_LandingSection03Title {
+  width: 1153px;
+  height: 156px;
+
+  font-family: 'Jinx Font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 136px;
+  line-height: 156px;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.Q_LandingSection03CardKeyPicture {
+  width: 550px;
+  height: 365px;
+
+  background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardKeyPicture.png');
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.Q_LandingSection03CardEyePicture {
+  width: 550px;
+  height: 365px;
+
+  background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardEyePicture.png');
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.Q_LandingSection03CardHeartPicture {
+  width: 550px;
+  height: 365px;
+
+  background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardHeartPicture.png');
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.Q_LandingSection03CardContentTitle {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: var(--acid-green);
+}
+
+.Q_LandingSection03CardContentParagraph {
+  width: 501px;
+  height: 66px;
+  overflow-y: hidden;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+.Q_LandingDivider {
+  background: url('images/components/quarks/1920x1080/Q_LandingDivider.svg')
+    no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 27px;
+}
+
+.Q_LandingSection04Title {
+  width: 1225px;
+  height: 100%;
+
+  font-family: 'Jinx Font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 136px;
+  line-height: 98%;
+  color: black;
+  text-transform: uppercase;
+
+  padding: 284px 0px 0px 17px;
+}
+
+.Q_LandingSection04Picture {
+  position: absolute;
+  width: 725px;
+  height: 826px;
+  right: 0px;
+  top: 92px;
+
+  mix-blend-mode: multiply;
+  background: url('images/components/quarks/1920x1080/Q_LandingSection04Picture.png');
+}
+
+.Q_LandingSmallCardTitle {
+  overflow-y: hidden;
+
+  width: 546px;
+  height: 48px;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 48px;
+  text-transform: uppercase;
+
+  color: var(--acid-green);
+}
+
+.Q_LandingSmallCardParagraph {
+  overflow-y: hidden;
+  width: 546px;
+  height: 74px;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 37px;
+
+  color: white;
+}
+.Q_ConnectHalfDown {
+  width: 41px;
+  height: 104px;
+  background: url('images/components/quarks/1920x1080/Q_ConnectHalfDown.svg');
+  margin-top: -1px;
+}
+
+.Q_ConnectHalfUp {
+  width: 41px;
+  height: 104px;
+  background: url('images/components/quarks/1920x1080/Q_ConnectHalfUp.svg');
+  margin-bottom: -1px;
+}
+
+.Q_LandingSection05PictureRight {
+  background: url('images/components/quarks/1920x1080/Q_LandingSection05PictureRight.png');
+
+  position: absolute;
+  width: 725px;
+  height: 1389px;
+  right: 0px;
+  top: 4086px;
+
+  mix-blend-mode: lighten;
+}
+
+.Q_LandingSection05PictureLeft {
+  background: url('images/components/quarks/1920x1080/Q_LandingSection05PictureLeft.png');
+
+  position: absolute;
+  width: 666px;
+  height: 1368px;
+  left: 0px;
+  top: 4086px;
+
+  mix-blend-mode: lighten;
+}
+
+.Q_LandingFearRatingTitle {
+  overflow-y: hidden;
+  width: 917px;
+  height: 399px;
+
+  padding: 0px 0px 0px 67px;
+
+  font-family: 'Jinx Font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 136px;
+  line-height: 98%;
+
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.Q_LandingFearRatingContentAnimation {
+  width: 100%;
+  height: 296px;
+  background: url('images/components/quarks/1920x1080/Q_LandingFearRatingContentAnimation.gif');
+}
+
+.Q_LandingFearRatingDescriptorActive {
+  width: 33px;
+  height: 633px;
+  background: url('images/components/quarks/1920x1080/Q_LandingFearRatingDescriptorActive.svg');
+  filter: drop-shadow(0px 0px 4px var(--acid-green))
+    drop-shadow(0px 0px 28px var(--acid-green));
+}
+
+.Q_LandingFearRatingDescriptorText {
+  padding: 24px 0px 0px;
+
+  width: 522px;
+  height: 152px;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 32px;
+
+  color: white;
+}
+
+.Q_LandingSection08Picture {
+  position: absolute;
+  width: 685px;
+  height: 100%;
+  background: url('images/components/quarks/1920x1080/Q_LandingSection08Picture.png')
+    no-repeat;
+  mix-blend-mode: multiply;
+
+  left: 0px;
+  top: 0px;
+}
+
+.Q_LandingSection08LinkLogo {
+  overflow: visible;
+
+  width: 100%;
+  height: 218px;
+
+  background: url('images/components/quarks/1920x1080/Q_LandingSection08LinkLogo.svg');
+  z-index: -99;
+}
+
+.Q_LandingSection08FooterButtonsCenterCredits {
+  display: flex;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.Q_LandingSection08FooterButtonsCenterCredits:hover {
+  filter: invert(1);
+}
+
+.Q_LandingFooterButtonVK {
+  display: flex;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.Q_LandingFooterButtonVK:hover {
+  filter: invert(1);
+}
+
+.Q_LandingFooterButtonTG {
+  display: flex;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.Q_LandingFooterButtonTG:hover {
+  filter: invert(1);
+}
+
+.Q_LandingSection08FooterButtonUpText {
+  display: flex;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.Q_LandingSection08FooterButtonUpIcon {
+  padding: 6px;
+  background: url('images/components/quarks/1920x1080/Q_LandingSection08FooterButtonUpIcon.svg')
+    center center no-repeat;
+  width: 23px;
+  height: 23px;
+  border: 1px solid #000000;
+
+  cursor: pointer;
 }

@@ -1,3 +1,55 @@
+/* Смотреть видео */
+.O_Video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 11px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+  margin: 0 auto;
+}
+.O_VideoDiscription {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 630px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+/* Инди игры */
+.O_Indiegame {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 18px;
+  gap: 8vw;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Разбор монстров */
+
 .O_MonsterCard {
   display: flex;
   flex-direction: column;
@@ -22,4 +74,89 @@
 
   background: #000000;
   border-radius: 12px;
+}
+
+/* Лендинг */
+.O_LandingSection03CardKey {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 534px;
+  border-radius: 12px;
+  background-color: white;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.O_LandingSection03CardEye {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 534px;
+  border-radius: 12px;
+  background-color: white;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.O_LandingSection03CardHeart {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 534px;
+  border-radius: 12px;
+  background-color: white;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.O_LandingCardLinks {
+  overflow: visible;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: absolute;
+  width: 661px;
+  height: 1054px;
+  left: calc(50% - 661px / 2);
+  top: 4260px;
+}
+
+.O_LandingFearRatingContent {
+  height: 296px;
+  mix-blend-mode: lighten;
+}
+
+.O_LandingSection08Link {
+  overflow: visible;
+
+  height: 330px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px;
+
+  width: 550px;
+  z-index: 1;
+}
+
+.O_LandingFooter {
+  overflow: visible;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 39px;
+  z-index: 1;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  height: 89px;
 }

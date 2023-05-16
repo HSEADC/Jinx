@@ -1,5 +1,7 @@
+/* Меню-бар */
+
 .W_MenuBarMainRoundedBorder {
-  overflow-y: hidden;
+  overflow: visible;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +11,7 @@
 
   background: #000000;
   border-radius: 12px;
+  padding-right: 35px;
 }
 .W_MenuBarBreadcrumbsRoundedBorder {
   overflow-y: hidden;
@@ -23,4 +26,19 @@
 
   background: #000000;
   border-radius: 12px;
+}
+
+/* Лендинг */
+
+.W_LandingSection01 {
+  position: absolute;
+  left: calc(50vw - 713px / 2);
+  top: 275px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  align-items: center;
+
+  overflow: visible;
 }
