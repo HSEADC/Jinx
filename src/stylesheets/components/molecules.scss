@@ -1,29 +1,161 @@
+/* Меню */
 .M_MenuBarMain {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 1px;
-  gap: 10px;
 
-  position: relative;
-  width: 960px;
+  width: 50%;
   height: 72px;
 
-  background: #ffffff;
+  background: var(--white);
 }
 
 .M_MenuBarBreadcrumbs {
+  overflow-y: hidden;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 1px 1px 1px 0px;
 
-  position: relative;
-  width: 960px;
+  width: 50%;
   height: 72px;
 
-  background: #ffffff;
+  background: var(--white);
 }
+
+/* Страшно реально */
+.M_ScaryreallyUnderpicture {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 530px;
+  height: 28px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Разбор механик */
+.M_AnalysismechanicsTextpart {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: 472px;
+  height: 100%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Топы игры */
+.M_TopgamePosition {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+
+  text-transform: uppercase;
+
+  color: var(--acid-orange);
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+
+  width: 514px;
+  height: 25px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Инди игры */
+.M_TopgameWholeheading {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 1164px;
+  height: 90px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.M_TopgameWholeheadingMobile {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 89px;
+  gap: 20px;
+
+  width: 768px;
+  height: 207px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.M_TopgameVisual {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 514px;
+  height: 520px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Разбор монстров */
+
 .M_Card {
   display: flex;
   flex-direction: row;
@@ -57,5 +189,72 @@
   width: 291px;
   height: 55px;
 
-  border: 1px solid #4cff53;
+  border: 1px solid var(--acid-green);
+}
+
+/* Лендинг */
+.M_LandingInsert01 {
+  overflow: visible;
+  position: absolute;
+  width: 690px;
+  left: calc(50vw - 690px / 2);
+  top: 1370px;
+}
+
+.M_LandingInsert02 {
+  overflow: visible;
+  position: absolute;
+  width: 690px;
+  left: calc(50vw - 690px / 2);
+  top: 6984px;
+}
+
+.M_LandingCardLink {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 661px;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.M_LandingCardLink:hover > .Q_ConnectHalfDown {
+  background: url('images/components/quarks/1920x1080/Q_ConnectHalfDownActive.svg');
+}
+
+.M_LandingCardLink:hover > .Q_ConnectHalfUp {
+  background: url('images/components/quarks/1920x1080/Q_ConnectHalfUpActive.svg');
+}
+
+.M_LandingCardLink:hover > .A_LandingSmallCard {
+  overflow: visible;
+  border: 1px solid var(--acid-green);
+  box-shadow: 0px 0px 4px var(--acid-green),
+    0px 0px 28px rgba(76, 255, 83, 0.25), 0px 0px 40px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 14px rgba(76, 255, 83, 0.2),
+    inset 0px 0px 51px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 140px rgba(76, 255, 83, 0.1);
+}
+
+.M_LandingSection08LinkSub {
+  overflow: visible;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.M_LandingSection08FooterButtons {
+  overflow: visible;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
 }

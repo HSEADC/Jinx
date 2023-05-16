@@ -1,5 +1,7 @@
+/* Меню-бар */
+
 .W_MenuBarMainRoundedBorder {
-  overflow-y: hidden;
+  overflow: visible;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +11,7 @@
 
   background: #000000;
   border-radius: 12px;
+  padding-right: 35px;
 }
 .W_MenuBarBreadcrumbsRoundedBorder {
   overflow-y: hidden;
@@ -24,81 +27,18 @@
   background: #000000;
   border-radius: 12px;
 }
-.W_VideoBrowserBannerContentType {
-  overflow-y: hidden;
+
+/* Лендинг */
+
+.W_LandingSection01 {
+  position: absolute;
+  left: calc(50vw - 713px / 2);
+  top: 275px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 43px;
   align-items: center;
-  gap: 3px;
 
-  width: 145px;
-  height: 19px;
-}
-.W_VideoBrowserBannerContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 54px;
-
-  width: 1488px;
-  height: 504px;
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 1;
-  z-index: 1;
-}
-.W_VideoBrowserCards {
-  overflow-y: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 75px;
-  gap: 70px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.W_VideoBrowserSmallCardContent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 10px;
-
-  width: 406px;
-  height: 119px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 1;
-}
-.W_VideoBrowserSmallCardContentType {
-  /* Auto layout */
-  overflow-y: hidden;
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 3px;
-
-  width: 406px;
-  height: 14px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+  overflow: visible;
 }

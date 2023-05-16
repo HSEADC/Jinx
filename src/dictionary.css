@@ -1,9 +1,21 @@
 @import 'stylesheets/reset.scss';
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/fonts.scss';
-@import 'stylesheets/dictionary.scss';
+@import 'stylesheets/basics.scss';
+
 @import 'stylesheets/components.scss';
 @import 'stylesheets/components/atoms.scss';
+@import 'stylesheets/components/quarks.scss';
 @import 'stylesheets/components/molecules.scss';
 @import 'stylesheets/components/organisms.scss';
 @import 'stylesheets/components/superorganisms.scss';
+@import 'stylesheets/components/collections.scss';
+@import 'stylesheets/components/wrapper.scss';
+
+@import 'stylesheets/res_components/res_atoms.scss';
+@import 'stylesheets/res_components/res_molecules.scss';
+@import 'stylesheets/res_components/res_organisms.scss';
+@import 'stylesheets/res_components/res_superorganisms.scss';
+@import 'stylesheets/res_components/res_components.scss';
+@import 'stylesheets/res_components/res_quarks.scss';
+@import 'stylesheets/res_components/res_collections.scss';

@@ -1,13 +1,34 @@
+/* Меню-бар */
+
 .S_MenuBar {
+  /* Auto layout */
+  position: fixed;
+  top: 0%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
+
+  width: 100vw;
+  height: 72px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 99;
+}
+
+/* Инди игры */
+.S_IndiegameArticle {
+  height: 2000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   position: relative;
-  width: 1920px;
-  height: 72px;
+  margin-top: 72px;
 }
+
+/* Разбор монстров */
 
 .S_MonsterCards {
   overflow-y: hidden;
@@ -44,5 +65,61 @@
   width: 960.5px;
   height: 922px;
 
-  background: #FFFFFF;
+  background: #ffffff;
+}
+
+/* Лендинг */
+.S_LandingSection03 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 89px;
+  position: absolute;
+  width: 1773px;
+  height: 779px;
+  left: calc(49vw - 1773px / 2);
+
+  top: 2081px;
+}
+
+.S_LandingSection04 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 65px 49px;
+
+  position: absolute;
+  width: 100vw;
+  height: 1010px;
+  top: 3076px;
+
+  background-color: var(--acid-green);
+}
+
+.S_LandingFearRating {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  gap: 103px;
+
+  position: absolute;
+  top: 5531px;
+  width: 100vw;
+  height: 798px;
+}
+
+.S_LandingSection08 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 0px 44px;
+  gap: 203px;
+
+  position: absolute;
+  width: 100vw;
+  height: calc(100vh + 203px);
+  top: 7743px;
+
+  background-color: var(--acid-green);
 }

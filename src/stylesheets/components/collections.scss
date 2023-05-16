@@ -1,26 +1,58 @@
+/* Меню-бар */
+
 .C_MenuBarNavigation {
+  overflow: visible;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  padding: 0px 0px 0px 35px;
 
   gap: 45px;
   height: 70px;
 }
-.C_VideoBrowserSmallCards {
+
+/* Лендинг */
+.C_LandingSection03Cards {
+  overflow: visible;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 75px;
-
-  width: 1518px;
-  height: 429px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 1;
+  padding: 0px 0px 0px 13px;
+  gap: 55px;
 }
+
+.C_LandingSection08FooterButtonsCenter {
+  display: flex;
+  gap: 131px;
+}
+
+.C_LandingSection08FooterButtonsCenterSocial {
+  display: flex;
+  gap: 23px;
+}
+
+// .W_MenuBarMainRoundedBorder {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//   align-items: flex-start;
+//   gap: 303px;
+//   padding-right: 35px;
+
+//   position: relative;
+//   width: 958px;
+//   height: 70px;
+
+//   background: #000000;
+//   border-radius: 12px;
+//   .C_MenuBarNavigation {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     padding: 0px 0px 0px 35px;
+//     gap: 45px;
+
+//     width: 512px;
+//     height: 70px;
+
+//     flex: none;
+//     order: 0;
+//     flex-grow: 0;
+//   }
+// }

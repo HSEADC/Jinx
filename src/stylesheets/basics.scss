@@ -1,9 +1,23 @@
-html,
-body {
-  height: 100%;
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
+html,
 body {
   font-family: 'PT Root UI', Helvetica, Arial, sans-serif;
+  font-size: 14px;
   font-weight: 400;
+
+  background: url('images/Q_GrungeTextureMainmenu_1440.png') no-repeat center
+    center fixed;
+  background-size: cover;
+  background-color: var(--black);
+  background-blend-mode: lighten;
+  z-index: 99;
+}
+
+.ArticleLayout {
+  display: flex;
+  flex-direction: column;
 }

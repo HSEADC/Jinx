@@ -2,74 +2,201 @@
   .S_MenuBar {
     height: 96px;
   }
+
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+  }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
   .S_MenuBar {
     height: 72px;
   }
-}
 
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+  }
+}
 @media only screen and (min-width: 1367px) and (max-width: 1740px) {
   .S_MenuBar {
     height: 64px;
   }
-}
 
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+  }
+}
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
   .S_MenuBar {
     height: 54px;
   }
-}
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .S_MenuBar {
-    height: 54px;
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
   }
 }
 @media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   .S_MenuBar {
     height: 54px;
   }
+
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    position: relative;
+  }
 }
-@media only screen and (min-width: 415px) and (max-width: 768px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .S_MenuBar {
     height: 54px;
+  }
+
+  /* Инди игры */
+  .S_IndiegameArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    position: relative;
   }
 }
 @media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
   .S_MenuBar {
     height: 54px;
   }
+
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    position: relative;
+  }
 }
-@media only screen and (min-width: 361px) and (max-width: 414px) {
+@media only screen and (min-width: 415px) and (max-width: 768px) {
   .S_MenuBar {
     height: 54px;
   }
-  .S_VideoBrowserScreen {
-    padding: 30px 0px;
+
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    position: relative;
   }
 }
 @media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
   .S_MenuBar {
     height: 54px;
   }
-  .S_VideoBrowserScreen {
-    padding: 30px 0px;
+
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: relative;
+
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 414px) {
+  .S_MenuBar {
+    height: 54px;
+  }
+
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: relative;
+
+    gap: 10px;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  .S_MenuBar {
+    height: 46px;
+  }
+
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: relative;
+
+    gap: 10px;
   }
 }
 @media only screen and (max-width: 360px) {
   .S_MenuBar {
     height: 46px;
   }
-  .S_VideoBrowserScreen {
-    padding: 75px 0px;
-  }
-}
-@media only screen and (max-device-width: 360px) {
-  .S_MenuBar {
-    height: 30px;
-  }
-  .S_VideoBrowserScreen {
-    padding: 30px 0px;
+
+  /* Инди игры */
+  .S_IndiegameArticle {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: relative;
+
+    gap: 10px;
   }
 }
