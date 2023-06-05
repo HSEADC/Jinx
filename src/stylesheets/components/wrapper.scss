@@ -1,3 +1,18 @@
+/* Лендинг */
+
+.W_LandingSection01 {
+  position: absolute;
+  left: calc(50vw - 713px / 2);
+  top: 275px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  align-items: center;
+
+  overflow: visible;
+}
+
 /* Меню-бар */
 
 .W_MenuBarMainRoundedBorder {
@@ -26,19 +41,4 @@
 
   background: #000000;
   border-radius: 12px;
-}
-
-/* Лендинг */
-
-.W_LandingSection01 {
-  position: absolute;
-  left: calc(50vw - 713px / 2);
-  top: 275px;
-
-  display: flex;
-  flex-direction: column;
-  gap: 43px;
-  align-items: center;
-
-  overflow: visible;
 }

@@ -1,4 +1,171 @@
+/* Лендинг */
+
+.A_LandingInsertContent {
+  overflow-y: hidden;
+
+  width: 690px;
+
+  box-sizing: border-box;
+  padding: 34px 30px 29px;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 26px;
+  color: var(--acid-green);
+
+  background: var(--black);
+  border: 2px solid var(--acid-green);
+}
+
+.A_LandingInsertTitle {
+  height: 34px;
+
+  position: absolute;
+  left: 23px;
+  top: -16px;
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  padding: 0px 9px;
+  gap: 11px;
+}
+
+.A_LandingSection03CardContent {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0px 25px 24px;
+  gap: 13px;
+
+  width: 550px;
+  height: 169px;
+
+  background-color: black;
+
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  border-color: white;
+  border-radius: 12px;
+}
+
+.A_LandingSmallCard {
+  overflow: visible;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+  gap: 20px;
+
+  width: 661px;
+  height: 214px;
+
+  background-color: black;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+}
+
+.A_LandingFearRatingContentDescriptor {
+  overflow: visible;
+
+  display: flex;
+  gap: 7px;
+
+  position: absolute;
+  width: 590px;
+  height: 633px;
+  left: 1258px;
+  top: 231px;
+}
+
+.A_LandingSection08LinkSubTitle {
+  overflow: visible;
+
+  width: 360px;
+  height: 28px;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.A_LandingSection08LinkSubButton {
+  overflow: visible;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 110%;
+
+  text-align: center;
+
+  box-sizing: border-box;
+  padding: 5px 22px 4px;
+  width: 131px;
+  height: 33px;
+
+  border: 2px solid;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.A_LandingSection08LinkSubButton:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.A_LandingSection08FooterButtonAbout {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  display: flex;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.A_LandingSection08FooterButtonAbout:hover {
+  filter: invert(1);
+}
+
+.A_LandingSection08FooterButtonUp {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.A_LandingSection08FooterButtonUp:hover
+  > .Q_LandingSection08FooterButtonUpIcon {
+  filter: invert(1);
+}
+
+.A_LandingSection08FooterButtonUp:hover
+  > .Q_LandingSection08FooterButtonUpText {
+  filter: invert(1);
+}
+
 /* Меню-бар */
+
 .A_MenuBarButton {
   overflow: hidden;
   font-family: 'PT Mono';
@@ -833,168 +1000,4 @@
   order: 2;
   align-self: stretch;
   flex-grow: 0;
-}
-
-/* Лендинг */
-.A_LandingInsertContent {
-  overflow-y: hidden;
-
-  width: 690px;
-
-  box-sizing: border-box;
-  padding: 34px 30px 29px;
-
-  font-family: 'PT Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 23px;
-  line-height: 26px;
-  color: var(--acid-green);
-
-  background: var(--black);
-  border: 2px solid var(--acid-green);
-}
-
-.A_LandingInsertTitle {
-  height: 34px;
-
-  position: absolute;
-  left: 23px;
-  top: -16px;
-  background-color: black;
-
-  display: flex;
-  align-items: center;
-  padding: 0px 9px;
-  gap: 11px;
-}
-
-.A_LandingSection03CardContent {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  padding: 25px 0px 25px 24px;
-  gap: 13px;
-
-  width: 550px;
-  height: 169px;
-
-  background-color: black;
-
-  border-style: solid;
-  border-width: 0px 1px 1px 1px;
-  border-color: white;
-  border-radius: 12px;
-}
-
-.A_LandingSmallCard {
-  overflow: visible;
-  box-sizing: border-box;
-
-  display: flex;
-  flex-direction: column;
-  padding: 36px;
-  gap: 20px;
-
-  width: 661px;
-  height: 214px;
-
-  background-color: black;
-  border: 1px solid #ffffff;
-  border-radius: 12px;
-}
-
-.A_LandingFearRatingContentDescriptor {
-  overflow: visible;
-
-  display: flex;
-  gap: 7px;
-
-  position: absolute;
-  width: 590px;
-  height: 633px;
-  left: 1258px;
-  top: 231px;
-}
-
-.A_LandingSection08LinkSubTitle {
-  overflow: visible;
-
-  width: 360px;
-  height: 28px;
-
-  font-family: 'PT Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 28px;
-
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.A_LandingSection08LinkSubButton {
-  overflow: visible;
-  font-family: 'PT Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 110%;
-
-  text-align: center;
-
-  box-sizing: border-box;
-  padding: 5px 22px 4px;
-  width: 131px;
-  height: 33px;
-
-  border: 2px solid;
-  text-transform: uppercase;
-
-  cursor: pointer;
-  text-decoration: none;
-  color: black;
-}
-
-.A_LandingSection08LinkSubButton:hover {
-  background-color: black;
-  color: white;
-  border-color: black;
-}
-
-.A_LandingSection08FooterButtonAbout {
-  font-family: 'PT Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 17px;
-
-  text-align: center;
-  text-transform: uppercase;
-
-  display: flex;
-
-  cursor: pointer;
-  text-decoration: none;
-  color: black;
-}
-
-.A_LandingSection08FooterButtonAbout:hover {
-  filter: invert(1);
-}
-
-.A_LandingSection08FooterButtonUp {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-.A_LandingSection08FooterButtonUp:hover
-  > .Q_LandingSection08FooterButtonUpIcon {
-  filter: invert(1);
-}
-
-.A_LandingSection08FooterButtonUp:hover
-  > .Q_LandingSection08FooterButtonUpText {
-  filter: invert(1);
 }

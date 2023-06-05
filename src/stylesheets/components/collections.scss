@@ -1,15 +1,5 @@
-/* Меню-бар */
-
-.C_MenuBarNavigation {
-  overflow: visible;
-  display: flex;
-  align-items: center;
-
-  gap: 45px;
-  height: 70px;
-}
-
 /* Лендинг */
+
 .C_LandingSection03Cards {
   overflow: visible;
   display: flex;
@@ -27,32 +17,13 @@
   gap: 23px;
 }
 
-// .W_MenuBarMainRoundedBorder {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   align-items: flex-start;
-//   gap: 303px;
-//   padding-right: 35px;
+/* Меню */
 
-//   position: relative;
-//   width: 958px;
-//   height: 70px;
+.C_MenuBarNavigation {
+  overflow: visible;
+  display: flex;
+  align-items: center;
 
-//   background: #000000;
-//   border-radius: 12px;
-//   .C_MenuBarNavigation {
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     padding: 0px 0px 0px 35px;
-//     gap: 45px;
-
-//     width: 512px;
-//     height: 70px;
-
-//     flex: none;
-//     order: 0;
-//     flex-grow: 0;
-//   }
-// }
+  gap: 45px;
+  height: 70px;
+}

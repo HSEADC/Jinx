@@ -1,12 +1,46 @@
 @media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  /* Лендинг */
+
+  .S_LandingSection03 {
+    gap: 119px;
+    width: 2364px;
+    height: 1038px;
+    left: calc(49vw - 2364px / 2);
+
+    top: 2775px;
+  }
+
+  .S_LandingSection04 {
+    padding: 87px 65px;
+
+    height: 1347px;
+    top: 4101px;
+  }
+
+  .S_LandingFearRating {
+    gap: 137px;
+
+    top: 7375px;
+    height: 1064px;
+  }
+
+  .S_LandingSection08 {
+    padding: 0px 0px 59px;
+    gap: 271px;
+
+    height: calc(100vh + 271px);
+    top: 10324px;
+  }
+
+  /* Меню */
+
   .S_MenuBar {
     height: 96px;
   }
 
   /* Инди игры */
-  .S_IndiegameArticle {
-    /* Auto layout */
 
+  .S_IndiegameArticle {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,14 +49,48 @@
   }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  /* Лендинг */
+
+  .S_LandingSection03 {
+    gap: 89px;
+    width: 1773px;
+    height: 779px;
+    left: calc(49vw - 1773px / 2);
+
+    top: 2081px;
+  }
+
+  .S_LandingSection04 {
+    padding: 65px 49px;
+
+    height: 1010px;
+    top: 3076px;
+  }
+
+  .S_LandingFearRating {
+    gap: 103px;
+
+    top: 5531px;
+    height: 798px;
+  }
+
+  .S_LandingSection08 {
+    padding: 0px 0px 44px;
+    gap: 203px;
+
+    height: calc(100vh + 203px);
+    top: 7743px;
+  }
+
+  /* Меню */
+
   .S_MenuBar {
     height: 72px;
   }
 
   /* Инди игры */
-  .S_IndiegameArticle {
-    /* Auto layout */
 
+  .S_IndiegameArticle {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,14 +99,48 @@
   }
 }
 @media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  /* Лендинг */
+
+  .S_LandingSection03 {
+    gap: 67px;
+    width: 1328px;
+    height: 584px;
+    left: calc(49vw - 1328px / 2);
+
+    top: 1644px;
+  }
+
+  .S_LandingSection04 {
+    padding: 50px 36px;
+
+    height: 900px;
+    top: 2390px;
+  }
+
+  .S_LandingFearRating {
+    gap: 77px;
+
+    top: 4363px;
+    height: 598px;
+  }
+
+  .S_LandingSection08 {
+    padding: 0px 0px 33px;
+    gap: 152px;
+
+    height: calc(100vh + 152px);
+    top: 6033px;
+  }
+
+  /* Меню */
+
   .S_MenuBar {
     height: 64px;
   }
 
   /* Инди игры */
-  .S_IndiegameArticle {
-    /* Auto layout */
 
+  .S_IndiegameArticle {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,44 +149,96 @@
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  /* Лендинг */
+
+  .S_LandingSection03 {
+    gap: 67px;
+    width: 1328px;
+    height: 584px;
+    left: calc(49vw - 1328px / 2);
+
+    top: 1644px;
+  }
+
+  .S_LandingSection04 {
+    padding: 50px 36px;
+
+    height: 900px;
+    top: 2390px;
+  }
+
+  .S_LandingFearRating {
+    gap: 77px;
+
+    top: 4363px;
+    height: 598px;
+  }
+
+  .S_LandingSection08 {
+    padding: 0px 0px 33px;
+    gap: 152px;
+
+    height: calc(100vh + 152px);
+    top: 6033px;
+  }
+
+  /* Меню */
+
   .S_MenuBar {
     height: 54px;
   }
 
   /* Инди игры */
   .S_IndiegameArticle {
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    position: relative;
-  }
-}
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
-  .S_MenuBar {
-    height: 54px;
-  }
-
-  /* Инди игры */
-  .S_IndiegameArticle {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
 
     position: relative;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Лендинг */
+
+  .S_LandingSection03 {
+    gap: 48px;
+    width: 945px;
+    height: 416px;
+    left: calc(49vw - 946px / 2);
+
+    top: 1283px;
+  }
+
+  .S_LandingSection04 {
+    padding: 35px 25px;
+
+    height: 768px;
+    top: 1813px;
+  }
+
+  .S_LandingFearRating {
+    gap: 55px;
+
+    top: 3384px;
+    height: 428px;
+  }
+
+  .S_LandingSection08 {
+    padding: 0px 0px 23px;
+    gap: 214px;
+
+    height: calc(100vh + 214px);
+    top: 4572px;
+  }
+
+  /* Меню */
+
   .S_MenuBar {
     height: 54px;
   }
 
   /* Инди игры */
+
   .S_IndiegameArticle {
     display: flex;
     flex-direction: column;
@@ -94,15 +248,50 @@
     position: relative;
   }
 }
+
 @media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+  /* Лендинг */
+
+  .S_LandingSection03 {
+    gap: 35px;
+    width: 703px;
+    height: 309px;
+    left: calc(50vw - 704px / 2);
+
+    top: 1725px;
+  }
+
+  .S_LandingSection04 {
+    padding: 50px 36px;
+
+    height: 900px;
+    top: 2126px;
+  }
+
+  .S_LandingFearRating {
+    gap: 60px;
+
+    top: 4148px;
+    height: 435px;
+  }
+
+  .S_LandingSection08 {
+    padding: 0px 36px 33px;
+    gap: 273px;
+
+    height: calc(100vh + 273px);
+    top: 5540px;
+  }
+
+  /* Меню */
+
   .S_MenuBar {
     height: 54px;
   }
 
   /* Инди игры */
-  .S_IndiegameArticle {
-    /* Auto layout */
 
+  .S_IndiegameArticle {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -111,32 +300,51 @@
     position: relative;
   }
 }
-@media only screen and (min-width: 415px) and (max-width: 768px) {
-  .S_MenuBar {
-    height: 54px;
-  }
 
-  /* Инди игры */
-  .S_IndiegameArticle {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-
-    position: relative;
-  }
-}
 @media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+  /* Лендинг */
+
+  .S_LandingSection03 {
+    flex-direction: column;
+
+    gap: 20px;
+    width: 94vw;
+    height: 1252px;
+    left: calc(50% - 94vw / 2);
+    top: 165vh;
+  }
+
+  .S_LandingSection04 {
+    padding: 27px 12px;
+
+    height: 54vh;
+    top: 310vh;
+  }
+
+  .S_LandingFearRating {
+    gap: 14vh;
+
+    top: 458vh;
+    height: 49vh;
+  }
+
+  .S_LandingSection08 {
+    padding: 0px 12px 31px;
+    gap: 256px;
+
+    height: calc(100vh + 156px);
+    top: 600vh;
+  }
+
+  /* Меню */
+
   .S_MenuBar {
     height: 54px;
   }
 
   /* Инди игры */
-  .S_IndiegameArticle {
-    /* Auto layout */
 
+  .S_IndiegameArticle {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -146,51 +354,17 @@
     gap: 10px;
   }
 }
-@media only screen and (min-width: 361px) and (max-width: 414px) {
-  .S_MenuBar {
-    height: 54px;
-  }
 
-  /* Инди игры */
-  .S_IndiegameArticle {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    position: relative;
-
-    gap: 10px;
-  }
-}
 @media only screen and (max-device-width: 360px) {
+  /* Меню */
+
   .S_MenuBar {
     height: 46px;
   }
 
   /* Инди игры */
+
   .S_IndiegameArticle {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    position: relative;
-
-    gap: 10px;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .S_MenuBar {
-    height: 46px;
-  }
-
-  /* Инди игры */
-  .S_IndiegameArticle {
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;

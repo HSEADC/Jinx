@@ -1,4 +1,15 @@
 @media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  /* Лендинг */
+
+  .W_LandingSection01 {
+    left: calc(50vw - 952px / 2);
+    top: 367px;
+
+    gap: 57px;
+  }
+
+  /* Меню */
+
   .W_MenuBarMainRoundedBorder {
     height: 94px;
 
@@ -6,14 +17,23 @@
   }
   .W_MenuBarBreadcrumbsRoundedBorder {
     padding: 18px 30px 18px 50px;
-
     height: 94px;
-
     border-radius: 16px;
   }
 }
 
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  /* Лендинг */
+
+  .W_LandingSection01 {
+    left: calc(50vw - 713px / 2);
+    top: 275px;
+
+    gap: 43px;
+  }
+
+  /* Меню */
+
   .W_MenuBarMainRoundedBorder {
     height: 70px;
 
@@ -29,6 +49,17 @@
 }
 
 @media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  /* Лендинг */
+
+  .W_LandingSection01 {
+    left: calc(50vw - 536px / 2);
+    top: 256px;
+
+    gap: 32px;
+  }
+
+  /* Меню */
+
   .W_MenuBarMainRoundedBorder {
     height: 62px;
 
@@ -44,6 +75,17 @@
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  /* Лендинг */
+
+  .W_LandingSection01 {
+    left: calc(50vw - 536px / 2);
+    top: 256px;
+
+    gap: 32px;
+  }
+
+  /* Меню */
+
   .W_MenuBarMainRoundedBorder {
     height: 52px;
 
@@ -59,6 +101,17 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Лендинг */
+
+  .W_LandingSection01 {
+    left: calc(50vw - 382px / 2);
+    top: 236px;
+
+    gap: 22px;
+  }
+
+  /* Меню */
+
   .W_MenuBarMainRoundedBorder {
     display: none;
   }
@@ -71,31 +124,19 @@
     border-radius: 10px;
   }
 }
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
-  .W_MenuBarMainRoundedBorder {
-    display: none;
-  }
-  .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 15px 18px 22px;
 
-    height: 52px;
-
-    border-radius: 10px;
-  }
-}
-@media only screen and (min-width: 415px) and (max-width: 768px) {
-  .W_MenuBarMainRoundedBorder {
-    display: none;
-  }
-  .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 15px 18px 22px;
-
-    height: 52px;
-
-    border-radius: 10px;
-  }
-}
 @media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+  /* Лендинг */
+
+  .W_LandingSection01 {
+    left: calc(50vw - 344px / 2);
+    top: 304px;
+
+    gap: 21px;
+  }
+
+  /* Меню */
+
   .W_MenuBarMainRoundedBorder {
     display: none;
   }
@@ -107,19 +148,19 @@
     border-radius: 10px;
   }
 }
-@media only screen and (min-width: 361px) and (max-width: 414px) {
-  .W_MenuBarMainRoundedBorder {
-    display: none;
-  }
-  .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 20px;
 
-    height: 52px;
-
-    border-radius: 10px;
-  }
-}
 @media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+  /* Лендинг */
+
+  .W_LandingSection01 {
+    left: calc(50vw - 348px / 2);
+    top: 36vh;
+
+    gap: 26px;
+  }
+
+  /* Меню */
+
   .W_MenuBarMainRoundedBorder {
     display: none;
   }
@@ -131,19 +172,10 @@
     border-radius: 10px;
   }
 }
-@media only screen and (max-width: 360px) {
-  .W_MenuBarMainRoundedBorder {
-    display: none;
-  }
-  .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 20px;
 
-    height: 44px;
-
-    border-radius: 8px;
-  }
-}
 @media only screen and (max-device-width: 360px) {
+  /* Меню */
+
   .W_MenuBarMainRoundedBorder {
     display: none;
   }

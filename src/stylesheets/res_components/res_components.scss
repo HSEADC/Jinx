@@ -1,27 +1,7 @@
 @media only screen and (min-width: 2221px) and (max-width: 2560px) {
-  /* Меню */
-  .C_MenuBarNavigation {
-    padding: 0px 0px 0px 46px;
-    gap: 60px;
-    height: 94px;
-  }
-  .W_MenuBarMainRoundedBorder {
-    height: 94px;
-
-    border-radius: 16px;
-  }
-  .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 30px 18px 50px;
-
-    height: 94px;
-
-    border-radius: 16px;
-  }
-
   /* Смотреть видео */
-  .W_VideoData {
-    /* Auto layout */
 
+  .W_VideoData {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,8 +10,6 @@
 
     width: 1122px;
     height: 22px;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -53,8 +31,6 @@
     width: 859px;
     height: 494px;
 
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     align-self: stretch;
@@ -62,9 +38,8 @@
   }
 
   /* Разбор механик */
-  .C_ArticlestyleFullparagraphs {
-    /* Auto layout */
 
+  .C_ArticlestyleFullparagraphs {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -74,16 +49,12 @@
     width: 908px;
     height: 100%;
 
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
   }
   .W_AnalysismechanicsParagraphs {
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -93,17 +64,14 @@
     width: 847px;
     height: 100%;
 
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 1;
   }
 
   /* Топы игры */
-  .C_TopgameMaintop {
-    /* Auto layout */
 
+  .C_TopgameMaintop {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -112,8 +80,6 @@
 
     width: 941px;
     height: 100%;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 1;
@@ -124,8 +90,6 @@
   /* Инди игры */
 
   .W_ArticlestyleTitle {
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,8 +98,6 @@
 
     width: 2070px;
     height: 210px;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;

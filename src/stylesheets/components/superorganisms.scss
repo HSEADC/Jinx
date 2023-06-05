@@ -1,74 +1,5 @@
-/* Меню-бар */
-
-.S_MenuBar {
-  /* Auto layout */
-  position: fixed;
-  top: 0%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-
-  width: 100vw;
-  height: 72px;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  z-index: 99;
-}
-
-/* Инди игры */
-.S_IndiegameArticle {
-  height: 2000px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  position: relative;
-  margin-top: 72px;
-}
-
-/* Разбор монстров */
-
-.S_MonsterCards {
-  overflow-y: hidden;
-  overflow-x: visible;
-  // display: flex;
-  // flex-direction: row;
-  // align-items: flex-start;
-  // padding: 0px;
-  // isolation: isolate;
-  //
-  // position: relative;
-  // width: 959px;
-  // height: 922px;
-
-  display: grid;
-  grid-auto-flow: column;
-  // flex-direction: row;
-  // align-items: flex-start;
-  padding: 0px;
-
-  width: 960px;
-  height: 922px;
-  left: 0px;
-  top: 72px;
-}
-.S_Article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px 1px 1px;
-
-  position: relative;
-  width: 960.5px;
-  height: 922px;
-
-  background: #ffffff;
-}
-
 /* Лендинг */
+
 .S_LandingSection03 {
   display: flex;
   flex-direction: column;
@@ -119,7 +50,78 @@
   position: absolute;
   width: 100vw;
   height: calc(100vh + 203px);
-  top: 7743px;
+  bottom: 7743px;
 
   background-color: var(--acid-green);
+}
+
+/* Меню-бар */
+
+.S_MenuBar {
+  /* Auto layout */
+  position: fixed;
+  top: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  width: 100vw;
+  height: 72px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 99;
+}
+
+/* Инди игры */
+
+.S_IndiegameArticle {
+  height: 2000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+  margin-top: 72px;
+}
+
+/* Разбор монстров */
+
+.S_MonsterCards {
+  overflow-y: hidden;
+  overflow-x: visible;
+  // display: flex;
+  // flex-direction: row;
+  // align-items: flex-start;
+  // padding: 0px;
+  // isolation: isolate;
+  //
+  // position: relative;
+  // width: 959px;
+  // height: 922px;
+
+  display: grid;
+  grid-auto-flow: column;
+  // flex-direction: row;
+  // align-items: flex-start;
+  padding: 0px;
+
+  width: 960px;
+  height: 922px;
+  left: 0px;
+  top: 72px;
+}
+.S_Article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 1px 1px;
+
+  position: relative;
+  width: 960.5px;
+  height: 922px;
+
+  background: #ffffff;
 }

@@ -1,5 +1,42 @@
 @media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  /* Лендинг */
+
+  .M_LandingInsert01 {
+    width: 920px;
+    left: calc(50vw - 920px / 2);
+    top: 1827px;
+  }
+
+  .M_LandingInsert02 {
+    width: 920px;
+    left: calc(50vw - 920px / 2);
+    top: 9312px;
+  }
+
+  .M_LandingCardLink {
+    width: 881px;
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfDown {
+    background: url('images/components/quarks/2560x1440/Q_ConnectHalfDownActive.svg');
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfUp {
+    background: url('images/components/quarks/2560x1440/Q_ConnectHalfUpActive.svg');
+  }
+
+  .M_LandingSection08LinkSub {
+    gap: 32px;
+  }
+
+  .M_LandingSection08FooterButtons {
+    height: 31px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+
   /* Меню */
+
   .M_MenuBarMain {
     height: 96px;
   }
@@ -136,6 +173,44 @@
   }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  /* Лендинг */
+
+  .M_LandingInsert01 {
+    width: 690px;
+    left: calc(50vw - 690px / 2);
+    top: 1370px;
+  }
+
+  .M_LandingInsert02 {
+    width: 690px;
+    left: calc(50vw - 690px / 2);
+    top: 6984px;
+  }
+
+  .M_LandingCardLink {
+    width: 661px;
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfDown {
+    background: url('images/components/quarks/1920x1080/Q_ConnectHalfDownActive.svg');
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfUp {
+    background: url('images/components/quarks/1920x1080/Q_ConnectHalfUpActive.svg');
+  }
+
+  .M_LandingSection08LinkSub {
+    gap: 24px;
+  }
+
+  .M_LandingSection08FooterButtons {
+    height: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* Меню */
+
   .M_MenuBarMain {
     height: 72px;
   }
@@ -269,6 +344,44 @@
   }
 }
 @media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  /* Лендинг */
+
+  .M_LandingInsert01 {
+    width: 512px;
+    left: calc(50vw - 512px / 2);
+    top: 1110px;
+  }
+
+  .M_LandingInsert02 {
+    width: 512px;
+    left: calc(50vw - 512px / 2);
+    top: 5463px;
+  }
+
+  .M_LandingCardLink {
+    width: 497px;
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfDown {
+    background: url('images/components/quarks/1440x900/Q_ConnectHalfDownActive.svg');
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfUp {
+    background: url('images/components/quarks/1440x900/Q_ConnectHalfUpActive.svg');
+  }
+
+  .M_LandingSection08LinkSub {
+    gap: 18px;
+  }
+
+  .M_LandingSection08FooterButtons {
+    height: 18px;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+  /* Меню */
+
   .M_MenuBarMain {
     height: 64px;
   }
@@ -405,6 +518,44 @@
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  /* Лендинг */
+
+  .M_LandingInsert01 {
+    width: 512px;
+    left: calc(50vw - 512px / 2);
+    top: 1110px;
+  }
+
+  .M_LandingInsert02 {
+    width: 512px;
+    left: calc(50vw - 512px / 2);
+    top: 5463px;
+  }
+
+  .M_LandingCardLink {
+    width: 497px;
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfDown {
+    background: url('images/components/quarks/1440x900/Q_ConnectHalfDownActive.svg');
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfUp {
+    background: url('images/components/quarks/1440x900/Q_ConnectHalfUpActive.svg');
+  }
+
+  .M_LandingSection08LinkSub {
+    gap: 18px;
+  }
+
+  .M_LandingSection08FooterButtons {
+    height: 18px;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+  /* Меню */
+
   .M_MenuBarMain {
     height: 54px;
   }
@@ -540,145 +691,45 @@
     flex-grow: 0;
   }
 }
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
-  .M_MenuBarMain {
-    display: none;
-  }
-
-  .M_MenuBarBreadcrumbs {
-    padding: 1px 1px 1px 1px;
-    width: 100%;
-    height: 54px;
-  }
-
-  /* Страшно реально */
-  .M_ScaryreallyUnderpicture {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0px;
-
-    width: 379px;
-    height: 21px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Разбор механик */
-  .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 15px;
-
-    width: 325px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Топы игры */
-  .M_TopgamePosition {
-    /* Text */
-
-    font-size: 12px;
-    line-height: 13px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 365px;
-    height: 13px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .M_TopgameWholeheading {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 84px;
-
-    width: 828px;
-    height: 64px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  .M_TopgameWholeheadingMobile {
-    display: none;
-    // /* Auto layout */
-
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // padding: 0px 89px;
-    // gap: 20px;
-
-    // width: 768px;
-    // height: 207px;
-
-    // /* Inside auto layout */
-
-    // flex: none;
-    // order: 0;
-    // align-self: stretch;
-    // flex-grow: 0;
-  }
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 365px;
-    height: 370px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-}
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Лендинг */
+
+  .M_LandingInsert01 {
+    width: 362px;
+    left: calc(50vw - 362px / 2);
+    top: 903px;
+  }
+
+  .M_LandingInsert02 {
+    width: 362px;
+    left: calc(50vw - 362px / 2);
+    top: 4167px;
+  }
+
+  .M_LandingCardLink {
+    width: 353px;
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfDown {
+    background: url('images/components/quarks/1024x768/Q_ConnectHalfDownActive.svg');
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfUp {
+    background: url('images/components/quarks/1024x768/Q_ConnectHalfUpActive.svg');
+  }
+
+  .M_LandingSection08LinkSub {
+    gap: 13px;
+  }
+
+  .M_LandingSection08FooterButtons {
+    height: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Меню */
+
   .M_MenuBarMain {
     display: none;
   }
@@ -816,7 +867,46 @@
     flex-grow: 0;
   }
 }
+
 @media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+  /* Лендинг */
+
+  .M_LandingInsert01 {
+    width: 428px;
+    left: calc(50vw - 428px / 2);
+    top: 1233px;
+  }
+
+  .M_LandingInsert02 {
+    width: 428px;
+    left: calc(50vw - 428px / 2);
+    top: 5022px;
+  }
+
+  .M_LandingCardLink {
+    width: 497px;
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfDown {
+    background: url('images/components/quarks/768x1024/Q_ConnectHalfDownActive.svg');
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfUp {
+    background: url('images/components/quarks/768x1024/Q_ConnectHalfUpActive.svg');
+  }
+
+  .M_LandingSection08LinkSub {
+    gap: 10px;
+  }
+
+  .M_LandingSection08FooterButtons {
+    height: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* Меню */
+
   .M_MenuBarMain {
     display: none;
   }
@@ -937,128 +1027,47 @@
     flex-grow: 0;
   }
 }
-@media only screen and (min-width: 415px) and (max-device-width: 768px) {
-  .M_MenuBarMain {
-    display: none;
-  }
 
-  .M_MenuBarBreadcrumbs {
-    padding: 1px 1px 1px 1px;
-    width: 100%;
-    height: 54px;
-  }
-
-  /* Страшно реально */
-  .M_ScaryreallyUnderpicture {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0px;
-
-    width: 538px;
-    height: 28px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Разбор механик */
-  .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 15px;
-
-    width: 509px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Топы игры */
-  .M_TopgamePosition {
-    /* Text */
-
-    font-size: 17px;
-    line-height: 19px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
-
-    width: 538px;
-    height: 19px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .M_TopgameWholeheading {
-    display: none;
-  }
-  .M_TopgameWholeheadingMobile {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 0px;
-    gap: 20px;
-
-    width: 590px;
-    height: 207px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 768px;
-    height: 327px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-}
 @media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+  /* Лендинг */
+
+  .M_LandingInsert01 {
+    width: 94vw;
+    left: calc(50vw - 94vw / 2);
+    top: 117vh;
+  }
+
+  .M_LandingInsert02 {
+    width: 94vw;
+    left: calc(50vw - 94vw / 2);
+    top: 552vh;
+  }
+
+  .M_LandingCardLink {
+    width: 94vw;
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfDown {
+    background: url('images/components/quarks/414x896/Q_ConnectHalfDownActive.svg');
+  }
+
+  .M_LandingCardLink:hover > .Q_ConnectHalfUp {
+    background: url('images/components/quarks/414x896/Q_ConnectHalfUpActive.svg');
+  }
+
+  .M_LandingSection08LinkSub {
+    gap: 17px;
+  }
+
+  .M_LandingSection08FooterButtons {
+    height: 131px;
+    padding: 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Меню */
+
   .M_MenuBarMain {
     display: none;
   }
@@ -1180,250 +1189,8 @@
     flex-grow: 0;
   }
 }
-@media only screen and (min-width: 361px) and (max-device-width: 414px) {
-  .M_MenuBarMain {
-    display: none;
-  }
 
-  .M_MenuBarBreadcrumbs {
-    padding: 1px 1px 1px 1px;
-    width: 100%;
-    height: 54px;
-  }
-
-  /* Страшно реально */
-  .M_ScaryreallyUnderpicture {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0px;
-
-    width: 348px;
-    height: 24px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Разбор механик */
-  .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 15px;
-
-    width: 352px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Топы игры */
-  .M_TopgamePosition {
-    /* Text */
-
-    font-size: 15px;
-    line-height: 13px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    width: 374px;
-    height: 13px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .M_TopgameWholeheading {
-    display: none;
-  }
-  .M_TopgameWholeheadingMobile {
-    margin: 0 auto;
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 0px;
-    gap: 10px;
-
-    width: 356px;
-    height: 113px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 414px;
-    height: 200px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-}
 @media only screen and (max-device-width: 360px) {
-  .M_MenuBarMain {
-    display: none;
-  }
-
-  .M_MenuBarBreadcrumbs {
-    padding: 1px 1px 1px 1px;
-    width: 100%;
-    height: 46px;
-  }
-
-  /* Страшно реально */
-  .M_ScaryreallyUnderpicture {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0px;
-
-    width: 320px;
-    height: 24px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Разбор механик */
-  .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 13px;
-
-    width: 307px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Топы игры */
-  .M_TopgamePosition {
-    /* Text */
-
-    font-size: 13px;
-    line-height: 10px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 7px;
-
-    width: 326px;
-    height: 10px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .M_TopgameWholeheading {
-    display: none;
-  }
-  .M_TopgameWholeheadingMobile {
-    margin: 0 auto;
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 0px;
-    gap: 8px;
-
-    width: 257px;
-    height: 95px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 360px;
-    height: 176px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-}
-@media only screen and (max-width: 360px) {
   .M_MenuBarMain {
     display: none;
   }

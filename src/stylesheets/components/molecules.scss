@@ -1,4 +1,73 @@
+/* Лендинг */
+
+.M_LandingInsert01 {
+  overflow: visible;
+  position: absolute;
+  width: 690px;
+  left: calc(50vw - 690px / 2);
+  top: 1370px;
+}
+
+.M_LandingInsert02 {
+  overflow: visible;
+  position: absolute;
+  width: 690px;
+  left: calc(50vw - 690px / 2);
+  top: 6984px;
+}
+
+.M_LandingCardLink {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 661px;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.M_LandingCardLink:hover > .Q_ConnectHalfDown {
+  background: url('images/components/quarks/1920x1080/Q_ConnectHalfDownActive.svg');
+}
+
+.M_LandingCardLink:hover > .Q_ConnectHalfUp {
+  background: url('images/components/quarks/1920x1080/Q_ConnectHalfUpActive.svg');
+}
+
+.M_LandingCardLink:hover > .A_LandingSmallCard {
+  overflow: visible;
+  border: 1px solid var(--acid-green);
+  box-shadow: 0px 0px 4px var(--acid-green),
+    0px 0px 28px rgba(76, 255, 83, 0.25), 0px 0px 40px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 14px rgba(76, 255, 83, 0.2),
+    inset 0px 0px 51px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 140px rgba(76, 255, 83, 0.1);
+}
+
+.M_LandingSection08LinkSub {
+  overflow: visible;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.M_LandingSection08FooterButtons {
+  overflow: visible;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 /* Меню */
+
 .M_MenuBarMain {
   overflow-y: hidden;
   display: flex;
@@ -190,71 +259,4 @@
   height: 55px;
 
   border: 1px solid var(--acid-green);
-}
-
-/* Лендинг */
-.M_LandingInsert01 {
-  overflow: visible;
-  position: absolute;
-  width: 690px;
-  left: calc(50vw - 690px / 2);
-  top: 1370px;
-}
-
-.M_LandingInsert02 {
-  overflow: visible;
-  position: absolute;
-  width: 690px;
-  left: calc(50vw - 690px / 2);
-  top: 6984px;
-}
-
-.M_LandingCardLink {
-  overflow: visible;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  width: 661px;
-
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.M_LandingCardLink:hover > .Q_ConnectHalfDown {
-  background: url('images/components/quarks/1920x1080/Q_ConnectHalfDownActive.svg');
-}
-
-.M_LandingCardLink:hover > .Q_ConnectHalfUp {
-  background: url('images/components/quarks/1920x1080/Q_ConnectHalfUpActive.svg');
-}
-
-.M_LandingCardLink:hover > .A_LandingSmallCard {
-  overflow: visible;
-  border: 1px solid var(--acid-green);
-  box-shadow: 0px 0px 4px var(--acid-green),
-    0px 0px 28px rgba(76, 255, 83, 0.25), 0px 0px 40px rgba(76, 255, 83, 0.1),
-    inset 0px 0px 14px rgba(76, 255, 83, 0.2),
-    inset 0px 0px 51px rgba(76, 255, 83, 0.1),
-    inset 0px 0px 140px rgba(76, 255, 83, 0.1);
-}
-
-.M_LandingSection08LinkSub {
-  overflow: visible;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-}
-
-.M_LandingSection08FooterButtons {
-  overflow: visible;
-  height: 23px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
 }
