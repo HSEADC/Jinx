@@ -12,29 +12,11 @@
   flex-grow: 0;
 }
 
-.W_MenuBarBreadcrumbsRoundedBorder {
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 21px 18px 39px;
-  gap: 10px;
-
-  position: relative;
-  width: 959px;
-  height: 70px;
-
-  background: #000000;
-  border-radius: 12px;
-}
-
 .W_MonsterPic {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  gap: 10px;
 
   position: relative;
   width: 480px;

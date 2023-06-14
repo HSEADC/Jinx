@@ -17,7 +17,7 @@
   gap: 23px;
 }
 
-/* Меню */
+/* Меню-бар */
 
 .C_MenuBarNavigation {
   overflow: visible;
@@ -25,5 +25,21 @@
   align-items: center;
 
   gap: 45px;
-  height: 70px;
+}
+
+/* Главный экран */
+
+.C_MainScreenPrimaryButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Браузер видео */
+
+.C_VideoBrowserSmallCards {
+  display: flex;
+  gap: 3.90625vw;
+  width: 100%;
+
+  height: 22.34375vw;
 }

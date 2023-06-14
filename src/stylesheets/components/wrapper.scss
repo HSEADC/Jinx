@@ -25,20 +25,158 @@
   height: 70px;
 
   background: #000000;
-  border-radius: 12px;
+  border-radius: 0.625vw;
   padding-right: 35px;
 }
 .W_MenuBarBreadcrumbsRoundedBorder {
   overflow-y: hidden;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 18px 21px 18px 39px;
-  gap: 10px;
 
   width: 100%;
   height: 70px;
 
   background: #000000;
-  border-radius: 12px;
+  border-radius: 0.625vw;
+}
+
+.W_MenuBarBreadcrumbsRoundedBorderMainMenu {
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  padding: 18px 21px 18px 23px;
+
+  width: 100%;
+  height: 70px;
+
+  background: #000000;
+  border-radius: 0.625vw;
+}
+
+.W_MenuBarBreadcrumbsRoundedBorderNavigation {
+  display: flex;
+  justify-content: flex-end;
+  overflow: visible;
+  width: 100%;
+}
+
+.W_MenuBarBreadcrumbsRoundedBorderNavigationMainMenu {
+  display: flex;
+  overflow: visible;
+  width: 100%;
+}
+
+.W_Burger {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Главный экран */
+
+.W_MainScreenNavAndMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.W_MainScreenPrimaryButton {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1.25vw;
+
+  border-radius: 0.625vw;
+  background-color: black;
+  width: 100%;
+  height: 4.0625vw;
+}
+
+.W_MainScreenCardsAndFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.W_MenuCardContent {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 0.98958vw;
+  gap: 1.04167vw;
+  border-radius: 0.625vw;
+  height: 100%;
+}
+
+.W_MainScreenLogoGlyphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.22917vw;
+  overflow: visible;
+}
+
+.W_MainScreenLogoGlyph {
+  display: flex;
+  justify-content: flex-end;
+  overflow: visible;
+  width: 100%;
+}
+
+/* Браузер видео */
+
+.W_VideoBrowserCards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.64583vw;
+
+  width: 100%;
+}
+
+.W_VideoBrowserBannerContent {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.8125vw;
+
+  width: 100%;
+  height: 100%;
+}
+
+.W_VideoBrowserBannerContentTypePlay {
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.W_VideoBrowserSmallCardContent {
+  overflow: visible;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.52083vw;
+
+  width: 100%;
+  height: 100%;
+}
+
+.W_VideoBrowserSmallCardContentTypePlay {
+  overflow: visible;
+
+  display: flex;
+  gap: 0.20833vw;
+  width: 100%;
+}
+
+/* Заголовок статей */
+
+.W_TopgameSideL {
+  width: 100%;
+  display: flex;
+}
+
+.W_TopgameSideR {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }

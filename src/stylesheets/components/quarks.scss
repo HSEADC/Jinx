@@ -105,7 +105,7 @@
 
   background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardKeyPicture.png');
   border: 1px solid white;
-  border-radius: 12px;
+  border-radius: 0.625vw;
 }
 
 .Q_LandingSection03CardEyePicture {
@@ -114,7 +114,7 @@
 
   background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardEyePicture.png');
   border: 1px solid white;
-  border-radius: 12px;
+  border-radius: 0.625vw;
 }
 
 .Q_LandingSection03CardHeartPicture {
@@ -123,7 +123,7 @@
 
   background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardHeartPicture.png');
   border: 1px solid white;
-  border-radius: 12px;
+  border-radius: 0.625vw;
 }
 
 .Q_LandingSection03CardContentTitle {
@@ -417,12 +417,272 @@
 }
 .Q_Burger {
   width: 21px;
+  position: relative;
+
   height: 16px;
   background-image: url('images/components/quarks/Burger.svg');
+  background-repeat: no-repeat;
   display: none;
 }
 
+/* Главный экран */
+
+.Q_MainScreenPrimaryButtonText {
+  overflow: visible;
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 2.08333vw;
+  text-transform: uppercase;
+  color: white;
+}
+
+.Q_IconInfo {
+  background-image: url('images/components/quarks/1920x1080/Q_IconInfo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Q_IconTG {
+  background-image: url('images/components/quarks/1920x1080/Q_IconTG.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Q_IconVK {
+  background-image: url('images/components/quarks/1920x1080/Q_IconVK.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Q_CardTitle {
+  overflow-y: hidden;
+  width: 100%;
+  color: var(--acid-green);
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 1.9vw;
+  text-transform: uppercase;
+}
+
+.Q_CardText {
+  overflow-y: hidden;
+  width: 100%;
+  color: white;
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.9375vw;
+  line-height: 1.04167vw;
+}
+
+.Q_MainScreenFloatGraphics {
+  width: 50%;
+  height: 100vh;
+  mix-blend-mode: lighten;
+  position: absolute;
+  object-fit: cover;
+}
+
+.Q_MainScreenPointGraphics {
+  width: 50%;
+  height: 100vh;
+  mix-blend-mode: lighten;
+  position: absolute;
+  object-fit: cover;
+}
+
+.Q_MainScreenLogoGlyphLeft {
+  overflow-y: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 1.14583vw;
+  text-transform: uppercase;
+  color: var(--acid-green);
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+}
+
+.Q_MainScreenLogoGlyphRight {
+  overflow-y: hidden;
+
+  width: 100%;
+
+  text-align: right;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 1.14583vw;
+  text-transform: uppercase;
+  color: var(--acid-green);
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+}
+
+.Q_MainScreenLogo {
+  width: 32.8125vw;
+  height: 12.96875vw;
+  background-size: cover;
+  background-image: url('images/components/quarks/1920x1080/Q_Logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  filter: drop-shadow(0px 0px 6px #ffffff)
+    drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4))
+    drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.47));
+}
+
+/* Браузер видео */
+
+.Q_VideoBrowserBannerType {
+  overflow: visible;
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.88542vw;
+  text-transform: uppercase;
+
+  color: var(--acid-green);
+}
+
+.Q_VideoBrowserBannerContentPlay {
+  padding: 0px 0px 1px;
+  background-image: url('images/components/quarks/1920x1080/Q_VideoBrowserBannerContentPlay.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 0.52083vw;
+  height: 0.625vw;
+}
+
+.Q_VideoBrowserBannerTitle {
+  overflow: visible;
+  width: 30.15625vw;
+
+  font-family: 'Jinx Font';
+  font-weight: 400;
+  font-size: 4.63542vw;
+  line-height: 5.3125vw;
+  text-transform: uppercase;
+
+  color: white;
+
+  text-shadow: 0px 2.38089px 4.76177px rgba(0, 0, 0, 0.12);
+}
+
+.Q_VideoBrowserBannerPicture {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('images/components/quarks/1920x1080/Q_VideoBrowserBannerPicture.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  z-index: 0;
+}
+
+.Q_VideoBrowserBannerGradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.49) 27%,
+    rgba(0, 0, 0, 0.434) 51%,
+    rgba(0, 0, 0, 0.49) 73%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+
+  z-index: 1;
+}
+
+.Q_VideoBrowserSmallCardPic {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('images/components/quarks/1920x1080/Q_VideoBrowserSmallCardPic.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  z-index: 0;
+}
+
+.Q_VideoBrowserSmallCardGradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.49) 27%,
+    rgba(0, 0, 0, 0.434) 51%,
+    rgba(0, 0, 0, 0.49) 73%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+
+  z-index: 1;
+}
+
+.Q_VideoBrowserSmallCardContentType {
+  overflow: visible;
+
+  display: flex;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.67708vw;
+
+  text-transform: uppercase;
+
+  color: var(--acid-green);
+}
+
+.Q_VideoBrowserSmallCardContentPlay {
+  width: 0.36458vw;
+  height: 100%;
+
+  background-image: url('images/components/quarks/1920x1080/Q_VideoBrowserSmallCardContentPlay.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.Q_VideoBrowserSmallCardContentTitle {
+  overflow: visible;
+  width: 100%;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 1.61458vw;
+  line-height: 1.82292vw;
+  text-transform: uppercase;
+
+  color: white;
+}
+
 /* Смотреть видео */
+
 .Q_TopgameLineunder {
   background-image: url('images/Q_TopgameLineUnder_1440.svg');
   background-size: cover;

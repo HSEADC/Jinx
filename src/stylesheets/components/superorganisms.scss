@@ -58,14 +58,13 @@
 /* Меню-бар */
 
 .S_MenuBar {
-  /* Auto layout */
   position: fixed;
   top: 0%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 
-  width: 100vw;
+  width: 100%;
   height: 72px;
 
   flex: none;
@@ -74,16 +73,48 @@
   z-index: 99;
 }
 
+/* Главный экран */
+
+.S_MainScreenLeftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+}
+
+.S_MainScreenLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+
+  padding: 1px;
+
+  background-color: white;
+  mix-blend-mode: lighten;
+}
+
+/* Браузер видео */
+
+.S_VideoBrowserScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3.22917vw 10.46875vw;
+
+  width: 100%;
+}
+
 /* Инди игры */
 
 .S_IndiegameArticle {
-  height: 2000px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  width: 100vw;
   position: relative;
-  margin-top: 72px;
 }
 
 /* Разбор монстров */

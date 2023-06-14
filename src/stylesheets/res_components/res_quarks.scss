@@ -234,7 +234,8 @@
   }
 
   .Q_LandingSection08FooterButtonUpText {
-    display: none;
+    font-size: 20px;
+    line-height: 22px;
   }
 
   .Q_LandingSection08FooterButtonUpIcon {
@@ -394,7 +395,7 @@
     height: 365px;
 
     background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardKeyPicture.png');
-    border-radius: 12px;
+    border-radius: 0.625vw;
   }
 
   .Q_LandingSection03CardEyePicture {
@@ -402,7 +403,7 @@
     height: 365px;
 
     background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardEyePicture.png');
-    border-radius: 12px;
+    border-radius: 0.625vw;
   }
 
   .Q_LandingSection03CardHeartPicture {
@@ -410,7 +411,7 @@
     height: 365px;
 
     background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardHeartPicture.png');
-    border-radius: 12px;
+    border-radius: 0.625vw;
   }
 
   .Q_LandingSection03CardContentTitle {
@@ -1513,7 +1514,7 @@
     border: 1px solid #000000;
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .Q_Burger {
     display: flex;
@@ -1836,7 +1837,7 @@
     border: 1px solid #000000;
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .Q_Burger {
     display: flex;
@@ -2206,10 +2207,11 @@
     display: none;
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .Q_Burger {
     display: flex;
+    background-position: right;
   }
 
   /* Смотреть видео */
@@ -2287,10 +2289,11 @@
     background-image: url('images/components/quarks/Q_GrungeTexture360.png');
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .Q_Burger {
     display: flex;
+    background-position: right;
   }
 
   /* Смотреть видео */

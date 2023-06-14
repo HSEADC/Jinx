@@ -8,17 +8,32 @@
     gap: 57px;
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
     height: 94px;
 
     border-radius: 16px;
   }
+
   .W_MenuBarBreadcrumbsRoundedBorder {
     padding: 18px 30px 18px 50px;
     height: 94px;
     border-radius: 16px;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
+    padding: 18px 30px 18px 34px;
+    height: 94px;
+    border-radius: 16px;
+  }
+
+  .W_Burger {
+    display: none;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderNavigation {
+    justify-content: flex-start;
   }
 }
 
@@ -32,19 +47,35 @@
     gap: 43px;
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
     height: 70px;
 
-    border-radius: 12px;
+    border-radius: 0.625vw;
   }
   .W_MenuBarBreadcrumbsRoundedBorder {
     padding: 18px 21px 18px 39px;
 
     height: 70px;
 
-    border-radius: 12px;
+    border-radius: 0.625vw;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
+    padding: 18px 21px 18px 23px;
+
+    height: 70px;
+
+    border-radius: 0.625vw;
+  }
+
+  .W_Burger {
+    display: none;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderNavigation {
+    justify-content: flex-start;
   }
 }
 
@@ -58,7 +89,7 @@
     gap: 32px;
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
     height: 62px;
@@ -72,6 +103,22 @@
 
     border-radius: 10px;
   }
+
+  .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
+    padding: 18px 17px 18px 26px;
+
+    height: 62px;
+
+    border-radius: 10px;
+  }
+
+  .W_Burger {
+    display: none;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderNavigation {
+    justify-content: flex-start;
+  }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
@@ -84,19 +131,36 @@
     gap: 32px;
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
     height: 52px;
 
     border-radius: 10px;
   }
+
   .W_MenuBarBreadcrumbsRoundedBorder {
     padding: 18px 15px 18px 22px;
 
     height: 52px;
 
     border-radius: 10px;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
+    padding: 18px 15px 18px 22px;
+
+    height: 52px;
+
+    border-radius: 10px;
+  }
+
+  .W_Burger {
+    display: none;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderNavigation {
+    justify-content: flex-start;
   }
 }
 
@@ -110,18 +174,34 @@
     gap: 22px;
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
     display: none;
   }
+
   .W_MenuBarBreadcrumbsRoundedBorder {
     padding: 18px 15px 18px 22px;
-    gap: 10px;
 
     height: 52px;
 
     border-radius: 10px;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
+    padding: 18px 15px 18px 22px;
+
+    height: 52px;
+
+    border-radius: 10px;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorder :nth-child(2) {
+    order: 3;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorder :nth-child(3) {
+    order: 2;
   }
 }
 
@@ -135,17 +215,34 @@
     gap: 21px;
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
     display: none;
   }
+
   .W_MenuBarBreadcrumbsRoundedBorder {
     padding: 18px 15px 18px 22px;
 
     height: 52px;
 
     border-radius: 10px;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
+    padding: 18px 15px 18px 22px;
+
+    height: 52px;
+
+    border-radius: 10px;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorder :nth-child(2) {
+    order: 3;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorder :nth-child(3) {
+    order: 2;
   }
 }
 
@@ -159,11 +256,12 @@
     gap: 26px;
   }
 
-  /* Меню */
+  /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
     display: none;
   }
+
   .W_MenuBarBreadcrumbsRoundedBorder {
     padding: 18px 20px;
 
@@ -171,19 +269,76 @@
 
     border-radius: 10px;
   }
+
+  .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
+    padding: 18px 20px;
+
+    height: 52px;
+
+    border-radius: 10px;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorder :nth-child(1) {
+    order: 3;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorder :nth-child(2) {
+    order: 1;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorder :nth-child(3) {
+    order: 2;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderLogo {
+    justify-content: flex-start;
+  }
+
+  .W_Burger {
+    justify-content: flex-end;
+  }
 }
 
 @media only screen and (max-device-width: 360px) {
-  /* Меню */
+  /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
     display: none;
   }
+
   .W_MenuBarBreadcrumbsRoundedBorder {
     padding: 18px 20px;
 
     height: 44px;
 
     border-radius: 8px;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
+    padding: 18px 20px;
+
+    height: 44px;
+
+    border-radius: 8px;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorder :nth-child(1) {
+    order: 3;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorder :nth-child(2) {
+    order: 1;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorder :nth-child(3) {
+    order: 2;
+  }
+
+  .W_MenuBarBreadcrumbsRoundedBorderNavigation {
+    justify-content: flex-start;
+  }
+
+  .W_Burger {
+    justify-content: flex-end;
   }
 }
