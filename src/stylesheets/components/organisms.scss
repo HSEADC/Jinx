@@ -207,6 +207,23 @@
   display: none;
 }
 
+/* О проекте */
+
+.O_AboutBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.13542vw;
+}
+
+.O_AboutFooter {
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  gap: 22.55208vw;
+  width: 100%;
+}
+
 /* Инди игры */
 
 .O_Indiegame {

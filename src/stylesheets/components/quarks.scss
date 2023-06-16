@@ -882,3 +882,108 @@
 .Q_NarrowBlackoutVertical {
   display: none;
 }
+
+/* О проекте */
+
+.Q_AboutNavLeft {
+  overflow: visible;
+
+  width: 5.20833vw;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 1.14583vw;
+  text-transform: uppercase;
+
+  color: var(--acid-green);
+}
+
+.Q_AboutTitle {
+  overflow: visible;
+
+  font-family: 'Jinx Font';
+  font-weight: 400;
+  font-size: 6.25vw;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.Q_AboutNavRight {
+  text-align: right;
+
+  overflow: visible;
+
+  width: 5.20833vw;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 1.14583vw;
+  text-transform: uppercase;
+
+  color: var(--acid-green);
+}
+
+.Q_AboutBodyDivider {
+  background-image: url('images/components/quarks/1920x1080/Q_AboutBodyDivider.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  height: 1.40625vw;
+}
+
+.Q_AboutBodyContentPic {
+  background-image: url('images/components/quarks/1920x1080/Q_AboutBodyContentPic.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  width: 38.4375vw;
+  height: 18.69792vw;
+}
+
+.Q_AboutTextParagraph {
+  width: 25vw;
+  font-family: 'PT Root UI';
+  font-weight: 400;
+  font-size: 0.98958vw;
+  line-height: 132%;
+
+  color: white;
+}
+
+.Q_AboutFooterTitle {
+  overflow: visible;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 1.14583vw;
+
+  text-transform: uppercase;
+  color: var(--acid-green);
+}
+
+.Q_AboutFooterTextWhite {
+  overflow: visible;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.9375vw;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.Q_AboutFooterTextGlyph {
+  overflow: visible;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.9375vw;
+  line-height: 90%;
+
+  color: var(--acid-green);
+}

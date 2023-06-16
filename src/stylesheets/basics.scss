@@ -23,6 +23,13 @@ body {
   padding-top: 72px;
 }
 
+.AboutLayout {
+  display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+  overflow: visible;
+}
+
 .MainPage {
   display: flex;
   flex-direction: row;

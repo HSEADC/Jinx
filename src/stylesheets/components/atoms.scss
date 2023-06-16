@@ -607,7 +607,31 @@
   color: var(--dark-grey);
 }
 
+/* О проекте */
+
+.A_AboutBodyContentText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.30208vw;
+}
+
+.A_AboutFooterText {
+  cursor: pointer;
+  text-decoration: none;
+  overflow: visible;
+
+  display: flex;
+  gap: 0.57292vw;
+}
+
+.A_AboutFooterText:hover * {
+  color: var(--acid-green);
+  filter: drop-shadow(0px 0px 4px var(--acid-green))
+    drop-shadow(0px 0px 28px var(--acid-green));
+}
+
 /* Страшно реально */
+
 .A_ScraryreallyFrameline {
   background-image: url('./images/A_ScaryreallyFrameline_1440.svg');
   background-size: cover;

@@ -158,6 +158,16 @@
   isolation: isolate;
 }
 
+/* О проекте */
+
+.M_AboutFooterList {
+  overflow: visible;
+  // overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1.77083vw;
+}
+
 /* Страшно реально */
 
 .M_ScaryreallyUnderpicture {
@@ -170,6 +180,7 @@
 }
 
 /* Разбор механик */
+
 .M_AnalysismechanicsTextpart {
   /* Auto layout */
 

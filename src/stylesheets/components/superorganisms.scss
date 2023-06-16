@@ -129,6 +129,20 @@
   height: 100%;
 }
 
+/* О проекте */
+
+.S_About {
+  overflow: visible;
+
+  margin-top: 1.71875vw;
+
+  padding: 0 9.6875vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625vw;
+}
+
 /* Инди игры */
 
 .S_IndiegameArticle {

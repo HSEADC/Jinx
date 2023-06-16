@@ -258,6 +258,34 @@
   width: 100%;
 }
 
+/* О проекте */
+
+.W_AboutTitle {
+  overflow: visible;
+  width: 100%;
+  padding: 0 1.92708vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.W_AboutBodyContent {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 2.08333vw;
+  gap: 7.08333vw;
+}
+
+.W_AboutFooterListText {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  gap: 0.72917vw;
+}
+
 /* Заголовок статей */
 
 .W_TopgameSideL {
