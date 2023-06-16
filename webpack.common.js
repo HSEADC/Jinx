@@ -15,10 +15,8 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'docs'),
-    /*clean: true*/
     path: path.resolve(__dirname, 'docs')
-    // clean: true
+    /*clean: true*/
   },
   module: {
     rules: [
@@ -81,6 +79,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [{ from: 'src/share', to: 'share' }]
     }),
+
     // Index
     new HtmlWebpackPlugin({
       hash: true,
@@ -126,6 +125,14 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/indie.html',
       filename: './indie.html',
+      chunks: ['dictionary']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/edition.html',
+      filename: './edition.html',
       chunks: ['dictionary']
     }),
 
@@ -247,6 +254,14 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/main-page.html',
       filename: './main-page.html',
+      chunks: ['dictionary']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main-page-opened.html',
+      filename: './main-page-opened.html',
       chunks: ['dictionary']
     }),
 

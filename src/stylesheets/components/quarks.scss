@@ -436,11 +436,22 @@
   color: white;
 }
 
+.Q_MainScreenPrimaryButtonTextOpened {
+  overflow: visible;
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 2.08333vw;
+  text-transform: uppercase;
+  color: var(--acid-green);
+
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 14px #4cff53);
+}
+
 .Q_IconInfo {
   background-image: url('images/components/quarks/1920x1080/Q_IconInfo.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 100%;
 }
@@ -449,7 +460,7 @@
   background-image: url('images/components/quarks/1920x1080/Q_IconTG.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 100%;
 }
@@ -458,7 +469,7 @@
   background-image: url('images/components/quarks/1920x1080/Q_IconVK.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 100%;
 }
@@ -544,6 +555,18 @@
   filter: drop-shadow(0px 0px 6px #ffffff)
     drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4))
     drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.47));
+}
+
+.Q_MainScreenSecondaryButtonText {
+  overflow: visible;
+
+  width: 100%;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 1.04167vw;
+
+  color: white;
 }
 
 /* Браузер видео */
@@ -743,4 +766,119 @@
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+}
+
+/* Разбор монстров */
+
+.Q_MonsterPic_01 {
+  width: 100%;
+  height: 100%;
+
+  background-image: url('images/components/quarks/1920x1080/Q_MonsterPic_01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Q_MonsterPic_02 {
+  width: 100%;
+  height: 100%;
+
+  background-image: url('images/components/quarks/1920x1080/Q_MonsterPic_02.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Q_MonsterAndStoryCardTitle {
+  overflow: visible;
+  width: 100%;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 1.875vw;
+  line-height: 2.08333vw;
+  letter-spacing: 0.1em;
+
+  color: var(--acid-green);
+}
+
+.Q_MonsterAndStoryCardText {
+  overflow: visible;
+  width: 100%;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.9375vw;
+  line-height: 1.04167vw;
+
+  color: white;
+}
+
+.Q_TopgameDateText {
+  overflow: visible;
+  text-align: right;
+
+  flex-shrink: 0;
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.83333vw;
+
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+  width: 6.61458vw;
+}
+
+.Q_NarrowTopgameLine {
+  width: 100%;
+  height: 1.40625vw;
+
+  background-image: url('images/components/quarks/1920x1080/Q_NarrowTopgameLine.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.Q_InsertTitle {
+  flex-shrink: 0;
+
+  position: absolute;
+  left: 0.52083vw;
+  top: -0.46875vw;
+
+  background: black;
+
+  padding: 0px 5px 1px;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.83333vw;
+  line-height: 0.9375vw;
+  text-transform: uppercase;
+  color: var(--acid-green);
+}
+
+.Q_ScaryreallyPictureintext {
+  background-image: url('images/components/quarks/1920x1080/Q_ScaryreallyPictureintext.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  height: 15.10417vw;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_NarrowBlackoutHorizontal {
+  bottom: 1px;
+  z-index: 99;
+  position: fixed;
+  width: 40%;
+  height: 95px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.Q_NarrowBlackoutVertical {
+  display: none;
 }

@@ -95,6 +95,8 @@
 }
 
 .M_MenuBarBreadcrumbsMainScreen {
+  flex-shrink: 0;
+  position: relative;
   overflow-y: hidden;
   display: flex;
   flex-direction: row;
@@ -110,6 +112,7 @@
 /* Главный экран */
 
 .M_MenuCards {
+  position: relative;
   display: flex;
   background-color: white;
   height: 15vw;
@@ -118,6 +121,9 @@
 }
 
 .M_DownBar {
+  bottom: 0;
+  position: relative;
+
   display: flex;
   justify-content: space-between;
   height: 3.75vw;
@@ -142,25 +148,25 @@
   border-radius: 0.625vw;
 }
 
+/* Разбор монстров */
+
+.M_Insert {
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+}
+
 /* Страшно реально */
 
 .M_ScaryreallyUnderpicture {
-  /* Auto layout */
-
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   padding: 0px;
 
-  width: 530px;
-  height: 28px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 2;
-  align-self: stretch;
-  flex-grow: 0;
+  width: 100%;
 }
 
 /* Разбор механик */
@@ -266,42 +272,4 @@
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-}
-
-/* Разбор монстров */
-
-.M_Card {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 19px;
-  gap: 10px;
-
-  overflow: hidden;
-  width: 479.5px;
-  height: 138px;
-  left: 20px;
-  top: 180px;
-
-  background: #000000;
-  border-radius: 0.625vw;
-}
-
-.M_MonsterStatusFrame {
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 9px 13px;
-  gap: 10px;
-
-  position: relative;
-  width: 291px;
-  height: 55px;
-
-  border: 1px solid var(--acid-green);
 }

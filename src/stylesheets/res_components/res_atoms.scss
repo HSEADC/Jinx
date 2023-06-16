@@ -209,34 +209,6 @@
     align-self: stretch;
     flex-grow: 0;
   }
-  .A_ScaryreallyTextunder {
-    /* Text */
-
-    font-size: 13px;
-    line-height: 15px;
-    /* identical to box height */
-
-    text-align: right;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px 15px;
-
-    width: 859px;
-    height: 15px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 
   /* Разбор механик */
   .A_ArticlestyleTextParagraphs {
@@ -303,67 +275,6 @@
   }
 
   /* Инди игры */
-
-  /*Заголовок десктоп*/
-  .A_TopgameLink {
-    /* Text */
-
-    font-size: 20px;
-    line-height: 22px;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 10px;
-
-    width: 252px;
-  }
-
-  .A_TopgameHeading {
-    /* Text */
-    font-size: 65px;
-    line-height: 80px;
-    word-spacing: 10px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.08em;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 100%;
-  }
-  .A_TopgameDate {
-    /* Text */
-
-    font-size: 20px;
-    line-height: 22px;
-    text-align: right;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 158px;
-    height: 44px;
-  }
 
   /*Заголовок мобилки*/
   .A_TopgameHeadingMobile {
@@ -722,34 +633,6 @@
     align-self: stretch;
     flex-grow: 0;
   }
-  .A_ScaryreallyTextunder {
-    /* Text */
-
-    font-size: 10px;
-    line-height: 11px;
-    /* identical to box height */
-
-    text-align: right;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px 15px;
-
-    width: 643px;
-    height: 11px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 
   /* Разбор механик */
   .A_ArticlestyleTextParagraphs {
@@ -816,64 +699,6 @@
   }
 
   /* Инди игры */
-
-  /*Заголовок десктоп*/
-  .A_TopgameLink {
-    /* Text */
-
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-
-    width: 200px;
-  }
-
-  .A_TopgameHeading {
-    /* Text */
-
-    font-size: 49px;
-    line-height: 60px;
-    word-spacing: 15px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.08em;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-
-    width: 100%;
-  }
-  .A_TopgameDate {
-    /* Text */
-
-    font-size: 16px;
-    line-height: 18px;
-    text-align: right;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-
-    width: 200px;
-    height: 36px;
-  }
 
   /*Заголовок мобилки*/
   .A_TopgameHeadingMobile {
@@ -1227,34 +1052,6 @@
     align-self: stretch;
     flex-grow: 0;
   }
-  .A_ScaryreallyTextunder {
-    /* Text */
-
-    font-size: 7px;
-    line-height: 8px;
-    /* identical to box height */
-
-    text-align: right;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px 15px;
-
-    width: 530px;
-    height: 8px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 
   /* Разбор механик */
   .A_ArticlestyleTextParagraphs {
@@ -1321,68 +1118,6 @@
   }
 
   /* Инди игры */
-
-  /*Заголовок десктоп*/
-  .A_TopgameLink {
-    /* Text */
-
-    font-size: 11px;
-    line-height: 12px;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 139px;
-  }
-
-  .A_TopgameHeading {
-    /* Text */
-
-    font-size: 36px;
-    line-height: 45px;
-    word-spacing: 15px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.08em;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 100%;
-  }
-  .A_TopgameDate {
-    /* Text */
-
-    font-size: 11px;
-    line-height: 12px;
-    text-align: right;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 87px;
-    height: 24px;
-  }
 
   /*Заголовок мобилки*/
   .A_TopgameHeadingMobile {
@@ -1740,34 +1475,6 @@
     align-self: stretch;
     flex-grow: 0;
   }
-  .A_ScaryreallyTextunder {
-    /* Text */
-
-    font-size: 6px;
-    line-height: 7px;
-    /* identical to box height */
-
-    text-align: right;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px 15px;
-
-    width: 503px;
-    height: 7px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 
   /* Разбор механик */
   .A_ArticlestyleTextParagraphs {
@@ -1834,66 +1541,6 @@
   }
 
   /* Инди игры */
-
-  /*Заголовок десктоп*/
-  .A_TopgameLink {
-    /* Text */
-
-    font-size: 10px;
-    line-height: 11px;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 126px;
-  }
-
-  .A_TopgameHeading {
-    /* Text */
-
-    font-size: 32px;
-    line-height: 42px;
-    word-spacing: 15px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.08em;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 100%;
-  }
-  .A_TopgameDate {
-    /* Text */
-
-    font-size: 10px;
-    line-height: 11px;
-    text-align: right;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 79px;
-    height: 22px;
-  }
 
   /*Заголовок мобилки*/
   .A_TopgameHeadingMobile {
@@ -2256,34 +1903,6 @@
     align-self: stretch;
     flex-grow: 0;
   }
-  .A_ScaryreallyTextunder {
-    /* Text */
-
-    font-size: 5px;
-    line-height: 6px;
-    /* identical to box height */
-
-    text-align: right;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px 10px;
-
-    width: 379px;
-    height: 6px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 
   /* Разбор механик */
   .A_ArticlestyleTextParagraphs {
@@ -2350,69 +1969,6 @@
   }
 
   /* Инди игры */
-
-  /*Заголовок десктоп*/
-  .A_TopgameLink {
-    /* Text */
-
-    font-size: 8px;
-    line-height: 9px;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 101px;
-  }
-
-  .A_TopgameHeading {
-    /* Text */
-
-    font-size: 25px;
-    line-height: 32px;
-    word-spacing: 15px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.08em;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 100%;
-  }
-  .A_TopgameDate {
-    /* Text */
-
-    font-size: 8px;
-    line-height: 9px;
-    text-align: right;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 64px;
-    height: 18px;
-  }
 
   /*Заголовок мобилки*/
   .A_TopgameHeadingMobile {
@@ -2771,34 +2327,6 @@
     align-self: stretch;
     flex-grow: 0;
   }
-  .A_ScaryreallyTextunder {
-    /* Text */
-
-    font-size: 7px;
-    line-height: 8px;
-    /* identical to box height */
-
-    text-align: right;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px 30px;
-
-    width: 538px;
-    height: 8px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 
   /* Разбор механик */
   .A_ArticlestyleTextParagraphs {
@@ -2867,16 +2395,6 @@
   /* Инди игры */
 
   /*Заголовок десктоп*/
-  .A_TopgameLink {
-    display: none;
-  }
-
-  .A_TopgameHeading {
-    display: none;
-  }
-  .A_TopgameDate {
-    display: none;
-  }
 
   /*Заголовок мобилки*/
   .A_TopgameHeadingMobile {
@@ -3299,34 +2817,6 @@
     align-self: stretch;
     flex-grow: 0;
   }
-  .A_ScaryreallyTextunder {
-    /* Text */
-
-    font-size: 10px;
-    line-height: 11px;
-    /* identical to box height */
-
-    text-align: right;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px 15px;
-
-    width: 348px;
-    height: 11px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 
   /* Разбор механик */
   .A_ArticlestyleTextParagraphs {
@@ -3741,34 +3231,6 @@
 
     width: 320px;
     height: 150px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  .A_ScaryreallyTextunder {
-    /* Text */
-
-    font-size: 10px;
-    line-height: 11px;
-    /* identical to box height */
-
-    text-align: right;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px 10px;
-
-    width: 320px;
-    height: 11px;
 
     /* Inside auto layout */
 

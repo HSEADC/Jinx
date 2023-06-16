@@ -149,6 +149,64 @@
   align-self: stretch;
   flex-grow: 0;
 }
+
+/* Разбор монстров */
+
+.O_MonsterCards {
+  display: flex;
+  padding: 0px 0px 1px 1px;
+  width: 100%;
+  background: white;
+}
+
+.O_MonsterCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+  width: 22.91667vw;
+
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border: 1px solid #ffffff;
+  border-radius: 0.625vw;
+}
+
+.O_NarrowArticle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: inline;
+  flex-direction: column;
+  padding: 2.91667vw 4.73958vw 0px;
+  gap: 1.875vw;
+  isolation: isolate;
+
+  background: black;
+  border-radius: 0.625vw;
+}
+
+.O_NarrowArticle::-webkit-scrollbar {
+  width: 10px;
+}
+
+.O_NarrowArticle::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.O_NarrowArticle::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+
+  background: black;
+  border-radius: 100vw;
+  border: 1px solid white;
+}
+
+.O_MonsterStatus {
+  display: none;
+}
+
 /* Инди игры */
 
 .O_Indiegame {
@@ -165,32 +223,4 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-}
-
-/* Разбор монстров */
-
-.O_MonsterCard {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-
-  position: relative;
-  width: 479.5px;
-  height: 924px;
-}
-
-.O_Article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 56px 91px 0px;
-  gap: 24px;
-
-  position: relative;
-  width: 958.5px;
-  height: 922px;
-
-  background: #000000;
-  border-radius: 0.625vw;
 }

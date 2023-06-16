@@ -30,6 +30,15 @@
 /* Главный экран */
 
 .C_MainScreenPrimaryButtons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.C_MainScreenSecondaryButtons {
+  position: relative;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -42,4 +51,59 @@
   width: 100%;
 
   height: 22.34375vw;
+}
+
+/* Разбор монстров */
+
+.C_MonsterCards {
+  position: relative;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
+  display: grid;
+  grid-auto-flow: column;
+  padding: 2.5vw 0 3.4375vw 2.8125vw;
+  gap: 2.60417vw;
+  isolation: isolate;
+  width: 100%;
+
+  background: black;
+  border-radius: 0.625vw;
+}
+
+.C_MonsterCards::-webkit-scrollbar {
+  height: 10px;
+}
+
+.C_MonsterCards::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.C_MonsterCards::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+
+  background: black;
+  border-radius: 100vw;
+  border: 1px solid white;
+}
+
+.C_MonsterAndStoryCardRoundedBorder {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0.98958vw;
+
+  width: 100%;
+  height: 7.1875vw;
+
+  border-radius: 0.625vw;
+  background: black;
+}
+
+.C_ScaryreallyPictureinsidetext {
+  display: flex;
+  flex-direction: column;
+  padding: 1.77083vw 0px;
+  gap: 0.36458vw;
+  width: 100%;
 }
