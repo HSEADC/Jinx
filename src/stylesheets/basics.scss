@@ -75,7 +75,7 @@ body {
   .MainPage {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100svh;
   }
 }
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
@@ -86,7 +86,7 @@ body {
   .MainPage {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100svh;
   }
 }
 @media only screen and (max-device-width: 360px) {
@@ -97,6 +97,6 @@ body {
   .MainPage {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100svh;
   }
 }
