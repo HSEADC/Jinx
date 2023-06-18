@@ -1,8 +1,6 @@
 import './dictionary.css'
 
-console.log('Тестикс')
-
-const container = document.querySelector('.C_MonsterCards')
+const container = document.querySelector('.C_StoryCards')
 
 container.addEventListener('wheel', (e) => {
   e.preventDefault()

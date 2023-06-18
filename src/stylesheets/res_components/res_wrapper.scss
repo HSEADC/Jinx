@@ -11,20 +11,16 @@
   /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
-    height: 94px;
-
     border-radius: 16px;
   }
 
   .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 30px 18px 50px;
-    height: 94px;
+    padding: 0.70313vw 1.17188vw 0.70313vw 1.95313vw;
     border-radius: 16px;
   }
 
   .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
-    padding: 18px 30px 18px 34px;
-    height: 94px;
+    padding: 0.70313vw 1.17188vw 0.70313vw 1.32813vw;
     border-radius: 16px;
   }
 
@@ -50,22 +46,16 @@
   /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
-    height: 70px;
-
     border-radius: 0.625vw;
   }
   .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 21px 18px 39px;
-
-    height: 70px;
+    padding: 0.9375vw 1.09375vw 0.9375vw 2.03125vw;
 
     border-radius: 0.625vw;
   }
 
   .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
-    padding: 18px 21px 18px 23px;
-
-    height: 70px;
+    padding: 0.9375vw 1.09375vw 0.9375vw 1.19792vw;
 
     border-radius: 0.625vw;
   }
@@ -92,22 +82,16 @@
   /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
-    height: 62px;
-
     border-radius: 10px;
   }
   .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 17px 18px 26px;
-
-    height: 62px;
+    padding: 1.25vw 1.18056vw 1.25vw 1.80556vw;
 
     border-radius: 10px;
   }
 
   .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
-    padding: 18px 17px 18px 26px;
-
-    height: 62px;
+    padding: 1.25vw 1.18056vw 1.25vw 1.80556vw;
 
     border-radius: 10px;
   }
@@ -134,23 +118,17 @@
   /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
-    height: 52px;
-
     border-radius: 10px;
   }
 
   .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 15px 18px 22px;
-
-    height: 52px;
+    padding: 1.31772vw 1.0981vw 1.31772vw 1.61054vw;
 
     border-radius: 10px;
   }
 
   .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
-    padding: 18px 15px 18px 22px;
-
-    height: 52px;
+    padding: 18px 1.0981vw 18px 1.61054vw;
 
     border-radius: 10px;
   }
@@ -181,17 +159,13 @@
   }
 
   .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 15px 18px 22px;
-
-    height: 52px;
+    padding: 1.75781vw 1.46484vw 1.75781vw 2.14844vw;
 
     border-radius: 10px;
   }
 
   .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
-    padding: 18px 15px 18px 22px;
-
-    height: 52px;
+    padding: 1.75781vw 1.46484vw 1.75781vw 2.14844vw;
 
     border-radius: 10px;
   }
@@ -203,9 +177,33 @@
   .W_MenuBarBreadcrumbsRoundedBorder :nth-child(3) {
     order: 2;
   }
+
+  /* Главный экран */
+
+  .W_MenuBarBreadcrumbsRoundedBorderNavigationMainMenu {
+    justify-content: flex-end;
+  }
+
+  .W_MainScreenCardsAndFooterMobile {
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .W_MenuCardContent {
+    padding: 14px;
+    gap: 16px;
+    border-radius: 10px;
+  }
+
+  .W_MainScreenLogoGlyphs {
+    width: 365px;
+    gap: 32px;
+  }
 }
 
-@media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
   /* Лендинг */
 
   .W_LandingSection01 {
@@ -222,17 +220,13 @@
   }
 
   .W_MenuBarBreadcrumbsRoundedBorder {
-    padding: 18px 15px 18px 22px;
-
-    height: 52px;
+    padding: 2.34375vw 1.95313vw 2.34375vw 2.86458vw;
 
     border-radius: 10px;
   }
 
   .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
-    padding: 18px 15px 18px 22px;
-
-    height: 52px;
+    padding: 2.34375vw 1.95313vw 2.34375vw 2.86458vw;
 
     border-radius: 10px;
   }
@@ -244,9 +238,33 @@
   .W_MenuBarBreadcrumbsRoundedBorder :nth-child(3) {
     order: 2;
   }
+
+  /* Главный экран */
+
+  .W_MenuBarBreadcrumbsRoundedBorderNavigationMainMenu {
+    justify-content: flex-end;
+  }
+
+  .W_MainScreenCardsAndFooterMobile {
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .W_MenuCardContent {
+    padding: 14px;
+    gap: 16px;
+    border-radius: 10px;
+  }
+
+  .W_MainScreenLogoGlyphs {
+    width: 452px;
+    gap: 42px;
+  }
 }
 
-@media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+@media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
   /* Лендинг */
 
   .W_LandingSection01 {
@@ -265,15 +283,11 @@
   .W_MenuBarBreadcrumbsRoundedBorder {
     padding: 18px 20px;
 
-    height: 52px;
-
     border-radius: 10px;
   }
 
   .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
     padding: 18px 20px;
-
-    height: 52px;
 
     border-radius: 10px;
   }
@@ -296,6 +310,31 @@
 
   .W_Burger {
     justify-content: flex-end;
+    order: 2;
+  }
+
+  /* Главный экран */
+
+  .W_MenuBarBreadcrumbsRoundedBorderNavigationMainMenu {
+    justify-content: flex-start;
+  }
+
+  .W_MainScreenCardsAndFooterMobile {
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .W_MenuCardContent {
+    padding: 5.07246vw 5.31401vw;
+    gap: 4.34783vw;
+    border-radius: 10px;
+  }
+
+  .W_MainScreenLogoGlyphs {
+    width: 72.46377vw;
+    gap: 6.76329vw;
   }
 }
 
@@ -309,15 +348,11 @@
   .W_MenuBarBreadcrumbsRoundedBorder {
     padding: 18px 20px;
 
-    height: 44px;
-
     border-radius: 8px;
   }
 
   .W_MenuBarBreadcrumbsRoundedBorderMainMenu {
     padding: 18px 20px;
-
-    height: 44px;
 
     border-radius: 8px;
   }
@@ -340,5 +375,30 @@
 
   .W_Burger {
     justify-content: flex-end;
+    order: 2;
+  }
+
+  /* Главный экран */
+
+  .W_MenuBarBreadcrumbsRoundedBorderNavigationMainMenu {
+    justify-content: flex-start;
+  }
+
+  .W_MainScreenCardsAndFooterMobile {
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .W_MenuCardContent {
+    padding: 5.07246vw 5.31401vw;
+    gap: 4.34783vw;
+    border-radius: 10px;
+  }
+
+  .W_MainScreenLogoGlyphs {
+    width: 72.46377vw;
+    gap: 6.76329vw;
   }
 }

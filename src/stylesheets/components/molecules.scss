@@ -109,6 +109,10 @@
   background: var(--white);
 }
 
+.M_MenuBarBreadcrumbsMainScreenMobile {
+  display: none;
+}
+
 /* Главный экран */
 
 .M_MenuCards {
@@ -156,6 +160,43 @@
   display: flex;
   flex-direction: column;
   isolation: isolate;
+}
+
+/* Разбор сюжета */
+
+.M_StoryBigCardFrame {
+  order: 2;
+
+  box-sizing: border-box;
+
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding: 0.99vw 2.135vw 0.99vw 0.99vw;
+
+  width: 24.73958vw;
+  height: 100%;
+
+  background: black;
+  border: 1px solid white;
+  border-radius: 0.625vw;
+}
+
+.M_StorySmallCardFrame {
+  order: 2;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  padding: 0.99vw 2.135vw 0.99vw 0.99vw;
+
+  width: 16.09375vw;
+  height: 100%;
+
+  background: black;
+  border: 1px solid white;
+  border-radius: 0.625vw;
 }
 
 /* О проекте */

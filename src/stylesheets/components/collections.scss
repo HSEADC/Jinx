@@ -107,3 +107,36 @@
   gap: 0.36458vw;
   width: 100%;
 }
+
+/* Разбор сюжета */
+
+.C_StoryCards {
+  position: relative;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
+  display: grid;
+  grid-template-rows: 14.6875vw 10.98958vw 10.98958vw;
+
+  padding-top: 9vh;
+  padding-left: 3.906vw;
+  padding-right: 3.906vw;
+
+  height: 100%;
+}
+
+.C_StoryCards::-webkit-scrollbar {
+  height: 10px;
+}
+
+.C_StoryCards::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.C_StoryCards::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+
+  background: black;
+  border-radius: 100vw;
+  border: 1px solid white;
+}

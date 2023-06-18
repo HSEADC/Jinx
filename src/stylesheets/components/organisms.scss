@@ -207,6 +207,35 @@
   display: none;
 }
 
+/* Разбор сюжета */
+
+.O_StoryBigCardRow01 {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  height: 7.34375vw;
+}
+
+.O_StoryBigCard {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  height: 7.34375vw;
+  justify-content: flex-end;
+}
+
+.O_StorySmallCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
 /* О проекте */
 
 .O_AboutBody {

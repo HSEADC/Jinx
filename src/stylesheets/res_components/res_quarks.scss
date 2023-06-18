@@ -223,6 +223,11 @@
     line-height: 22px;
   }
 
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
   .Q_LandingFooterButtonVK {
     font-size: 20px;
     line-height: 22px;
@@ -539,6 +544,11 @@
   }
 
   .Q_LandingSection08FooterButtonsCenterCredits {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
     font-size: 15px;
     line-height: 17px;
   }
@@ -860,6 +870,11 @@
     line-height: 12px;
   }
 
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
   .Q_LandingFooterButtonVK {
     font-size: 11px;
     line-height: 12px;
@@ -1171,6 +1186,11 @@
   }
 
   .Q_LandingSection08FooterButtonsCenterCredits {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
     font-size: 11px;
     line-height: 12px;
   }
@@ -1490,6 +1510,11 @@
     line-height: 9px;
   }
 
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 8px;
+    line-height: 9px;
+  }
+
   .Q_LandingFooterButtonVK {
     font-size: 8px;
     line-height: 9px;
@@ -1518,6 +1543,71 @@
 
   .Q_Burger {
     display: flex;
+  }
+
+  /* Главный экран */
+
+  .Q_MainScreenFloatGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_MainScreenPointGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_IconInfo {
+    background-image: url('images/components/quarks/1024x768/Q_IconInfo.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconTG {
+    background-image: url('images/components/quarks/1024x768/Q_IconTG.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconVK {
+    background-image: url('images/components/quarks/1024x768/Q_IconVK.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_CardTitle {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .Q_CardText {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .Q_MainScreenLogo {
+    width: 365px;
+    height: 139px;
+
+    filter: drop-shadow(0px 0px 6px #ffffff)
+      drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4))
+      drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.47));
+  }
+
+  .Q_MainScreenLogoGlyphLeft {
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .Q_MainScreenLogoGlyphRight {
+    font-size: 10px;
+    line-height: 11px;
   }
 
   /* Смотреть видео */
@@ -1588,7 +1678,7 @@
   }
 }
 
-@media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
   .Q_GrungeTexture {
     background-image: url('images/components/quarks/Q_GrungeTexture768.png');
   }
@@ -1813,6 +1903,11 @@
     line-height: 12px;
   }
 
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
   .Q_LandingFooterButtonVK {
     font-size: 11px;
     line-height: 12px;
@@ -1843,7 +1938,73 @@
     display: flex;
   }
 
+  /* Главный экран */
+
+  .Q_MainScreenFloatGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_MainScreenPointGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_IconInfo {
+    background-image: url('images/components/quarks/1024x768/Q_IconInfo.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconTG {
+    background-image: url('images/components/quarks/1024x768/Q_IconTG.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconVK {
+    background-image: url('images/components/quarks/1024x768/Q_IconVK.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_CardTitle {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .Q_CardText {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .Q_MainScreenLogo {
+    width: 434px;
+    height: 172px;
+
+    filter: drop-shadow(0px 0px 6px #ffffff)
+      drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4))
+      drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.47));
+  }
+
+  .Q_MainScreenLogoGlyphLeft {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_MainScreenLogoGlyphRight {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
   /* Смотреть видео */
+
   .Q_TopgameLineunder {
     background-image: url('images/Q_TopgameLineUnder_768.svg');
     background-size: cover;
@@ -1913,7 +2074,7 @@
   }
 }
 
-@media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+@media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
   .Q_GrungeTexture {
     background-image: url('images/components/quarks/Q_GrungeTexture414.png');
   }
@@ -2188,6 +2349,11 @@
     line-height: 6vw;
   }
 
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 4.9vw;
+    line-height: 6vw;
+  }
+
   .Q_LandingFooterButtonVK {
     font-size: 4.9vw;
     line-height: 6vw;
@@ -2214,7 +2380,107 @@
     background-position: right;
   }
 
+  /* Главный экран */
+
+  .Q_MainScreenFloatGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_MainScreenPointGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_IconInfo {
+    background-image: url('images/components/quarks/1024x768/Q_IconInfo.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconTG {
+    background-image: url('images/components/quarks/1024x768/Q_IconTG.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconVK {
+    background-image: url('images/components/quarks/1024x768/Q_IconVK.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_CardTitle {
+    font-size: 6.03865vw;
+    line-height: 6.76329vw;
+  }
+
+  .Q_CardText {
+    font-size: 3.38164vw;
+    line-height: 3.86473vw;
+  }
+
+  .Q_MainScreenLogo {
+    width: 69.56522vw;
+    height: 27.53623vw;
+
+    filter: drop-shadow(0px 0px 6px #ffffff)
+      drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4))
+      drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.47));
+  }
+
+  .Q_MainScreenLogoGlyphLeft {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_MainScreenLogoGlyphRight {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_ArrowLeft {
+    cursor: pointer;
+
+    display: block;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 52px;
+    background: black;
+
+    background-image: url('images/components/quarks/414x896/Q_ArrowLeft.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .Q_ArrowRight {
+    cursor: pointer;
+
+    display: block;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 52px;
+    background: black;
+
+    background-image: url('images/components/quarks/414x896/Q_ArrowRight.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
   /* Смотреть видео */
+
   .Q_TopgameLineunder {
     // background-image: url('images/Q_TopgameLineUnder_414.svg');
     background-size: cover;
@@ -2294,6 +2560,105 @@
   .Q_Burger {
     display: flex;
     background-position: right;
+  }
+
+  /* Главный экран */
+
+  .Q_MainScreenFloatGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_MainScreenPointGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_IconInfo {
+    background-image: url('images/components/quarks/1024x768/Q_IconInfo.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconTG {
+    background-image: url('images/components/quarks/1024x768/Q_IconTG.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconVK {
+    background-image: url('images/components/quarks/1024x768/Q_IconVK.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_CardTitle {
+    font-size: 6.03865vw;
+    line-height: 6.76329vw;
+  }
+
+  .Q_CardText {
+    font-size: 3.38164vw;
+    line-height: 3.86473vw;
+  }
+
+  .Q_MainScreenLogo {
+    width: 69.56522vw;
+    height: 27.53623vw;
+
+    filter: drop-shadow(0px 0px 6px #ffffff)
+      drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4))
+      drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.47));
+  }
+
+  .Q_MainScreenLogoGlyphLeft {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_MainScreenLogoGlyphRight {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_ArrowLeft {
+    cursor: pointer;
+
+    display: block;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 52px;
+    background: black;
+
+    background-image: url('images/components/quarks/414x896/Q_ArrowLeft.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .Q_ArrowRight {
+    cursor: pointer;
+
+    display: block;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 52px;
+    background: black;
+
+    background-image: url('images/components/quarks/414x896/Q_ArrowRight.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
   }
 
   /* Смотреть видео */

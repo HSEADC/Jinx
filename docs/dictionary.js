@@ -2,8 +2,7 @@
 /******/ 	"use strict";
 var __webpack_exports__ = {};
 
-console.log('Тестикс');
-var container = document.querySelector('.C_MonsterCards');
+var container = document.querySelector('.C_StoryCards');
 container.addEventListener('wheel', function (e) {
   e.preventDefault();
   container.scrollLeft += e.deltaY;

@@ -13,6 +13,11 @@
   overflow: visible;
 }
 
+.W_LandingSection08FooterButtonsCenterCredits {
+  display: flex;
+  gap: 0.46875vw;
+}
+
 /* Меню-бар */
 
 .W_MenuBarMainRoundedBorder {
@@ -22,7 +27,7 @@
   align-items: center;
 
   width: 100%;
-  height: 70px;
+  height: 100%;
 
   background: #000000;
   border-radius: 0.625vw;
@@ -35,7 +40,7 @@
   padding: 18px 21px 18px 39px;
 
   width: 100%;
-  height: 70px;
+  height: 100%;
 
   background: #000000;
   border-radius: 0.625vw;
@@ -48,7 +53,7 @@
   padding: 18px 21px 18px 23px;
 
   width: 100%;
-  height: 70px;
+  height: 100%;
 
   background: #000000;
   border-radius: 0.625vw;
@@ -112,6 +117,10 @@
   flex-direction: column;
 }
 
+.W_MainScreenCardsAndFooterMobile {
+  display: none;
+}
+
 .W_MenuCardContent {
   background-color: black;
   display: flex;
@@ -123,6 +132,8 @@
 }
 
 .W_MainScreenLogoGlyphs {
+  width: 35.83333vw;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -256,6 +267,76 @@
   gap: 1.35417vw;
 
   width: 100%;
+}
+
+/* Разбор сюжета */
+
+.W_StoryCardsRoundedBorder {
+  width: 100%;
+  height: 100%;
+  isolation: isolate;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: black;
+  border-radius: 0.625vw;
+}
+
+.W_StoryRow01 {
+  display: flex;
+  padding-left: 116.92708vw;
+  overflow: visible;
+  height: 14.6875vw;
+}
+
+.W_StoryRow02 {
+  display: flex;
+  width: 165.052vw;
+  align-items: flex-start;
+  overflow: visible;
+}
+
+.W_StoryRow03 {
+  display: flex;
+  padding: 0 0 0 46.771vw;
+  width: 100%;
+}
+
+.W_StoryRow03Inside {
+  display: flex;
+
+  width: 100%;
+  gap: 27.23958vw;
+}
+
+.W_StoryRow03InsideBigCardsPair {
+  display: flex;
+  align-items: flex-end;
+}
+
+.W_StoryBigCardConnectors {
+  order: 2;
+
+  flex-shrink: 0;
+  height: 7.344vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
+.W_StorySmallCardConnectors {
+  order: 2;
+
+  flex-shrink: 0;
+  width: 100%;
+  height: 7.344vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
 }
 
 /* О проекте */

@@ -679,9 +679,35 @@
     height: 54px;
   }
 
-  /* Страшно реально */
+  .M_MenuBarBreadcrumbsMainScreenMobile {
+    flex-shrink: 0;
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 1px 1px 1px;
+
+    width: 100%;
+    height: 54px;
+
+    background: var(--white);
+  }
+
+  /* Главный экран */
+
+  .M_MenuCards {
+    border-top: 0;
+    gap: 1px;
+    height: 204px;
+  }
+
+  .M_DownBar {
+    height: 54px;
+  }
 
   /* Разбор механик */
+
   .M_AnalysismechanicsTextpart {
     /* Auto layout */
 
@@ -788,7 +814,7 @@
   }
 }
 
-@media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
   /* Лендинг */
 
   .M_LandingInsert01 {
@@ -839,9 +865,37 @@
     height: 54px;
   }
 
+  .M_MenuBarBreadcrumbsMainScreenMobile {
+    flex-shrink: 0;
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 1px 1px 1px;
+
+    width: 100%;
+    height: 54px;
+
+    background: var(--white);
+  }
+
+  /* Главный экран */
+
+  .M_MenuCards {
+    border-top: 0;
+    gap: 1px;
+    height: 204px;
+  }
+
+  .M_DownBar {
+    height: 54px;
+  }
+
   /* Страшно реально */
 
   /* Разбор механик */
+
   .M_AnalysismechanicsTextpart {
     /* Auto layout */
 
@@ -931,7 +985,7 @@
   }
 }
 
-@media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+@media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
   /* Лендинг */
 
   .M_LandingInsert01 {
@@ -983,9 +1037,38 @@
     height: 54px;
   }
 
+  .M_MenuBarBreadcrumbsMainScreenMobile {
+    flex-shrink: 0;
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 1px 1px 1px;
+
+    width: 100%;
+    height: 54px;
+
+    background: var(--white);
+  }
+
+  /* Главный экран */
+
+  .M_MenuCards {
+    border-top: 0;
+    gap: 1px;
+    height: 221px;
+    padding: 0px 1px;
+  }
+
+  .M_DownBar {
+    height: 54px;
+  }
+
   /* Страшно реально */
 
   /* Разбор механик */
+
   .M_AnalysismechanicsTextpart {
     /* Auto layout */
 
@@ -1089,9 +1172,38 @@
     height: 46px;
   }
 
+  .M_MenuBarBreadcrumbsMainScreenMobile {
+    flex-shrink: 0;
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 1px 1px 1px;
+
+    width: 100%;
+    height: 54px;
+
+    background: var(--white);
+  }
+
+  /* Главный экран */
+
+  .M_MenuCards {
+    border-top: 0;
+    gap: 1px;
+    height: 221px;
+    padding: 0px 1px;
+  }
+
+  .M_DownBar {
+    height: 54px;
+  }
+
   /* Страшно реально */
 
   /* Разбор механик */
+
   .M_AnalysismechanicsTextpart {
     /* Auto layout */
 

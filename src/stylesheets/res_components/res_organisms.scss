@@ -434,7 +434,14 @@
     height: 48px;
   }
 
+  /* Главный экран */
+
+  .O_MainScreenLogo {
+    border-radius: 10px;
+  }
+
   /* Смотреть видео */
+
   .O_Video {
     display: flex;
     flex-direction: column;
@@ -486,7 +493,7 @@
   }
 }
 
-@media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
   /* Лендинг */
 
   .O_LandingSection03CardKey {
@@ -536,7 +543,14 @@
     height: 55px;
   }
 
+  /* Главный экран */
+
+  .O_MainScreenLogo {
+    border-radius: 10px;
+  }
+
   /* Смотреть видео */
+
   .O_Video {
     display: flex;
     flex-direction: column;
@@ -588,7 +602,7 @@
   }
 }
 
-@media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+@media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
   /* Лендинг */
 
   .O_LandingSection03CardKey {
@@ -636,6 +650,12 @@
     padding-left: 12px;
     padding-right: 12px;
     height: 182px;
+  }
+
+  /* Главный экран */
+
+  .O_MainScreenLogo {
+    border-radius: 10px;
   }
 
   /* Смотреть видео */
@@ -691,6 +711,12 @@
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* Главный экран */
+
+  .O_MainScreenLogo {
+    border-radius: 10px;
+  }
+
   /* Смотреть видео */
   .O_Video {
     display: flex;

@@ -336,6 +336,19 @@
   color: black;
 }
 
+.Q_LandingSection08FooterButtonsCenterCreditsCross {
+  display: flex;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: black;
+}
+
 .Q_LandingSection08FooterButtonsCenterCredits:hover {
   filter: invert(1);
 }
@@ -416,6 +429,8 @@
   z-index: -99;
 }
 .Q_Burger {
+  z-index: 99;
+  cursor: pointer;
   width: 21px;
   position: relative;
 
@@ -547,7 +562,7 @@
 .Q_MainScreenLogo {
   width: 32.8125vw;
   height: 12.96875vw;
-  background-size: cover;
+  background-size: contain;
   background-image: url('images/components/quarks/1920x1080/Q_Logo.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -567,6 +582,14 @@
   font-size: 1.04167vw;
 
   color: white;
+}
+
+.Q_ArrowLeft {
+  display: none;
+}
+
+.Q_ArrowRight {
+  display: none;
 }
 
 /* Браузер видео */
@@ -883,6 +906,62 @@
   display: none;
 }
 
+/* Разбор сюжета */
+
+.Q_StoryConnectHalfDown {
+  order: 3;
+
+  background-image: url('images/components/quarks/1920x1080/Q_StoryConnectHalfDown.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  flex-shrink: 0;
+  width: 1.61458vw;
+  height: 3.69792vw;
+  margin-top: -0.05208vw;
+}
+
+.Q_StoryConnectHalfUp {
+  order: 1;
+
+  background-image: url('images/components/quarks/1920x1080/Q_StoryConnectHalfUp.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  flex-shrink: 0;
+  width: 1.61458vw;
+  height: 3.69792vw;
+  margin-bottom: -0.05208vw;
+}
+
+.Q_StoryConnectHalfLeft {
+  order: 1;
+
+  background-image: url('images/components/quarks/1920x1080/Q_StoryConnectHalfLeft.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  width: 3.69792vw;
+  height: 1.61458vw;
+  margin-right: -0.05208vw;
+}
+
+.Q_StoryConnectHalfRight {
+  order: 3;
+
+  background-image: url('images/components/quarks/1920x1080/Q_StoryConnectHalfRight.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  width: 3.69792vw;
+  height: 1.61458vw;
+  margin-left: -0.05208vw;
+}
+
 /* О проекте */
 
 .Q_AboutNavLeft {
@@ -986,4 +1065,8 @@
   line-height: 90%;
 
   color: var(--acid-green);
+}
+
+.svg_anim {
+  cursor: pointer;
 }
