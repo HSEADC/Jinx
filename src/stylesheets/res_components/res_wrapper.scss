@@ -262,6 +262,37 @@
     width: 452px;
     gap: 42px;
   }
+
+  /* Разбор монстров */
+
+  .W_NarrowArticlestyleTitle {
+    display: none;
+  }
+
+  .W_ArticlestyleTitleMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0px 11.58854vw;
+  }
+
+  .W_NarrowArticlestyleParagraphs {
+    margin-top: 4.6875vw;
+    margin-bottom: 10vw;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 15%;
+
+    gap: 22px;
+
+    width: 100%;
+  }
+  .W_MonsterPic {
+    border-radius: 10px;
+  }
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
@@ -315,6 +346,10 @@
 
   /* Главный экран */
 
+  .W_MenuBarBreadcrumbsRoundedBorderNavigation {
+    justify-content: flex-start;
+  }
+
   .W_MenuBarBreadcrumbsRoundedBorderNavigationMainMenu {
     justify-content: flex-start;
   }
@@ -335,6 +370,43 @@
   .W_MainScreenLogoGlyphs {
     width: 72.46377vw;
     gap: 6.76329vw;
+  }
+
+  /* Разбор монстров */
+
+  .W_MonsterPic {
+    border-radius: 10px;
+  }
+
+  .W_NarrowArticlestyleTitle {
+    display: none;
+  }
+
+  .W_ArticlestyleTitleMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 0px 15px;
+  }
+
+  .W_NarrowArticlestyleParagraphs {
+    margin-top: 6.28019vw;
+    margin-bottom: 30vw;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 20px;
+
+    gap: 20px;
+
+    width: 100%;
+  }
+
+  .W_MonsterAndStoryCardContent {
+    gap: 5px;
+    height: 100%;
   }
 }
 
@@ -400,5 +472,42 @@
   .W_MainScreenLogoGlyphs {
     width: 72.46377vw;
     gap: 6.76329vw;
+  }
+
+  /* Разбор монстров */
+
+  .W_MonsterPic {
+    border-radius: 10px;
+  }
+
+  .W_NarrowArticlestyleTitle {
+    display: none;
+  }
+
+  .W_ArticlestyleTitleMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 0px 15px;
+  }
+
+  .W_NarrowArticlestyleParagraphs {
+    margin-top: 6.28019vw;
+    margin-bottom: 30vw;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 20px;
+
+    gap: 20px;
+
+    width: 100%;
+  }
+
+  .W_MonsterAndStoryCardContent {
+    gap: 5px;
+    height: 100%;
   }
 }

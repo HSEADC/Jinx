@@ -47,6 +47,11 @@
 
     position: relative;
   }
+
+  /* Разбор монстров */
+  .S_SplitScreen {
+    height: calc(100vh - 96px);
+  }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
   /* Лендинг */
@@ -147,6 +152,11 @@
 
     position: relative;
   }
+
+  /* Разбор монстров */
+  .S_SplitScreen {
+    height: calc(100vh - 64px);
+  }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
   /* Лендинг */
@@ -195,6 +205,11 @@
     align-items: center;
 
     position: relative;
+  }
+
+  /* Разбор монстров */
+  .S_SplitScreen {
+    height: calc(100vh - 54px);
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -270,6 +285,11 @@
 
     position: relative;
   }
+
+  /* Разбор монстров */
+  .S_SplitScreen {
+    height: calc(100vh - 54px);
+  }
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
@@ -333,6 +353,21 @@
 
     background-color: white;
     mix-blend-mode: lighten;
+  }
+
+  /* Разбор монстров */
+
+  .S_SplitScreen {
+    padding: 0px;
+    width: 100%;
+    height: calc(100vh - 54px);
+    flex-direction: column;
+  }
+
+  .S_Article {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
   }
 
   /* Инди игры */
@@ -422,6 +457,21 @@
 
     gap: 10px;
   }
+
+  /* Разбор монстров */
+
+  .S_SplitScreen {
+    padding: 0px;
+    width: 100%;
+    height: calc(100vh - 54px);
+    flex-direction: column;
+  }
+
+  .S_Article {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media only screen and (max-device-width: 360px) {
@@ -464,5 +514,20 @@
     position: relative;
 
     gap: 10px;
+  }
+
+  /* Разбор монстров */
+
+  .S_SplitScreen {
+    padding: 0px;
+    width: 100%;
+    height: calc(100vh - 54px);
+    flex-direction: column;
+  }
+
+  .S_Article {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
   }
 }

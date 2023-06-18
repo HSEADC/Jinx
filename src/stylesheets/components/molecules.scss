@@ -289,23 +289,11 @@
   flex-grow: 0;
 }
 .M_TopgameWholeheadingMobile {
-  /* Auto layout */
-
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 89px;
-  gap: 20px;
-
-  width: 768px;
-  height: 207px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+  width: 100%;
+  gap: 2.21354vw;
 }
 .M_TopgameVisual {
   /* Auto layout */

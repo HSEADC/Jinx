@@ -276,17 +276,6 @@
 
   /* Инди игры */
 
-  /*Заголовок мобилки*/
-  .A_TopgameHeadingMobile {
-    display: none;
-  }
-  .A_TopgameLinkMobile {
-    display: none;
-  }
-  .A_TopgameDateMobile {
-    display: none;
-  }
-
   /*Тело статьи*/
   .A_TopgameVideo {
     background-image: url('./images/A_TopgamePicture_2560.svg');
@@ -700,17 +689,6 @@
 
   /* Инди игры */
 
-  /*Заголовок мобилки*/
-  .A_TopgameHeadingMobile {
-    display: none;
-  }
-  .A_TopgameLinkMobile {
-    display: none;
-  }
-  .A_TopgameDateMobile {
-    display: none;
-  }
-
   /*Тело статьи*/
   .A_TopgameVideo {
     background-image: url('./images/A_TopgamePicture_1920.svg');
@@ -1118,17 +1096,6 @@
   }
 
   /* Инди игры */
-
-  /*Заголовок мобилки*/
-  .A_TopgameHeadingMobile {
-    display: none;
-  }
-  .A_TopgameLinkMobile {
-    display: none;
-  }
-  .A_TopgameDateMobile {
-    display: none;
-  }
 
   /*Тело статьи*/
   .A_TopgameVideo {
@@ -1541,17 +1508,6 @@
   }
 
   /* Инди игры */
-
-  /*Заголовок мобилки*/
-  .A_TopgameHeadingMobile {
-    display: none;
-  }
-  .A_TopgameLinkMobile {
-    display: none;
-  }
-  .A_TopgameDateMobile {
-    display: none;
-  }
 
   /*Тело статьи*/
   .A_TopgameVideo {
@@ -2012,17 +1968,6 @@
 
   /* Инди игры */
 
-  /*Заголовок мобилки*/
-  .A_TopgameHeadingMobile {
-    display: none;
-  }
-  .A_TopgameLinkMobile {
-    display: none;
-  }
-  .A_TopgameDateMobile {
-    display: none;
-  }
-
   /*Тело статьи*/
   .A_TopgameVideo {
     background-image: url('./images/A_TopgamePicture_1024.svg');
@@ -2136,6 +2081,32 @@
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* Разбор монстров */
+
+  .A_MonsterTextunder {
+    padding-right: 30px;
+    font-size: 7px;
+    line-height: 8px;
+  }
+
+  .A_InsertContent {
+    width: 337px;
+    padding: 9px 26px;
+
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .A_NarrowArticlestyleTitle {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .A_NarrowArticlestyleText {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
   /* Лендинг */
 
   .A_LandingInsertContent {
@@ -2480,72 +2451,6 @@
 
   /*Заголовок десктоп*/
 
-  /*Заголовок мобилки*/
-  .A_TopgameHeadingMobile {
-    /* Text */
-
-    font-size: 48px;
-    line-height: 58px;
-    /* or 121% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.08em;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-
-    width: 590px;
-    height: 116px;
-
-    /* Inside auto layout */
-
-    align-self: stretch;
-  }
-  .A_TopgameLinkMobile {
-    /* Text */
-
-    font-size: 12px;
-    line-height: 13px;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 152px;
-    height: 39px;
-  }
-  .A_TopgameDateMobile {
-    /* Text */
-
-    font-size: 12px;
-    line-height: 13px;
-    text-align: right;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 198px;
-    height: 26px;
-  }
-
   /*Тело статьи*/
   .A_TopgameVideo {
     background-image: url('./images/A_TopgamePicture_768.svg');
@@ -2663,6 +2568,48 @@
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* Разбор монстров */
+
+  .A_MonsterTextunder {
+    padding-right: 15px;
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .A_InsertContent {
+    width: 100%;
+    padding: 14px 26px;
+
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .A_NarrowArticlestyleTitle {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .A_NarrowArticlestyleText {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .A_TopgameHeadingMobile {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .A_TopgameLinkMobile {
+    font-size: 10px;
+    line-height: 11px;
+    width: 126px;
+  }
+  .A_TopgameDateMobile {
+    font-size: 10px;
+    line-height: 11px;
+    width: 79px;
+  }
+
   /* Лендинг */
 
   .A_LandingInsertContent {
@@ -3021,73 +2968,6 @@
     display: none;
   }
 
-  /*Заголовок мобилки*/
-  .A_TopgameHeadingMobile {
-    margin: 0 auto;
-    /* Text */
-
-    font-size: 30px;
-    line-height: 35px;
-    /* or 121% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.08em;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-
-    width: 300px;
-    height: 70px;
-
-    /* Inside auto layout */
-
-    align-self: stretch;
-  }
-  .A_TopgameLinkMobile {
-    /* Text */
-
-    font-size: 10px;
-    line-height: 11px;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 126px;
-    height: 33px;
-  }
-  .A_TopgameDateMobile {
-    /* Text */
-
-    font-size: 10px;
-    line-height: 11px;
-    text-align: right;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 101px;
-    height: 26px;
-  }
-
   /*Тело статьи*/
   .A_TopgameVideo {
     background-image: url('./images/A_TopgamePicture_414.svg');
@@ -3207,6 +3087,48 @@
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* Разбор монстров */
+
+  .A_MonsterTextunder {
+    padding-right: 15px;
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .A_InsertContent {
+    width: 100%;
+    padding: 14px 26px;
+
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .A_NarrowArticlestyleTitle {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .A_NarrowArticlestyleText {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .A_TopgameHeadingMobile {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .A_TopgameLinkMobile {
+    font-size: 10px;
+    line-height: 11px;
+    width: 126px;
+  }
+  .A_TopgameDateMobile {
+    font-size: 10px;
+    line-height: 11px;
+    width: 79px;
+  }
+
   /* Меню-бар */
   .A_MenuBarButton {
     display: none;
@@ -3480,69 +3402,6 @@
   }
   .A_TopgameDate {
     display: none;
-  }
-
-  /*Заголовок мобилки*/
-  .A_TopgameHeadingMobile {
-    margin: 0 auto;
-    /* Text */
-
-    font-size: 25px;
-    line-height: 30px;
-    /* or 121% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.08em;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-
-    width: 260px;
-    height: 60px;
-
-    align-self: stretch;
-  }
-  .A_TopgameLinkMobile {
-    /* Text */
-
-    font-size: 8px;
-    line-height: 9px;
-    letter-spacing: 0.1em;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 100px;
-  }
-  .A_TopgameDateMobile {
-    /* Text */
-
-    font-size: 8px;
-    line-height: 9px;
-    text-align: right;
-    text-transform: lowercase;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 37px;
   }
 
   /*Тело статьи*/

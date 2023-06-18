@@ -238,10 +238,18 @@
   display: flex;
   flex-direction: column;
   gap: 1.04167vw;
+  height: 100%;
 }
 
 .W_ArticlestyleTitleMobile {
   display: none;
+}
+
+.W_TopgameLinksMobile {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
 }
 
 .W_NarrowArticlestyleTitle {
@@ -259,7 +267,7 @@
 .W_NarrowArticlestyleParagraphs {
   position: relative;
   margin-top: 1.875vw;
-  margin-bottom: 2.91667vw;
+  margin-bottom: 5vw;
   display: flex;
   flex-direction: column;
 

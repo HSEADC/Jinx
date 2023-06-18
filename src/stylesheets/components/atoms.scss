@@ -629,7 +629,7 @@
   line-height: 0.78125vw;
   text-transform: lowercase;
 
-  color: #4cff53;
+  color: var(--acid-green);
 }
 
 .A_MonsterTextunder {
@@ -874,89 +874,43 @@
 }
 
 /*Заголовок мобилки*/
-.A_TopgameHeadingMobile {
-  /* Text */
 
+.A_TopgameHeadingMobile {
   text-transform: uppercase;
   font-family: 'Jinx Font';
-  font-style: normal;
   font-weight: 400;
   font-size: 48px;
   line-height: 58px;
-  /* or 121% */
 
-  display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.08em;
 
   color: var(--white);
 
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-
-  width: 590px;
-  height: 116px;
-
-  align-self: stretch;
+  width: 100%;
 }
-.A_TopgameLinkMobile {
-  /* Text */
 
+.A_TopgameLinkMobile {
   font-family: 'PT Mono';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 13px;
-  letter-spacing: 0.1em;
   text-transform: lowercase;
 
   color: var(--acid-green);
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
 
   width: 152px;
-  height: 39px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .A_TopgameDateMobile {
-  /* Text */
-
   font-family: 'PT Mono';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 13px;
-  text-align: right;
   text-transform: lowercase;
-
+  text-align: right;
   color: var(--acid-green);
 
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 0px;
-
-  width: 198px;
-  height: 26px;
+  width: 95px;
 }
 
 /*Тело статьи*/

@@ -549,6 +549,28 @@
     border-radius: 10px;
   }
 
+  /* Разбор монстров */
+
+  .O_MonsterCards {
+    flex-shrink: 0;
+    padding: 0px 1px;
+    width: 100%;
+    background: white;
+    height: 271px;
+  }
+
+  .O_MonsterCard {
+    width: 387px;
+    height: 228px;
+    border-radius: 10px;
+  }
+
+  .O_NarrowArticle {
+    padding: 7.29167vw 0px 0px;
+    gap: 36px;
+    border-radius: 0;
+  }
+
   /* Смотреть видео */
 
   .O_Video {
@@ -658,7 +680,30 @@
     border-radius: 10px;
   }
 
+  /* Разбор монстров */
+
+  .O_MonsterCards {
+    flex-shrink: 0;
+    padding: 0px 1px;
+    width: 100%;
+    background: white;
+    height: 182px;
+  }
+
+  .O_MonsterCard {
+    width: 260px;
+    height: 154px;
+    border-radius: 10px;
+  }
+
+  .O_NarrowArticle {
+    padding: 19px 0px 0px;
+    gap: 36px;
+    border-radius: 0;
+  }
+
   /* Смотреть видео */
+
   .O_Video {
     display: flex;
     flex-direction: column;
@@ -711,6 +756,28 @@
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* Разбор монстров */
+
+  .O_MonsterCards {
+    flex-shrink: 0;
+    padding: 0px 1px;
+    width: 100%;
+    background: white;
+    height: 182px;
+  }
+
+  .O_MonsterCard {
+    width: 260px;
+    height: 154px;
+    border-radius: 10px;
+  }
+
+  .O_NarrowArticle {
+    padding: 19px 0px 0px;
+    gap: 36px;
+    border-radius: 0;
+  }
+
   /* Главный экран */
 
   .O_MainScreenLogo {

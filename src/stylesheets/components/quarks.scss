@@ -774,22 +774,13 @@
   flex-grow: 0;
 }
 .Q_TopgameLineMobile {
-  /* Auto layout */
+  background-image: url('images/components/quarks/768x1024/Q_TopgameLineMobile.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-
-  width: 590px;
+  width: 100%;
   height: 15px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
 /* Разбор монстров */
@@ -888,6 +879,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  background-origin: content-box;
 
   height: 15.10417vw;
   width: 100%;
