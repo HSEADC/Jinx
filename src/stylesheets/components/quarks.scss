@@ -813,7 +813,6 @@
 .Q_TopgameLineunder {
   background-image: url('images/Q_TopgameLineUnder_1440.svg');
   background-size: cover;
-  /* Auto layout */
 
   display: flex;
   flex-direction: column;
@@ -833,25 +832,13 @@
 }
 .Q_TopgameLine {
   background-image: url('images/Q_TopgameLine_1440.svg');
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 10px;
-
-  width: 1164px;
-  height: 27px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+  width: 100%;
+  height: 2vw;
+  min-height: 20px;
 }
 .Q_TopgameLineMobile {
   background-image: url('images/components/quarks/768x1024/Q_TopgameLineMobile.svg');
@@ -861,6 +848,7 @@
 
   width: 100%;
   height: 15px;
+  flex-shrink: 0;
 }
 
 /* Разбор монстров */
@@ -935,6 +923,16 @@
   background-size: contain;
 }
 
+.Q_ArticleLine {
+  width: 100%;
+  height: 27px;
+
+  background-image: url('images/components/quarks/1920x1080/Q_NarrowTopgameLine.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .Q_InsertTitle {
   flex-shrink: 0;
 
@@ -962,6 +960,18 @@
   background-origin: content-box;
 
   height: 15.10417vw;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext {
+  background-image: url('images/components/quarks/1920x1080/Q_ScaryreallyPictureintext.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
   width: 100%;
   padding: 0px 1.5625vw;
 }

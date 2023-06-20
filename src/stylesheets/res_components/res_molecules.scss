@@ -49,94 +49,19 @@
     height: 96px;
   }
 
-  /* Страшно реально */
-
   /* Разбор механик */
+
   .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     gap: 11px;
-
-    width: 847px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   /* Топы игры */
+
   .M_TopgamePosition {
-    /* Text */
-
     font-size: 25px;
-    line-height: 33px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 20px;
-
-    width: 940px;
-    height: 34px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   /* Инди игры */
-  .M_TopgameWholeheading {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
-    width: 2070px;
-    height: 161px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 945px;
-    height: 924px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
   /* Лендинг */
@@ -181,95 +106,19 @@
     height: 72px;
   }
 
-  /* Страшно реально */
-
   /* Разбор механик */
+
   .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     gap: 9px;
-
-    width: 634px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   /* Топы игры */
+
   .M_TopgamePosition {
-    /* Text */
-
     font-size: 19px;
-    line-height: 25px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 20px;
-
-    width: 682px;
-    height: 25px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   /* Инди игры */
-  .M_TopgameWholeheading {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-
-    width: 1550px;
-    height: 120px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 707px;
-    height: 692px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 }
 @media only screen and (min-width: 1367px) and (max-width: 1740px) {
   /* Лендинг */
@@ -321,96 +170,6 @@
   .M_MenuBarBreadcrumbsMainScreen {
     height: 64px;
   }
-
-  /* Страшно реально */
-
-  /* Разбор механик */
-  .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 20px;
-
-    width: 472px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Топы игры */
-  .M_TopgamePosition {
-    /* Text */
-
-    font-size: 15px;
-    line-height: 25px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 15px;
-
-    width: 514px;
-    height: 25px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .M_TopgameWholeheading {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-
-    width: 1164px;
-    height: 90px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 514px;
-    height: 520px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
   /* Лендинг */
@@ -461,95 +220,6 @@
 
   .M_MenuBarBreadcrumbsMainScreen {
     height: 54px;
-  }
-
-  /* Страшно реально */
-
-  /* Разбор механик */
-  .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 20px;
-
-    width: 430px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Топы игры */
-  .M_TopgamePosition {
-    /* Text */
-
-    font-size: 15px;
-    line-height: 17px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 15px;
-
-    width: 505px;
-    height: 17px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .M_TopgameWholeheading {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
-    width: 1106px;
-    height: 84px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 488px;
-    height: 490px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -629,94 +299,6 @@
 
   .M_DownBar {
     height: 54px;
-  }
-
-  /* Разбор механик */
-
-  .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 15px;
-
-    width: 325px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Топы игры */
-  .M_TopgamePosition {
-    /* Text */
-
-    font-size: 12px;
-    line-height: 13px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 365px;
-    height: 13px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .M_TopgameWholeheading {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
-    width: 828px;
-    height: 64px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 365px;
-    height: 370px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 }
 
@@ -831,79 +413,19 @@
     height: 54px;
   }
 
-  /* Страшно реально */
-
-  /* Разбор механик */
-
   .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     gap: 15px;
-
-    width: 509px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   /* Топы игры */
+
   .M_TopgamePosition {
-    /* Text */
-
-    font-size: 17px;
-    line-height: 19px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
-
-    width: 538px;
-    height: 19px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+    font-size: 2.21354vw;
   }
 
   /* Инди игры */
   .M_TopgameWholeheading {
     display: none;
-  }
-
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 768px;
-    height: 327px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 }
 
@@ -1018,79 +540,21 @@
     height: 54px;
   }
 
-  /* Страшно реально */
-
   /* Разбор механик */
 
   .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     gap: 15px;
-
-    width: 352px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   /* Топы игры */
+
   .M_TopgamePosition {
-    /* Text */
-
     font-size: 15px;
-    line-height: 13px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    width: 374px;
-    height: 13px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   /* Инди игры */
   .M_TopgameWholeheading {
     display: none;
-  }
-
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 414px;
-    height: 200px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 }
 
@@ -1168,78 +632,21 @@
     height: 54px;
   }
 
-  /* Страшно реально */
-
   /* Разбор механик */
 
   .M_AnalysismechanicsTextpart {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 13px;
-
-    width: 307px;
-    height: 100%;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+    gap: 15px;
   }
 
   /* Топы игры */
+
   .M_TopgamePosition {
-    /* Text */
-
-    font-size: 13px;
-    line-height: 10px;
-    /* identical to box height, or 167% */
-
-    text-transform: uppercase;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 7px;
-
-    width: 326px;
-    height: 10px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+    font-size: 15px;
   }
 
   /* Инди игры */
+
   .M_TopgameWholeheading {
     display: none;
-  }
-
-  .M_TopgameVisual {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    width: 360px;
-    height: 176px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 }

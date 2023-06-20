@@ -109,7 +109,6 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 3.22917vw 10.46875vw;
-
   width: 100%;
 }
 
@@ -122,6 +121,38 @@
   align-items: center;
   width: 100vw;
   position: relative;
+}
+
+.S_Video::-webkit-scrollbar {
+  width: 10px;
+}
+
+.S_Video::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.S_Video::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+
+  background: black;
+  border-radius: 100vw;
+  border: 1px solid white;
+}
+
+.S_VideoBrowserScreen::-webkit-scrollbar {
+  width: 10px;
+}
+
+.S_VideoBrowserScreen::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.S_VideoBrowserScreen::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+
+  background: black;
+  border-radius: 100vw;
+  border: 1px solid white;
 }
 
 /* Разбор монстров */
@@ -162,7 +193,6 @@
 /* О проекте */
 
 .S_About {
-  overflow: visible;
   height: calc(100svh - 72px);
 
   padding: 1.71875vw 9.6875vw;
@@ -173,6 +203,22 @@
   gap: 0.625vw;
 }
 
+.S_About::-webkit-scrollbar {
+  width: 10px;
+}
+
+.S_About::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.S_About::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+
+  background: black;
+  border-radius: 100vw;
+  border: 1px solid white;
+}
+
 /* Инди игры */
 
 .S_IndiegameArticle {
@@ -180,5 +226,29 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  position: relative;
+  margin-bottom: 3.125vw;
+  flex-shrink: 0;
+}
+
+.S_ArticleSplitColumn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.S_ArticleSplitColumn::-webkit-scrollbar {
+  width: 10px;
+}
+
+.S_ArticleSplitColumn::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.S_ArticleSplitColumn::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+
+  background: black;
+  border-radius: 100vw;
+  border: 1px solid white;
 }

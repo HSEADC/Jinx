@@ -1,6 +1,22 @@
 @media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  .Q_TopgameLineMobile {
+    display: none;
+  }
+
   .Q_GrungeTexture {
     background-image: url('images/components/quarks/Q_GrungeTexture2560.png');
+  }
+
+  // Статьиы
+
+  .Q_ArticlePictureintext {
+    height: 386px;
+    width: 100%;
+    padding: 0px 30px;
+  }
+
+  .Q_ArticleLine {
+    height: 36px;
   }
 
   /* Лендинг */
@@ -279,31 +295,12 @@
   }
 
   /* Инди игры */
-
-  .Q_TopgameLine {
-    background-image: url('images/Q_TopgameLine_2560.svg');
-    background-size: cover;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 2070px;
-    height: 36px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  .Q_TopgameLineMobile {
+    display: none;
+  }
+
   .Q_GrungeTexture {
     background-image: url('images/components/quarks/Q_GrungeTexture.png');
   }
@@ -584,31 +581,12 @@
   }
 
   /* Инди игры */
-
-  .Q_TopgameLine {
-    background-image: url('images/Q_TopgameLine_1920.svg');
-    background-size: cover;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 1550px;
-    height: 27px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 }
 @media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  .Q_TopgameLineMobile {
+    display: none;
+  }
+
   .Q_GrungeTexture {
     background-image: url('images/components/quarks/Q_GrungeTexture1440.png');
   }
@@ -885,31 +863,12 @@
   }
 
   /* Инди игры */
-
-  .Q_TopgameLine {
-    background-image: url('images/Q_TopgameLine_1440.svg');
-    background-size: cover;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 1164px;
-    height: 27px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .Q_TopgameLineMobile {
+    display: none;
+  }
+
   .Q_GrungeTexture {
     background-image: url('images/components/quarks/Q_GrungeTexture1366.png');
   }
@@ -1186,31 +1145,12 @@
   }
 
   /* Инди игры */
-
-  .Q_TopgameLine {
-    background-image: url('images/Q_TopgameLine_1366.svg');
-    background-size: cover;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 1106px;
-    height: 19px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .Q_TopgameLineMobile {
+    display: none;
+  }
+
   .Q_GrungeTexture {
     background-image: url('images/components/quarks/Q_GrungeTexture1024.png');
   }
@@ -1558,29 +1498,6 @@
   }
 
   /* Инди игры */
-
-  .Q_TopgameLine {
-    background-image: url('images/Q_TopgameLine_1024.svg');
-    background-size: cover;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 826px;
-    height: 15px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
@@ -1590,6 +1507,15 @@
 
   .Q_GrungeTextureSplit {
     border-radius: 10px;
+  }
+
+  .Q_ArticlePictureintext {
+    height: 216px;
+    padding: 0px 20px;
+  }
+
+  .Q_ArticleLine {
+    height: 20px;
   }
 
   /* О проекте */
@@ -2109,25 +2035,6 @@
 
   .Q_TopgameLine {
     display: none;
-    // background-image: url(images/Q_TopgameLine_768.svg);
-    // background-size: cover;
-
-    // /* Auto layout */
-
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // padding: 0px;
-
-    // width: 590px;
-    // height: 15px;
-
-    // /* Inside auto layout */
-
-    // flex: none;
-    // order: 1;
-    // align-self: stretch;
-    // flex-grow: 0;
   }
 }
 
@@ -2138,6 +2045,16 @@
 
   .Q_GrungeTextureSplit {
     border-radius: 10px;
+  }
+
+  .Q_ArticleLine {
+    height: 14px;
+  }
+
+  .Q_ArticlePictureintext {
+    height: 36.23188vw;
+    padding: 0px 30px;
+    background-size: contain;
   }
 
   /* О проекте */
@@ -2745,25 +2662,6 @@
 
   .Q_TopgameLine {
     display: none;
-    // background-image: url(images/Q_TopgameLine_414.svg);
-    // background-size: cover;
-
-    // /* Auto layout */
-
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // padding: 0px 29px;
-
-    // width: 414px;
-    // height: 8px;
-
-    // /* Inside auto layout */
-
-    // flex: none;
-    // order: 1;
-    // align-self: stretch;
-    // flex-grow: 0;
   }
 }
 
@@ -2774,6 +2672,16 @@
 
   .Q_GrungeTextureSplit {
     border-radius: 10px;
+  }
+
+  .Q_ArticleLine {
+    height: 14px;
+  }
+
+  .Q_ArticlePictureintext {
+    height: 36.23188vw;
+    padding: 0px 30px;
+    background-size: contain;
   }
 
   /* О проекте */
@@ -3096,24 +3004,5 @@
 
   .Q_TopgameLine {
     display: none;
-    // background-image: url(images/Q_TopgameLine_360.svg);
-    // background-size: cover;
-
-    // /* Auto layout */
-
-    // display: flex;
-    // flex-direction: column;
-    // align-items: flex-start;
-    // padding: 0px 29px;
-
-    // width: 315px;
-    // height: 8px;
-
-    // /* Inside auto layout */
-
-    // flex: none;
-    // order: 1;
-    // align-self: stretch;
-    // flex-grow: 0;
   }
 }

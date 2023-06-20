@@ -1,4 +1,10 @@
 @media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  /* Статья */
+
+  .W_ArticlestyleBody {
+    gap: 34px;
+  }
+
   /* Лендинг */
 
   .W_LandingSection01 {
@@ -30,6 +36,12 @@
 
   .W_MenuBarBreadcrumbsRoundedBorderNavigation {
     justify-content: flex-start;
+  }
+
+  /* Инди игры */
+
+  .W_ArticlestyleTitle {
+    gap: 13px;
   }
 }
 
@@ -103,6 +115,12 @@
   .W_MenuBarBreadcrumbsRoundedBorderNavigation {
     justify-content: flex-start;
   }
+
+  /* Инди игры */
+
+  .W_ArticlestyleTitle {
+    gap: 13px;
+  }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
@@ -139,6 +157,12 @@
 
   .W_MenuBarBreadcrumbsRoundedBorderNavigation {
     justify-content: flex-start;
+  }
+
+  /* Инди игры */
+
+  .W_ArticlestyleTitle {
+    gap: 13px;
   }
 }
 
@@ -201,9 +225,19 @@
     width: 365px;
     gap: 32px;
   }
+
+  /* Инди игры */
+
+  .W_ArticlestyleTitle {
+    gap: 13px;
+  }
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  .W_ArticlestyleBody {
+    gap: 2.86458vw;
+  }
+
   /* О проекте */
 
   .W_AboutTitle {
@@ -358,7 +392,7 @@
     align-items: center;
     gap: 20px;
     width: 100%;
-    padding: 0px 11.58854vw;
+    padding: 40px 11.58854vw 0px 11.58854vw;
   }
 
   .W_NarrowArticlestyleParagraphs {
@@ -376,9 +410,19 @@
   .W_MonsterPic {
     border-radius: 10px;
   }
+
+  /* Инди игры */
+
+  .W_ArticlestyleTitle {
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  .W_ArticlestyleBody {
+    gap: 15px;
+  }
+
   /* О проекте */
 
   .W_AboutTitle {
@@ -554,7 +598,7 @@
     align-items: center;
     width: 100%;
     gap: 20px;
-    padding: 0px 15px;
+    padding: 20px 15px 0px 15px;
   }
 
   .W_NarrowArticlestyleParagraphs {
@@ -573,6 +617,12 @@
   .W_MonsterAndStoryCardContent {
     gap: 2px;
     height: 100%;
+  }
+
+  /* Инди игры */
+
+  .W_ArticlestyleTitle {
+    display: none;
   }
 }
 
@@ -739,7 +789,7 @@
     align-items: center;
     width: 100%;
     gap: 20px;
-    padding: 0px 15px;
+    padding: 20px 15px 0px 15px;
   }
 
   .W_NarrowArticlestyleParagraphs {
@@ -758,5 +808,9 @@
   .W_MonsterAndStoryCardContent {
     gap: 5px;
     height: 100%;
+  }
+
+  .W_ArticlestyleTitle {
+    display: none;
   }
 }

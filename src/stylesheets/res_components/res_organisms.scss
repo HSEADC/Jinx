@@ -1,4 +1,11 @@
 @media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  /* Инди игры */
+
+  .O_Indiegame {
+    width: 945px;
+    margin-top: 100px;
+  }
+
   /* Лендинг */
 
   .O_LandingSection03CardKey {
@@ -47,54 +54,14 @@
   /* Видео */
 
   .O_Video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
     gap: 20px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-    margin: 0 auto;
   }
+
   .O_VideoDiscription {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 1122px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+    width: 1119px;
   }
 
   /* Инди игры */
-  .O_Indiegame {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px 0px;
-    gap: 8vw;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
   /* Лендинг */
@@ -145,55 +112,10 @@
   /* Видео */
 
   .O_Video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
     gap: 15px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-    margin: 0 auto;
-  }
-  .O_VideoDiscription {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 838px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .O_Indiegame {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px 0px;
-    gap: 8vw;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
   }
 }
+
 @media only screen and (min-width: 1367px) and (max-width: 1740px) {
   /* Лендинг */
 
@@ -239,58 +161,8 @@
     padding-right: 37px;
     height: 67px;
   }
-
-  /* Смотреть видео */
-  .O_Video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 11px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-    margin: 0 auto;
-  }
-  .O_VideoDiscription {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 630px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .O_Indiegame {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px 18px;
-    gap: 8vw;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
 }
+
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
   /* Лендинг */
 
@@ -336,58 +208,8 @@
     padding-right: 37px;
     height: 67px;
   }
-
-  /* Смотреть видео */
-  .O_Video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-    margin: 0 auto;
-  }
-  .O_VideoDiscription {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 596px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .O_Indiegame {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px 17px;
-    gap: 8vw;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
 }
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   /* Лендинг */
 
@@ -442,58 +264,19 @@
 
   /* Смотреть видео */
 
-  .O_Video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 7px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-    margin: 0 auto;
-  }
   .O_VideoDiscription {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 447px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .O_Indiegame {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px 13px;
-    gap: 8vw;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    width: 66.66667vw;
   }
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* Инди игры */
+
+  .O_Indiegame {
+    width: 70.05208vw;
+    margin-top: 5.72917vw;
+  }
+
   /* О проекте */
 
   .O_AboutBody {
@@ -606,57 +389,22 @@
   /* Смотреть видео */
 
   .O_Video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
     gap: 7px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-    justify-content: center;
   }
+
   .O_VideoDiscription {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 513px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .O_Indiegame {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8vw;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    width: 66.66667vw;
   }
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* Инди игры */
+
+  .O_Indiegame {
+    width: 90.33816vw;
+    margin-top: 20px;
+  }
+
   /* О проекте */
 
   .O_AboutBody {
@@ -763,7 +511,7 @@
   }
 
   .O_NarrowArticle {
-    padding: 19px 0px 0px;
+    padding: 0;
     gap: 36px;
     border-radius: 0;
   }
@@ -775,57 +523,23 @@
   /* Смотреть видео */
 
   .O_Video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
     gap: 10px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-    margin: 0 auto;
   }
+
   .O_VideoDiscription {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 357px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-
-  /* Инди игры */
-  .O_Indiegame {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8vw;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    width: 86.23188vw;
+    gap: 6px;
   }
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* Инди игры */
+
+  .O_Indiegame {
+    width: 90.33816vw;
+    margin-top: 20px;
+  }
+
   /* О проекте */
 
   .O_AboutBody {
@@ -877,7 +591,7 @@
   }
 
   .O_NarrowArticle {
-    padding: 19px 0px 0px;
+    padding: 0;
     gap: 36px;
     border-radius: 0;
   }
@@ -893,53 +607,15 @@
   }
 
   /* Смотреть видео */
+
   .O_Video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
     gap: 8px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-    margin: 0 auto;
   }
+
   .O_VideoDiscription {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 326px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+    width: 86.23188vw;
+    gap: 6px;
   }
 
   /* Инди игры */
-  .O_Indiegame {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8vw;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
 }

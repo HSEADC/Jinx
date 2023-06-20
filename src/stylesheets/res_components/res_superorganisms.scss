@@ -44,14 +44,6 @@
 
   /* Инди игры */
 
-  .S_IndiegameArticle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    position: relative;
-  }
-
   /* Разбор монстров */
   .S_SplitScreen {
     height: calc(100vh - 96px);
@@ -102,14 +94,6 @@
   }
 
   /* Инди игры */
-
-  .S_IndiegameArticle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    position: relative;
-  }
 }
 @media only screen and (min-width: 1367px) and (max-width: 1740px) {
   .S_About {
@@ -156,14 +140,6 @@
   }
 
   /* Инди игры */
-
-  .S_IndiegameArticle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    position: relative;
-  }
 
   /* Разбор монстров */
   .S_SplitScreen {
@@ -215,13 +191,6 @@
   }
 
   /* Инди игры */
-  .S_IndiegameArticle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    position: relative;
-  }
 
   /* Разбор монстров */
   .S_SplitScreen {
@@ -296,15 +265,6 @@
   }
 
   /* Инди игры */
-
-  .S_IndiegameArticle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-
-    position: relative;
-  }
 
   /* Разбор монстров */
   .S_SplitScreen {
@@ -407,15 +367,6 @@
 
   /* Инди игры */
 
-  .S_IndiegameArticle {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-
-    position: relative;
-  }
-
   /* Разбор сюжета */
 
   .S_StoryCards {
@@ -514,16 +465,6 @@
 
   /* Инди игры */
 
-  .S_IndiegameArticle {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    position: relative;
-
-    gap: 10px;
-  }
-
   /* Разбор монстров */
 
   .S_SplitScreen {
@@ -594,16 +535,6 @@
   }
 
   /* Инди игры */
-
-  .S_IndiegameArticle {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    position: relative;
-
-    gap: 10px;
-  }
 
   /* Разбор монстров */
 

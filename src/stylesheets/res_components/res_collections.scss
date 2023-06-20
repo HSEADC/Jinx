@@ -1,4 +1,11 @@
 @media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  // Статьи
+
+  .C_ArticlePictureinsidetext {
+    padding: 45px 0px;
+    gap: 9px;
+  }
+
   /* Лендинг */
 
   .C_LandingSection03Cards {
@@ -19,6 +26,18 @@
   .C_MenuBarNavigation {
     padding: 0px 0px 0px 46px;
     gap: 60px;
+  }
+
+  /* Топы игры */
+
+  .C_TopgameMaintop {
+    gap: 20px;
+  }
+
+  /* Разбор механик */
+
+  .C_ArticlestyleFullparagraphs {
+    gap: 53px;
   }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
@@ -51,6 +70,18 @@
 
     height: 138px;
     border-radius: 0.625vw;
+  }
+
+  /* Топы игры */
+
+  .C_TopgameMaintop {
+    gap: 15px;
+  }
+
+  /* Разбор механик */
+
+  .C_ArticlestyleFullparagraphs {
+    gap: 40px;
   }
 }
 
@@ -127,6 +158,11 @@
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  .C_ArticlePictureinsidetext {
+    padding: 3.125vw 0px;
+    gap: 1.30208vw;
+  }
+
   /* Браузер видео */
 
   .C_VideoBrowserSmallCards {
@@ -183,9 +219,20 @@
     gap: 2.60417vw;
     border-radius: 10px;
   }
+
+  /* Разбор механик */
+
+  .C_ArticlestyleFullparagraphs {
+    gap: 22px;
+  }
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  .C_ArticlePictureinsidetext {
+    padding: 15px 0px;
+    gap: 10px;
+  }
+
   /* Браузер видео */
 
   .C_VideoBrowserSmallCards {
@@ -249,9 +296,20 @@
   .C_LandingSection08FooterButtonsCenterSocial {
     justify-content: space-between;
   }
+
+  /* Разбор механик */
+
+  .C_ArticlestyleFullparagraphs {
+    gap: 15px;
+  }
 }
 
 @media only screen and (max-device-width: 360px) {
+  .C_ArticlePictureinsidetext {
+    padding: 15px 0px;
+    gap: 10px;
+  }
+
   /* Браузер видео */
 
   .C_VideoBrowserSmallCards {
@@ -295,5 +353,11 @@
     align-items: center;
     gap: 2.60417vw;
     border-radius: 10px;
+  }
+
+  /* Разбор механик */
+
+  .C_ArticlestyleFullparagraphs {
+    gap: 15px;
   }
 }

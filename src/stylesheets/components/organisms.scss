@@ -124,30 +124,22 @@
 /* Смотреть видео */
 
 .O_Video {
+  overflow: visible;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 11px;
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-
-  margin: 0 auto;
 }
+
 .O_VideoDiscription {
+  padding-bottom: 5vh;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  width: 630px;
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+  width: 839px;
 }
 
 /* Разбор монстров */
@@ -259,17 +251,12 @@
 /* Инди игры */
 
 .O_Indiegame {
-  /* Auto layout */
-
+  flex-shrink: 0;
+  overflow: visible;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px 18px;
-  gap: 8vw;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  width: 707px;
+  position: relative;
+  // padding-left: 53.542vw;
+  // padding-right: 11.667vw;
+  margin-top: 4.01vw;
 }

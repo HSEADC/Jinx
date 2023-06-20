@@ -1,3 +1,60 @@
+/* Смотреть видео */
+
+.W_VideoData {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+
+  width: 100%;
+}
+
+/* Разбор механик */
+
+.W_AnalysismechanicsParagraphs {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+/* Статья */
+
+.W_ArticlestyleBody {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: auto;
+}
+
+.W_ArticlestylePartvisual {
+  position: fixed;
+  width: 100%;
+  mix-blend-mode: lighten;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+
+  height: 36.61458vw;
+  padding-left: 9.63542vw;
+  padding-right: 53.54167vw;
+  margin-top: 2.60417vw;
+}
+
+.W_ArticlestyleTitle {
+  mix-blend-mode: lighten;
+  padding-top: 30px;
+  z-index: 99;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+
+  width: 80.729vw;
+  min-width: 707px;
+  flex-shrink: 0;
+}
+
 /* Лендинг */
 
 .W_LandingSection01 {
@@ -181,6 +238,7 @@
 /* Браузер видео */
 
 .W_VideoBrowserCards {
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   gap: 3.64583vw;
@@ -245,6 +303,7 @@
 }
 
 .W_MonsterAndStoryCardContent {
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   gap: 1.04167vw;
@@ -252,10 +311,12 @@
 }
 
 .W_ArticlestyleTitleMobile {
+  flex-shrink: 0;
   display: none;
 }
 
 .W_TopgameLinksMobile {
+  flex-shrink: 0;
   display: flex;
   justify-content: space-between;
 

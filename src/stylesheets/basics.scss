@@ -15,19 +15,22 @@ body {
   background-color: var(--black);
   background-blend-mode: lighten;
   z-index: 99;
+  overflow-y: hidden;
 }
 
 .ArticleLayout {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   padding-top: 72px;
+  align-items: center;
 }
 
 .AboutLayout {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   padding-top: 72px;
-  overflow: visible;
 }
 
 .MainPage {
