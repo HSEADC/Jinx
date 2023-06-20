@@ -1,0 +1,275 @@
+/* Лендинг */
+
+.O_LandingSection03CardKey {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 534px;
+  border-radius: 0.625vw;
+  background-color: white;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.O_LandingSection03CardEye {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 534px;
+  border-radius: 0.625vw;
+  background-color: white;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.O_LandingSection03CardHeart {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 534px;
+  border-radius: 0.625vw;
+  background-color: white;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.O_LandingCardLinks {
+  overflow: visible;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: absolute;
+  width: 661px;
+  height: 1054px;
+  left: calc(50% - 661px / 2);
+  top: 4260px;
+}
+
+.O_LandingFearRatingContent {
+  height: 296px;
+  mix-blend-mode: lighten;
+}
+
+.O_LandingSection08Link {
+  overflow: visible;
+
+  height: 330px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px;
+
+  width: 550px;
+  z-index: 1;
+}
+
+.O_LandingFooter {
+  overflow: visible;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 39px;
+  z-index: 1;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  height: 89px;
+}
+
+/* Главный экран */
+
+.O_MainScreenLogo {
+  overflow-y: hidden;
+  background: #000000;
+  border-radius: 0.625vw;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Браузер видео */
+
+.O_VideoBrowserBanner {
+  cursor: pointer;
+  text-decoration: none;
+
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 1.5625vw;
+  isolation: isolate;
+
+  width: 100%;
+  height: 26.25vw;
+
+  background: black;
+  border: 1px solid white;
+  border-radius: 0.625vw;
+}
+
+/* Смотреть видео */
+
+.O_Video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 11px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+  margin: 0 auto;
+}
+.O_VideoDiscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 630px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Разбор монстров */
+
+.O_MonsterCards {
+  position: relative;
+  display: flex;
+  padding: 0px 0px 1px 1px;
+  width: 100%;
+  background: white;
+}
+
+.O_MonsterCard {
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+  width: 440px;
+
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border: 1px solid #ffffff;
+  border-radius: 0.625vw;
+}
+
+.O_NarrowArticle {
+  width: 100%;
+  height: 100%;
+
+  display: inline;
+  padding: 2.91667vw 4.73958vw 0px;
+  gap: 1.875vw;
+  isolation: isolate;
+
+  background: black;
+  border-radius: 0.625vw;
+}
+
+.O_NarrowArticle::-webkit-scrollbar {
+  width: 10px;
+}
+
+.O_NarrowArticle::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.O_NarrowArticle::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+
+  background: black;
+  border-radius: 100vw;
+  border: 1px solid white;
+}
+
+.O_MonsterStatus {
+  display: none;
+}
+
+/* Разбор сюжета */
+
+.O_StoryBigCardRow01 {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  height: 7.34375vw;
+}
+
+.O_StoryBigCard {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  height: 7.34375vw;
+  justify-content: flex-end;
+}
+
+.O_StorySmallCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
+/* О проекте */
+
+.O_AboutBody {
+  height: 100%;
+  justify-content: center;
+  overflow: visible;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.13542vw;
+}
+
+.O_AboutFooter {
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  gap: 22.55208vw;
+  width: 100%;
+}
+
+/* Инди игры */
+
+.O_Indiegame {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 18px;
+  gap: 8vw;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

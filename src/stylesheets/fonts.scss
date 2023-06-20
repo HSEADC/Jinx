@@ -67,15 +67,15 @@
 }
 @font-face {
   font-family: 'PT Mono';
-  src: url('fonts/PTMono-Regular.woff2'), format('woff2'),
-    url('fonts/PTMono-Regular.woff'), format('woff');
+  src: url('fonts/PTMono-Regular.woff2') format('woff2'),
+    url('fonts/PTMono-Regular.woff') format('woff');
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: 'JinxFont';
-  src: url('fonts/JinxFont-Regular.woff2'), format('woff2'),
-    url('fonts/JinxFont-Regular.woff'), format('woff');
-    font-weight: 200;
-    font-style: normal;
+  font-family: 'Jinx Font';
+  src: url('fonts/Jinx-Font-_1_.woff2') format('woff2'),
+    url('fonts/Jinx-Font-_1_.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
 }

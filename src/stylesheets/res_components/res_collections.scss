@@ -1,0 +1,299 @@
+@media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  /* Лендинг */
+
+  .C_LandingSection03Cards {
+    padding: 0px 0px 0px 17px;
+    gap: 73px;
+  }
+
+  .C_LandingSection08FooterButtonsCenter {
+    gap: 165px;
+  }
+
+  .C_LandingSection08FooterButtonsCenterSocial {
+    gap: 31px;
+  }
+
+  /* Меню-бар */
+
+  .C_MenuBarNavigation {
+    padding: 0px 0px 0px 46px;
+    gap: 60px;
+  }
+}
+@media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  /* Лендинг */
+
+  .C_LandingSection03Cards {
+    padding: 0px 0px 0px 13px;
+    gap: 55px;
+  }
+
+  .C_LandingSection08FooterButtonsCenter {
+    gap: 131px;
+  }
+
+  .C_LandingSection08FooterButtonsCenterSocial {
+    gap: 23px;
+  }
+
+  /* Меню-бар */
+
+  .C_MenuBarNavigation {
+    padding: 0px 0px 0px 35px;
+    gap: 45px;
+  }
+
+  /* Разбор монстров */
+
+  .C_MonsterAndStoryCardRoundedBorder {
+    padding: 19px;
+
+    height: 138px;
+    border-radius: 0.625vw;
+  }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  /* Лендинг */
+
+  .C_LandingSection03Cards {
+    padding: 0px 0px 0px 10px;
+    gap: 41px;
+  }
+
+  .C_LandingSection08FooterButtonsCenter {
+    gap: 98px;
+  }
+
+  .C_LandingSection08FooterButtonsCenterSocial {
+    gap: 17px;
+  }
+
+  /* Меню-бар */
+
+  .C_MenuBarNavigation {
+    padding: 0px 0px 0px 26px;
+    gap: 34px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  /* Лендинг */
+
+  .C_LandingSection03Cards {
+    padding: 0px 0px 0px 10px;
+    gap: 41px;
+  }
+
+  .C_LandingSection08FooterButtonsCenter {
+    gap: 98px;
+  }
+
+  .C_LandingSection08FooterButtonsCenterSocial {
+    gap: 17px;
+  }
+
+  /* Меню-бар */
+
+  .C_MenuBarNavigation {
+    padding: 0px 0px 0px 22px;
+    gap: 34px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Лендинг */
+
+  .C_LandingSection03Cards {
+    padding: 0px 0px 0px 7px;
+    gap: 29px;
+  }
+
+  .C_LandingSection08FooterButtonsCenter {
+    gap: 70px;
+  }
+
+  .C_LandingSection08FooterButtonsCenterSocial {
+    gap: 12px;
+  }
+
+  /* Меню-бар */
+
+  .C_MenuBarNavigation {
+    padding: 0px 0px 0px 35px;
+    gap: 35px;
+  }
+}
+
+@media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* Браузер видео */
+
+  .C_VideoBrowserSmallCards {
+    height: 24.34896vw;
+  }
+
+  /* Разбор сюжета */
+
+  .C_StoryCards {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+
+    height: 100%;
+    padding: 26px;
+    justify-content: flex-start;
+  }
+
+  .C_StoryCards::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Лендинг */
+
+  .C_LandingSection03Cards {
+    padding: 0px 0px 0px 5px;
+    gap: 22px;
+  }
+
+  .C_LandingSection08FooterButtonsCenter {
+    gap: 58px;
+  }
+
+  .C_LandingSection08FooterButtonsCenterSocial {
+    gap: 17px;
+  }
+
+  /* Разбор монстров */
+
+  .C_ScaryreallyPictureinsidetext {
+    padding: 24px 0px;
+    gap: 10px;
+  }
+
+  .C_MonsterAndStoryCardRoundedBorder {
+    padding: 11px 17px;
+    height: 74px;
+    border-radius: 10px;
+  }
+
+  .C_MonsterCards {
+    padding: 0px 25px;
+    align-items: center;
+    gap: 2.60417vw;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* Браузер видео */
+
+  .C_VideoBrowserSmallCards {
+    flex-direction: column;
+    height: 1045px;
+    gap: 35px;
+  }
+
+  /* Разбор сюжета */
+
+  .C_StoryCards {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+
+    height: 100%;
+    padding: 21px;
+
+    justify-content: flex-start;
+  }
+
+  .C_StoryCards::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Разбор монстров */
+
+  .C_ScaryreallyPictureinsidetext {
+    padding: 15px 0px;
+    gap: 10px;
+  }
+
+  .C_MonsterAndStoryCardRoundedBorder {
+    padding: 7px 10px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .C_MonsterCards {
+    padding: 8px 12px;
+    align-items: center;
+    gap: 2.60417vw;
+    border-radius: 10px;
+  }
+
+  /* Лендинг */
+
+  .C_LandingSection03Cards {
+    flex-direction: column;
+
+    padding: 0px;
+    gap: 23px;
+  }
+
+  .C_LandingSection08FooterButtonsCenter {
+    flex-direction: column;
+
+    gap: 24px;
+  }
+
+  .C_LandingSection08FooterButtonsCenterSocial {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-device-width: 360px) {
+  /* Браузер видео */
+
+  .C_VideoBrowserSmallCards {
+    flex-direction: column;
+    height: 1045px;
+    gap: 35px;
+  }
+
+  /* Разбор сюжета */
+
+  .C_StoryCards {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+
+    height: 100%;
+    padding: 21px;
+
+    justify-content: flex-start;
+  }
+
+  .C_StoryCards::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Разбор монстров */
+
+  .C_ScaryreallyPictureinsidetext {
+    padding: 15px 0px;
+    gap: 10px;
+  }
+
+  .C_MonsterAndStoryCardRoundedBorder {
+    padding: 7px 10px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .C_MonsterCards {
+    padding: 8px 12px;
+    align-items: center;
+    gap: 2.60417vw;
+    border-radius: 10px;
+  }
+}

@@ -4,13 +4,16 @@
 
     .brendgrid {
       display: grid;
-      grid-template-columns: repeat(5, 1fr); /*fr или fractional unit это часть свободного пространства, соответственно 1fr равен одной части от всего оставшегося свободно пространства, т.е это заданное значение ширины.*/
+      grid-template-columns: repeat(
+        5,
+        1fr
+      ); /*fr или fractional unit это часть свободного пространства, соответственно 1fr равен одной части от всего оставшегося свободно пространства, т.е это заданное значение ширины.*/
       grid-column-gap: 60px;
       grid-row-gap: 12px; /*отступы между row рядами*/
       width: 1660px;
       margin: 0 auto 60px; /*это Gutter*/
 
-      .menu_bar_brendbook{
+      .menu_bar_brendbook {
         position: fixed;
         grid-column: 1 / 1;
         margin-top: 3vw;
@@ -22,12 +25,11 @@
       }
       .main_menu_brendbook {
         margin-top: 13vw;
-
       }
 
       .style_gide {
         font-family: 'PT Mono', sans-serif;
-        color: #4CFF53;
+        color: var(--acid-green);
       }
       .menu_block_main {
         cursor: pointer;
@@ -39,7 +41,7 @@
         color: white;
       }
       a.link_brendbook:hover {
-        color: #4CFF53;
+        color: var(--acid-green);
       }
 
       .article_brendbook {
@@ -342,7 +344,6 @@
       .text_twice_brendbook23 {
         grid-row: 10 / 10;
         grid-column: 2 / 4;
-
       }
       .main_chb {
         grid-row: 11 / 11;
@@ -352,12 +353,10 @@
       .text_twice_brendbook24 {
         grid-row: 12 / 12;
         grid-column: 2 / 4;
-
       }
       .allgreen_brendbook {
         grid-row: 13 / 13;
         grid-column: 2 / 4;
-
       }
       .allblack_brendbook {
         grid-row: 14 / 14;
@@ -435,14 +434,12 @@
         margin-top: 2vw;
         margin-bottom: 2vw;
       }
-
-      
     }
   }
 
   .style_gide {
     font-family: 'PT Mono', sans-serif;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
   .menu_block_main {
     margin-top: 1vw;
@@ -459,7 +456,7 @@
   /* для зеленых глифов ы*/
   .green_glif {
     display: inline;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
 
   .article_brendbook {
@@ -516,63 +513,62 @@
     color: white;
     font-size: 20px;
     line-height: 30px;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
 
   .article_brendbook_mini {
     font-family: 'PT Mono', sans-serif;
     font-size: 31.12px;
     line-height: 35px;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
   .article_brendbook_mini_two {
     font-family: 'PT Mono', sans-serif;
     font-size: 31.12px;
     line-height: 35px;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
   .article_brendbook_mini_free {
     font-family: 'PT Mono', sans-serif;
     font-size: 31.12px;
     line-height: 35px;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
   .Lenora {
     font-family: 'PT Mono';
     font-size: 45px;
     line-height: 51px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .Lenora_two {
     font-family: 'Lenora LC-Trial';
     font-size: 216px;
     line-height: 254px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .PT_Mono {
     font-family: 'PT Mono';
     font-size: 45px;
     line-height: 51px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .PT_Mono_two {
     font-family: 'PT Mono';
     font-size: 208px;
     line-height: 233px;
-    color: #FFFFFF;
-
+    color: #ffffff;
   }
   .Jinx {
     font-family: 'PT Mono';
     font-size: 45px;
     line-height: 51px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .Jinx_two {
-    font-family: 'JinxFont-Regular';
+    font-family: 'Jinx Font';
     font-size: 184.156px;
     line-height: 201px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .text_twice_brendbook23 {
     font-family: 'PT Mono';
@@ -587,14 +583,16 @@
 
     .brendgrid {
       display: grid;
-      grid-template-columns: repeat(5, 1fr); /*fr или fractional unit это часть свободного пространства, соответственно 1fr равен одной части от всего оставшегося свободно пространства, т.е это заданное значение ширины.*/
+      grid-template-columns: repeat(
+        5,
+        1fr
+      ); /*fr или fractional unit это часть свободного пространства, соответственно 1fr равен одной части от всего оставшегося свободно пространства, т.е это заданное значение ширины.*/
       grid-column-gap: 60px;
       grid-row-gap: 12px; /*отступы между row рядами*/
       width: 1328px;
       margin: 0 auto 60px; /*это Gutter*/
 
-
-      .menu_bar_brendbook{
+      .menu_bar_brendbook {
         position: fixed;
         grid-column: 1 / 1;
         margin-top: 3vw;
@@ -606,12 +604,11 @@
       }
       .main_menu_brendbook {
         margin-top: 13vw;
-
       }
 
       .style_gide {
         font-family: 'PT Mono', sans-serif;
-        color: #4CFF53;
+        color: var(--acid-green);
       }
       .menu_block_main {
         cursor: pointer;
@@ -623,7 +620,7 @@
         color: white;
       }
       a.link_brendbook:hover {
-        color: #4CFF53;
+        color: var(--acid-green);
       }
 
       .article_brendbook {
@@ -926,7 +923,6 @@
       .text_twice_brendbook23 {
         grid-row: 10 / 10;
         grid-column: 2 / 4;
-
       }
       .main_chb {
         grid-row: 11 / 11;
@@ -936,12 +932,10 @@
       .text_twice_brendbook24 {
         grid-row: 12 / 12;
         grid-column: 2 / 4;
-
       }
       .allgreen_brendbook {
         grid-row: 13 / 13;
         grid-column: 2 / 4;
-
       }
       .allblack_brendbook {
         grid-row: 14 / 14;
@@ -1024,7 +1018,7 @@
 
   .style_gide {
     font-family: 'PT Mono', sans-serif;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
   .menu_block_main {
     margin-top: 1vw;
@@ -1041,7 +1035,7 @@
   /* для зеленых глифов ы*/
   .green_glif {
     display: inline;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
 
   .article_brendbook {
@@ -1087,7 +1081,6 @@
     line-height: 55px;
   }
 
-
   p.text_normal_brendbook {
     font-family: 'PT Mono', sans-serif;
     color: white;
@@ -1099,63 +1092,62 @@
     color: white;
     font-size: 20px;
     line-height: 30px;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
 
   .article_brendbook_mini {
     font-family: 'PT Mono', sans-serif;
     font-size: 31.12px;
     line-height: 35px;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
   .article_brendbook_mini_two {
     font-family: 'PT Mono', sans-serif;
     font-size: 31.12px;
     line-height: 35px;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
   .article_brendbook_mini_free {
     font-family: 'PT Mono', sans-serif;
     font-size: 31.12px;
     line-height: 35px;
-    color: #4CFF53;
+    color: var(--acid-green);
   }
   .Lenora {
     font-family: 'PT Mono';
     font-size: 45px;
     line-height: 51px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .Lenora_two {
     font-family: 'Lenora LC-Trial';
     font-size: 216px;
     line-height: 254px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .PT_Mono {
     font-family: 'PT Mono';
     font-size: 45px;
     line-height: 51px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .PT_Mono_two {
     font-family: 'PT Mono';
     font-size: 208px;
     line-height: 233px;
-    color: #FFFFFF;
-
+    color: #ffffff;
   }
   .Jinx {
     font-family: 'PT Mono';
     font-size: 45px;
     line-height: 51px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .Jinx_two {
-    font-family: 'JinxFont-Regular';
+    font-family: 'Jinx Font';
     font-size: 184.156px;
     line-height: 201px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .text_twice_brendbook23 {
     font-family: 'PT Mono';

@@ -1,0 +1,15 @@
+.W_Article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 81px;
+  gap: 30px;
+
+  width: 777px;
+  height: 729px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

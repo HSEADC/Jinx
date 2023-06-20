@@ -1,0 +1,315 @@
+/* Лендинг */
+
+.M_LandingInsert01 {
+  overflow: visible;
+  position: absolute;
+  width: 690px;
+  left: calc(50vw - 690px / 2);
+  top: 1370px;
+}
+
+.M_LandingInsert02 {
+  overflow: visible;
+  position: absolute;
+  width: 690px;
+  left: calc(50vw - 690px / 2);
+  top: 6984px;
+}
+
+.M_LandingCardLink {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 661px;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.M_LandingCardLink:hover > .Q_ConnectHalfDown {
+  background: url('images/components/quarks/1920x1080/Q_ConnectHalfDownActive.svg');
+}
+
+.M_LandingCardLink:hover > .Q_ConnectHalfUp {
+  background: url('images/components/quarks/1920x1080/Q_ConnectHalfUpActive.svg');
+}
+
+.M_LandingCardLink:hover > .A_LandingSmallCard {
+  overflow: visible;
+  border: 1px solid var(--acid-green);
+  box-shadow: 0px 0px 4px var(--acid-green),
+    0px 0px 28px rgba(76, 255, 83, 0.25), 0px 0px 40px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 14px rgba(76, 255, 83, 0.2),
+    inset 0px 0px 51px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 140px rgba(76, 255, 83, 0.1);
+}
+
+.M_LandingSection08LinkSub {
+  overflow: visible;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.M_LandingSection08FooterButtons {
+  overflow: visible;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Меню-бар */
+
+.M_MenuBarMain {
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1px 0px 1px 1px;
+
+  width: 100%;
+  height: 72px;
+
+  background: var(--white);
+}
+
+.M_MenuBarBreadcrumbs {
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px;
+
+  width: 100%;
+  height: 72px;
+
+  background: var(--white);
+}
+
+.M_MenuBarBreadcrumbsMainScreen {
+  flex-shrink: 0;
+  position: relative;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px 0px 1px 1px;
+
+  width: 100%;
+  height: 72px;
+
+  background: var(--white);
+}
+
+.M_MenuBarBreadcrumbsMainScreenMobile {
+  display: none;
+}
+
+/* Главный экран */
+
+.M_MenuCards {
+  position: relative;
+  display: flex;
+  background-color: white;
+  height: 15vw;
+
+  border-top: 1px solid white;
+}
+
+.M_DownBar {
+  bottom: 0;
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  height: 3.75vw;
+  background-color: white;
+  padding: 1px;
+  gap: 1px;
+  width: 100%;
+}
+
+/* Браузер видео */
+
+.M_VideoBrowserSmallCard {
+  cursor: pointer;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 23.75vw;
+
+  background: white;
+  border-radius: 0.625vw;
+}
+
+/* Разбор монстров */
+
+.M_Insert {
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+}
+
+/* Разбор сюжета */
+
+.M_StoryBigCardFrame {
+  order: 2;
+
+  box-sizing: border-box;
+
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding: 0.99vw 2.135vw 0.99vw 0.99vw;
+
+  width: 24.73958vw;
+  height: 100%;
+
+  background: black;
+  border: 1px solid white;
+  border-radius: 0.625vw;
+}
+
+.M_StorySmallCardFrame {
+  order: 2;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  padding: 0.99vw 2.135vw 0.99vw 0.99vw;
+
+  width: 16.09375vw;
+  height: 100%;
+
+  background: black;
+  border: 1px solid white;
+  border-radius: 0.625vw;
+}
+
+/* О проекте */
+
+.M_AboutFooterList {
+  overflow: visible;
+  // overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1.77083vw;
+}
+
+/* Страшно реально */
+
+.M_ScaryreallyUnderpicture {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 100%;
+}
+
+/* Разбор механик */
+
+.M_AnalysismechanicsTextpart {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: 472px;
+  height: 100%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Топы игры */
+.M_TopgamePosition {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+
+  text-transform: uppercase;
+
+  color: var(--acid-orange);
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+
+  width: 514px;
+  height: 25px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Инди игры */
+.M_TopgameWholeheading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 100%;
+  height: 90px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.M_TopgameWholeheadingMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 2.21354vw;
+}
+.M_TopgameVisual {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 514px;
+  height: 520px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}

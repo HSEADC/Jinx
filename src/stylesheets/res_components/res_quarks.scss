@@ -1,0 +1,3119 @@
+@media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture2560.png');
+  }
+
+  /* Лендинг */
+
+  .Q_LandingSection01Logo {
+    width: 951px;
+    height: 377px;
+    background-image: url('images/components/quarks/2560x1440/Q_LandingSection01Logo.svg');
+  }
+
+  .Q_LandingSection01SubTitle {
+    width: 476px;
+    height: 37px;
+
+    font-size: 33px;
+    line-height: 37px;
+
+    text-shadow: 0px 0px 5px var(--acid-green), 0px 0px 37px var(--acid-green);
+  }
+
+  .Q_LandingSection01DownArrow {
+    width: 45px;
+    height: 26px;
+    top: 1176px;
+    left: calc(50vw - 45px / 2);
+
+    background-image: url('images/components/quarks/2560x1440/Q_LandingSection01DownArrow.svg');
+    filter: drop-shadow(0px 0px 5px var(--acid-green))
+      drop-shadow(0px 0px 37px var(--acid-green));
+  }
+
+  .Q_LandingInsertTitleBracketL {
+    background-image: url('images/components/quarks/2560x1440/Q_LandingInsertTitleBracketL.svg');
+    width: 15px;
+    height: 37px;
+  }
+
+  .Q_LandingInsertTitleBracketR {
+    background-image: url('images/components/quarks/2560x1440/Q_LandingInsertTitleBracketR.svg');
+    width: 15px;
+    height: 37px;
+  }
+
+  .Q_LandingInsertTitleText {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .Q_LandingSection02PictureLeft {
+    background-image: url('images/components/quarks/2560x1440/Q_LandingSection02PictureLeft.png');
+    width: 890px;
+    height: 1431px;
+    top: 1259px;
+  }
+
+  .Q_LandingSection02PictureRight {
+    background-image: url('images/components/quarks/2560x1440/Q_LandingSection02PictureRight.png');
+    width: 1184px;
+    height: 1431px;
+    top: 1259px;
+  }
+
+  .Q_LandingSection03Title {
+    width: 1534px;
+    height: 208px;
+
+    font-size: 181px;
+    line-height: 208px;
+  }
+
+  .Q_LandingSection03CardKeyPicture {
+    width: 733px;
+    height: 486px;
+
+    background-image: url('images/components/quarks/2560x1440/Q_LandingSection03CardKeyPicture.png');
+    border-radius: 16px;
+  }
+
+  .Q_LandingSection03CardEyePicture {
+    width: 733px;
+    height: 486px;
+
+    background-image: url('images/components/quarks/2560x1440/Q_LandingSection03CardEyePicture.png');
+    border-radius: 16px;
+  }
+
+  .Q_LandingSection03CardHeartPicture {
+    width: 733px;
+    height: 486px;
+
+    background-image: url('images/components/quarks/2560x1440/Q_LandingSection03CardHeartPicture.png');
+    border-radius: 16px;
+  }
+
+  .Q_LandingSection03CardContentTitle {
+    font-size: 48px;
+    line-height: 54px;
+  }
+
+  .Q_LandingSection03CardContentParagraph {
+    width: 668px;
+    height: 88px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .Q_LandingDivider {
+    background: url('images/components/quarks/2560x1440/Q_LandingDivider.svg')
+      no-repeat;
+    height: 36px;
+    background-size: 100%;
+  }
+
+  .Q_LandingSection04Title {
+    width: 1633px;
+
+    font-size: 181px;
+
+    padding: 0px 0px 0px 23px;
+  }
+
+  .Q_LandingSection04Picture {
+    position: absolute;
+    width: 966px;
+    height: 1101px;
+    top: 123px;
+
+    background: url('images/components/quarks/2560x1440/Q_LandingSection04Picture.png');
+  }
+
+  .Q_LandingSmallCardTitle {
+    width: 728px;
+    height: 64px;
+
+    font-size: 57px;
+    line-height: 64px;
+  }
+
+  .Q_LandingSmallCardParagraph {
+    width: 728px;
+    height: 98px;
+
+    font-size: 47px;
+    line-height: 49px;
+  }
+
+  .Q_ConnectHalfDown {
+    width: 55px;
+    height: 139px;
+    background: url('images/components/quarks/2560x1440/Q_ConnectHalfDown.svg');
+  }
+
+  .Q_ConnectHalfUp {
+    width: 55px;
+    height: 139px;
+    background: url('images/components/quarks/2560x1440/Q_ConnectHalfUp.svg');
+  }
+
+  .Q_LandingSection05PictureLeft {
+    background: url('images/components/quarks/2560x1440/Q_LandingSection05PictureLeft.png');
+
+    width: 888px;
+    height: 1824px;
+    top: 5448px;
+  }
+  .Q_LandingSection05PictureRight {
+    background: url('images/components/quarks/2560x1440/Q_LandingSection05PictureRight.png');
+
+    width: 965px;
+    height: 1852px;
+    top: 5448px;
+  }
+
+  .Q_LandingFearRatingTitle {
+    width: 1223px;
+    height: 531px;
+
+    padding: 0px 0px 0px 89px;
+
+    font-size: 181px;
+  }
+
+  .Q_LandingFearRatingContentAnimation {
+    height: 395px;
+    background: url('images/components/quarks/2560x1440/Q_LandingFearRatingContentAnimation.gif');
+  }
+
+  .Q_LandingFearRatingDescriptorActive {
+    width: 44px;
+    height: 844px;
+    background: url('images/components/quarks/2560x1440/Q_LandingFearRatingDescriptorActive.svg');
+    filter: drop-shadow(0px 0px 5px var(--acid-green))
+      drop-shadow(0px 0px 37px var(--acid-green));
+  }
+
+  .Q_LandingFearRatingDescriptorText {
+    padding: 32px 0px 0px;
+
+    width: 703px;
+    height: 208px;
+
+    font-size: 39px;
+    line-height: 44px;
+  }
+
+  .Q_LandingSection08Picture {
+    width: 913px;
+    background: url('images/components/quarks/2560x1440/Q_LandingSection08Picture.png')
+      no-repeat;
+  }
+
+  .Q_LandingSection08LinkLogo {
+    height: 291px;
+
+    background: url('images/components/quarks/2560x1440/Q_LandingSection08LinkLogo.svg');
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCredits {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .Q_LandingFooterButtonVK {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .Q_LandingFooterButtonTG {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .Q_LandingSection08FooterButtonUpText {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .Q_LandingSection08FooterButtonUpIcon {
+    padding: 8px;
+    background: url('images/components/quarks/2560x1440/Q_LandingSection08FooterButtonUpIcon.svg')
+      center center no-repeat;
+    width: 31px;
+    height: 31px;
+    border: 2px solid #000000;
+
+    cursor: pointer;
+  }
+
+  /* Смотреть видео */
+
+  .Q_TopgameLineunder {
+    // background-image: url('images/Q_TopgameLineUnder_2560.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1122px;
+    height: 36px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_2560.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 2070px;
+    height: 36px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture.png');
+  }
+
+  /* Лендинг */
+
+  .Q_LandingSection01Logo {
+    width: 713px;
+    height: 283px;
+    background-image: url('images/components/quarks/1920x1080/Q_LandingSection01Logo.svg');
+  }
+
+  .Q_LandingSection01SubTitle {
+    width: 360px;
+    height: 27px;
+
+    font-size: 25px;
+    line-height: 27px;
+
+    text-shadow: 0px 0px 4px var(--acid-green), 0px 0px 28px var(--acid-green);
+  }
+
+  .Q_LandingSection01DownArrow {
+    width: 34px;
+    height: 19px;
+    top: 846px;
+    left: calc(50vw - 34px / 2);
+
+    background-image: url('images/components/quarks/1920x1080/Q_LandingSection01DownArrow.svg');
+    filter: drop-shadow(0px 0px 4px var(--acid-green))
+      drop-shadow(0px 0px 28px var(--acid-green));
+  }
+
+  .Q_LandingInsertTitleBracketL {
+    background-image: url('images/components/quarks/1920x1080/Q_LandingInsertTitleBracketL.svg');
+    width: 11px;
+    height: 28px;
+  }
+
+  .Q_LandingInsertTitleBracketR {
+    background-image: url('images/components/quarks/1920x1080/Q_LandingInsertTitleBracketR.svg');
+    width: 11px;
+    height: 28px;
+  }
+
+  .Q_LandingInsertTitleText {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .Q_LandingSection02PictureLeft {
+    background-image: url('images/components/quarks/1920x1080/Q_LandingSection02PictureLeft.png');
+    width: 668px;
+    height: 1073px;
+    top: 944px;
+  }
+
+  .Q_LandingSection02PictureRight {
+    background-image: url('images/components/quarks/1920x1080/Q_LandingSection02PictureRight.png');
+    width: 888px;
+    height: 1073px;
+    top: 944px;
+  }
+
+  .Q_LandingSection03Title {
+    width: 1153px;
+    height: 156px;
+
+    font-size: 136px;
+    line-height: 156px;
+  }
+
+  .Q_LandingSection03CardKeyPicture {
+    width: 550px;
+    height: 365px;
+
+    background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardKeyPicture.png');
+    border-radius: 0.625vw;
+  }
+
+  .Q_LandingSection03CardEyePicture {
+    width: 550px;
+    height: 365px;
+
+    background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardEyePicture.png');
+    border-radius: 0.625vw;
+  }
+
+  .Q_LandingSection03CardHeartPicture {
+    width: 550px;
+    height: 365px;
+
+    background-image: url('images/components/quarks/1920x1080/Q_LandingSection03CardHeartPicture.png');
+    border-radius: 0.625vw;
+  }
+
+  .Q_LandingSection03CardContentTitle {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .Q_LandingSection03CardContentParagraph {
+    width: 501px;
+    height: 66px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .Q_LandingDivider {
+    background: url('images/components/quarks/1920x1080/Q_LandingDivider.svg')
+      no-repeat;
+    height: 27px;
+    background-size: 100%;
+  }
+
+  .Q_LandingSection04Title {
+    width: 1225px;
+
+    font-size: 136px;
+
+    padding: 0px 0px 0px 17px;
+  }
+
+  .Q_LandingSection04Picture {
+    position: absolute;
+    width: 725px;
+    height: 826px;
+    top: 92px;
+
+    background: url('images/components/quarks/1920x1080/Q_LandingSection04Picture.png');
+  }
+
+  .Q_LandingSmallCardTitle {
+    width: 546px;
+    height: 48px;
+
+    font-size: 43px;
+    line-height: 48px;
+  }
+
+  .Q_LandingSmallCardParagraph {
+    width: 546px;
+    height: 74px;
+
+    font-size: 35px;
+    line-height: 37px;
+  }
+
+  .Q_ConnectHalfDown {
+    width: 41px;
+    height: 104px;
+    background: url('images/components/quarks/1920x1080/Q_ConnectHalfDown.svg');
+  }
+
+  .Q_ConnectHalfUp {
+    width: 41px;
+    height: 104px;
+    background: url('images/components/quarks/1920x1080/Q_ConnectHalfUp.svg');
+  }
+
+  .Q_LandingSection05PictureRight {
+    background: url('images/components/quarks/1920x1080/Q_LandingSection05PictureRight.png');
+
+    width: 725px;
+    height: 1389px;
+    top: 4086px;
+  }
+
+  .Q_LandingSection05PictureLeft {
+    background: url('images/components/quarks/1920x1080/Q_LandingSection05PictureLeft.png');
+
+    width: 666px;
+    height: 1368px;
+    top: 4086px;
+  }
+
+  .Q_LandingFearRatingTitle {
+    width: 917px;
+    height: 399px;
+
+    padding: 0px 0px 0px 67px;
+
+    font-size: 136px;
+  }
+
+  .Q_LandingFearRatingContentAnimation {
+    height: 296px;
+    background: url('images/components/quarks/1920x1080/Q_LandingFearRatingContentAnimation.gif');
+  }
+
+  .Q_LandingFearRatingDescriptorActive {
+    width: 33x;
+    height: 633px;
+    background: url('images/components/quarks/1920x1080/Q_LandingFearRatingDescriptorActive.svg');
+    filter: drop-shadow(0px 0px 4px var(--acid-green))
+      drop-shadow(0px 0px 28px var(--acid-green));
+  }
+
+  .Q_LandingFearRatingDescriptorText {
+    padding: 24px 0px 0px;
+
+    width: 522px;
+    height: 152px;
+
+    font-size: 29px;
+    line-height: 32px;
+  }
+
+  .Q_LandingSection08Picture {
+    width: 685px;
+    background: url('images/components/quarks/1920x1080/Q_LandingSection08Picture.png')
+      no-repeat;
+  }
+
+  .Q_LandingSection08LinkLogo {
+    height: 218px;
+
+    background: url('images/components/quarks/1920x1080/Q_LandingSection08LinkLogo.svg');
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCredits {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .Q_LandingFooterButtonVK {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .Q_LandingFooterButtonTG {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .Q_LandingSection08FooterButtonUpText {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .Q_LandingSection08FooterButtonUpIcon {
+    padding: 6px;
+    background: url('images/components/quarks/1920x1080/Q_LandingSection08FooterButtonUpIcon.svg')
+      center center no-repeat;
+    width: 23px;
+    height: 23px;
+    border: 1px solid #000000;
+
+    cursor: pointer;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    // background-image: url('images/Q_TopgameLineUnder_1920.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 838px;
+    height: 27px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_1920.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1550px;
+    height: 27px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture1440.png');
+  }
+
+  /* Лендинг */
+
+  .Q_LandingSection01Logo {
+    width: 535px;
+    height: 212px;
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection01Logo.svg');
+  }
+
+  .Q_LandingSection01SubTitle {
+    width: 264px;
+    height: 20px;
+
+    font-size: 18px;
+    line-height: 20px;
+
+    text-shadow: 0px 0px 3px var(--acid-green), 0px 0px 21px var(--acid-green);
+  }
+
+  .Q_LandingSection01DownArrow {
+    width: 23px;
+    height: 11px;
+    top: 744px;
+    left: calc(50vw - 24px / 2);
+
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection01DownArrow.svg');
+    filter: drop-shadow(0px 0px 3px var(--acid-green))
+      drop-shadow(0px 0px 21px var(--acid-green));
+  }
+
+  .Q_LandingInsertTitleBracketL {
+    background-image: url('images/components/quarks/1440x900/Q_LandingInsertTitleBracketL.svg');
+    width: 7px;
+    height: 19px;
+  }
+
+  .Q_LandingInsertTitleBracketR {
+    background-image: url('images/components/quarks/1440x900/Q_LandingInsertTitleBracketR.svg');
+    width: 7px;
+    height: 19px;
+  }
+
+  .Q_LandingInsertTitleText {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Q_LandingSection02PictureLeft {
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection02PictureLeft.png');
+    width: 501px;
+    height: 805px;
+    top: 791px;
+  }
+
+  .Q_LandingSection02PictureRight {
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection02PictureRight.png');
+    width: 666px;
+    height: 805px;
+    top: 791px;
+  }
+
+  .Q_LandingSection03Title {
+    width: 865px;
+    height: 117px;
+
+    font-size: 102px;
+    line-height: 117px;
+  }
+
+  .Q_LandingSection03CardKeyPicture {
+    width: 412px;
+    height: 273px;
+
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection03CardKeyPicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardEyePicture {
+    width: 412px;
+    height: 273px;
+
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection03CardEyePicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardHeartPicture {
+    width: 412px;
+    height: 273px;
+
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection03CardHeartPicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardContentTitle {
+    font-size: 27px;
+    line-height: 27px;
+  }
+
+  .Q_LandingSection03CardContentParagraph {
+    width: 376px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .Q_LandingDivider {
+    background: url('images/components/quarks/1440x900/Q_LandingDivider.svg')
+      no-repeat;
+    height: 20px;
+    background-size: 100%;
+  }
+
+  .Q_LandingSection04Title {
+    width: 918px;
+
+    font-size: 102px;
+
+    padding: 0px 0px 0px 12px;
+  }
+
+  .Q_LandingSection04Picture {
+    width: 666px;
+    height: 758px;
+    top: 70px;
+
+    background: url('images/components/quarks/1440x900/Q_LandingSection04Picture.png');
+  }
+
+  .Q_LandingSmallCardTitle {
+    width: 410px;
+    height: 36px;
+
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .Q_LandingSmallCardParagraph {
+    width: 410px;
+    height: 56px;
+
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .Q_ConnectHalfDown {
+    width: 31px;
+    height: 78px;
+    background: url('images/components/quarks/1440x900/Q_ConnectHalfDown.svg');
+  }
+
+  .Q_ConnectHalfUp {
+    width: 31px;
+    height: 78px;
+    background: url('images/components/quarks/1440x900/Q_ConnectHalfUp.svg');
+  }
+
+  .Q_LandingSection05PictureLeft {
+    background: url('images/components/quarks/1440x900/Q_LandingSection05PictureLeft.png');
+
+    width: 500px;
+    height: 1026px;
+    top: 3290px;
+  }
+  .Q_LandingSection05PictureRight {
+    background: url('images/components/quarks/1440x900/Q_LandingSection05PictureRight.png');
+
+    width: 544px;
+    height: 1042px;
+    top: 3290px;
+  }
+
+  .Q_LandingFearRatingTitle {
+    width: 688px;
+    height: 300px;
+
+    padding: 0px 0px 0px 50px;
+
+    font-size: 102px;
+  }
+
+  .Q_LandingFearRatingContentAnimation {
+    height: 222px;
+    background: url('images/components/quarks/1440x900/Q_LandingFearRatingContentAnimation.gif');
+  }
+
+  .Q_LandingFearRatingDescriptorActive {
+    width: 25px;
+    height: 475px;
+    background: url('images/components/quarks/1440x900/Q_LandingFearRatingDescriptorActive.svg');
+    filter: drop-shadow(0px 0px 3px var(--acid-green))
+      drop-shadow(0px 0px 21px var(--acid-green));
+  }
+
+  .Q_LandingFearRatingDescriptorText {
+    padding: 18px 0px 0px;
+
+    width: 413px;
+    height: 118px;
+
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Q_LandingSection08Picture {
+    width: 541px;
+    background: url('images/components/quarks/1440x900/Q_LandingSection08Picture.png')
+      no-repeat;
+  }
+
+  .Q_LandingSection08LinkLogo {
+    height: 164px;
+
+    background: url('images/components/quarks/1440x900/Q_LandingSection08LinkLogo.svg');
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCredits {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingFooterButtonVK {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingFooterButtonTG {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingSection08FooterButtonUpText {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingSection08FooterButtonUpIcon {
+    padding: 4px;
+    background: url('images/components/quarks/1440x900/Q_LandingSection08FooterButtonUpIcon.svg')
+      center center no-repeat;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #000000;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_1440.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 630px;
+    height: 27px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_1440.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1164px;
+    height: 27px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture1366.png');
+  }
+
+  /* Лендинг */
+
+  .Q_LandingSection01Logo {
+    width: 535px;
+    height: 212px;
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection01Logo.svg');
+  }
+
+  .Q_LandingSection01SubTitle {
+    width: 264px;
+    height: 20px;
+
+    font-size: 18px;
+    line-height: 20px;
+
+    text-shadow: 0px 0px 3px var(--acid-green), 0px 0px 21px var(--acid-green);
+  }
+
+  .Q_LandingSection01DownArrow {
+    width: 23px;
+    height: 11px;
+    top: 744px;
+    left: calc(50vw - 24px / 2);
+
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection01DownArrow.svg');
+    filter: drop-shadow(0px 0px 3px var(--acid-green))
+      drop-shadow(0px 0px 21px var(--acid-green));
+  }
+
+  .Q_LandingInsertTitleBracketL {
+    background-image: url('images/components/quarks/1440x900/Q_LandingInsertTitleBracketL.svg');
+    width: 7px;
+    height: 19px;
+  }
+
+  .Q_LandingInsertTitleBracketR {
+    background-image: url('images/components/quarks/1440x900/Q_LandingInsertTitleBracketR.svg');
+    width: 7px;
+    height: 19px;
+  }
+
+  .Q_LandingInsertTitleText {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Q_LandingSection02PictureLeft {
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection02PictureLeft.png');
+    width: 501px;
+    height: 805px;
+    top: 791px;
+  }
+
+  .Q_LandingSection02PictureRight {
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection02PictureRight.png');
+    width: 666px;
+    height: 805px;
+    top: 791px;
+  }
+
+  .Q_LandingSection03Title {
+    width: 865px;
+    height: 117px;
+
+    font-size: 102px;
+    line-height: 117px;
+  }
+
+  .Q_LandingSection03CardKeyPicture {
+    width: 412px;
+    height: 273px;
+
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection03CardKeyPicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardEyePicture {
+    width: 412px;
+    height: 273px;
+
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection03CardEyePicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardHeartPicture {
+    width: 412px;
+    height: 273px;
+
+    background-image: url('images/components/quarks/1440x900/Q_LandingSection03CardHeartPicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardContentTitle {
+    font-size: 27px;
+    line-height: 27px;
+  }
+
+  .Q_LandingSection03CardContentParagraph {
+    width: 376px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .Q_LandingDivider {
+    background: url('images/components/quarks/1440x900/Q_LandingDivider.svg')
+      no-repeat;
+    height: 20px;
+    background-size: 100%;
+  }
+
+  .Q_LandingSection04Title {
+    width: 918px;
+
+    font-size: 102px;
+
+    padding: 0px 0px 0px 12px;
+  }
+
+  .Q_LandingSection04Picture {
+    width: 666px;
+    height: 758px;
+    top: 70px;
+
+    background: url('images/components/quarks/1440x900/Q_LandingSection04Picture.png');
+  }
+
+  .Q_LandingSmallCardTitle {
+    width: 410px;
+    height: 36px;
+
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .Q_LandingSmallCardParagraph {
+    width: 410px;
+    height: 56px;
+
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .Q_ConnectHalfDown {
+    width: 31px;
+    height: 78px;
+    background: url('images/components/quarks/1440x900/Q_ConnectHalfDown.svg');
+  }
+
+  .Q_ConnectHalfUp {
+    width: 31px;
+    height: 78px;
+    background: url('images/components/quarks/1440x900/Q_ConnectHalfUp.svg');
+  }
+
+  .Q_LandingSection05PictureLeft {
+    background: url('images/components/quarks/1440x900/Q_LandingSection05PictureLeft.png');
+
+    width: 500px;
+    height: 1026px;
+    top: 3290px;
+  }
+  .Q_LandingSection05PictureRight {
+    background: url('images/components/quarks/1440x900/Q_LandingSection05PictureRight.png');
+
+    width: 544px;
+    height: 1042px;
+    top: 3290px;
+  }
+
+  .Q_LandingFearRatingTitle {
+    width: 688px;
+    height: 300px;
+
+    padding: 0px 0px 0px 50px;
+
+    font-size: 102px;
+  }
+
+  .Q_LandingFearRatingContentAnimation {
+    height: 222px;
+    background: url('images/components/quarks/1440x900/Q_LandingFearRatingContentAnimation.gif');
+  }
+
+  .Q_LandingFearRatingDescriptorActive {
+    width: 25px;
+    height: 475px;
+    background: url('images/components/quarks/1440x900/Q_LandingFearRatingDescriptorActive.svg');
+    filter: drop-shadow(0px 0px 3px var(--acid-green))
+      drop-shadow(0px 0px 21px var(--acid-green));
+  }
+
+  .Q_LandingFearRatingDescriptorText {
+    padding: 18px 0px 0px;
+
+    width: 413px;
+    height: 118px;
+
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Q_LandingSection08Picture {
+    width: 541px;
+    background: url('images/components/quarks/1440x900/Q_LandingSection08Picture.png')
+      no-repeat;
+  }
+
+  .Q_LandingSection08LinkLogo {
+    height: 164px;
+
+    background: url('images/components/quarks/1440x900/Q_LandingSection08LinkLogo.svg');
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCredits {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingFooterButtonVK {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingFooterButtonTG {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingSection08FooterButtonUpText {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingSection08FooterButtonUpIcon {
+    padding: 4px;
+    background: url('images/components/quarks/1440x900/Q_LandingSection08FooterButtonUpIcon.svg')
+      center center no-repeat;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #000000;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    // background-image: url('images/Q_TopgameLineUnder_1366.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 600px;
+    height: 19px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_1366.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1106px;
+    height: 19px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture1024.png');
+  }
+
+  /* Лендинг */
+
+  .Q_LandingSection01Logo {
+    width: 381px;
+    height: 151px;
+    background-image: url('images/components/quarks/1024x768/Q_LandingSection01Logo.svg');
+  }
+
+  .Q_LandingSection01SubTitle {
+    width: 188px;
+    height: 15px;
+
+    font-size: 13px;
+    line-height: 14;
+
+    text-shadow: 0px 0px 2px var(--acid-green), 0px 0px 15px var(--acid-green);
+  }
+
+  .Q_LandingSection01DownArrow {
+    width: 18px;
+    height: 10px;
+    top: 650px;
+    left: calc(50vw - 16px / 2);
+
+    background-image: url('images/components/quarks/1024x768/Q_LandingSection01DownArrow.svg');
+    filter: drop-shadow(0px 0px 2px var(--acid-green))
+      drop-shadow(0px 0px 15px var(--acid-green));
+  }
+
+  .Q_LandingInsertTitleBracketL {
+    background-image: url('images/components/quarks/1024x768/Q_LandingInsertTitleBracketL.svg');
+    width: 6px;
+    height: 16px;
+  }
+
+  .Q_LandingInsertTitleBracketR {
+    background-image: url('images/components/quarks/1024x768/Q_LandingInsertTitleBracketR.svg');
+    width: 6px;
+    height: 16px;
+  }
+
+  .Q_LandingInsertTitleText {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .Q_LandingSection02PictureLeft {
+    background-image: url('images/components/quarks/1024x768/Q_LandingSection02PictureLeft.png');
+    width: 356px;
+    height: 573px;
+    top: 676px;
+  }
+
+  .Q_LandingSection02PictureRight {
+    background-image: url('images/components/quarks/1024x768/Q_LandingSection02PictureRight.png');
+    width: 474px;
+    height: 572px;
+    top: 676px;
+  }
+
+  .Q_LandingSection03Title {
+    width: 619px;
+    height: 84px;
+
+    font-size: 73px;
+    line-height: 85px;
+  }
+
+  .Q_LandingSection03CardKeyPicture {
+    width: 293px;
+    height: 193px;
+
+    background-image: url('images/components/quarks/1024x768/Q_LandingSection03CardKeyPicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardEyePicture {
+    width: 293px;
+    height: 193px;
+
+    background-image: url('images/components/quarks/1024x768/Q_LandingSection03CardEyePicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardHeartPicture {
+    width: 293px;
+    height: 193px;
+
+    background-image: url('images/components/quarks/1024x768/Q_LandingSection03CardHeartPicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardContentTitle {
+    font-size: 19px;
+    line-height: 21px;
+  }
+
+  .Q_LandingSection03CardContentParagraph {
+    width: 267px;
+    height: 35px;
+    font-size: 9px;
+    line-height: 11px;
+  }
+
+  .Q_LandingDivider {
+    background: url('images/components/quarks/1024x768/Q_LandingDivider.svg')
+      no-repeat;
+    height: 14px;
+    background-size: 100%;
+  }
+
+  .Q_LandingSection04Title {
+    width: 657px;
+
+    font-size: 73px;
+
+    padding: 0px 0px 0px 8px;
+  }
+
+  .Q_LandingSection04Picture {
+    width: 449px;
+    height: 511px;
+    top: 109px;
+
+    background: url('images/components/quarks/1024x768/Q_LandingSection04Picture.png');
+  }
+
+  .Q_LandingSmallCardTitle {
+    width: 313px;
+    height: 25px;
+
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Q_LandingSmallCardParagraph {
+    width: 313px;
+    height: 40px;
+
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .Q_ConnectHalfDown {
+    width: 23px;
+    height: 55px;
+    background: url('images/components/quarks/1024x768/Q_ConnectHalfDown.svg');
+  }
+
+  .Q_ConnectHalfUp {
+    width: 23px;
+    height: 55px;
+    background: url('images/components/quarks/1024x768/Q_ConnectHalfUp.svg');
+  }
+
+  .Q_LandingSection05PictureLeft {
+    background: url('images/components/quarks/1024x768/Q_LandingSection05PictureLeft.png');
+
+    width: 355px;
+    height: 729px;
+    top: 2614px;
+  }
+  .Q_LandingSection05PictureRight {
+    background: url('images/components/quarks/1024x768/Q_LandingSection05PictureRight.png');
+
+    width: 387px;
+    height: 741px;
+    top: 2614px;
+  }
+
+  .Q_LandingFearRatingTitle {
+    width: 491px;
+    height: 216px;
+
+    padding: 0px 0px 0px 35px;
+
+    font-size: 73px;
+  }
+
+  .Q_LandingFearRatingContentAnimation {
+    height: 157px;
+    background: url('images/components/quarks/1024x768/Q_LandingFearRatingContentAnimation.gif');
+  }
+
+  .Q_LandingFearRatingDescriptorActive {
+    width: 18px;
+    height: 338px;
+    background: url('images/components/quarks/1024x768/Q_LandingFearRatingDescriptorActive.svg');
+    filter: drop-shadow(0px 0px 2px var(--acid-green))
+      drop-shadow(0px 0px 15px var(--acid-green));
+  }
+
+  .Q_LandingFearRatingDescriptorText {
+    padding: 13px 0px 0px;
+
+    width: 294px;
+    height: 85px;
+
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .Q_LandingSection08Picture {
+    width: 461px;
+    background: url('images/components/quarks/1024x768/Q_LandingSection08Picture.png')
+      no-repeat;
+  }
+
+  .Q_LandingSection08LinkLogo {
+    height: 117px;
+
+    background: url('images/components/quarks/1024x768/Q_LandingSection08LinkLogo.svg');
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCredits {
+    font-size: 8px;
+    line-height: 9px;
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 8px;
+    line-height: 9px;
+  }
+
+  .Q_LandingFooterButtonVK {
+    font-size: 8px;
+    line-height: 9px;
+  }
+
+  .Q_LandingFooterButtonTG {
+    font-size: 8px;
+    line-height: 9px;
+  }
+
+  .Q_LandingSection08FooterButtonUpText {
+    font-size: 8px;
+    line-height: 9px;
+  }
+
+  .Q_LandingSection08FooterButtonUpIcon {
+    padding: 3px;
+    background: url('images/components/quarks/1024x768/Q_LandingSection08FooterButtonUpIcon.svg')
+      center center no-repeat;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #000000;
+  }
+
+  /* Меню-бар */
+
+  .Q_Burger {
+    display: flex;
+  }
+
+  /* Главный экран */
+
+  .Q_MainScreenFloatGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_MainScreenPointGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_IconInfo {
+    background-image: url('images/components/quarks/1024x768/Q_IconInfo.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconTG {
+    background-image: url('images/components/quarks/1024x768/Q_IconTG.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconVK {
+    background-image: url('images/components/quarks/1024x768/Q_IconVK.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_CardTitle {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .Q_CardText {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .Q_MainScreenLogo {
+    width: 365px;
+    height: 139px;
+
+    filter: drop-shadow(0px 0px 6px #ffffff)
+      drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4))
+      drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.47));
+  }
+
+  .Q_MainScreenLogoGlyphLeft {
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .Q_MainScreenLogoGlyphRight {
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    // background-image: url('images/Q_TopgameLineUnder_1024.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 446px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    background-image: url('images/Q_TopgameLine_1024.svg');
+    background-size: cover;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 826px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}
+
+@media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture768.png');
+  }
+
+  .Q_GrungeTextureSplit {
+    border-radius: 10px;
+  }
+
+  /* О проекте */
+
+  .Q_AboutNavLeft {
+    width: 7.03125vw;
+    font-size: 1.95313vw;
+  }
+
+  .Q_AboutTitle {
+    font-size: 7.16146vw;
+  }
+
+  .Q_AboutNavRight {
+    width: 5.85938vw;
+    font-size: 1.95313vw;
+  }
+
+  .Q_AboutBodyDivider {
+    background-image: url('images/components/quarks/768x1024/Q_AboutBodyDivider.svg');
+    height: 1.69271vw;
+  }
+
+  .Q_AboutBodyContentPic {
+    background-size: cover;
+    background-image: url('images/components/quarks/1920x1080/Q_AboutBodyContentPic.jpg');
+
+    width: 83.33333vw;
+    height: 335px;
+    margin-top: 7.55208vw;
+  }
+
+  .Q_AboutTextParagraph {
+    width: 100%;
+    font-size: 17px;
+    line-height: 19px;
+  }
+
+  .Q_AboutFooterTitle {
+    font-size: 1.95313vw;
+  }
+
+  .Q_AboutFooterTextWhite {
+    font-size: 1.5625vw;
+  }
+
+  .Q_AboutFooterTextGlyph {
+    font-size: 1.5625vw;
+    line-height: 90%;
+  }
+
+  /* Браузер видео */
+
+  .Q_VideoBrowserBannerType {
+    font-size: 1.30208vw;
+    line-height: 1.43229vw;
+  }
+
+  .Q_VideoBrowserBannerContentPlay {
+    padding: 0px 0px 1px;
+    background-image: url('images/components/quarks/768x1024/Q_VideoBrowserBannerContentPlay.svg');
+
+    width: 0.78125vw;
+    height: 0.91146vw;
+  }
+
+  .Q_VideoBrowserBannerTitle {
+    width: 46.61458vw;
+
+    font-size: 7.16146vw;
+    line-height: 8.20313vw;
+  }
+
+  .Q_VideoBrowserSmallCardContentType {
+    font-size: 0.78125vw;
+    line-height: 0.91146vw;
+  }
+
+  .Q_VideoBrowserSmallCardContentPlay {
+    height: 0.78125vw;
+    width: 0.39063vw;
+    background-image: url('images/components/quarks/768x1024/Q_VideoBrowserSmallCardContentPlay.svg');
+  }
+
+  .Q_VideoBrowserSmallCardContentTitle {
+    font-size: 1.69271vw;
+    line-height: 1.95313vw;
+  }
+
+  /* Разбор сюжета */
+
+  .Q_StoryConnectHalfDown {
+    background-image: url('images/components/quarks/768x1024/Q_StoryConnectHalfDown.svg');
+
+    width: 15px;
+    height: 40px;
+    margin-top: -1px;
+  }
+
+  .Q_StoryConnectHalfUp {
+    background-image: url('images/components/quarks/768x1024/Q_StoryConnectHalfUp.svg');
+
+    width: 15px;
+    height: 40px;
+    margin-bottom: -1px;
+  }
+
+  .Q_StoryConnectHalfLeft {
+    background-image: url('images/components/quarks/768x1024/Q_StoryConnectHalfLeft.svg');
+
+    width: 40px;
+    height: 15px;
+    margin-right: -1px;
+  }
+
+  .Q_StoryConnectHalfRight {
+    background-image: url('images/components/quarks/768x1024/Q_StoryConnectHalfRight.svg');
+
+    width: 40px;
+    height: 15px;
+    margin-left: -1px;
+  }
+
+  /* Лендинг */
+
+  .Q_LandingSection01Logo {
+    width: 344px;
+    height: 136px;
+    background-image: url('images/components/quarks/768x1024/Q_LandingSection01Logo.svg');
+  }
+
+  .Q_LandingSection01SubTitle {
+    width: 174px;
+    height: 13px;
+
+    font-size: 12px;
+    line-height: 13px;
+
+    text-shadow: 0px 0px 2px var(--acid-green), 0px 0px 14px var(--acid-green);
+  }
+
+  .Q_LandingSection01DownArrow {
+    width: 25px;
+    height: 14px;
+    top: 744px;
+    left: calc(50vw - 24px / 2);
+
+    background-image: url('images/components/quarks/768x1024/Q_LandingSection01DownArrow.svg');
+    filter: drop-shadow(0px 0px 3px var(--acid-green))
+      drop-shadow(0px 0px 21px var(--acid-green));
+  }
+
+  .Q_LandingInsertTitleBracketL {
+    background-image: url('images/components/quarks/768x1024/Q_LandingInsertTitleBracketL.svg');
+    width: 7px;
+    height: 18px;
+  }
+
+  .Q_LandingInsertTitleBracketR {
+    background-image: url('images/components/quarks/768x1024/Q_LandingInsertTitleBracketR.svg');
+    width: 7px;
+    height: 18px;
+  }
+
+  .Q_LandingInsertTitleText {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .Q_LandingSection02PictureLeft {
+    background-image: url('images/components/quarks/768x1024/Q_LandingSection02PictureLeft.png');
+    width: 300px;
+    height: 785px;
+    top: 900px;
+  }
+
+  .Q_LandingSection02PictureRight {
+    background-image: url('images/components/quarks/768x1024/Q_LandingSection02PictureRight.png');
+    width: 279px;
+    height: 785px;
+    top: 900px;
+  }
+
+  .Q_LandingSection03Title {
+    width: 458px;
+    height: 62px;
+
+    font-size: 54px;
+    line-height: 62px;
+  }
+
+  .Q_LandingSection03CardKeyPicture {
+    width: 218px;
+    height: 145px;
+
+    background-image: url('images/components/quarks/768x1024/Q_LandingSection03CardKeyPicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardEyePicture {
+    width: 218px;
+    height: 145px;
+
+    background-image: url('images/components/quarks/768x1024/Q_LandingSection03CardEyePicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardHeartPicture {
+    width: 218px;
+    height: 145px;
+
+    background-image: url('images/components/quarks/768x1024/Q_LandingSection03CardHeartPicture.png');
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardContentTitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .Q_LandingSection03CardContentParagraph {
+    width: 196px;
+    height: 25px;
+    font-size: 8px;
+    line-height: 9px;
+  }
+
+  .Q_LandingDivider {
+    background: url('images/components/quarks/768x1024/Q_LandingDivider.svg')
+      no-repeat;
+    background-size: 100%;
+
+    height: 20px;
+  }
+
+  .Q_LandingSection04Title {
+    width: 492px;
+
+    font-size: 54px;
+
+    padding: 0px 0px 0px 12px;
+  }
+
+  .Q_LandingSection04Picture {
+    width: 457px;
+    height: 758px;
+    top: 70px;
+
+    background: url('images/components/quarks/768x1024/Q_LandingSection04Picture.png');
+  }
+
+  .Q_LandingSmallCardTitle {
+    width: 410px;
+    height: 36px;
+
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .Q_LandingSmallCardParagraph {
+    width: 410px;
+    height: 56px;
+
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .Q_ConnectHalfDown {
+    width: 31px;
+    height: 78px;
+    background: url('images/components/quarks/768x1024/Q_ConnectHalfDown.svg');
+  }
+
+  .Q_ConnectHalfUp {
+    width: 31px;
+    height: 78px;
+    background: url('images/components/quarks/768x1024/Q_ConnectHalfUp.svg');
+  }
+
+  .Q_LandingSection05PictureLeft {
+    background: url('images/components/quarks/768x1024/Q_LandingSection05PictureLeft.png');
+
+    width: 290px;
+    height: 1026px;
+    top: 3070px;
+  }
+  .Q_LandingSection05PictureRight {
+    background: url('images/components/quarks/768x1024/Q_LandingSection05PictureRight.png');
+
+    width: 384px;
+    height: 1026px;
+    top: 3070px;
+  }
+
+  .Q_LandingFearRatingTitle {
+    width: 388px;
+    height: 144px;
+
+    padding: 0px 0px 0px 57px;
+
+    font-size: 48px;
+  }
+
+  .Q_LandingFearRatingContentAnimation {
+    height: 172px;
+    background: url('images/components/quarks/768x1024/Q_LandingFearRatingContentAnimation.gif');
+  }
+
+  .Q_LandingFearRatingDescriptorActive {
+    width: 19px;
+    height: 367px;
+    background: url('images/components/quarks/768x1024/Q_LandingFearRatingDescriptorActive.svg');
+    filter: drop-shadow(0px 0px 2px var(--acid-green))
+      drop-shadow(0px 0px 16px var(--acid-green));
+  }
+
+  .Q_LandingFearRatingDescriptorText {
+    padding: 14px 0px 0px;
+
+    width: 294px;
+    height: 86px;
+
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .Q_LandingSection08Picture {
+    width: 422px;
+    background: url('images/components/quarks/768x1024/Q_LandingSection08Picture.png')
+      no-repeat;
+  }
+
+  .Q_LandingSection08LinkLogo {
+    width: 321px;
+    height: 127px;
+
+    background: url('images/components/quarks/768x1024/Q_LandingSection08LinkLogo.svg');
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCredits {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingFooterButtonVK {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingFooterButtonTG {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingSection08FooterButtonUpText {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .Q_LandingSection08FooterButtonUpIcon {
+    padding: 4px;
+    background: url('images/components/quarks/768x1024/Q_LandingSection08FooterButtonUpIcon.svg')
+      center center no-repeat;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #000000;
+  }
+
+  /* Меню-бар */
+
+  .Q_Burger {
+    display: flex;
+  }
+
+  /* Главный экран */
+
+  .Q_MainScreenFloatGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_MainScreenPointGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 258px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_IconInfo {
+    background-image: url('images/components/quarks/1024x768/Q_IconInfo.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconTG {
+    background-image: url('images/components/quarks/1024x768/Q_IconTG.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconVK {
+    background-image: url('images/components/quarks/1024x768/Q_IconVK.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_CardTitle {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .Q_CardText {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .Q_MainScreenLogo {
+    width: 434px;
+    height: 172px;
+
+    filter: drop-shadow(0px 0px 6px #ffffff)
+      drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4))
+      drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.47));
+  }
+
+  .Q_MainScreenLogoGlyphLeft {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_MainScreenLogoGlyphRight {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  /* Разбор монстров */
+
+  .Q_NarrowTopgameLine {
+    height: 20px;
+  }
+
+  .Q_ScaryreallyPictureintext {
+    height: 28.125vw;
+    padding: 0px 20px;
+    background-size: contain;
+  }
+
+  .Q_InsertTitle {
+    left: 8px;
+    top: -8px;
+
+    padding: 0px 4px 1px;
+
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_MonsterPic_01 {
+    background-image: url('images/components/quarks/768x1024/Q_MonsterPic_01.jpg');
+  }
+
+  .Q_MonsterPic_02 {
+    background-image: url('images/components/quarks/768x1024/Q_MonsterPic_02.jpg');
+  }
+
+  .Q_MonsterAndStoryCardTitle {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .Q_MonsterAndStoryCardText {
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .Q_NarrowBlackoutHorizontal {
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    height: 95px;
+  }
+
+  /* Смотреть видео */
+
+  .Q_TopgameLineunder {
+    background-image: url('images/Q_TopgameLineUnder_768.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 538px;
+    height: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    display: none;
+    // background-image: url(images/Q_TopgameLine_768.svg);
+    // background-size: cover;
+
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px;
+
+    // width: 590px;
+    // height: 15px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+}
+
+@media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture414.png');
+  }
+
+  .Q_GrungeTextureSplit {
+    border-radius: 10px;
+  }
+
+  /* О проекте */
+
+  .Q_AboutNavLeft {
+    width: 36px;
+    font-size: 10px;
+  }
+
+  .Q_AboutTitle {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .Q_AboutNavRight {
+    width: 30px;
+    font-size: 10px;
+  }
+
+  .Q_AboutBodyDivider {
+    background-image: url('images/components/quarks/414x896/Q_AboutBodyDivider.svg');
+    height: 15px;
+  }
+
+  .Q_AboutBodyContentPic {
+    background-size: cover;
+    background-image: url('images/components/quarks/1920x1080/Q_AboutBodyContentPic.jpg');
+
+    width: 339px;
+    height: 185px;
+    margin-top: 11px;
+  }
+
+  .Q_AboutTextParagraph {
+    width: 100%;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .Q_AboutFooterTitle {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Q_AboutFooterTextWhite {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .Q_AboutFooterTextGlyph {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  /* Браузер видео */
+
+  .Q_VideoBrowserBannerType {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  .Q_VideoBrowserBannerContentPlay {
+    padding: 0px 0px 1px;
+    background-image: url('images/components/quarks/414x896/Q_VideoBrowserBannerContentPlay.svg');
+
+    width: 6px;
+    height: 7px;
+  }
+
+  .Q_VideoBrowserBannerTitle {
+    width: 189px;
+
+    font-size: 29px;
+    line-height: 33px;
+  }
+
+  .Q_VideoBrowserSmallCardContentType {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  .Q_VideoBrowserSmallCardContentPlay {
+    padding: 0px 0px 9px;
+
+    height: 6px;
+    width: 5px;
+    background-image: url('images/components/quarks/414x896/Q_VideoBrowserSmallCardContentPlay.svg');
+  }
+
+  .Q_VideoBrowserSmallCardContentTitle {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  /* Разбор сюжета */
+
+  .Q_StoryConnectHalfDown {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfDown.svg');
+
+    width: 15px;
+    height: 36px;
+    margin-top: -1px;
+  }
+
+  .Q_StoryConnectHalfUp {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfUp.svg');
+
+    width: 15px;
+    height: 36px;
+    margin-bottom: -1px;
+  }
+
+  .Q_StoryConnectHalfLeft {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfLeft.svg');
+
+    width: 36px;
+    height: 15px;
+    margin-right: -1px;
+  }
+
+  .Q_StoryConnectHalfRight {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfRight.svg');
+
+    width: 36px;
+    height: 15px;
+    margin-left: -1px;
+  }
+
+  .Q_NarrowTopgameLine {
+    height: 14px;
+  }
+
+  .Q_ScaryreallyPictureintext {
+    height: 36.23188vw;
+    padding: 0px 30px;
+    background-size: contain;
+  }
+
+  .Q_InsertTitle {
+    left: 10px;
+    top: -8px;
+
+    padding: 0px 4px 1px;
+
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  /* Разбор монстров */
+
+  .Q_TopgameLineMobile {
+    background-image: url('images/components/quarks/414x896/Q_TopgameLineMobile.svg');
+    width: 100%;
+  }
+
+  .Q_MonsterPic_01 {
+    background-image: url('images/components/quarks/768x1024/Q_MonsterPic_01.jpg');
+  }
+
+  .Q_MonsterPic_02 {
+    background-image: url('images/components/quarks/768x1024/Q_MonsterPic_02.jpg');
+  }
+
+  .Q_MonsterAndStoryCardTitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .Q_MonsterAndStoryCardText {
+    font-size: 7px;
+    line-height: 8px;
+  }
+
+  .Q_NarrowBlackoutHorizontal {
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    height: 95px;
+  }
+
+  /* Лендинг */
+
+  .Q_LandingSection01Logo {
+    width: 84vw;
+    height: 138px;
+    background-image: url('images/components/quarks/414x896/Q_LandingSection01Logo.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .Q_LandingSection01SubTitle {
+    width: 304px;
+    height: 20px;
+
+    font-size: 18px;
+    line-height: 20px;
+
+    text-shadow: 0px 0px 2px var(--acid-green), 0px 0px 14px var(--acid-green);
+  }
+
+  .Q_LandingSection01DownArrow {
+    width: 22px;
+    height: 12px;
+    top: 83vh;
+    left: calc(50vw - 22px / 2);
+
+    background-image: url('images/components/quarks/414x896/Q_LandingSection01DownArrow.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: drop-shadow(0px 0px 3px var(--acid-green))
+      drop-shadow(0px 0px 21px var(--acid-green));
+  }
+
+  .Q_LandingInsertTitleBracketL {
+    background-image: url('images/components/quarks/414x896/Q_LandingInsertTitleBracketL.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1.2vw;
+    height: 1.8vh;
+  }
+
+  .Q_LandingInsertTitleBracketR {
+    background-image: url('images/components/quarks/414x896/Q_LandingInsertTitleBracketR.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1.2vw;
+    height: 1.8vh;
+  }
+
+  .Q_LandingInsertTitleText {
+    font-size: 4vw;
+    line-height: 100%;
+  }
+
+  .Q_LandingSection02PictureLeft {
+    background-image: url('images/components/quarks/414x896/Q_LandingSection02PictureLeft.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 41vw;
+    height: 689px;
+    top: 85vh;
+  }
+
+  .Q_LandingSection02PictureRight {
+    background-image: url('images/components/quarks/414x896/Q_LandingSection02PictureRight.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 34vw;
+    height: 689px;
+    top: 85vh;
+  }
+
+  .Q_LandingSection03Title {
+    width: 94vw;
+    height: 52px;
+
+    font-size: 11vw;
+    line-height: 7vh;
+  }
+
+  .Q_LandingSection03CardKeyPicture {
+    width: 94vw;
+    height: 29vh;
+
+    background-image: url('images/components/quarks/414x896/Q_LandingSection03CardKeyPicture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardEyePicture {
+    width: 94vw;
+    height: 29vh;
+
+    background-image: url('images/components/quarks/414x896/Q_LandingSection03CardEyePicture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardHeartPicture {
+    width: 94vw;
+    height: 29vh;
+
+    background-image: url('images/components/quarks/414x896/Q_LandingSection03CardHeartPicture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+  }
+
+  .Q_LandingSection03CardContentTitle {
+    overflow: visible;
+    font-size: 6vw;
+    line-height: 3vh;
+  }
+
+  .Q_LandingSection03CardContentParagraph {
+    overflow: visible;
+
+    width: 85vw;
+    height: 5vh;
+    font-size: 3.4vw;
+    line-height: 1.8vh;
+  }
+
+  .Q_LandingDivider {
+    background: url('images/components/quarks/414x896/Q_LandingDivider.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    height: 4vh;
+  }
+
+  .Q_LandingSection04Title {
+    width: 262px;
+
+    font-size: 11vw;
+
+    padding: 0px 0px 0px 3px;
+  }
+
+  .Q_LandingSection04Picture {
+    width: 59vw;
+    height: 43vh;
+    top: 6vh;
+
+    background: url('images/components/quarks/414x896/Q_LandingSection04Picture.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .Q_LandingSmallCardTitle {
+    width: 84vw;
+    height: 3vh;
+
+    font-size: 6vw;
+    line-height: 3vh;
+  }
+
+  .Q_LandingSmallCardParagraph {
+    width: 84vw;
+    height: 5vh;
+
+    font-size: 5vw;
+    line-height: 2.5vh;
+  }
+
+  .Q_ConnectHalfDown {
+    width: 25px;
+    height: 61px;
+    background: url('images/components/quarks/414x896/Q_ConnectHalfDown.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .Q_ConnectHalfUp {
+    width: 25px;
+    height: 61px;
+    background: url('images/components/quarks/414x896/Q_ConnectHalfUp.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .Q_LandingSection05PictureLeft {
+    background: url('images/components/quarks/414x896/Q_LandingSection05PictureLeft.png');
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 44vw;
+    height: 87vh;
+    top: 364vh;
+  }
+  .Q_LandingSection05PictureRight {
+    background: url('images/components/quarks/414x896/Q_LandingSection05PictureRight.png');
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 56vw;
+    height: 87vh;
+    top: 364vh;
+  }
+
+  .Q_LandingFearRatingTitle {
+    width: 100vw;
+    height: 15vh;
+
+    padding: 0px 0px 0px 4vw;
+
+    font-size: 11vw;
+  }
+
+  .Q_LandingFearRatingContentAnimation {
+    height: 20vh;
+    background: url('images/components/quarks/414x896/Q_LandingFearRatingContentAnimation.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .Q_LandingFearRatingDescriptorActive {
+    width: 4vw;
+    height: 37vh;
+
+    background: url('images/components/quarks/414x896/Q_LandingFearRatingDescriptorActive.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    filter: drop-shadow(0px 0px 2px var(--acid-green))
+      drop-shadow(0px 0px 16px var(--acid-green));
+  }
+
+  .Q_LandingFearRatingDescriptorText {
+    overflow-y: hidden;
+    padding: 13px 0px 0px;
+
+    width: 65vw;
+    height: 10vh;
+
+    font-size: 3.6vw;
+    line-height: 2vh;
+  }
+
+  .Q_LandingSection08Picture {
+    width: 285px;
+    background: url('images/components/quarks/414x896/Q_LandingSection08Picture.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .Q_LandingSection08LinkLogo {
+    width: 84vw;
+    height: 138px;
+
+    background: url('images/components/quarks/414x896/Q_LandingSection08LinkLogo.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCredits {
+    font-size: 4.9vw;
+    line-height: 6vw;
+  }
+
+  .Q_LandingSection08FooterButtonsCenterCreditsCross {
+    font-size: 4.9vw;
+    line-height: 6vw;
+  }
+
+  .Q_LandingFooterButtonVK {
+    font-size: 4.9vw;
+    line-height: 6vw;
+  }
+
+  .Q_LandingFooterButtonTG {
+    font-size: 4.9vw;
+    line-height: 6vw;
+  }
+
+  .Q_LandingSection08FooterButtonUpText {
+    font-size: 4.9vw;
+    line-height: 6vw;
+  }
+
+  .Q_LandingSection08FooterButtonUpIcon {
+    display: none;
+  }
+
+  /* Меню-бар */
+
+  .Q_Burger {
+    display: flex;
+    background-position: right;
+  }
+
+  /* Главный экран */
+
+  .Q_MainScreenFloatGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 275px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_MainScreenPointGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 275px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_IconInfo {
+    background-image: url('images/components/quarks/1024x768/Q_IconInfo.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconTG {
+    background-image: url('images/components/quarks/1024x768/Q_IconTG.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconVK {
+    background-image: url('images/components/quarks/1024x768/Q_IconVK.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_CardTitle {
+    font-size: 6.03865vw;
+    line-height: 6.76329vw;
+  }
+
+  .Q_CardText {
+    font-size: 3.38164vw;
+    line-height: 3.86473vw;
+  }
+
+  .Q_MainScreenLogo {
+    width: 69.56522vw;
+    height: 27.53623vw;
+
+    filter: drop-shadow(0px 0px 6px #ffffff)
+      drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4))
+      drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.47));
+  }
+
+  .Q_MainScreenLogoGlyphLeft {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_MainScreenLogoGlyphRight {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_ArrowLeft {
+    cursor: pointer;
+
+    display: block;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 52px;
+    background: black;
+
+    background-image: url('images/components/quarks/414x896/Q_ArrowLeft.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .Q_ArrowRight {
+    cursor: pointer;
+
+    display: block;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 52px;
+    background: black;
+
+    background-image: url('images/components/quarks/414x896/Q_ArrowRight.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  /* Смотреть видео */
+
+  .Q_TopgameLineunder {
+    // background-image: url('images/Q_TopgameLineUnder_414.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 357px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    display: none;
+    // background-image: url(images/Q_TopgameLine_414.svg);
+    // background-size: cover;
+
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 0px 29px;
+
+    // width: 414px;
+    // height: 8px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+}
+
+@media only screen and (max-device-width: 360px) {
+  .Q_GrungeTexture {
+    background-image: url('images/components/quarks/Q_GrungeTexture360.png');
+  }
+
+  .Q_GrungeTextureSplit {
+    border-radius: 10px;
+  }
+
+  /* О проекте */
+
+  .Q_AboutNavLeft {
+    width: 36px;
+    font-size: 10px;
+  }
+
+  .Q_AboutTitle {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .Q_AboutNavRight {
+    width: 30px;
+    font-size: 10px;
+  }
+
+  .Q_AboutBodyDivider {
+    background-image: url('images/components/quarks/414x896/Q_AboutBodyDivider.svg');
+    height: 15px;
+  }
+
+  .Q_AboutBodyContentPic {
+    background-size: cover;
+    background-image: url('images/components/quarks/1920x1080/Q_AboutBodyContentPic.jpg');
+
+    width: 339px;
+    height: 185px;
+    margin-top: 11px;
+  }
+
+  .Q_AboutTextParagraph {
+    width: 100%;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .Q_AboutFooterTitle {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Q_AboutFooterTextWhite {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .Q_AboutFooterTextGlyph {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  /* Браузер видео */
+
+  .Q_VideoBrowserBannerType {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  .Q_VideoBrowserBannerContentPlay {
+    padding: 0px 0px 1px;
+    background-image: url('images/components/quarks/414x896/Q_VideoBrowserBannerContentPlay.svg');
+
+    width: 6px;
+    height: 7px;
+  }
+
+  .Q_VideoBrowserBannerTitle {
+    width: 189px;
+
+    font-size: 29px;
+    line-height: 33px;
+  }
+
+  .Q_VideoBrowserSmallCardContentType {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  .Q_VideoBrowserSmallCardContentPlay {
+    padding: 0px 0px 9px;
+
+    height: 6px;
+    width: 5px;
+    background-image: url('images/components/quarks/414x896/Q_VideoBrowserSmallCardContentPlay.svg');
+  }
+
+  .Q_VideoBrowserSmallCardContentTitle {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  /* Разбор сюжета */
+
+  .Q_StoryConnectHalfDown {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfDown.svg');
+
+    width: 15px;
+    height: 36px;
+    margin-top: -1px;
+  }
+
+  .Q_StoryConnectHalfUp {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfUp.svg');
+
+    width: 15px;
+    height: 36px;
+    margin-bottom: -1px;
+  }
+
+  .Q_StoryConnectHalfLeft {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfLeft.svg');
+
+    width: 36px;
+    height: 15px;
+    margin-right: -1px;
+  }
+
+  .Q_StoryConnectHalfRight {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfRight.svg');
+
+    width: 36px;
+    height: 15px;
+    margin-left: -1px;
+  }
+
+  .Q_NarrowTopgameLine {
+    height: 14px;
+  }
+
+  .Q_ScaryreallyPictureintext {
+    height: 36.23188vw;
+    padding: 0px 30px;
+    background-size: contain;
+  }
+
+  .Q_InsertTitle {
+    left: 10px;
+    top: -8px;
+
+    padding: 0px 4px 1px;
+
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  /* Разбор монстров */
+
+  .Q_TopgameLineMobile {
+    background-image: url('images/components/quarks/414x896/Q_TopgameLineMobile.svg');
+    width: 100%;
+  }
+
+  .Q_MonsterPic_01 {
+    background-image: url('images/components/quarks/768x1024/Q_MonsterPic_01.jpg');
+  }
+
+  .Q_MonsterPic_02 {
+    background-image: url('images/components/quarks/768x1024/Q_MonsterPic_02.jpg');
+  }
+
+  .Q_MonsterAndStoryCardTitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .Q_MonsterAndStoryCardText {
+    font-size: 7px;
+    line-height: 8px;
+  }
+
+  .Q_NarrowBlackoutHorizontal {
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    height: 95px;
+  }
+
+  .Q_InsertTitle {
+    left: 10px;
+    top: -8px;
+
+    padding: 0px 4px 1px;
+
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  /* Меню-бар */
+
+  .Q_Burger {
+    display: flex;
+    background-position: right;
+  }
+
+  /* Главный экран */
+
+  .Q_MainScreenFloatGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 275px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_MainScreenPointGraphics {
+    top: 0;
+    padding-top: 54px;
+    padding-bottom: 275px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Q_IconInfo {
+    background-image: url('images/components/quarks/1024x768/Q_IconInfo.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconTG {
+    background-image: url('images/components/quarks/1024x768/Q_IconTG.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_IconVK {
+    background-image: url('images/components/quarks/1024x768/Q_IconVK.svg');
+    width: 100%;
+    height: 100%;
+  }
+
+  .Q_CardTitle {
+    font-size: 6.03865vw;
+    line-height: 6.76329vw;
+  }
+
+  .Q_CardText {
+    font-size: 3.38164vw;
+    line-height: 3.86473vw;
+  }
+
+  .Q_MainScreenLogo {
+    width: 69.56522vw;
+    height: 27.53623vw;
+
+    filter: drop-shadow(0px 0px 6px #ffffff)
+      drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4))
+      drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.47));
+  }
+
+  .Q_MainScreenLogoGlyphLeft {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_MainScreenLogoGlyphRight {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .Q_ArrowLeft {
+    cursor: pointer;
+
+    display: block;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 52px;
+    background: black;
+
+    background-image: url('images/components/quarks/414x896/Q_ArrowLeft.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .Q_ArrowRight {
+    cursor: pointer;
+
+    display: block;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 52px;
+    background: black;
+
+    background-image: url('images/components/quarks/414x896/Q_ArrowRight.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  /* Смотреть видео */
+  .Q_TopgameLineunder {
+    // background-image: url('images/Q_TopgameLineUnder_360.svg');
+    background-size: cover;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 326px;
+    height: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Инди игры */
+
+  .Q_TopgameLine {
+    display: none;
+    // background-image: url(images/Q_TopgameLine_360.svg);
+    // background-size: cover;
+
+    // /* Auto layout */
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: flex-start;
+    // padding: 0px 29px;
+
+    // width: 315px;
+    // height: 8px;
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 1;
+    // align-self: stretch;
+    // flex-grow: 0;
+  }
+}

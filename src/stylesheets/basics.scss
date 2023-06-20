@@ -1,29 +1,134 @@
-//* {
-//  box-sizing: border-box;
-//}
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 
 html,
 body {
-  height: 100%;
-}
-
-body {
   font-family: 'PT Root UI', Helvetica, Arial, sans-serif;
+  font-size: 14px;
   font-weight: 400;
+
+  background: url('images/Q_GrungeTextureMainmenu_1440.png') no-repeat center
+    center fixed;
+  background-size: cover;
+  background-color: var(--black);
+  background-blend-mode: lighten;
+  z-index: 99;
 }
 
-.images {
+.ArticleLayout {
   display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+}
 
-  //* {
-    //width: 100%;
-    //height: 100%;
-    //margin: 0 0px;
-  //}
+.AboutLayout {
+  display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+  overflow: visible;
+}
 
-  .image {
-    &#bgJPG {
-      background-image: url('images/ugabuga.jpg');
-    }
+.MainPage {
+  overflow: visible;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  .ArticleLayout {
+    padding-top: 96px;
+  }
+
+  .AboutLayout {
+    padding-top: 96px;
+  }
+}
+@media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  .ArticleLayout {
+    padding-top: 72px;
+  }
+
+  .AboutLayout {
+    padding-top: 72px;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  .ArticleLayout {
+    padding-top: 64px;
+  }
+
+  .AboutLayout {
+    padding-top: 64px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .ArticleLayout {
+    padding-top: 54px;
+  }
+
+  .AboutLayout {
+    padding-top: 54px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .ArticleLayout {
+    padding-top: 54px;
+  }
+
+  .MainPage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .AboutLayout {
+    padding-top: 54px;
+  }
+}
+@media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  .ArticleLayout {
+    padding-top: 54px;
+  }
+
+  .MainPage {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+  }
+
+  .AboutLayout {
+    padding-top: 54px;
+  }
+}
+@media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  .ArticleLayout {
+    padding-top: 54px;
+  }
+
+  .MainPage {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+  }
+
+  .AboutLayout {
+    padding-top: 54px;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  .ArticleLayout {
+    padding-top: 46px;
+  }
+
+  .MainPage {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+  }
+
+  .AboutLayout {
+    padding-top: 46px;
   }
 }

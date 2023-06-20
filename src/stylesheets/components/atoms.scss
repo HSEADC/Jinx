@@ -1,0 +1,1044 @@
+/* Лендинг */
+
+.A_LandingInsertContent {
+  overflow-y: hidden;
+
+  width: 690px;
+
+  box-sizing: border-box;
+  padding: 34px 30px 29px;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 26px;
+  color: var(--acid-green);
+
+  background: var(--black);
+  border: 2px solid var(--acid-green);
+}
+
+.A_LandingInsertTitle {
+  height: 34px;
+
+  position: absolute;
+  left: 23px;
+  top: -16px;
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  padding: 0px 9px;
+  gap: 11px;
+}
+
+.A_LandingSection03CardContent {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0px 25px 24px;
+  gap: 13px;
+
+  width: 550px;
+  height: 169px;
+
+  background-color: black;
+
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  border-color: white;
+  border-radius: 0.625vw;
+}
+
+.A_LandingSmallCard {
+  overflow: visible;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+  gap: 20px;
+
+  width: 661px;
+  height: 214px;
+
+  background-color: black;
+  border: 1px solid #ffffff;
+  border-radius: 0.625vw;
+}
+
+.A_LandingFearRatingContentDescriptor {
+  overflow: visible;
+
+  display: flex;
+  gap: 7px;
+
+  position: absolute;
+  width: 590px;
+  height: 633px;
+  left: 1258px;
+  top: 231px;
+}
+
+.A_LandingSection08LinkSubTitle {
+  overflow: visible;
+
+  width: 360px;
+  height: 28px;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.A_LandingSection08LinkSubButton {
+  overflow: visible;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 110%;
+
+  text-align: center;
+
+  box-sizing: border-box;
+  padding: 5px 22px 4px;
+  width: 131px;
+  height: 33px;
+
+  border: 2px solid;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.A_LandingSection08LinkSubButton:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.A_LandingSection08FooterButtonAbout {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  display: flex;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.A_LandingSection08FooterButtonAbout:hover {
+  filter: invert(1);
+}
+
+.A_LandingSection08FooterButtonUp {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.A_LandingSection08FooterButtonUp:hover
+  > .Q_LandingSection08FooterButtonUpIcon {
+  filter: invert(1);
+}
+
+.A_LandingSection08FooterButtonUp:hover
+  > .Q_LandingSection08FooterButtonUpText {
+  filter: invert(1);
+}
+
+/* Меню-бар */
+
+.A_MenuBarButton {
+  overflow: hidden;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.A_MenuBarButton:hover {
+  color: var(--acid-green);
+  filter: drop-shadow(0px 0px 4px var(--acid-green))
+    drop-shadow(0px 0px 28px var(--acid-green));
+}
+
+.A_MenuBarNavigation {
+  position: relative;
+  font-family: 'PT Mono', sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: right;
+  white-space: nowrap;
+
+  overflow: visible;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  color: var(--acid-green);
+}
+
+.A_MenuBarLogo {
+  position: relative;
+  // width: 85px;
+  width: 100%;
+  background-position: right;
+  height: 34px;
+  background-image: url('images/components/atoms/A_MenuBarLogo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.A_MenuBarLogo:hover {
+  opacity: 50%;
+}
+
+.A_BurgerButton {
+  width: 21px;
+  height: 16px;
+  display: none;
+}
+
+/* Главный экран */
+
+.A_MainScreenPrimaryButton {
+  position: relative;
+  cursor: pointer;
+
+  overflow-y: hidden;
+  display: flex;
+  padding: 0px 0px 1px 1px;
+  width: 100%;
+  height: 100%;
+  max-height: 4.11458vw;
+
+  background-color: white;
+  text-decoration: none;
+}
+
+.A_MainScreenPrimaryButton:hover .W_MainScreenPrimaryButton {
+  filter: invert(1);
+}
+
+.A_IconInfo {
+  flex-shrink: 0;
+  cursor: pointer;
+
+  padding: 1.04167vw 0.98958vw 0.83333vw;
+  border-radius: 0.625vw;
+
+  width: 3.64583vw;
+  height: 100%;
+
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.A_IconInfo:hover {
+  filter: invert(1);
+}
+
+.A_IconInfo:active {
+  filter: invert(1);
+  background-color: rgb(77, 77, 77);
+}
+
+.A_IconTG {
+  flex-shrink: 0;
+  cursor: pointer;
+
+  padding: 1.14583vw 1.04167vw 1.14583vw 0.88542vw;
+  border-radius: 0.625vw;
+
+  width: 3.64583vw;
+  height: 100%;
+
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.A_IconTG:hover {
+  filter: invert(1);
+}
+
+.A_IconTG:active {
+  filter: invert(1);
+  background-color: rgb(77, 77, 77);
+}
+
+.A_IconVK {
+  flex-shrink: 0;
+  cursor: pointer;
+
+  background-color: black;
+  border-radius: 0.625vw;
+
+  padding: 1.19792vw 0.72917vw 1.19792vw 0.67708vw;
+
+  width: 3.64583vw;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.A_IconVK:hover {
+  filter: invert(1);
+}
+
+.A_IconVK:active {
+  filter: invert(1);
+  background-color: rgb(77, 77, 77);
+}
+
+.A_BlankSpace {
+  border-radius: 0.625vw;
+  background-color: black;
+  width: calc(100% - 11.09375vw);
+  height: 100%;
+}
+
+.A_MenuCard01 {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+  padding: 0px 0px 0px 1px;
+  height: 100%;
+  width: 100%;
+}
+
+.A_MenuCard02 {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+  padding: 0px 0px 0px 1px;
+  height: 100%;
+  width: 100%;
+}
+
+.A_MenuCard03 {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+  padding: 0px 0px 0px 1px;
+  height: 100%;
+  width: 100%;
+}
+
+.A_MenuCard01:hover :last-child .Q_CardTitle {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCard01:hover :last-child .Q_CardTitle + .Q_CardText {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCard02:hover :last-child .Q_CardTitle {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCard02:hover :last-child .Q_CardTitle + .Q_CardText {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCard03:hover :last-child .Q_CardTitle {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCard03:hover :last-child .Q_CardTitle + .Q_CardText {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MainScreenSecondaryButton {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 1px 0px;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(255, 255, 255, 0.25);
+  border-left: 1px solid white;
+}
+
+.A_MainScreenSecondaryButton:hover .W_MainScreenSecondaryButton {
+  filter: invert(1);
+}
+
+.A_MainScreenSecondaryButtonLast {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 1px 0px;
+  width: 100%;
+  height: 100%;
+
+  background: white;
+  border-left: 1px solid white;
+}
+
+.A_MainScreenSecondaryButtonLast:hover .W_MainScreenSecondaryButtonLast {
+  filter: invert(1);
+}
+
+/* Браузер видео */
+
+.A_VideoBrowserBannerPicture {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  border-radius: 0.625vw;
+}
+
+.A_VideoBrowserSmallCardPicAndGradient {
+  position: relative;
+  box-sizing: border-box;
+  isolation: isolate;
+  width: 100%;
+  height: 100%;
+
+  background: black;
+  border: 1px solid white;
+  border-radius: 0.625vw;
+}
+
+.A_VideoBrowserSmallCardContentFrame {
+  flex-shrink: 0;
+  overflow-y: hidden;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0.98958vw 1.30208vw;
+
+  width: 100%;
+  height: 8.02083vw;
+
+  margin-top: -1px;
+
+  background: black;
+  border: 1px solid white;
+  border-radius: 0.625vw;
+}
+
+/* Смотреть видео */
+
+.A_VideoPlayer {
+  background-image: url('./images/A_VideoPlayer_1440.svg');
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 630px;
+  height: 355px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.A_VideoShare {
+  /* Text */
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 74px;
+  height: 12px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.A_VideoData {
+  /* Text */
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 66px;
+  height: 12px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.A_VideoLink {
+  /* Text */
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: right;
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 61px;
+  height: 12px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* Разбор монстров */
+
+.A_NarrowArticlestyleTitle {
+  width: 100%;
+  overflow: visible;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 1.30208vw;
+  line-height: 1.30208vw;
+
+  text-transform: uppercase;
+
+  color: var(--acid-green);
+}
+
+.A_NarrowArticlestyleText {
+  width: 100%;
+
+  font-family: 'PT Root UI';
+  font-weight: 400;
+  font-size: 0.98958vw;
+  line-height: 1.30208vw;
+
+  color: white;
+}
+
+.A_InsertContent {
+  width: 20.20833vw;
+  box-sizing: border-box;
+  display: flex;
+  padding: 0.72083vw 1.5625vw;
+  border: 1px solid var(--acid-green);
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.67708vw;
+  line-height: 0.78125vw;
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+}
+
+.A_MonsterTextunder {
+  width: 100%;
+  padding-right: 0.78125vw;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.52083vw;
+
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+
+  color: var(--dark-grey);
+}
+
+/* О проекте */
+
+.A_AboutBodyContentText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.30208vw;
+}
+
+.A_AboutFooterText {
+  cursor: pointer;
+  text-decoration: none;
+  overflow: visible;
+
+  display: flex;
+  gap: 0.57292vw;
+}
+
+.A_AboutFooterText:hover * {
+  color: var(--acid-green);
+  filter: drop-shadow(0px 0px 4px var(--acid-green))
+    drop-shadow(0px 0px 28px var(--acid-green));
+}
+
+/* Страшно реально */
+
+.A_ScraryreallyFrameline {
+  background-image: url('./images/A_ScaryreallyFrameline_1440.svg');
+  background-size: cover;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 515px;
+  height: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.A_ScaryreallyPisctureinsidetext {
+  background-image: url('./images/A_ScaryreallyPictureintext_1440.png');
+  background-size: cover;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+
+  width: 530px;
+  height: 217px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.A_ScaryreallyTextunder {
+  width: 100%;
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 8px;
+
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+
+  color: var(--dark-grey);
+}
+
+/* Разбор механик */
+.A_ArticlestyleTextParagraphs {
+  /* Text */
+
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* or 120% */
+
+  color: var(--white);
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 30px 0px 0px;
+
+  width: 100%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.A_AnalysismechanicsElement {
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height, or 120% */
+
+  color: var(--acid-orange);
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 7px;
+  height: 18px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.A_AnalysismechanicsPoints {
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height, or 120% */
+
+  color: var(--acid-orange);
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 12px;
+  height: 18px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Инди игры */
+
+/*Заголовок десктоп*/
+
+.A_TopgameLink {
+  display: flex;
+  align-items: center;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.83333vw;
+  line-height: 0.938vw;
+  text-transform: lowercase;
+  color: var(--acid-green);
+
+  width: 10vw;
+  flex-shrink: 0;
+}
+
+.A_TopgameDate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 0.83333vw;
+  line-height: 0.938vw;
+  text-transform: lowercase;
+  color: var(--acid-green);
+
+  width: 10vw;
+  flex-shrink: 0;
+}
+
+.A_TopgameHeading {
+  text-transform: uppercase;
+  font-family: 'Jinx Font';
+  font-weight: 400;
+  font-size: 2.55208vw;
+  line-height: 3.125vw;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: var(--white);
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 100%;
+}
+
+/*Заголовок мобилки*/
+
+.A_TopgameHeadingMobile {
+  text-transform: uppercase;
+  font-family: 'Jinx Font';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+
+  align-items: center;
+  text-align: center;
+
+  color: var(--white);
+
+  width: 100%;
+}
+
+.A_TopgameLinkMobile {
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-transform: lowercase;
+
+  color: var(--acid-green);
+
+  width: 152px;
+}
+.A_TopgameDateMobile {
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-transform: lowercase;
+  text-align: right;
+  color: var(--acid-green);
+
+  width: 95px;
+}
+
+/*Тело статьи*/
+.A_TopgameVideo {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 514px;
+  height: 520px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  position: absolute;
+  z-index: -1;
+
+  mix-blend-mode: lighten;
+}
+.A_TopgamePicture {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 514px;
+  height: 520px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+
+  mix-blend-mode: lighten;
+}
+.A_TopgameImagecaption {
+  /* Text */
+
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+
+  color: var(--dark-grey);
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 514px;
+  height: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.A_ArticlestyleText {
+  /* Text */
+
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* or 120% */
+
+  color: var(--white);
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 55px 30px 0px 0px;
+
+  width: 514px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.A_ArticlestyleTextContinuation {
+  /* Text */
+
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* or 120% */
+
+  color: var(--white);
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 30px 0px 0px;
+
+  width: 514px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
