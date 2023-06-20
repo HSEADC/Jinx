@@ -46,8 +46,9 @@
 /* Браузер видео */
 
 .C_VideoBrowserSmallCards {
+  justify-content: space-between;
+
   display: flex;
-  gap: 3.90625vw;
   width: 100%;
 
   height: 22.34375vw;
@@ -56,7 +57,9 @@
 /* Разбор монстров */
 
 .C_MonsterCards {
+  height: 100%;
   position: relative;
+  z-index: 99;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
 
@@ -67,7 +70,6 @@
   isolation: isolate;
   width: 100%;
 
-  background: black;
   border-radius: 0.625vw;
 }
 
@@ -111,14 +113,21 @@
 /* Разбор сюжета */
 
 .C_StoryCards {
+  z-index: 99;
+  isolation: isolate;
   position: relative;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
 
-  display: grid;
-  grid-template-rows: 14.6875vw 10.98958vw 10.98958vw;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
 
-  padding-top: 9vh;
+  // display: grid;
+  // grid-template-rows: 14.6875vw 10.98958vw 10.98958vw;
+
+  // padding-top: 9vh;
   padding-left: 3.906vw;
   padding-right: 3.906vw;
 

@@ -127,6 +127,28 @@
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* Браузер видео */
+
+  .C_VideoBrowserSmallCards {
+    height: 24.34896vw;
+  }
+
+  /* Разбор сюжета */
+
+  .C_StoryCards {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+
+    height: 100%;
+    padding: 26px;
+    justify-content: flex-start;
+  }
+
+  .C_StoryCards::-webkit-scrollbar {
+    display: none;
+  }
+
   /* Лендинг */
 
   .C_LandingSection03Cards {
@@ -164,6 +186,31 @@
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* Браузер видео */
+
+  .C_VideoBrowserSmallCards {
+    flex-direction: column;
+    height: 1045px;
+    gap: 35px;
+  }
+
+  /* Разбор сюжета */
+
+  .C_StoryCards {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+
+    height: 100%;
+    padding: 21px;
+
+    justify-content: flex-start;
+  }
+
+  .C_StoryCards::-webkit-scrollbar {
+    display: none;
+  }
+
   /* Разбор монстров */
 
   .C_ScaryreallyPictureinsidetext {
@@ -205,6 +252,31 @@
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* Браузер видео */
+
+  .C_VideoBrowserSmallCards {
+    flex-direction: column;
+    height: 1045px;
+    gap: 35px;
+  }
+
+  /* Разбор сюжета */
+
+  .C_StoryCards {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+
+    height: 100%;
+    padding: 21px;
+
+    justify-content: flex-start;
+  }
+
+  .C_StoryCards::-webkit-scrollbar {
+    display: none;
+  }
+
   /* Разбор монстров */
 
   .C_ScaryreallyPictureinsidetext {

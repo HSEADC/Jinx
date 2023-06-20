@@ -428,6 +428,20 @@
   height: 100vh;
   z-index: -99;
 }
+
+.Q_GrungeTextureSplit {
+  top: 0;
+  left: 1px;
+  position: absolute;
+  mix-blend-mode: lighten;
+  background-image: url('images/components/quarks/Q_GrungeTexture.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 0.625vw;
+}
+
 .Q_Burger {
   z-index: 99;
   cursor: pointer;
@@ -636,7 +650,7 @@
   width: 100%;
   height: 100%;
 
-  background-image: url('images/components/quarks/1920x1080/Q_VideoBrowserBannerPicture.jpg');
+  background-image: url('images/components/quarks/2560x1440/Q_VideoBrowserBannerPicture.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -661,12 +675,77 @@
   z-index: 1;
 }
 
-.Q_VideoBrowserSmallCardPic {
+.Q_VideoBrowserSmallCardPic01 {
   position: absolute;
   width: 100%;
   height: 100%;
 
-  background-image: url('images/components/quarks/1920x1080/Q_VideoBrowserSmallCardPic.jpg');
+  background-image: url('images/components/quarks/2560x1440/Q_VideoBrowserSmallCardPic01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  z-index: 0;
+}
+
+.Q_VideoBrowserSmallCardPic02 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('images/components/quarks/2560x1440/Q_VideoBrowserSmallCardPic02.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  z-index: 0;
+}
+
+.Q_VideoBrowserSmallCardPic03 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('images/components/quarks/2560x1440/Q_VideoBrowserSmallCardPic03.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  z-index: 0;
+}
+
+.Q_VideoBrowserSmallCardPic04 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('images/components/quarks/2560x1440/Q_VideoBrowserSmallCardPic04.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  z-index: 0;
+}
+
+.Q_VideoBrowserSmallCardPic05 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('images/components/quarks/2560x1440/Q_VideoBrowserSmallCardPic05.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  z-index: 0;
+}
+
+.Q_VideoBrowserSmallCardPic06 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('images/components/quarks/2560x1440/Q_VideoBrowserSmallCardPic06.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -678,6 +757,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  opacity: 50%;
 
   background: linear-gradient(
     180deg,
@@ -999,6 +1079,7 @@
 }
 
 .Q_AboutBodyDivider {
+  flex-shrink: 0;
   background-image: url('images/components/quarks/1920x1080/Q_AboutBodyDivider.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -1008,21 +1089,22 @@
 }
 
 .Q_AboutBodyContentPic {
+  flex-shrink: 0;
   background-image: url('images/components/quarks/1920x1080/Q_AboutBodyContentPic.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 
   width: 38.4375vw;
-  height: 18.69792vw;
+  height: 100%;
 }
 
 .Q_AboutTextParagraph {
-  width: 25vw;
+  overflow-y: hidden;
   font-family: 'PT Root UI';
   font-weight: 400;
-  font-size: 0.98958vw;
-  line-height: 132%;
+  font-size: 19px;
+  line-height: 25px;
 
   color: white;
 }

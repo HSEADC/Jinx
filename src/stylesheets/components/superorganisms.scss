@@ -142,11 +142,13 @@
   background: white;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 /* Разбор сюжета */
 
 .S_StoryCards {
+  position: relative;
   width: 100%;
   height: 100%;
 
@@ -161,12 +163,12 @@
 
 .S_About {
   overflow: visible;
+  height: calc(100svh - 72px);
 
-  margin-top: 1.71875vw;
-
-  padding: 0 9.6875vw;
+  padding: 1.71875vw 9.6875vw;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   gap: 0.625vw;
 }

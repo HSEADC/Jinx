@@ -1587,6 +1587,132 @@
   .Q_GrungeTexture {
     background-image: url('images/components/quarks/Q_GrungeTexture768.png');
   }
+
+  .Q_GrungeTextureSplit {
+    border-radius: 10px;
+  }
+
+  /* О проекте */
+
+  .Q_AboutNavLeft {
+    width: 7.03125vw;
+    font-size: 1.95313vw;
+  }
+
+  .Q_AboutTitle {
+    font-size: 7.16146vw;
+  }
+
+  .Q_AboutNavRight {
+    width: 5.85938vw;
+    font-size: 1.95313vw;
+  }
+
+  .Q_AboutBodyDivider {
+    background-image: url('images/components/quarks/768x1024/Q_AboutBodyDivider.svg');
+    height: 1.69271vw;
+  }
+
+  .Q_AboutBodyContentPic {
+    background-size: cover;
+    background-image: url('images/components/quarks/1920x1080/Q_AboutBodyContentPic.jpg');
+
+    width: 83.33333vw;
+    height: 335px;
+    margin-top: 7.55208vw;
+  }
+
+  .Q_AboutTextParagraph {
+    width: 100%;
+    font-size: 17px;
+    line-height: 19px;
+  }
+
+  .Q_AboutFooterTitle {
+    font-size: 1.95313vw;
+  }
+
+  .Q_AboutFooterTextWhite {
+    font-size: 1.5625vw;
+  }
+
+  .Q_AboutFooterTextGlyph {
+    font-size: 1.5625vw;
+    line-height: 90%;
+  }
+
+  /* Браузер видео */
+
+  .Q_VideoBrowserBannerType {
+    font-size: 1.30208vw;
+    line-height: 1.43229vw;
+  }
+
+  .Q_VideoBrowserBannerContentPlay {
+    padding: 0px 0px 1px;
+    background-image: url('images/components/quarks/768x1024/Q_VideoBrowserBannerContentPlay.svg');
+
+    width: 0.78125vw;
+    height: 0.91146vw;
+  }
+
+  .Q_VideoBrowserBannerTitle {
+    width: 46.61458vw;
+
+    font-size: 7.16146vw;
+    line-height: 8.20313vw;
+  }
+
+  .Q_VideoBrowserSmallCardContentType {
+    font-size: 0.78125vw;
+    line-height: 0.91146vw;
+  }
+
+  .Q_VideoBrowserSmallCardContentPlay {
+    height: 0.78125vw;
+    width: 0.39063vw;
+    background-image: url('images/components/quarks/768x1024/Q_VideoBrowserSmallCardContentPlay.svg');
+  }
+
+  .Q_VideoBrowserSmallCardContentTitle {
+    font-size: 1.69271vw;
+    line-height: 1.95313vw;
+  }
+
+  /* Разбор сюжета */
+
+  .Q_StoryConnectHalfDown {
+    background-image: url('images/components/quarks/768x1024/Q_StoryConnectHalfDown.svg');
+
+    width: 15px;
+    height: 40px;
+    margin-top: -1px;
+  }
+
+  .Q_StoryConnectHalfUp {
+    background-image: url('images/components/quarks/768x1024/Q_StoryConnectHalfUp.svg');
+
+    width: 15px;
+    height: 40px;
+    margin-bottom: -1px;
+  }
+
+  .Q_StoryConnectHalfLeft {
+    background-image: url('images/components/quarks/768x1024/Q_StoryConnectHalfLeft.svg');
+
+    width: 40px;
+    height: 15px;
+    margin-right: -1px;
+  }
+
+  .Q_StoryConnectHalfRight {
+    background-image: url('images/components/quarks/768x1024/Q_StoryConnectHalfRight.svg');
+
+    width: 40px;
+    height: 15px;
+    margin-left: -1px;
+  }
+
   /* Лендинг */
 
   .Q_LandingSection01Logo {
@@ -2008,6 +2134,136 @@
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
   .Q_GrungeTexture {
     background-image: url('images/components/quarks/Q_GrungeTexture414.png');
+  }
+
+  .Q_GrungeTextureSplit {
+    border-radius: 10px;
+  }
+
+  /* О проекте */
+
+  .Q_AboutNavLeft {
+    width: 36px;
+    font-size: 10px;
+  }
+
+  .Q_AboutTitle {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .Q_AboutNavRight {
+    width: 30px;
+    font-size: 10px;
+  }
+
+  .Q_AboutBodyDivider {
+    background-image: url('images/components/quarks/414x896/Q_AboutBodyDivider.svg');
+    height: 15px;
+  }
+
+  .Q_AboutBodyContentPic {
+    background-size: cover;
+    background-image: url('images/components/quarks/1920x1080/Q_AboutBodyContentPic.jpg');
+
+    width: 339px;
+    height: 185px;
+    margin-top: 11px;
+  }
+
+  .Q_AboutTextParagraph {
+    width: 100%;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .Q_AboutFooterTitle {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Q_AboutFooterTextWhite {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .Q_AboutFooterTextGlyph {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  /* Браузер видео */
+
+  .Q_VideoBrowserBannerType {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  .Q_VideoBrowserBannerContentPlay {
+    padding: 0px 0px 1px;
+    background-image: url('images/components/quarks/414x896/Q_VideoBrowserBannerContentPlay.svg');
+
+    width: 6px;
+    height: 7px;
+  }
+
+  .Q_VideoBrowserBannerTitle {
+    width: 189px;
+
+    font-size: 29px;
+    line-height: 33px;
+  }
+
+  .Q_VideoBrowserSmallCardContentType {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  .Q_VideoBrowserSmallCardContentPlay {
+    padding: 0px 0px 9px;
+
+    height: 6px;
+    width: 5px;
+    background-image: url('images/components/quarks/414x896/Q_VideoBrowserSmallCardContentPlay.svg');
+  }
+
+  .Q_VideoBrowserSmallCardContentTitle {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  /* Разбор сюжета */
+
+  .Q_StoryConnectHalfDown {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfDown.svg');
+
+    width: 15px;
+    height: 36px;
+    margin-top: -1px;
+  }
+
+  .Q_StoryConnectHalfUp {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfUp.svg');
+
+    width: 15px;
+    height: 36px;
+    margin-bottom: -1px;
+  }
+
+  .Q_StoryConnectHalfLeft {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfLeft.svg');
+
+    width: 36px;
+    height: 15px;
+    margin-right: -1px;
+  }
+
+  .Q_StoryConnectHalfRight {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfRight.svg');
+
+    width: 36px;
+    height: 15px;
+    margin-left: -1px;
   }
 
   .Q_NarrowTopgameLine {
@@ -2514,6 +2770,156 @@
 @media only screen and (max-device-width: 360px) {
   .Q_GrungeTexture {
     background-image: url('images/components/quarks/Q_GrungeTexture360.png');
+  }
+
+  .Q_GrungeTextureSplit {
+    border-radius: 10px;
+  }
+
+  /* О проекте */
+
+  .Q_AboutNavLeft {
+    width: 36px;
+    font-size: 10px;
+  }
+
+  .Q_AboutTitle {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .Q_AboutNavRight {
+    width: 30px;
+    font-size: 10px;
+  }
+
+  .Q_AboutBodyDivider {
+    background-image: url('images/components/quarks/414x896/Q_AboutBodyDivider.svg');
+    height: 15px;
+  }
+
+  .Q_AboutBodyContentPic {
+    background-size: cover;
+    background-image: url('images/components/quarks/1920x1080/Q_AboutBodyContentPic.jpg');
+
+    width: 339px;
+    height: 185px;
+    margin-top: 11px;
+  }
+
+  .Q_AboutTextParagraph {
+    width: 100%;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .Q_AboutFooterTitle {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Q_AboutFooterTextWhite {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .Q_AboutFooterTextGlyph {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  /* Браузер видео */
+
+  .Q_VideoBrowserBannerType {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  .Q_VideoBrowserBannerContentPlay {
+    padding: 0px 0px 1px;
+    background-image: url('images/components/quarks/414x896/Q_VideoBrowserBannerContentPlay.svg');
+
+    width: 6px;
+    height: 7px;
+  }
+
+  .Q_VideoBrowserBannerTitle {
+    width: 189px;
+
+    font-size: 29px;
+    line-height: 33px;
+  }
+
+  .Q_VideoBrowserSmallCardContentType {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  .Q_VideoBrowserSmallCardContentPlay {
+    padding: 0px 0px 9px;
+
+    height: 6px;
+    width: 5px;
+    background-image: url('images/components/quarks/414x896/Q_VideoBrowserSmallCardContentPlay.svg');
+  }
+
+  .Q_VideoBrowserSmallCardContentTitle {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  /* Разбор сюжета */
+
+  .Q_StoryConnectHalfDown {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfDown.svg');
+
+    width: 15px;
+    height: 36px;
+    margin-top: -1px;
+  }
+
+  .Q_StoryConnectHalfUp {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfUp.svg');
+
+    width: 15px;
+    height: 36px;
+    margin-bottom: -1px;
+  }
+
+  .Q_StoryConnectHalfLeft {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfLeft.svg');
+
+    width: 36px;
+    height: 15px;
+    margin-right: -1px;
+  }
+
+  .Q_StoryConnectHalfRight {
+    background-image: url('images/components/quarks/414x896/Q_StoryConnectHalfRight.svg');
+
+    width: 36px;
+    height: 15px;
+    margin-left: -1px;
+  }
+
+  .Q_NarrowTopgameLine {
+    height: 14px;
+  }
+
+  .Q_ScaryreallyPictureintext {
+    height: 36.23188vw;
+    padding: 0px 30px;
+    background-size: contain;
+  }
+
+  .Q_InsertTitle {
+    left: 10px;
+    top: -8px;
+
+    padding: 0px 4px 1px;
+
+    font-size: 15px;
+    line-height: 17px;
   }
 
   /* Разбор монстров */

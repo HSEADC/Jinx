@@ -1,4 +1,8 @@
 @media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  .S_About {
+    height: calc(100svh - 96px);
+  }
+
   /* Лендинг */
 
   .S_LandingSection03 {
@@ -54,6 +58,10 @@
   }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  .S_About {
+    height: calc(100svh - 72px);
+  }
+
   /* Лендинг */
 
   .S_LandingSection03 {
@@ -104,6 +112,10 @@
   }
 }
 @media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  .S_About {
+    height: calc(100svh - 64px);
+  }
+
   /* Лендинг */
 
   .S_LandingSection03 {
@@ -159,6 +171,10 @@
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .S_About {
+    height: calc(100svh - 54px);
+  }
+
   /* Лендинг */
 
   .S_LandingSection03 {
@@ -213,6 +229,10 @@
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .S_About {
+    height: calc(100svh - 54px);
+  }
+
   /* Лендинг */
 
   .S_LandingSection03 {
@@ -293,6 +313,21 @@
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* О проекте */
+
+  .S_About {
+    height: calc(100svh - 54px);
+
+    padding: 3.90625vw 3.77604vw 5vw 3.77604vw;
+    gap: 0.65104vw;
+  }
+
+  /* Браузер видео */
+
+  .S_VideoBrowserScreen {
+    padding: 6.25vw 5.33854vw;
+  }
+
   /* Лендинг */
 
   .S_LandingSection03 {
@@ -380,9 +415,40 @@
 
     position: relative;
   }
+
+  /* Разбор сюжета */
+
+  .S_StoryCards {
+    flex-shrink: 0;
+    height: 271px;
+    padding: 0px 1px;
+  }
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* О проекте */
+
+  .S_About {
+    height: auto;
+
+    padding: 20px 29px;
+    gap: 3px;
+  }
+
+  /* Браузер видео */
+
+  .S_VideoBrowserScreen {
+    padding: 38px 35px;
+  }
+
+  /* Разбор сюжета */
+
+  .S_StoryCards {
+    flex-shrink: 0;
+    height: 182px;
+    padding: 0px 1px;
+  }
+
   /* Лендинг */
 
   .S_LandingSection03 {
@@ -475,6 +541,29 @@
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* О проекте */
+
+  .S_About {
+    height: auto;
+
+    padding: 20px 29px;
+    gap: 3px;
+  }
+
+  /* Браузер видео */
+
+  .S_VideoBrowserScreen {
+    padding: 38px 35px;
+  }
+
+  /* Разбор сюжета */
+
+  .S_StoryCards {
+    flex-shrink: 0;
+    height: 182px;
+    padding: 0px 1px;
+  }
+
   /* Меню-бар */
 
   .S_MenuBar {

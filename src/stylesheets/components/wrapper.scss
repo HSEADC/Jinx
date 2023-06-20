@@ -227,6 +227,16 @@
 
 /* Разбор монстров */
 
+.W_MonsterWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: black;
+  border-radius: 0.625vw;
+}
+
 .W_MonsterPic {
   width: 100%;
   height: 100%;
@@ -282,7 +292,6 @@
 .W_StoryCardsRoundedBorder {
   width: 100%;
   height: 100%;
-  isolation: isolate;
 
   display: flex;
   flex-direction: column;
@@ -293,6 +302,7 @@
 }
 
 .W_StoryRow01 {
+  flex-shrink: 0;
   display: flex;
   padding-left: 116.92708vw;
   overflow: visible;
@@ -300,6 +310,8 @@
 }
 
 .W_StoryRow02 {
+  flex-shrink: 0;
+
   display: flex;
   width: 165.052vw;
   align-items: flex-start;
@@ -307,9 +319,11 @@
 }
 
 .W_StoryRow03 {
+  flex-shrink: 0;
+
   display: flex;
   padding: 0 0 0 46.771vw;
-  width: 100%;
+  width: 165.052vw;
 }
 
 .W_StoryRow03Inside {
@@ -360,11 +374,13 @@
 }
 
 .W_AboutBodyContent {
+  overflow: visible;
   width: 100%;
+  height: 100%;
 
   display: flex;
   align-items: center;
-  padding: 0 0 0 2.08333vw;
+  padding: 2.13542vw 8.59375vw 2.13542vw 2.08333vw;
   gap: 7.08333vw;
 }
 
@@ -373,6 +389,14 @@
   display: flex;
   flex-direction: column;
   gap: 0.72917vw;
+}
+
+.W_AboutWrapper {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.625vw;
 }
 
 /* Заголовок статей */

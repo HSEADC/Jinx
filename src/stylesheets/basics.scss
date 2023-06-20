@@ -5,7 +5,6 @@
 
 html,
 body {
-  height: 100dvh;
   font-family: 'PT Root UI', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -41,9 +40,17 @@ body {
   .ArticleLayout {
     padding-top: 96px;
   }
+
+  .AboutLayout {
+    padding-top: 96px;
+  }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
   .ArticleLayout {
+    padding-top: 72px;
+  }
+
+  .AboutLayout {
     padding-top: 72px;
   }
 }
@@ -51,9 +58,17 @@ body {
   .ArticleLayout {
     padding-top: 64px;
   }
+
+  .AboutLayout {
+    padding-top: 64px;
+  }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
   .ArticleLayout {
+    padding-top: 54px;
+  }
+
+  .AboutLayout {
     padding-top: 54px;
   }
 }
@@ -67,6 +82,10 @@ body {
     flex-direction: column;
     height: 100vh;
   }
+
+  .AboutLayout {
+    padding-top: 54px;
+  }
 }
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
   .ArticleLayout {
@@ -77,6 +96,10 @@ body {
     display: flex;
     flex-direction: column;
     height: 100dvh;
+  }
+
+  .AboutLayout {
+    padding-top: 54px;
   }
 }
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
@@ -89,6 +112,10 @@ body {
     flex-direction: column;
     height: 100dvh;
   }
+
+  .AboutLayout {
+    padding-top: 54px;
+  }
 }
 @media only screen and (max-device-width: 360px) {
   .ArticleLayout {
@@ -99,5 +126,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 100dvh;
+  }
+
+  .AboutLayout {
+    padding-top: 46px;
   }
 }

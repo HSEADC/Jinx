@@ -721,6 +721,38 @@
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* О проекте */
+
+  .M_AboutFooterList {
+    gap: 2.60417vw;
+  }
+
+  /* Браузер видео */
+
+  .M_VideoBrowserSmallCard {
+    width: 26.78125vw;
+
+    border-radius: 10px;
+  }
+
+  /* Разбор сюжета */
+
+  .M_StoryBigCardFrame {
+    padding: 11px 25px 11px 11px;
+
+    width: 267px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+  .M_StorySmallCardFrame {
+    padding: 11px 25px 11px 11px;
+
+    width: 175px;
+    border-radius: 10px;
+  }
+
   /* Лендинг */
 
   .M_LandingInsert01 {
@@ -876,6 +908,37 @@
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* О проекте */
+
+  .M_AboutFooterList {
+    gap: 20px;
+  }
+
+  /* Браузер видео */
+
+  .M_VideoBrowserSmallCard {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  /* Разбор сюжета */
+
+  .M_StoryBigCardFrame {
+    padding: 7px 8px 0px;
+
+    width: 185px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+  .M_StorySmallCardFrame {
+    padding: 7px 8px 0px;
+
+    width: 121px;
+    border-radius: 10px;
+  }
+
   /* Лендинг */
 
   .M_LandingInsert01 {
@@ -1032,6 +1095,39 @@
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* О проекте */
+
+  .M_AboutFooterList {
+    gap: 2.60417vw;
+  }
+
+  /* Браузер видео */
+
+  .M_VideoBrowserSmallCard {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  /* Разбор сюжета */
+
+  .M_StoryBigCardFrame {
+    padding: 7px 8px 0px;
+
+    width: 185px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+  .M_StorySmallCardFrame {
+    padding: 7px 8px 0px;
+
+    width: 121px;
+    border-radius: 10px;
+  }
+
+  /* Меню-бар */
+
   .M_MenuBarMain {
     display: none;
   }

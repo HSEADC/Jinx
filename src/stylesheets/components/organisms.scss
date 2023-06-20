@@ -153,6 +153,7 @@
 /* Разбор монстров */
 
 .O_MonsterCards {
+  position: relative;
   display: flex;
   padding: 0px 0px 1px 1px;
   width: 100%;
@@ -160,6 +161,7 @@
 }
 
 .O_MonsterCard {
+  z-index: 99;
   display: flex;
   flex-direction: column;
   gap: 1px;
@@ -173,12 +175,10 @@
 }
 
 .O_NarrowArticle {
-  position: relative;
   width: 100%;
   height: 100%;
 
   display: inline;
-  flex-direction: column;
   padding: 2.91667vw 4.73958vw 0px;
   gap: 1.875vw;
   isolation: isolate;
@@ -239,6 +239,9 @@
 /* О проекте */
 
 .O_AboutBody {
+  height: 100%;
+  justify-content: center;
+  overflow: visible;
   width: 100%;
   display: flex;
   flex-direction: column;

@@ -204,6 +204,85 @@
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* О проекте */
+
+  .W_AboutTitle {
+    padding: 0 1.92708vw;
+  }
+
+  .W_AboutBodyContent {
+    flex-direction: column;
+    padding: 0px;
+    gap: 0;
+  }
+
+  .W_AboutFooterListText {
+    gap: 1.17188vw;
+  }
+
+  /* Браузер видео */
+
+  .W_VideoBrowserCards {
+    gap: 4.03646vw;
+  }
+
+  .W_VideoBrowserBannerContent {
+    gap: 3.51563vw;
+  }
+
+  .W_VideoBrowserBannerContentTypePlay {
+    gap: 4px;
+  }
+
+  .W_VideoBrowserSmallCardContent {
+    gap: 0.52083vw;
+  }
+
+  .W_VideoBrowserSmallCardContentTypePlay {
+    gap: 3px;
+  }
+
+  /* Разбор сюжета */
+
+  .W_StoryCardsRoundedBorder {
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .W_StoryRow01 {
+    padding-left: 1265px;
+    height: 153px;
+
+    flex-shrink: 0;
+  }
+
+  .W_StoryRow02 {
+    width: 1785px;
+    flex-shrink: 0;
+  }
+
+  .W_StoryRow03 {
+    padding-left: 506px;
+    width: 1785px;
+    flex-shrink: 0;
+  }
+
+  .W_StoryRow03Inside {
+    gap: 281px;
+  }
+
+  .W_StoryBigCardConnectors {
+    height: 75px;
+  }
+
+  .W_MonsterAndStoryCardContent {
+    gap: 6px;
+  }
+
+  .W_StorySmallCardConnectors {
+    height: 75px;
+  }
+
   /* Лендинг */
 
   .W_LandingSection01 {
@@ -265,6 +344,10 @@
 
   /* Разбор монстров */
 
+  .W_MonsterWrap {
+    border-radius: 10px;
+  }
+
   .W_NarrowArticlestyleTitle {
     display: none;
   }
@@ -296,6 +379,85 @@
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* О проекте */
+
+  .W_AboutTitle {
+    padding: 0 1.92708vw;
+  }
+
+  .W_AboutBodyContent {
+    flex-direction: column;
+    padding: 0px;
+    gap: 0;
+  }
+
+  .W_AboutFooterListText {
+    gap: 10px;
+  }
+
+  /* Браузер видео */
+
+  .W_VideoBrowserCards {
+    gap: 35px;
+  }
+
+  .W_VideoBrowserBannerContent {
+    gap: 6px;
+  }
+
+  .W_VideoBrowserBannerContentTypePlay {
+    gap: 3px;
+  }
+
+  .W_VideoBrowserSmallCardContent {
+    gap: 7px;
+  }
+
+  .W_VideoBrowserSmallCardContentTypePlay {
+    gap: 4px;
+  }
+
+  /* Разбор сюжета */
+
+  .W_StoryCardsRoundedBorder {
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .W_StoryRow01 {
+    padding-left: 955px;
+    height: 121px;
+
+    flex-shrink: 0;
+  }
+
+  .W_StoryRow02 {
+    width: 1331px;
+    flex-shrink: 0;
+  }
+
+  .W_StoryRow03 {
+    padding-left: 382px;
+    width: 1331px;
+    flex-shrink: 0;
+  }
+
+  .W_StoryRow03Inside {
+    gap: 281px;
+  }
+
+  .W_StoryBigCardConnectors {
+    height: 51px;
+  }
+
+  .W_MonsterAndStoryCardContent {
+    gap: 6px;
+  }
+
+  .W_StorySmallCardConnectors {
+    height: 51px;
+  }
+
   /* Лендинг */
 
   .W_LandingSection01 {
@@ -374,6 +536,10 @@
 
   /* Разбор монстров */
 
+  .W_MonsterWrap {
+    border-radius: 10px;
+  }
+
   .W_MonsterPic {
     border-radius: 10px;
   }
@@ -405,12 +571,91 @@
   }
 
   .W_MonsterAndStoryCardContent {
-    gap: 5px;
+    gap: 2px;
     height: 100%;
   }
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* О проекте */
+
+  .W_AboutTitle {
+    padding: 0 1.92708vw;
+  }
+
+  .W_AboutBodyContent {
+    flex-direction: column;
+    padding: 0px;
+    gap: 0;
+  }
+
+  .W_AboutFooterListText {
+    gap: 10px;
+  }
+
+  /* Браузер видео */
+
+  .W_VideoBrowserCards {
+    gap: 35px;
+  }
+
+  .W_VideoBrowserBannerContent {
+    gap: 6px;
+  }
+
+  .W_VideoBrowserBannerContentTypePlay {
+    gap: 3px;
+  }
+
+  .W_VideoBrowserSmallCardContent {
+    gap: 7px;
+  }
+
+  .W_VideoBrowserSmallCardContentTypePlay {
+    gap: 4px;
+  }
+
+  /* Разбор сюжета */
+
+  .W_StoryCardsRoundedBorder {
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .W_StoryRow01 {
+    padding-left: 955px;
+    height: 121px;
+
+    flex-shrink: 0;
+  }
+
+  .W_StoryRow02 {
+    width: 1331px;
+    flex-shrink: 0;
+  }
+
+  .W_StoryRow03 {
+    padding-left: 382px;
+    width: 1331px;
+    flex-shrink: 0;
+  }
+
+  .W_StoryRow03Inside {
+    gap: 281px;
+  }
+
+  .W_StoryBigCardConnectors {
+    height: 51px;
+  }
+
+  .W_MonsterAndStoryCardContent {
+    gap: 6px;
+  }
+
+  .W_StorySmallCardConnectors {
+    height: 51px;
+  }
+
   /* Меню-бар */
 
   .W_MenuBarMainRoundedBorder {
@@ -475,6 +720,10 @@
   }
 
   /* Разбор монстров */
+
+  .W_MonsterWrap {
+    border-radius: 10px;
+  }
 
   .W_MonsterPic {
     border-radius: 10px;

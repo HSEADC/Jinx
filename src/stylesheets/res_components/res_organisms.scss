@@ -494,6 +494,38 @@
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* О проекте */
+
+  .O_AboutBody {
+    justify-content: space-between;
+  }
+
+  .O_AboutFooter {
+    padding: 1.43229vw 4.03646vw 0;
+    justify-content: space-between;
+    gap: 0;
+    width: 100%;
+  }
+
+  /* Браузер видео */
+
+  .O_VideoBrowserBanner {
+    padding: 0px 0px 0px 25px;
+    height: 42.83854vw;
+
+    border-radius: 10px;
+  }
+
+  /* Разбор сюжета */
+
+  .O_StoryBigCardRow01 {
+    height: 75px;
+  }
+
+  .O_StoryBigCard {
+    height: 75px;
+  }
+
   /* Лендинг */
 
   .O_LandingSection03CardKey {
@@ -625,6 +657,40 @@
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* О проекте */
+
+  .O_AboutBody {
+    justify-content: space-between;
+  }
+
+  .O_AboutFooter {
+    padding: 10px 0px 0px;
+
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 23px;
+    width: 100%;
+  }
+
+  /* Браузер видео */
+
+  .O_VideoBrowserBanner {
+    padding: 0px 0px 0px 18px;
+    height: 160px;
+
+    border-radius: 10px;
+  }
+
+  /* Разбор сюжета */
+
+  .O_StoryBigCardRow01 {
+    height: 51px;
+  }
+
+  .O_StoryBigCard {
+    height: 51px;
+  }
+
   /* Лендинг */
 
   .O_LandingSection03CardKey {
@@ -702,6 +768,10 @@
     border-radius: 0;
   }
 
+  .O_NarrowArticle::-webkit-scrollbar {
+    display: none;
+  }
+
   /* Смотреть видео */
 
   .O_Video {
@@ -756,6 +826,40 @@
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* О проекте */
+
+  .O_AboutBody {
+    justify-content: space-between;
+  }
+
+  .O_AboutFooter {
+    padding: 10px 0px 0px;
+
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 23px;
+    width: 100%;
+  }
+
+  /* Браузер видео */
+
+  .O_VideoBrowserBanner {
+    padding: 0px 0px 0px 18px;
+    height: 160px;
+
+    border-radius: 10px;
+  }
+
+  /* Разбор сюжета */
+
+  .O_StoryBigCardRow01 {
+    height: 51px;
+  }
+
+  .O_StoryBigCard {
+    height: 51px;
+  }
+
   /* Разбор монстров */
 
   .O_MonsterCards {
@@ -776,6 +880,10 @@
     padding: 19px 0px 0px;
     gap: 36px;
     border-radius: 0;
+  }
+
+  .O_NarrowArticle::-webkit-scrollbar {
+    display: none;
   }
 
   /* Главный экран */

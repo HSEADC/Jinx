@@ -2081,6 +2081,37 @@
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* О проекте */
+
+  .A_AboutBodyContentText {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 14.97396vw;
+    gap: 1.5625vw;
+  }
+
+  .A_AboutFooterText {
+    gap: 0.57292vw;
+  }
+
+  /* Браузер видео */
+
+  .A_VideoBrowserBannerPicture {
+    border-radius: 10px;
+  }
+
+  .A_VideoBrowserSmallCardPicAndGradient {
+    border-radius: 10px;
+  }
+
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 1.04167vw 1.43229vw;
+
+    height: 8.72396vw;
+    border-radius: 10px;
+  }
+
   /* Разбор монстров */
 
   .A_MonsterTextunder {
@@ -2568,6 +2599,34 @@
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* О проекте */
+
+  .A_AboutBodyContentText {
+    padding: 18px 0px;
+    gap: 7px;
+  }
+
+  .A_AboutFooterText {
+    gap: 3px;
+  }
+
+  /* Браузер видео */
+
+  .A_VideoBrowserBannerPicture {
+    border-radius: 10px;
+  }
+
+  .A_VideoBrowserSmallCardPicAndGradient {
+    border-radius: 10px;
+  }
+
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 14px 18px;
+
+    height: 112px;
+    border-radius: 10px;
+  }
+
   /* Разбор монстров */
 
   .A_MonsterTextunder {
@@ -3087,6 +3146,34 @@
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* О проекте */
+
+  .A_AboutBodyContentText {
+    padding: 18px 0px;
+    gap: 7px;
+  }
+
+  .A_AboutFooterText {
+    gap: 3px;
+  }
+
+  /* Браузер видео */
+
+  .A_VideoBrowserBannerPicture {
+    border-radius: 10px;
+  }
+
+  .A_VideoBrowserSmallCardPicAndGradient {
+    border-radius: 10px;
+  }
+
+  .A_VideoBrowserSmallCardContentFrame {
+    padding: 14px 18px;
+
+    height: 112px;
+    border-radius: 10px;
+  }
+
   /* Разбор монстров */
 
   .A_MonsterTextunder {

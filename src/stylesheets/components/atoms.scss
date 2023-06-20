@@ -453,7 +453,7 @@
   box-sizing: border-box;
   isolation: isolate;
   width: 100%;
-  height: 14.375vw;
+  height: 100%;
 
   background: black;
   border: 1px solid white;
@@ -461,6 +461,7 @@
 }
 
 .A_VideoBrowserSmallCardContentFrame {
+  flex-shrink: 0;
   overflow-y: hidden;
 
   box-sizing: border-box;
