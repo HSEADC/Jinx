@@ -4,6 +4,11 @@
 }
 
 html,
+.MainPageBody {
+  overflow-y: hidden;
+}
+
+html,
 body {
   font-family: 'PT Root UI', Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -15,7 +20,7 @@ body {
   background-color: var(--black);
   background-blend-mode: lighten;
   z-index: 99;
-  overflow-y: hidden;
+  // overflow-y: hidden;
 }
 
 .ArticleLayout {
