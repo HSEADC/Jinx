@@ -134,6 +134,23 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Главный экран */
+
+  .C_MainScreenPrimaryButtons {
+    height: auto;
+    border-right: 1px solid white;
+    flex-shrink: 0;
+    width: calc(100vw / 3);
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .C_MainScreenPrimaryButtons.Opened {
+    height: 100%;
+  }
+
   /* Лендинг */
 
   .C_LandingSection03Cards {
@@ -158,6 +175,25 @@
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* Главный экран */
+
+  .C_MainScreenPrimaryButtons {
+    width: 100%;
+    height: auto;
+    // border-right: 1px solid white;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .C_MainScreenPrimaryButtons.Opened {
+    width: 100%;
+    height: 100%;
+    max-height: 456px;
+  }
+
   .C_ArticlePictureinsidetext {
     padding: 3.125vw 0px;
     gap: 1.30208vw;
@@ -228,6 +264,24 @@
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* Главный экран */
+
+  .C_MainScreenPrimaryButtons {
+    width: 100%;
+    height: auto;
+    // border-right: 1px solid white;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .C_MainScreenPrimaryButtons.Opened {
+    width: 100%;
+    height: 100%;
+  }
+
   .C_ArticlePictureinsidetext {
     padding: 15px 0px;
     gap: 10px;
@@ -305,6 +359,24 @@
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* Главный экран */
+
+  .C_MainScreenPrimaryButtons {
+    width: 100%;
+    height: auto;
+    // border-right: 1px solid white;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .C_MainScreenPrimaryButtons.Opened {
+    width: 100%;
+    height: 100%;
+  }
+
   .C_ArticlePictureinsidetext {
     padding: 15px 0px;
     gap: 10px;

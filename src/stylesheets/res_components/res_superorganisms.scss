@@ -244,7 +244,34 @@
   /* Главный экран */
 
   .S_MainScreenLeftSide {
-    display: none;
+    transition: 0.15s;
+    opacity: 0;
+
+    // transform: translateX(-100vw);
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    border-radius: 10px;
+    width: calc(100% - 2px);
+    margin-left: 1px;
+    top: 54px;
+    bottom: 259px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .S_MainScreenLeftSide.Opened {
+    transition: 0.15s;
+    opacity: 100;
+
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    border-radius: 10px;
+    width: calc(100% - 2px);
+    margin-left: 1px;
+    top: 54px;
+    bottom: 259px;
+    background-color: rgba(0, 0, 0, 0.75);
   }
 
   .S_MainScreenLogo {
@@ -330,7 +357,34 @@
   /* Главный экран */
 
   .S_MainScreenLeftSide {
-    display: none;
+    transition: 0.15s;
+    opacity: 0;
+
+    // transform: translateX(-100vw);
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    border-radius: 10px;
+    width: calc(100% - 2px);
+    margin-left: 1px;
+    top: 54px;
+    bottom: 259px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .S_MainScreenLeftSide.Opened {
+    transition: 0.15s;
+    opacity: 100;
+
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    border-radius: 10px;
+    width: calc(100% - 2px);
+    margin-left: 1px;
+    top: 54px;
+    bottom: 259px;
+    background-color: rgba(0, 0, 0, 0.75);
   }
 
   .S_MainScreenLogo {
@@ -443,7 +497,35 @@
   /* Главный экран */
 
   .S_MainScreenLeftSide {
-    display: none;
+    transition: 0.15s;
+    opacity: 0;
+
+    // transform: translateX(-100vw);
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    border-radius: 10px;
+    width: calc(100% - 2px);
+    margin-left: 1px;
+    top: 54px;
+    bottom: 276px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .S_MainScreenLeftSide.Opened {
+    transition: 0.15s;
+    opacity: 100;
+
+    border-right: 1px solid white;
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    border-radius: 10px;
+    width: calc(100% - 2px);
+    margin-left: 1px;
+    top: 54px;
+    bottom: 276px;
+    background-color: rgba(0, 0, 0, 0.75);
   }
 
   .S_MainScreenLogo {
@@ -513,8 +595,38 @@
 
   /* Главный экран */
 
+  /* Главный экран */
+
   .S_MainScreenLeftSide {
-    display: none;
+    transition: 0.15s;
+    opacity: 0;
+
+    // transform: translateX(-100vw);
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    border-radius: 10px;
+    width: calc(100% - 2px);
+    margin-left: 1px;
+    top: 54px;
+    bottom: 276px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .S_MainScreenLeftSide.Opened {
+    transition: 0.15s;
+    opacity: 100;
+
+    border-right: 1px solid white;
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    border-radius: 10px;
+    width: calc(100% - 2px);
+    margin-left: 1px;
+    top: 54px;
+    bottom: 276px;
+    background-color: rgba(0, 0, 0, 0.75);
   }
 
   .S_MainScreenLogo {

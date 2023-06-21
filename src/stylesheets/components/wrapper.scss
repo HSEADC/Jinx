@@ -156,7 +156,7 @@
   height: 4.0625vw;
 }
 
-.W_MainScreenPrimaryButtonOpened {
+.W_MainScreenPrimaryButton.Opened {
   display: flex;
   align-items: center;
   padding: 0 0 0 1.25vw;
@@ -166,6 +166,17 @@
   width: 100%;
   height: 4.0625vw;
 }
+
+// .W_MainScreenPrimaryButtonOpened {
+//   display: flex;
+//   align-items: center;
+//   padding: 0 0 0 1.25vw;
+
+//   border-radius: 0.625vw 0.625vw 0 0;
+//   background-color: black;
+//   width: 100%;
+//   height: 4.0625vw;
+// }
 
 .W_MainScreenCardsAndFooter {
   flex-shrink: 0;

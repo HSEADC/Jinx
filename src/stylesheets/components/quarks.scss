@@ -457,6 +457,7 @@
 /* Главный экран */
 
 .Q_MainScreenPrimaryButtonText {
+  user-select: none;
   overflow: visible;
   font-family: 'PT Mono';
   font-weight: 400;
@@ -465,7 +466,7 @@
   color: white;
 }
 
-.Q_MainScreenPrimaryButtonTextOpened {
+.Q_MainScreenPrimaryButtonText.Opened {
   overflow: visible;
   font-family: 'PT Mono';
   font-weight: 400;
@@ -504,6 +505,7 @@
 }
 
 .Q_CardTitle {
+  user-select: none;
   overflow-y: hidden;
   width: 100%;
   color: var(--acid-green);
@@ -514,6 +516,7 @@
 }
 
 .Q_CardText {
+  user-select: none;
   overflow-y: hidden;
   width: 100%;
   color: white;
@@ -540,6 +543,7 @@
 }
 
 .Q_MainScreenLogoGlyphLeft {
+  user-select: none;
   overflow-y: hidden;
   width: 100%;
   display: flex;
@@ -555,6 +559,7 @@
 }
 
 .Q_MainScreenLogoGlyphRight {
+  user-select: none;
   overflow-y: hidden;
 
   width: 100%;
@@ -588,6 +593,7 @@
 }
 
 .Q_MainScreenSecondaryButtonText {
+  user-select: none;
   overflow: visible;
 
   width: 100%;

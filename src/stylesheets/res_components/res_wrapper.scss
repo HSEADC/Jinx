@@ -167,6 +167,28 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Главный экран */
+
+  .W_MainScreenCardsAndFooter {
+    display: none;
+  }
+
+  .W_MainScreenPrimaryButton {
+    padding: 0px 0px 0px 22px;
+
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .W_MainScreenPrimaryButton.Opened {
+    padding: 0px 0px 0px 22px;
+    border-radius: 10px 10px 0 0;
+
+    width: 100%;
+    height: 100%;
+  }
+
   /* Лендинг */
 
   .W_LandingSection01 {
@@ -234,6 +256,28 @@
 }
 
 @media only screen and (min-device-width: 463px) and (max-device-width: 768px) {
+  /* Главный экран */
+
+  .W_MainScreenCardsAndFooter {
+    display: none;
+  }
+
+  .W_MainScreenPrimaryButton {
+    padding: 0px 0px 0px 22px;
+
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .W_MainScreenPrimaryButton.Opened {
+    padding: 0px 0px 0px 22px;
+    border-radius: 10px 10px 0 0;
+
+    width: 100%;
+    height: 100%;
+  }
+
   .W_ArticlestyleBody {
     gap: 2.86458vw;
   }
@@ -419,6 +463,28 @@
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 462px) {
+  /* Главный экран */
+
+  .W_MainScreenCardsAndFooter {
+    display: none;
+  }
+
+  .W_MainScreenPrimaryButton {
+    padding: 0px 0px 0px 22px;
+
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .W_MainScreenPrimaryButton.Opened {
+    padding: 0px 0px 0px 22px;
+    border-radius: 10px 10px 0 0;
+
+    width: 100%;
+    height: 100%;
+  }
+
   .W_ArticlestyleBody {
     gap: 15px;
   }
@@ -627,6 +693,28 @@
 }
 
 @media only screen and (max-device-width: 360px) {
+  /* Главный экран */
+
+  .W_MainScreenCardsAndFooter {
+    display: none;
+  }
+
+  .W_MainScreenPrimaryButton {
+    padding: 0px 0px 0px 22px;
+
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .W_MainScreenPrimaryButton.Opened {
+    padding: 0px 0px 0px 22px;
+    border-radius: 10px 10px 0 0;
+
+    width: 100%;
+    height: 100%;
+  }
+
   /* О проекте */
 
   .W_AboutTitle {

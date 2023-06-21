@@ -203,6 +203,7 @@
 /* Разбор сюжета */
 
 .O_StoryBigCardRow01 {
+  cursor: pointer;
   overflow: visible;
   display: flex;
   flex-direction: column;
@@ -212,6 +213,7 @@
 }
 
 .O_StoryBigCard {
+  cursor: pointer;
   overflow: visible;
   display: flex;
   flex-direction: column;
@@ -222,6 +224,7 @@
 }
 
 .O_StorySmallCard {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -13,7 +13,8 @@ module.exports = {
     dictionary: './src/dictionary.js',
     page: './src/page.jsx',
     monster: './src/monster.js',
-    rating: './src/rating.js'
+    rating: './src/rating.js',
+    story: './src/story.js'
   },
   output: {
     filename: '[name].js',
@@ -96,7 +97,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/story.html',
       filename: './story.html',
-      chunks: ['dictionary']
+      chunks: ['story']
     }),
 
     new HtmlWebpackPlugin({
@@ -256,7 +257,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/main-page.html',
       filename: './main-page.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({

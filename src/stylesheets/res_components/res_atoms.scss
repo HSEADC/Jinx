@@ -946,6 +946,14 @@
 
   /* Главный экран */
 
+  .A_MainScreenPrimaryButton {
+    flex-shrink: 0;
+    padding: 0px 1px 1px 0px;
+    width: 100%;
+    height: 56px;
+    max-height: none;
+  }
+
   .A_MenuCard01 {
     padding: 0;
   }
@@ -1288,6 +1296,13 @@
   }
 
   /* Главный экран */
+
+  .A_MainScreenPrimaryButton {
+    flex-shrink: 0;
+    width: 100%;
+    height: 56px;
+    max-height: none;
+  }
 
   .A_MenuCard01 {
     padding: 0;
@@ -1655,6 +1670,13 @@
 
   /* Главный экран */
 
+  .A_MainScreenPrimaryButton {
+    flex-shrink: 0;
+    width: 100%;
+    height: 56px;
+    max-height: none;
+  }
+
   .A_MenuCard01 {
     padding: 0;
   }
@@ -1954,6 +1976,13 @@
   }
 
   /* Главный экран */
+
+  .A_MainScreenPrimaryButton {
+    flex-shrink: 0;
+    width: 100%;
+    height: 56px;
+    max-height: none;
+  }
 
   .A_MenuCard01 {
     padding: 0;

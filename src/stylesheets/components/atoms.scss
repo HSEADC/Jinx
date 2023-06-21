@@ -256,6 +256,10 @@
   filter: invert(1);
 }
 
+.A_MainScreenPrimaryButton:hover .W_MainScreenPrimaryButton.Opened {
+  filter: invert(0);
+}
+
 .A_IconInfo {
   flex-shrink: 0;
   cursor: pointer;
