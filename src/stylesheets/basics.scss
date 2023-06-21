@@ -3,9 +3,10 @@
   overflow-x: hidden;
 }
 
-html .MainPageBody {
-  overflow-y: hidden;
-}
+// html,
+// body .MainPageBody {
+//   overflow-y: hidden;
+// }
 
 html,
 body {
@@ -38,7 +39,7 @@ body {
 }
 
 .MainPage {
-  overflow: visible;
+  overflow-y: hidden;
   display: flex;
   flex-direction: row;
 }
