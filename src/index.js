@@ -18,4 +18,44 @@ document.addEventListener('DOMContentLoaded', () => {
     btn_text.classList.toggle('Opened')
     mp_list_wrapper.classList.toggle('Opened')
   })
+
+  let screenmobile = window.matchMedia('(max-device-width: 462px)')
+
+  if (screenmobile.matches) {
+    const arrowRight = document.getElementById('ArrowRight')
+    const arrowLeft = document.getElementById('ArrowLeft')
+
+    arrowRight.addEventListener('click', () => {
+      plusSlides(1)
+    })
+    arrowLeft.addEventListener('click', () => {
+      plusSlides(-1)
+    })
+
+    let slideIndex = 1
+    showSlides(slideIndex)
+
+    function plusSlides(n) {
+      showSlides((slideIndex += n))
+    }
+
+    function showSlides(n) {
+      let i
+      let slides = document.getElementsByClassName('A_MenuCardMobile')
+
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none'
+      }
+
+      slides[slideIndex - 1].style.display = 'block'
+    }
+  }
 })

@@ -946,6 +946,10 @@
 
   /* Главный экран */
 
+  .A_MenuCardMobile {
+    display: none;
+  }
+
   .A_MainScreenPrimaryButton {
     flex-shrink: 0;
     padding: 0px 1px 1px 0px;
@@ -1296,6 +1300,10 @@
   }
 
   /* Главный экран */
+
+  .A_MenuCardMobile {
+    display: none;
+  }
 
   .A_MainScreenPrimaryButton {
     flex-shrink: 0;
@@ -1670,6 +1678,10 @@
 
   /* Главный экран */
 
+  .A_MenuCardTablet {
+    display: none;
+  }
+
   .A_MainScreenPrimaryButton {
     flex-shrink: 0;
     width: 100%;
@@ -1677,17 +1689,17 @@
     max-height: none;
   }
 
-  .A_MenuCard01 {
+  .A_MenuCard {
     padding: 0;
   }
 
-  .A_MenuCard02 {
-    display: none;
-  }
+  // .A_MenuCard02 {
+  //   display: none;
+  // }
 
-  .A_MenuCard03 {
-    display: none;
-  }
+  // .A_MenuCard03 {
+  //   display: none;
+  // }
 
   .A_BlankSpace {
     border-radius: 10px;
@@ -1976,6 +1988,10 @@
   }
 
   /* Главный экран */
+
+  .A_MenuCardTablet {
+    display: none;
+  }
 
   .A_MainScreenPrimaryButton {
     flex-shrink: 0;

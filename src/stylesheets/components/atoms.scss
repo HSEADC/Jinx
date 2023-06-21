@@ -343,7 +343,7 @@
   height: 100%;
 }
 
-.A_MenuCard01 {
+.A_MenuCard {
   cursor: pointer;
   text-decoration: none;
   background-color: white;
@@ -352,7 +352,7 @@
   width: 100%;
 }
 
-.A_MenuCard02 {
+.A_MenuCardTablet {
   cursor: pointer;
   text-decoration: none;
   background-color: white;
@@ -361,7 +361,7 @@
   width: 100%;
 }
 
-.A_MenuCard03 {
+.A_MenuCardMobile {
   cursor: pointer;
   text-decoration: none;
   background-color: white;
@@ -369,6 +369,24 @@
   height: 100%;
   width: 100%;
 }
+
+// .A_MenuCard {
+//   cursor: pointer;
+//   text-decoration: none;
+//   background-color: white;
+//   padding: 0px 0px 0px 1px;
+//   height: 100%;
+//   width: 100%;
+// }
+
+// .A_MenuCard {
+//   cursor: pointer;
+//   text-decoration: none;
+//   background-color: white;
+//   padding: 0px 0px 0px 1px;
+//   height: 100%;
+//   width: 100%;
+// }
 
 .A_MenuCard01:hover :last-child .Q_CardTitle {
   filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
