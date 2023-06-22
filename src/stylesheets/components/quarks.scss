@@ -1423,6 +1423,17 @@
   height: 100%;
 }
 
+.Q_AboutBodyContentPicAbout {
+  flex-shrink: 0;
+  background-image: url('images/components/quarks/1920x1080/about_228.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 38.4375vw;
+  height: 100%;
+}
+
 .Q_AboutTextParagraph {
   overflow-y: hidden;
   font-family: 'PT Root UI';
