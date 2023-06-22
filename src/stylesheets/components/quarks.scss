@@ -816,6 +816,16 @@
 
 /* Смотреть видео */
 
+.Q_PlayBtn {
+  background-image: url('images/components/quarks/1920x1080/Q_PlayBtn.svg');
+  background-size: contain;
+  width: 82px;
+  height: 93px;
+  position: absolute;
+
+  z-index: 99;
+}
+
 .Q_TopgameLineunder {
   background-image: url('images/Q_TopgameLineUnder_1440.svg');
   background-size: cover;
@@ -863,7 +873,7 @@
   width: 100%;
   height: 100%;
 
-  background-image: url('images/components/quarks/1920x1080/Q_MonsterPic_01.jpg');
+  background-image: url('images/components/quarks/1920x1080/Q_MonsterPic_01.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -873,7 +883,17 @@
   width: 100%;
   height: 100%;
 
-  background-image: url('images/components/quarks/1920x1080/Q_MonsterPic_02.jpg');
+  background-image: url('images/components/quarks/1920x1080/Q_MonsterPic_02.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Q_MonsterPic_03 {
+  width: 100%;
+  height: 100%;
+
+  background-image: url('images/components/quarks/1920x1080/Q_MonsterPic_03.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1008,6 +1028,258 @@
 
 .Q_ArticlePictureintext {
   background-image: url('images/components/quarks/1920x1080/Q_ScaryreallyPictureintext.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext01 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext02 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext02.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext03 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext03.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext04 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext04.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext05 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext05.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext06 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext06.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext07 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext07.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext08 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext08.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext09 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext09.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext10 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext10.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext11 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext11.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext12 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext12.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext13 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext13.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext14 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext14.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext15 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext15.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext16 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext16.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext17 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext17.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext18 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext18.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext19 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext19.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext20 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext20.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 290px;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ArticlePictureintext21 {
+  background-image: url('images/components/quarks/1920x1080/Q_ArticlePictureintext21.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

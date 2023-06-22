@@ -102,6 +102,8 @@
 /* Браузер видео */
 
 .O_VideoBrowserBanner {
+  overflow: visible;
+
   cursor: pointer;
   text-decoration: none;
 
@@ -119,6 +121,14 @@
   background: black;
   border: 1px solid white;
   border-radius: 0.625vw;
+}
+
+.O_VideoBrowserBanner:hover {
+  border: 1px solid var(--acid-green);
+
+  background: var(--acid-green);
+  box-shadow: 0px 0px 28px 0px rgba(76, 255, 83, 0.31),
+    0px 0px 4px 0px var(--acid-green);
 }
 
 /* Смотреть видео */
@@ -161,10 +171,28 @@
 
   width: 440px;
 
-  background: #ffffff;
+  background: white;
   mix-blend-mode: normal;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   border-radius: 0.625vw;
+}
+
+.O_MonsterCard.Active {
+  transition: 0.1s;
+  border: 1px solid var(--acid-green);
+
+  background: var(--acid-green);
+  box-shadow: 0px 0px 28px 0px rgba(76, 255, 83, 0.31),
+    0px 0px 4px 0px var(--acid-green);
+}
+
+.O_MonsterCard:hover {
+  transition: 0.1s;
+  border: 1px solid var(--acid-green);
+
+  background: var(--acid-green);
+  box-shadow: 0px 0px 28px 0px rgba(76, 255, 83, 0.31),
+    0px 0px 4px 0px var(--acid-green);
 }
 
 .O_NarrowArticle {

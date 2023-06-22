@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const mp_list_wrapper = document.getElementById('mp_list_wrapper')
   const menu = document.getElementById('menu')
   const burger = document.getElementById('burger')
+  const cover = document.getElementById('cover')
+  const video = document.getElementById('video')
 
   // Бургер-меню в статьях
 
@@ -19,5 +21,12 @@ document.addEventListener('DOMContentLoaded', () => {
     list.classList.toggle('Opened')
     btn_text.classList.toggle('Opened')
     mp_list_wrapper.classList.toggle('Opened')
+  })
+
+  // Обложка видео
+
+  cover.addEventListener('click', () => {
+    cover.classList.toggle('Closed')
+    video.classList.toggle('Opened')
   })
 })

@@ -56,21 +56,27 @@ let article02 = document.getElementById('article_02')
 let article03 = document.getElementById('article_03')
 
 card01.addEventListener('click', (e) => {
-  console.log('click_card_01')
+  card01.classList.toggle('Active')
+  card02.classList.remove('Active')
+  card03.classList.remove('Active')
   article01.style.display = 'block'
   article02.style.display = 'none'
   article03.style.display = 'none'
 })
 
 card02.addEventListener('click', (e) => {
-  console.log('click_card_02')
+  card01.classList.remove('Active')
+  card02.classList.toggle('Active')
+  card03.classList.remove('Active')
   article01.style.display = 'none'
   article02.style.display = 'block'
   article03.style.display = 'none'
 })
 
 card03.addEventListener('click', (e) => {
-  console.log('click_card_02')
+  card01.classList.remove('Active')
+  card02.classList.remove('Active')
+  card03.classList.toggle('Active')
   article01.style.display = 'none'
   article02.style.display = 'none'
   article03.style.display = 'block'

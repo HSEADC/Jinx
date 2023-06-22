@@ -152,6 +152,18 @@
   border-radius: 0.625vw;
 }
 
+.M_VideoBrowserSmallCard:hover {
+  background: var(--acid-green);
+  box-shadow: 0px 0px 28px 0px rgba(76, 255, 83, 0.31),
+    0px 0px 4px 0px var(--acid-green);
+  .A_VideoBrowserSmallCardPicAndGradient {
+    border: 1px solid var(--acid-green);
+  }
+  .A_VideoBrowserSmallCardContentFrame {
+    border: 1px solid var(--acid-green);
+  }
+}
+
 /* Разбор монстров */
 
 .M_Insert {

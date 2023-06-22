@@ -56,7 +56,6 @@ if (screenmobile.matches) {
 const card01 = document.getElementById('story_card_01')
 const card02 = document.getElementById('story_card_02')
 const card03 = document.getElementById('story_card_03')
-
 const card04 = document.getElementById('story_card_04')
 const card05 = document.getElementById('story_card_05')
 const card06 = document.getElementById('story_card_06')
