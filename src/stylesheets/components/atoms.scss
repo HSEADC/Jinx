@@ -781,6 +781,7 @@
 }
 
 .A_VideoData {
+  display: none;
   font-family: 'PT Mono';
   font-weight: 400;
   font-size: 15px;
@@ -794,6 +795,8 @@
 }
 
 .A_VideoLink {
+  cursor: pointer;
+  text-decoration: none;
   font-family: 'PT Mono';
   font-weight: 400;
   font-size: 15px;

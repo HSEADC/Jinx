@@ -522,3 +522,63 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.W_Rating {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding-bottom: 180px;
+  padding-top: 445px;
+}
+
+.death {
+  margin-top: 400px;
+  mix-blend-mode: lighten;
+  width: 100%;
+  height: 500px;
+  background-image: url('images/components/quarks/1920x1080/Jinx_landing_stripes.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.Q_AboutTitleR {
+  margin-top: 100px;
+  position: absolute;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  font-family: 'Jinx Font';
+  font-weight: 400;
+  font-size: 6.25vw;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.A_ArticlestyleTitleR {
+  margin-top: 230px;
+
+  position: absolute;
+
+  width: 100%;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 26px;
+
+  text-transform: uppercase;
+
+  color: var(--acid-green);
+}
