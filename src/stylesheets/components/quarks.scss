@@ -887,7 +887,7 @@
   font-weight: 400;
   font-size: 1.875vw;
   line-height: 2.08333vw;
-  letter-spacing: 0.1em;
+  letter-spacing: -0.05em;
 
   color: var(--acid-green);
 }
@@ -960,6 +960,42 @@
 
 .Q_ScaryreallyPictureintext {
   background-image: url('images/components/quarks/1920x1080/Q_ScaryreallyPictureintext.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 15.10417vw;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ScaryreallyPictureintext01 {
+  background-image: url('images/components/quarks/1920x1080/Q_ScaryreallyPictureintext01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 15.10417vw;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ScaryreallyPictureintext02 {
+  background-image: url('images/components/quarks/1920x1080/Q_ScaryreallyPictureintext02.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  height: 15.10417vw;
+  width: 100%;
+  padding: 0px 1.5625vw;
+}
+
+.Q_ScaryreallyPictureintext03 {
+  background-image: url('images/components/quarks/1920x1080/Q_ScaryreallyPictureintext03.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

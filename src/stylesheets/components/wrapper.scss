@@ -391,6 +391,7 @@
 }
 
 .W_StoryRow03 {
+  overflow: visible;
   flex-shrink: 0;
 
   display: flex;
@@ -399,6 +400,7 @@
 }
 
 .W_StoryRow03Inside {
+  overflow: visible;
   display: flex;
 
   width: 100%;
@@ -406,11 +408,13 @@
 }
 
 .W_StoryRow03InsideBigCardsPair {
+  overflow: visible;
   display: flex;
   align-items: flex-end;
 }
 
 .W_StoryBigCardConnectors {
+  overflow: visible;
   order: 2;
 
   flex-shrink: 0;
@@ -422,6 +426,7 @@
 }
 
 .W_StorySmallCardConnectors {
+  overflow: visible;
   order: 2;
 
   flex-shrink: 0;

@@ -203,6 +203,7 @@
 /* Разбор сюжета */
 
 .O_StoryBigCardRow01 {
+  overflow: visible;
   cursor: pointer;
   overflow: visible;
   display: flex;
@@ -224,12 +225,44 @@
 }
 
 .O_StorySmallCard {
+  overflow: visible;
+
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   isolation: isolate;
+}
+
+.O_StorySmallCard:hover .M_StorySmallCardFrame {
+  overflow: visible;
+  border: 1px solid var(--acid-green);
+  box-shadow: 0px 0px 4px var(--acid-green),
+    0px 0px 28px rgba(76, 255, 83, 0.25), 0px 0px 40px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 14px rgba(76, 255, 83, 0.2),
+    inset 0px 0px 51px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 140px rgba(76, 255, 83, 0.1);
+}
+
+.O_StoryBigCardRow01:hover .M_StoryBigCardFrame {
+  overflow: visible;
+  border: 1px solid var(--acid-green);
+  box-shadow: 0px 0px 4px var(--acid-green),
+    0px 0px 28px rgba(76, 255, 83, 0.25), 0px 0px 40px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 14px rgba(76, 255, 83, 0.2),
+    inset 0px 0px 51px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 140px rgba(76, 255, 83, 0.1);
+}
+
+.O_StoryBigCard:hover .M_StoryBigCardFrame {
+  overflow: visible;
+  border: 1px solid var(--acid-green);
+  box-shadow: 0px 0px 4px var(--acid-green),
+    0px 0px 28px rgba(76, 255, 83, 0.25), 0px 0px 40px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 14px rgba(76, 255, 83, 0.2),
+    inset 0px 0px 51px rgba(76, 255, 83, 0.1),
+    inset 0px 0px 140px rgba(76, 255, 83, 0.1);
 }
 
 /* О проекте */
