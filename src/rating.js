@@ -1,6 +1,30 @@
 import './dictionary.css'
 import anime from 'animejs/lib/anime.es.js'
 
+// Бургер-меню
+
+document.addEventListener('DOMContentLoaded', () => {
+  const button = document.getElementById('mp_articles')
+  const list = document.getElementById('mp_articles_list')
+  const btn_text = document.getElementById('mp_articles_text')
+  const mp_list_wrapper = document.getElementById('mp_list_wrapper')
+  const menu = document.getElementById('menu')
+  const burger = document.getElementById('burger')
+
+  // Бургер-меню в статьях
+
+  burger.addEventListener('click', () => {
+    menu.classList.toggle('Opened')
+  })
+
+  button.addEventListener('click', () => {
+    button.classList.toggle('Opened')
+    list.classList.toggle('Opened')
+    btn_text.classList.toggle('Opened')
+    mp_list_wrapper.classList.toggle('Opened')
+  })
+})
+
 const linePath =
   'M33 143V142C20.5278 141.285 17.0734 141.601 17.0012 111L17 33C17.0676 2.39859 20.3065 1.71766 33 1V0H0V1C12.4722 1.71545 15.9266 2.39854 15.9988 33C15.9988 33 16.0067 111 15.9989 111C15.9313 141.601 12.6935 141.282 0 142V143H33Z'
 

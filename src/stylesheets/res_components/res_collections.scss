@@ -151,6 +151,22 @@
     height: 100%;
   }
 
+  .C_BurgerPrimaryButtons {
+    height: auto;
+    border-right: 1px solid white;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .C_BurgerPrimaryButtons.Opened {
+    width: 100%;
+    height: 100%;
+    max-height: 456px;
+  }
+
   /* Лендинг */
 
   .C_LandingSection03Cards {
@@ -189,6 +205,23 @@
   }
 
   .C_MainScreenPrimaryButtons.Opened {
+    width: 100%;
+    height: 100%;
+    max-height: 456px;
+  }
+
+  .C_BurgerPrimaryButtons {
+    width: 100%;
+    height: auto;
+    // border-right: 1px solid white;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .C_BurgerPrimaryButtons.Opened {
     width: 100%;
     height: 100%;
     max-height: 456px;
@@ -280,6 +313,23 @@
   .C_MainScreenPrimaryButtons.Opened {
     width: 100%;
     height: 100%;
+  }
+
+  .C_BurgerPrimaryButtons {
+    width: 100%;
+    height: auto;
+    // border-right: 1px solid white;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .C_BurgerPrimaryButtons.Opened {
+    width: 100%;
+    height: 100%;
+    max-height: 510px;
   }
 
   .C_ArticlePictureinsidetext {
@@ -375,6 +425,23 @@
   .C_MainScreenPrimaryButtons.Opened {
     width: 100%;
     height: 100%;
+  }
+
+  .C_BurgerPrimaryButtons {
+    width: 100%;
+    height: auto;
+    // border-right: 1px solid white;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .C_BurgerPrimaryButtons.Opened {
+    width: 100%;
+    height: 100%;
+    max-height: 510px;
   }
 
   .C_ArticlePictureinsidetext {

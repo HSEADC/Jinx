@@ -14,7 +14,8 @@ module.exports = {
     page: './src/page.jsx',
     monster: './src/monster.js',
     rating: './src/rating.js',
-    story: './src/story.js'
+    story: './src/story.js',
+    main_page: './src/main-page.js'
   },
   output: {
     filename: '[name].js',
@@ -89,7 +90,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -120,7 +121,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/about.html',
       filename: './about.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -128,7 +129,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/indie.html',
       filename: './indie.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -136,7 +137,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/edition.html',
       filename: './edition.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -144,7 +145,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/fear.html',
       filename: './fear.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -152,7 +153,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/top-game.html',
       filename: './top-game.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -160,7 +161,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/video-browser.html',
       filename: './video-browser.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -168,7 +169,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/videos/video-page_01.html',
       filename: './video-page_01.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -176,7 +177,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/videos/video-page_02.html',
       filename: './video-page_02.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -184,7 +185,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/videos/video-page_03.html',
       filename: './video-page_03.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -192,7 +193,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/videos/video-page_04.html',
       filename: './video-page_04.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -200,7 +201,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/videos/video-page_05.html',
       filename: './video-page_05.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -208,7 +209,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/videos/video-page_06.html',
       filename: './video-page_06.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -216,7 +217,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/videos/video-page_07.html',
       filename: './video-page_07.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -224,7 +225,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/mechanics.html',
       filename: './mechanics.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -257,7 +258,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/main-page.html',
       filename: './main-page.html',
-      chunks: ['index']
+      chunks: ['main_page']
     }),
 
     new HtmlWebpackPlugin({
@@ -265,7 +266,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/main-page-opened.html',
       filename: './main-page-opened.html',
-      chunks: ['dictionary']
+      chunks: ['index']
     }),
 
     // Partials

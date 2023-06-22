@@ -85,6 +85,16 @@
   height: 100vh;
 }
 
+.S_BurgerMenu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100vh;
+}
+
 .S_MainScreenLogo {
   display: flex;
   flex-direction: column;

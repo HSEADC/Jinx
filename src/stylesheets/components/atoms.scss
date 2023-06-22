@@ -260,6 +260,29 @@
   filter: invert(0);
 }
 
+.A_BurgerPrimaryButton {
+  position: relative;
+  cursor: pointer;
+
+  overflow-y: hidden;
+  display: flex;
+  padding: 0px 0px 1px 1px;
+  width: 100%;
+  height: 100%;
+  max-height: 4.11458vw;
+
+  background-color: white;
+  text-decoration: none;
+}
+
+.A_BurgerPrimaryButton:hover .W_MainScreenPrimaryButton {
+  filter: invert(1);
+}
+
+.A_BurgerPrimaryButton:hover .W_MainScreenPrimaryButton.Opened {
+  filter: invert(0);
+}
+
 .A_IconInfo {
   flex-shrink: 0;
   cursor: pointer;
@@ -388,32 +411,96 @@
 //   width: 100%;
 // }
 
-.A_MenuCard01:hover :last-child .Q_CardTitle {
+.A_MenuCardTablet:hover :last-child .Q_CardTitle {
   filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
   color: var(--acid-green);
 }
 
-.A_MenuCard01:hover :last-child .Q_CardTitle + .Q_CardText {
+.A_MenuCardTablet:hover :last-child .Q_CardTitle + .Q_CardText {
   filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
   color: var(--acid-green);
 }
 
-.A_MenuCard02:hover :last-child .Q_CardTitle {
+.A_MenuCardTablet:hover :last-child .Q_CardTitle {
   filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
   color: var(--acid-green);
 }
 
-.A_MenuCard02:hover :last-child .Q_CardTitle + .Q_CardText {
+.A_MenuCardTablet:hover :last-child .Q_CardTitle + .Q_CardText {
   filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
   color: var(--acid-green);
 }
 
-.A_MenuCard03:hover :last-child .Q_CardTitle {
+.A_MenuCardTablet:hover :last-child .Q_CardTitle {
   filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
   color: var(--acid-green);
 }
 
-.A_MenuCard03:hover :last-child .Q_CardTitle + .Q_CardText {
+.A_MenuCardTablet:hover :last-child .Q_CardTitle + .Q_CardText {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+// ------------------------
+
+.A_MenuCardMobile:hover :last-child .Q_CardTitle {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCardMobile:hover :last-child .Q_CardTitle + .Q_CardText {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCardMobile:hover :last-child .Q_CardTitle {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCardMobile:hover :last-child .Q_CardTitle + .Q_CardText {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCardMobile:hover :last-child .Q_CardTitle {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCardMobile:hover :last-child .Q_CardTitle + .Q_CardText {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+// ------------------------
+
+.A_MenuCard:hover :last-child .Q_CardTitle {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCard:hover :last-child .Q_CardTitle + .Q_CardText {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCard:hover :last-child .Q_CardTitle {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCard:hover :last-child .Q_CardTitle + .Q_CardText {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCard:hover :last-child .Q_CardTitle {
+  filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
+  color: var(--acid-green);
+}
+
+.A_MenuCard:hover :last-child .Q_CardTitle + .Q_CardText {
   filter: drop-shadow(0px 0px 4px #4cff53) drop-shadow(0px 0px 28px #4cff53);
   color: var(--acid-green);
 }
@@ -429,8 +516,24 @@
   width: 100%;
   height: 100%;
 
-  background: rgba(255, 255, 255, 0.25);
+  background: #404040;
   border-left: 1px solid white;
+}
+
+.A_BurgerSecondaryButton {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 1px 0px;
+  width: 100%;
+  height: 100%;
+
+  background: #404040;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 .A_MainScreenSecondaryButton:hover .W_MainScreenSecondaryButton {
@@ -451,10 +554,32 @@
   border-left: 1px solid white;
 }
 
+.A_BurgerSecondaryButtonLast {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 1px 0px;
+  width: 100%;
+  height: 100%;
+
+  background: white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.A_BurgerSecondaryButton:hover .W_MainScreenSecondaryButton {
+  filter: invert(1);
+}
+
 .A_MainScreenSecondaryButtonLast:hover .W_MainScreenSecondaryButtonLast {
   filter: invert(1);
 }
 
+.A_BurgerSecondaryButtonLast:hover .W_MainScreenSecondaryButtonLast {
+  filter: invert(1);
+}
 /* Браузер видео */
 
 .A_VideoBrowserBannerPicture {

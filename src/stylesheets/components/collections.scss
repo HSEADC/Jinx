@@ -45,6 +45,22 @@
 
 /* Главный экран */
 
+.C_BurgerPrimaryButtons {
+  overflow-y: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.C_BurgerPrimaryButtons.Opened {
+  overflow-y: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .C_MainScreenPrimaryButtons {
   overflow-y: hidden;
   position: relative;
@@ -92,7 +108,7 @@
 .C_MonsterCards {
   height: 100%;
   position: relative;
-  z-index: 99;
+  z-index: 98;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
 
@@ -154,7 +170,7 @@
 /* Разбор сюжета */
 
 .C_StoryCards {
-  z-index: 99;
+  z-index: 98;
   isolation: isolate;
   position: relative;
   overflow-x: auto;

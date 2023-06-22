@@ -958,6 +958,15 @@
     max-height: none;
   }
 
+  .A_BurgerPrimaryButton {
+    flex-shrink: 0;
+    padding: 0px 1px 1px 1px;
+
+    width: 100%;
+    height: 56px;
+    max-height: none;
+  }
+
   .A_MenuCard01 {
     padding: 0;
   }
@@ -1306,6 +1315,15 @@
   }
 
   .A_MainScreenPrimaryButton {
+    flex-shrink: 0;
+    width: 100%;
+    height: 56px;
+    max-height: none;
+  }
+
+  .A_BurgerPrimaryButton {
+    padding: 0px 1px 1px 1px;
+
     flex-shrink: 0;
     width: 100%;
     height: 56px;
@@ -1669,6 +1687,7 @@
     height: 17px;
     background-image: url('images/components/atoms/A_MenuBarLogo414.svg');
   }
+
   .A_BurgerButton {
     order: 3;
     display: flex;
@@ -1683,6 +1702,15 @@
   }
 
   .A_MainScreenPrimaryButton {
+    flex-shrink: 0;
+    width: 100%;
+    height: 56px;
+    max-height: none;
+  }
+
+  .A_BurgerPrimaryButton {
+    padding: 0px 1px 1px 1px;
+
     flex-shrink: 0;
     width: 100%;
     height: 56px;
@@ -1980,6 +2008,7 @@
     height: 17px;
     background-image: url('images/components/atoms/A_MenuBarLogo414.svg');
   }
+
   .A_BurgerButton {
     order: 3;
     display: flex;
@@ -1994,6 +2023,17 @@
   }
 
   .A_MainScreenPrimaryButton {
+    padding: 0px 1px 1px 1px;
+
+    flex-shrink: 0;
+    width: 100%;
+    height: 56px;
+    max-height: none;
+  }
+
+  .A_BurgerPrimaryButton {
+    padding: 0px 1px 1px 1px;
+
     flex-shrink: 0;
     width: 100%;
     height: 56px;

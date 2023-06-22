@@ -1,4 +1,8 @@
 @media only screen and (min-width: 2221px) and (max-width: 2560px) {
+  .S_BurgerMenu {
+    display: none;
+  }
+
   .S_About {
     height: calc(100svh - 96px);
   }
@@ -50,6 +54,10 @@
   }
 }
 @media only screen and (min-width: 1741px) and (max-width: 2220px) {
+  .S_BurgerMenu {
+    display: none;
+  }
+
   .S_About {
     height: calc(100svh - 72px);
   }
@@ -96,6 +104,10 @@
   /* Инди игры */
 }
 @media only screen and (min-width: 1367px) and (max-width: 1740px) {
+  .S_BurgerMenu {
+    display: none;
+  }
+
   .S_About {
     height: calc(100svh - 64px);
   }
@@ -147,6 +159,10 @@
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .S_BurgerMenu {
+    display: none;
+  }
+
   .S_About {
     height: calc(100svh - 54px);
   }
@@ -245,7 +261,7 @@
 
   .S_MainScreenLeftSide {
     transition: 0.15s;
-    opacity: 0;
+    display: none;
 
     // transform: translateX(-100vw);
     position: absolute;
@@ -261,7 +277,7 @@
 
   .S_MainScreenLeftSide.Opened {
     transition: 0.15s;
-    opacity: 100;
+    display: flex;
 
     position: absolute;
     z-index: 99;
@@ -271,6 +287,23 @@
     margin-left: 1px;
     top: 54px;
     bottom: 259px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .S_BurgerMenu {
+    display: none;
+  }
+
+  .S_BurgerMenu.Opened {
+    transition: 0.15s;
+    display: flex;
+
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    width: 100%;
+    top: 54px;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.75);
   }
 
@@ -358,7 +391,7 @@
 
   .S_MainScreenLeftSide {
     transition: 0.15s;
-    opacity: 0;
+    display: none;
 
     // transform: translateX(-100vw);
     position: absolute;
@@ -374,7 +407,7 @@
 
   .S_MainScreenLeftSide.Opened {
     transition: 0.15s;
-    opacity: 100;
+    display: flex;
 
     position: absolute;
     z-index: 99;
@@ -384,6 +417,23 @@
     margin-left: 1px;
     top: 54px;
     bottom: 259px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .S_BurgerMenu {
+    display: none;
+  }
+
+  .S_BurgerMenu.Opened {
+    transition: 0.15s;
+    display: flex;
+
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    width: 100%;
+    top: 54px;
+    bottom: 0px;
     background-color: rgba(0, 0, 0, 0.75);
   }
 
@@ -498,7 +548,7 @@
 
   .S_MainScreenLeftSide {
     transition: 0.15s;
-    opacity: 0;
+    display: none;
 
     // transform: translateX(-100vw);
     position: absolute;
@@ -514,7 +564,7 @@
 
   .S_MainScreenLeftSide.Opened {
     transition: 0.15s;
-    opacity: 100;
+    display: flex;
 
     border-right: 1px solid white;
     position: absolute;
@@ -525,6 +575,23 @@
     margin-left: 1px;
     top: 54px;
     bottom: 276px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .S_BurgerMenu {
+    display: none;
+  }
+
+  .S_BurgerMenu.Opened {
+    transition: 0.15s;
+    display: flex;
+
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    width: 100%;
+    top: 54px;
+    bottom: 0px;
     background-color: rgba(0, 0, 0, 0.75);
   }
 
@@ -595,11 +662,9 @@
 
   /* Главный экран */
 
-  /* Главный экран */
-
   .S_MainScreenLeftSide {
     transition: 0.15s;
-    opacity: 0;
+    display: none;
 
     // transform: translateX(-100vw);
     position: absolute;
@@ -614,8 +679,9 @@
   }
 
   .S_MainScreenLeftSide.Opened {
+    display: flex;
+
     transition: 0.15s;
-    opacity: 100;
 
     border-right: 1px solid white;
     position: absolute;
@@ -626,6 +692,23 @@
     margin-left: 1px;
     top: 54px;
     bottom: 276px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .S_BurgerMenu {
+    display: none;
+  }
+
+  .S_BurgerMenu.Opened {
+    transition: 0.15s;
+    display: flex;
+
+    position: absolute;
+    z-index: 99;
+    height: auto;
+    width: 100%;
+    top: 46px;
+    bottom: 0px;
     background-color: rgba(0, 0, 0, 0.75);
   }
 
